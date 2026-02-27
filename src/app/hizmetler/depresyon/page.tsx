@@ -113,9 +113,18 @@ export default function DepresyonPillarPage() {
 
                             {/* H2 - 2 */}
                             <h2 id="depresyon-belirtileri">Depresyon Belirtileri Nelerdir?</h2>
-                            <div className={styles.snippetBlock}>
-                                <p><strong>Depresyon belirtileri</strong> arasında en yaygın olanları sürekli üzüntü hali, enerji kaybı ve eskiden keyif alınan aktivitelere ilginin azalmasıdır. Bununla birlikte uyku düzeninde bozulma, iştah değişiklikleri, odaklanma zorluğu ve değersizlik hissi de sık görülen bulgular arasındadır. Bu belirtilerin şiddeti ve seyri kişiden kişiye değişebilir ve tıbbi açıdan değerlendirilmesi için uzman bir psikiyatrist muayenesi gereklidir.</p>
-                            </div>
+                            <p>Depresyon belirtileri arasında en yaygın olanları sürekli üzüntü hali, enerji kaybı ve önceden keyif alınan aktivitelere ilginin azalmasıdır. Uyku düzeninde bozulma, iştah değişiklikleri, odaklanma zorluğu ve aşırı değersizlik hissi de sıklıkla görülür. Bu belirtilerin şiddeti ve seyri kişiden kişiye değişebilir olup kapsamlı bir psikiyatrik değerlendirme gerektirmektedir.</p>
+                            <ul>
+                                <li>Sürekli üzüntü ve boşluk hissi</li>
+                                <li>Aktivitelere belirgin ilginin azalması</li>
+                                <li>Uyku ve iştah bozukluğu</li>
+                                <li>Sürekli yorgunluk ve enerji kaybı</li>
+                                <li>Odaklanma güçlüğü ve unutkanlık</li>
+                            </ul>
+                            <h3>Depresyon fiziksel belirti verir mi?</h3>
+                            <p>Evet, depresyon sıklıkla kronik yorgunluk, açıklanamayan baş ağrısı, kas gerginliği ve sindirim sistemi sorunları gibi bedensel belirtilerle kendisini gösterebilmektedir.</p>
+                            <h3>Depresyon belirtisi ne zaman önemsenmelidir?</h3>
+                            <p>Bu duygusal ve bedensel belirtiler en az iki hafta boyunca hemen her gün devam ediyorsa, uzman klinik değerlendirmesi düşünülmelidir.</p>
                             <p>
                                 Depresyonun belirtileri bireyden bireye farklılık gösterebilmektedir. Belirtiler
                                 duygusal, bedensel, bilişsel ve davranışsal olmak üzere farklı alanlarda kendini
@@ -187,9 +196,11 @@ export default function DepresyonPillarPage() {
 
                             {/* H2 - 4 */}
                             <h2 id="depresyon-ne-kadar-surer">Depresyon Ne Kadar Sürer?</h2>
-                            <div className={styles.snippetBlock}>
-                                <p><strong>Depresyonun süresi</strong>, bireyin genetik yapısına, çevresel stres faktörlerine ve uygulanacak tedavi veya tedavi süreçlerine bağlı olarak kişiden kişiye değişebilir. Bazı durumlarda klinik belirtiler birkaç ay içinde yatışırken, bazı bireylerde (distimi gibi türlerde) yıllarca kronikleşerek devam edebilmektedir. Kapsamlı bir klinik izlem ve uzman hekim değerlendirmesi ile bu dönemin uzaması engellenebilmektedir.</p>
-                            </div>
+                            <p>Depresyonun süresi bireyin genetik yapısına, çevresel stresin şiddetine ve profesyonel destek alıp almamasına bağlı olarak kişiden kişiye değişebilir. Bazı klinik durumlarda belirtiler aylar içinde hafiflerken, distimi gibi türlerde değerlendirme sağlanmadığında yıllarca kronikleşerek devam edebilmektedir.</p>
+                            <h3>Depresyon bir günde geçer mi?</h3>
+                            <p>Hayır, klinik seviyedeki majör depresyon kalıcı ve süreğen bir durumdur, bir veya iki günde kendiliğinden geçmesi genellikle beklenmez.</p>
+                            <h3>Depresyon hiç bitmez mi?</h3>
+                            <p>Uzman psikiyatri hekimi tarafından planlanan yapılandırılmış medikal ve terapötik izlem yaklaşımlarıyla, depresyon belirtileri büyük ölçüde yatıştırılabilir ve yaşam kalitesi korunabilir.</p>
 
                             <h2 id="gunluk-yasam-etkileri">Depresyonun Günlük Yaşam Üzerindeki Etkileri</h2>
                             <p>

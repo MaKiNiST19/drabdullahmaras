@@ -92,9 +92,18 @@ export default function AnksiyetePillarPage() {
                         </p>
 
                         <h2 id="belirtiler">Anksiyete Belirtileri Nelerdir?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Anksiyete belirtileri</strong> başlıca iki grupta kendini gösterir. Duygusal boyutta sürekli bir panik, kötü bir şey olacak beklentisi ve gerginlik yaşanırken; bedensel boyutta kalp çarpıntısı, titreme, terleme, kas ağrıları ve nefes darlığı hissi oluşur. Odaklanma güçlüğü ve sosyal ortamlardan kaçınma da bu klinik tabloya sıkça eşlik edebilir. Belirtilerin şiddeti kişiden kişiye değişebilir ve uzman psikiyatri değerlendirmesi ile ele alınmalıdır.</p>
-                        </div>
+                        <p>Anksiyete belirtileri başlıca duygusal ve bedensel olarak iki grupta kendisini gösterir. Sürekli panik hali, kötü bir şey olacak beklentisi, kalp çarpıntısı, titreme, terleme ve kas ağrıları sıkça görülür. Bu klinik belirtilerin şiddeti kişiden kişiye değişebilir ve uzman psikiyatrik değerlendirmesi ile yapılandırılmalıdır.</p>
+                        <ul>
+                            <li>Sürekli endişe ve panik hali</li>
+                            <li>Kalp çarpıntısı ve nefes darlığı</li>
+                            <li>Aşırı terleme ve kas gerginliği</li>
+                            <li>Odaklanma güçlüğü ve dalgınlık</li>
+                            <li>Sosyal ortamlardan belirgin kaçınma</li>
+                        </ul>
+                        <h3>Anksiyete bedensel belirti verir mi?</h3>
+                        <p>Evet, anksiyete sürekli kaygı düşüncelerinin yanında mide sorunları, baş dönmesi, uyuşma ve göğüs sıkışması gibi bedensel duyumlarla sıklıkla kendini hissettirir.</p>
+                        <h3>Anksiyete kendi kendine geçer mi?</h3>
+                        <p>Kısa süreli kaygılar yatışabilir ancak klinik düzeydeki yaygın anksiyete belirtileri, profesyonel klinik destek olmadan genellikle kendi kendine ortadan kaybolmaz.</p>
                         <p>
                             Anksiyete bozukluğu kendisini sadece düşünsel bazda değil, aynı zamanda yoğun bedensel sinyallerle gösterir.
                         </p>
@@ -134,9 +143,11 @@ export default function AnksiyetePillarPage() {
                         </ul>
 
                         <h2 id="anksiyete-sure">Anksiyete Ne Kadar Sürer?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Anksiyete bozukluğunun süresi</strong> hastanın genetik haritasına, maruz kaldığı stres yüküne ve sürece ne zaman tıbbi destek (psikiyatrik izlem) dâhil edildiğine göre kişiden kişiye değişebilir. Bazı durumlarda kısa süreli tetikleyiciler birkaç haftada yatışabilirken, Yaygın Anksiyete Bozukluğu gibi klinik tablolarda şikayetler kronikleşerek aylar veya yıllar boyu uzman kontrolü gerektirecek şekilde devam edebilir.</p>
-                        </div>
+                        <p>Anksiyete bozukluğunun süresi hastanın genetik alt yapısına, maruz kaldığı stres şiddetine ve kliniğe başvuru zamanına göre kişiden kişiye değişebilir. Bazı durumlarda belirtiler aylar içerisinde yatışırken, yaygın anksiyete bozukluğu gibi kronik durumlarda uygun izlem yapılmadığında yıllarca sürebilir.</p>
+                        <h3>Anksiyete atakları kaç gün sürer?</h3>
+                        <p>Anksiyete atakları genellikle uzun sürelidir ve günler veya haftalar boyunca genel bir gerginlik, huzursuzluk hali olarak yaşamı etkilemeye devam eder.</p>
+                        <h3>Anksiyete tamamen biter mi?</h3>
+                        <p>Yapılandırılmış psikiyatrik değerlendirme ve düzenli takip süreçleriyle kaygı kontrol altına alınabilir, ancak hastanın stres toleransını uzun vadede yönetmesi gerekir.</p>
 
                         <h2 id="panik-atak-farki">Anksiyete ile Panik Atak Arasındaki Fark</h2>
                         <p>

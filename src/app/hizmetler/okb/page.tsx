@@ -94,9 +94,11 @@ export default function OkbPillarPage() {
                         </p>
 
                         <h2 id="okb-nedir">OKB (Obsesif Kompulsif Bozukluk) Nedir?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>OKB (Obsesif Kompulsif Bozukluk)</strong>, halk arasında bilinen adıyla takıntı hastalığı; kişinin iradesi dışında zihne giren ve yoğun korku yaratan istenmeyen düşünceler (obsesyon) ile bu anksiyeteyi azaltmak amacıyla yapılan tekrarlayıcı ritüellerin (kompulsiyon) oluşturduğu psikiyatrik bir döngüdür. Beynin tehdit algısındaki bu nörobiyolojik aksaklık, kişinin günlük yaşam kalitesini ve işlevselliğini ciddi ölçüde düşürebilmektedir.</p>
-                        </div>
+                        <p>Obsesif Kompulsif Bozukluk (OKB), kişinin iradesi dışında zihnine giren rahatsız edici obsesif düşünceler ve bu düşüncelerin yarattığı yoğun kaygıyı azaltabilmek için yapılan tekrarlayıcı kompulsif davranışlardan oluşan klinik bir ruh sağlığı durumudur.</p>
+                        <h3>OKB delilik midir?</h3>
+                        <p>Hayır, OKB kişinin muhakemesini kaybetmediği, sadece mantıksız olduğunu bildiği halde takıntılı döngülere karşı koyamadığı klinik bir anksiyete ve obsesyon tablosudur.</p>
+                        <h3>Takıntı hastalığı genetik midir?</h3>
+                        <p>Evet, genetik yatkınlığın beyin kimyasındaki (serotonin vb.) değişimlerle etkileşime girmesi OKB gelişiminde en önemli biyolojik risk faktörlerinden biridir.</p>
                         <p>
                             OKB, zihne kişinin açık iradesi dışında zorla ve aniden giren, rahatsız edici, kaygı
                             yükseltici düşünceler (Obsesyon) ile; bu zihinsel bunaltıyı yatıştırmak veya olası
@@ -159,9 +161,11 @@ export default function OkbPillarPage() {
                         </ul>
 
                         <h2 id="okb-gecer-mi">OKB Geçer mi?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>OKB'nin (takıntı hastalığının) geçme süreci ve iyileşme oranı</strong>, hastalığın başlangıç yaşına, genetik faktörlere ve tedavi uyumuna bağlı olarak kişiden kişiye değişebilir. Kronik (süregelen) bir yapıya sahip olan bu rahatsızlığın tamamen sıfırlanıp yok olması her vakada mümkün olmasa da; ruh sağlığı hekimlerince uygulanan farmakolojik (ilaç) ve terapötik desteklerle (Bilişsel Davranışçı Terapi vb.) semptomlar günlük hayatı etkilemeyecek en hafif seviyelere çekilebilmektedir.</p>
-                        </div>
+                        <p>Takıntı hastalığının iyileşme süreci kişinin tedavi uyumuna, nörolojik yapısına ve çevresel stresine bağlı olarak kişiden kişiye değişebilir. Klinik psikiyatri desteği ile (ilaç ve psikoterapi odaklı desteklerle) belirtiler önemli oranda geriletilerek gündelik yaşam kalitesi korunabilmektedir.</p>
+                        <h3>OKB kendi kendine geçer mi?</h3>
+                        <p>Yerleşmiş bir klinik OKB tablosunun profesyonel uzmanlık gerektiren yapısal ve psikoterapötik bir destek olmaksızın tamamen kendi kendine düzelmesi oldukça güç bir ihtimaldir.</p>
+                        <h3>Tedavi edilmeyen OKB ne olur?</h3>
+                        <p>Uzman takibi yapılmadığında çoğunlukla belirtiler şiddetlenerek kişinin evden çıkamamasına kadar uzanan süreçlerde iş ve temel sosyal uyumunu felce uğratabilir.</p>
 
                         <h2 id="anksiyete-iliskisi">OKB ve Anksiyete İlişkisi</h2>
                         <p>

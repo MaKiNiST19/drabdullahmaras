@@ -127,9 +127,11 @@ export default function PanikAtakPillarPage() {
                         </p>
 
                         <h2 id="kac-dakika-surer">Panik Atak Kaç Dakika Sürer?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Panik atak süresi</strong> genellikle çok ani başlar, saniyeler içinde hızla tırmanarak 10 ila 30 dakika arasında tepe noktasına (zirveye) ulaşır ve ardından yavaşça sönümlenir. Atakların çoğu yarım saati geçmese de, bedenin maruz kaldığı yoğun adrenalin deşarjının yarattığı yorgunluk, sersemlik ve sarsıntı hissi gün boyu devam edebilir. Atak sıklığı ve atakların izlemi kişiden kişiye değişebilir.</p>
-                        </div>
+                        <p>Panik atak genellikle aniden başlar ve belirtiler 10 ila 30 dakika içerisinde zirve noktasına ulaşarak yavaşça sönümlenir. Şiddetli atakların süresi ve sıklığı kişiden kişiye değişebilir, ancak bedende bıraktığı yorgunluk ve tedirginlik hissi daha uzun saatlere yayılabilir.</p>
+                        <h3>Panik atak saatlerce sürer mi?</h3>
+                        <p>Atağın en şiddetli pik safhası saatlerce sürmez, genellikle yarım saatte sonlanır ancak adrenalin deşarjının bedensel yorgunluk hissi gün boyu devam edebilmektedir.</p>
+                        <h3>1 günde kaç kez panik atak geçirilir?</h3>
+                        <p>Atak sıklığı tamamen bireysel stres faktörlerine bağlıdır; klinik gözlemlerde arka arkaya tetiklenen günlerin yanı sıra aylarca atak yaşanmayan aralıklar da görülmektedir.</p>
                         <p>
                             Hastaların kliniğe anlattığı en yaygın ifade <strong>"Dakikalar geçmek bilmiyor, bu kriz hiç bitmeyecek
                                 gibi geliyor"</strong> yönündedir. Ancak aslında bedenin tüm sarmallarını seferber ettiği amigdala ve
@@ -163,9 +165,11 @@ export default function PanikAtakPillarPage() {
                         </p>
 
                         <h2 id="oldurur-mu">Panik Atak Öldürür mü?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Hayır, panik atak öldürmez.</strong> Her ne kadar o an yaşattığı nefes alamama, boğulma veya göğüs ağrısı gibi hisler kişi üzerinde "ölüyorum" dehşeti yaratsa da, bu durum beynin amigdala bölgesinin verdiği yanlış bir alarm ve adrenalin tepkisidir. Panik atağın kendisi doğrudan kalbe, damarlara veya solunum sistemine ölümcül bir fiziksel hasar vermez. Tüm bunlara rağmen ilk kez şiddetli atak geçiren bireylerin organik şüphelerin (kardiyoloji) ekarte edilmesi adına önce tıbbi acil muayeneden geçmesi şarttır.</p>
-                        </div>
+                        <p>Hayır, panik atak kalbe veya iç organlara doğrudan zarar veren ölümcül bir akut durum oluşturmaz. O esnada hissedilen yoğun göğüs ağrısı ve nefes darlığı, beynin yanlış alarm vererek salgıladığı yoğun adrenalinin geçici bir bedensel yansımasıdır.</p>
+                        <h3>Panik ataktan deliren var mı?</h3>
+                        <p>Hayır, panik atak esnasında "aklımı kaybediyorum" hissi çok yaygın ve korkutucu olsa da, bu durum bilinç kaybı veya akıl sağlığının yitirilmesiyle sonuçlanmaz.</p>
+                        <h3>Panik atak kalp krizi yapar mı?</h3>
+                        <p>Panik atağın kendisi doğrudan kalp krizi tablosuna yol açmaz, ancak ilk kez böyle bir atak yaşanıyorsa kardiyolojik incelemeyle fizyolojik şüphelerin ekarte edilmesi şarttır.</p>
                         <p>
                             Hayır. Yarattığı yüksek hislerin aksine, kalp ya da solunum sisteminin anlık yüksek dozda ve yanlış
                             zamanlı tepkimesidir; kalp-damar dokusuna veya kana bir fiziksel deforme / tıkanıklık ulaştırmaz. Ne

@@ -87,9 +87,11 @@ export default function BipolarPillarPage() {
                         </p>
 
                         <h2 id="bipolar-bozukluk-nedir">Bipolar Bozukluk Nedir?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Bipolar bozukluk</strong>, eski adıyla manik depresif hastalık; kişinin ruh halinde, enerjisinde ve aktivite düzeyinde olağan dışı dalgalanmalara neden olan biyolojik kökenli bir psikiyatrik durumdur. Hastalar, aşırı taşkınlık ve yüksek enerji hali olan mani (veya hipomani) dönemleri ile hayattan hiçbir zevk alamadıkları çökkünlük (depresyon) dönemleri arasında gidip gelirler. Bu uçlardaki geçişlerin ve belirti şiddetinin tamamen kişiden kişiye değişebilir olması, klinik bir psikiyatrist incelemesini zorunlu kılar.</p>
-                        </div>
+                        <p>Bipolar bozukluk, kişinin ruh hali ve enerji seviyelerinde uç noktalar olan coşku (mani) ve çöküş (depresyon) atakları yaşamasına sebep olan klinik psikiyatrik bir hastalıktır. Bu dalgalanmaların ortaya çıkış şekli ve şiddeti kişiden kişiye değişebilir.</p>
+                        <h3>Bipolar bozukluk kimlerde görülür?</h3>
+                        <p>Genellikle ilk belirtilerini genç yetişkinlik çağında göstermeye başlayan bu durum, genetik biyolojik yatkınlığı bulunan bireylerde çeşitli çevresel streslerle ve uyku sorunlarıyla tetiklenebilir.</p>
+                        <h3>Bipolar hastalık kalıtsal mı?</h3>
+                        <p>Klinik araştırmalar, birinci derece yakınlarında bipolar bozukluk veya majör depresyon öyküsü bulunan kişilerde bu durumu geliştirme riskinin daha yüksek olduğunu işaret etmektedir.</p>
                         <p>
                             Geçmişteki adıyla "Manik Depresif Hastalık" olarak bilinen <strong>Bipolar Bozukluk</strong>,
                             kişinin enerji seviyesinde, zihinsel hızında, muhakemede ve ruh halinde sıradan veya olağan dalgalanmalardan
@@ -168,9 +170,11 @@ export default function BipolarPillarPage() {
                         </ul>
 
                         <h2 id="ataklar-ne-kadar-surer">Bipolar Ataklar Ne Kadar Sürer?</h2>
-                        <div className={styles.snippetBlock}>
-                            <p><strong>Bipolar atakların süresi</strong>, hastanın bireysel dinamiğine, hastalığın döngü tipine (hızlı döngülü vb.) ve uygulanan tedavi süreçlerine göre kişiden kişiye değişebilir. Manik (taşkın) ataklar genellikle haftalar veya aylar sürebilirken; ardından gelen veya öncesinde yaşanan depresif (çökkün) ataklar çoğunlukla mani evresinden daha uzun bir döneme (aylara) yayılabilir. Tıbbi müdahaleler, bu süreleri düzenlemek ve atak aralarındaki sağlıklı (ötimik) kalış süresini uzatmak adına planlanır.</p>
-                        </div>
+                        <p>Bipolar atakların uzunluğu ve şiddeti hastanın durumuna ve klinik sürecine göre kişiden kişiye değişebilir. Manik (taşkınlık) dönemler genellikle haftalar boyunca devam ederken, depresif ataklar çoğunlukla aylarca sürme eğilimi göstermektedir.</p>
+                        <h3>Bipolar mani evresi biter mi?</h3>
+                        <p>Evet, manik epizodlar sınırsız değildir ve eninde sonunda yatışır; ancak uzman bir klinik izlem olmadığında yüksek ihtimalle çok ağır bir majör depresif döneme çırpınış gerçekleştirir.</p>
+                        <h3>Ötimi (sağlam) dönem ne kadardır?</h3>
+                        <p>Uzman psikiatrist hekim yaklaşımlarıyla sağlanan klinik ötimi (dengeli) dönemi, başarılı bir takip altında yıllarca devam ettirilebilir ve hastanın yaşam kalitesi korunabilir.</p>
                         <p>
                             Klinik süreç tıbbiyede net rakamlarla ölçülemez çünkü genetik miras ve yaşam stili farklıdır.
                             Düzenli bir atak süreci belirtmeden şöyle tariflenebilir: Seyir kişiden kişiye değişebilir.
