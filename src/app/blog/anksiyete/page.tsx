@@ -1,0 +1,159 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import styles from '../depresyon/page.module.css';
+
+export const metadata: Metadata = {
+    title: 'Anksiyete Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
+    description:
+        'Anksiyete belirtileri, sürekli endişe hali, panik atak farkı ve sosyal anksiyete üzerine uzman bilgilendirme yazıları. Ankara Eryaman.',
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete' },
+    openGraph: {
+        title: 'Anksiyete Hakkında Bilgilendirici Yazılar',
+        description: 'Anksiyete bozukluğu (kaygı bozukluğu) ve ilişkili sorunlar hakkında tıbbi bilgilendirme yazıları.',
+        type: 'website', locale: 'tr_TR',
+    },
+};
+
+const blogPosts = [
+    {
+        slug: '/blog/anksiyete-belirtileri',
+        title: 'Anksiyete Belirtileri Nelerdir? Kaygı Hangi Noktada Bozukluğa Dönüşür?',
+        icon: '⚡',
+        date: '10 Mart 2026',
+        desc: 'Normal kaygı ile anksiyete bozukluğu arasındaki ince çizgiyi değerlendiriyoruz. Huzursuzluk, çarpıntı, kaçınma davranışları ve günlük yaşam üzerindeki etkiler.',
+    },
+    {
+        slug: '/blog/anksiyete-krizi',
+        title: 'Anksiyete Krizi Sırasında Ne Olur?',
+        icon: '⚠️',
+        date: '24 Mart 2026',
+        desc: 'Kaygının zirveye ulaştığı anksiyete krizinin bedensel ve zihinsel mekanizmaları. Korku hissi, odaklanma sorunları ve destek süreci hakkında açıklamalar.',
+    },
+    {
+        slug: '/blog/anksiyete-ve-panik-atak-farki',
+        title: 'Anksiyete ile Panik Atak Arasındaki Fark Nedir?',
+        icon: '🔍',
+        date: '8 Nisan 2026',
+        desc: 'Sürekli hissedilen yaygın kaygı hali ile aniden gelen, dakikalar içinde zirveye ulaşan panik atağın süre, belirti ve yoğunluk temelinde karşılaştırması.',
+    },
+    {
+        slug: '/blog/sosyal-anksiyete-fobi',
+        title: 'Sosyal Anksiyete (Sosyal Fobi) Nedir?',
+        icon: '👥',
+        date: '15 Nisan 2026',
+        desc: 'İnsanların içinde kaygı yaşama hissi, eleştirilme korkusu ve kaçınma. Sosyal fobinin iş okul yaşamına yansımaları ve bu durumla başa çıkma gerekliliği.',
+    },
+    {
+        slug: '/blog/surekli-kaygi-hali',
+        title: 'Sürekli Kaygı Hali Neden Olur?',
+        icon: '🧠',
+        date: '5 Mayıs 2026',
+        desc: 'Belirli bir tehdit yokken bile sürüp giden, "sürekli endişe hali ve yorgunluk" yaratan anksiyete sarmalının altında yatan faktörler.',
+    },
+    {
+        slug: '/blog/anksiyete-ne-kadar-surer',
+        title: 'Anksiyete Ne Kadar Sürer?',
+        icon: '⏳',
+        date: '12 Mayıs 2026',
+        desc: 'Anksiyete belirtilerinin süresi kişiden kişiye farklılık gösterir. Gündelik yaşamı zorlayan kaygının ne kadar devam edebileceği ve uzman değerlendirmesinin rolü.',
+    },
+];
+
+export default function AnksiyeteHubPage() {
+    return (
+        <>
+            <section className={styles.hero}>
+                <div className={`container ${styles.heroContent}`}>
+                    <div className={styles.breadcrumb}>
+                        <Link href="/">Ana Sayfa</Link><span>/</span>
+                        <Link href="/blog">Blog</Link><span>/</span>
+                        <span>Anksiyete</span>
+                    </div>
+                    <span className={styles.hubIcon}>🌩️</span>
+                    <h1>Anksiyete Hakkında Bilgilendirici Yazılar</h1>
+                    <p className={styles.heroDesc}>
+                        Anksiyete (kaygı bozukluğu), zihni sürekli meşgul eden ve bedensel belirtilerle günlük hayatı
+                        yıpratabilen bir süreçtir. "Kötü bir şey olacak" beklentisi, panik atak ve sosyal fobiyi anlatan
+                        yazılarımızı inceleyebilirsiniz.
+                    </p>
+                    <p className={styles.heroDesc}>
+                        Uzm. Dr. Abdullah Maraş, Ankara Eryaman'da anksiyete bozukluklarının profesyonel olarak
+                        değerlendirmesini gerçekleştirmektedir. Yazıların tamamı bilgilendirme amaçlıdır.
+                    </p>
+                    <Link href="/hizmetler/anksiyete" className={styles.pillarLink}>
+                        <span>📑</span>
+                        <div>
+                            <strong>Anksiyete Değerlendirmesi — Ana Hizmet Sayfası</strong>
+                            <span>Ankara Eryaman'daki klinik değerlendirme süreçlerine ve detaylara göz atın →</span>
+                        </div>
+                    </Link>
+                </div>
+            </section>
+
+            <section className="section">
+                <div className="container">
+                    <div className={styles.postsGrid}>
+                        {blogPosts.map((post) => (
+                            <Link href={post.slug} key={post.slug} className={styles.postCard}>
+                                <div className={styles.postHeader}>
+                                    <span className={styles.postIcon}>{post.icon}</span>
+                                    <time>{post.date}</time>
+                                </div>
+                                <h2>{post.title}</h2>
+                                <p>{post.desc}</p>
+                                <span className={styles.readMore}>Yazıyı Oku →</span>
+                            </Link>
+                        ))}
+                    </div>
+
+                    <div className={styles.hubCta}>
+                        <div className={styles.ctaContent}>
+                            <h2>Ankara Eryaman'da Anksiyete Değerlendirmesi İçin Randevu</h2>
+                            <p>
+                                Kaygı hayatınızı yönetmesin. Ankara Eryaman (Altay Mh.) kliniğimizde,
+                                huzursuzluk ve endişelerinizi uzman eşliğinde değerlendirebilirsiniz.
+                            </p>
+                            <div className={styles.ctaActions}>
+                                <Link href="/hizmetler/anksiyete" className="btn btn--outline btn--lg">
+                                    Anksiyete Sayfası
+                                </Link>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">
+                                    Randevu Al →
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="info-banner" style={{ marginTop: 'var(--space-8)' }}>
+                        <strong>📌 Bilgilendirme</strong>
+                        Bu sayfadaki yazılar tıbbi tanı veya kendi kendine tedavi önerisi değildir.
+                        Korkularınız veya belirtilerinizin klinik tanısı için psikiyatri uzmanına başvurunuz.
+                    </div>
+                </div>
+            </section>
+
+            {/* ItemList Schema */}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org", "@type": "ItemList",
+                    name: "Anksiyete Hakkında Bilgilendirici Yazılar",
+                    description: "Anksiyete bozuklukları konusunda hazırlanmış bilimsel bilgilendirici yazılar.",
+                    numberOfItems: blogPosts.length,
+                    itemListElement: blogPosts.map((p, i) => ({
+                        "@type": "ListItem", position: i + 1,
+                        url: `https://drabdullahmaras.com${p.slug}`,
+                        name: p.title,
+                    })),
+                })
+            }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org", "@type": "CollectionPage",
+                    name: "Anksiyete Hakkında Bilgilendirici Yazılar",
+                    url: "https://drabdullahmaras.com/blog/anksiyete",
+                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" }
+                })
+            }} />
+        </>
+    );
+}
