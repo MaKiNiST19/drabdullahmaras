@@ -502,7 +502,7 @@ export default function DepresyonPillarPage() {
                         alumniOf: { "@type": "EducationalOrganization", name: "Anadolu Üniversitesi Tıp Fakültesi" },
                         address: { "@type": "PostalAddress", streetAddress: "Altay Mahallesi", addressLocality: "Etimesgut", addressRegion: "Ankara", addressCountry: "TR" }
                     },
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği", url: "https://drabdullahmaras.com" },
+                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği", url: "https://drabdullahmaras.com", logo: "https://drabdullahmaras.com/logo.png" },
                     lastReviewed: "2026-02-27", mainEntityOfPage: "https://drabdullahmaras.com/hizmetler/depresyon"
                 })
             }} />

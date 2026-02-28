@@ -59,6 +59,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
               name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
+              logo: "https://drabdullahmaras.com/logo.png",
+              image: "https://drabdullahmaras.com/logo.png",
               description:
                 "Ankara Eryaman'da ruh sağlığı ve hastalıkları alanında uzman psikiyatri değerlendirmesi ve bireysel destek süreçleri.",
               url: "https://drabdullahmaras.com",

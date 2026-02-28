@@ -153,7 +153,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     description: service.metaDescription,
                     url: `https://drabdullahmaras.com/hizmetler/${service.slug}`,
                     author: { "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş", medicalSpecialty: "Psychiatric" },
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" }
+                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği", logo: "https://drabdullahmaras.com/logo.png" }
                 })
             }} />
         </>

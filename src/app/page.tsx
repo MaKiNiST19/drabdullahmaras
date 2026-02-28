@@ -272,7 +272,7 @@ export default function Home() {
                 "@type": "MedicalOrganization",
                 "name": "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
                 "url": "https://drabdullahmaras.com",
-                "logo": "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
+                "logo": "https://drabdullahmaras.com/logo.png",
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "contactType": "Randevu İletişim",

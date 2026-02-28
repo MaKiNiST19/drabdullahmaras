@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Footer.module.css';
 
 const services = [
@@ -23,10 +24,7 @@ export default function Footer() {
                     <div className={styles.footerBrand}>
                         <div className={styles.brandLogo}>
                             <div className={styles.brandIcon}>
-                                <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
-                                    <path d="M14 2C7.37 2 2 7.37 2 14s5.37 12 12 12 12-5.37 12-12S20.63 2 14 2z" stroke="currentColor" strokeWidth="2" fill="none" />
-                                    <path d="M14 8v4m0 0v4m0-4h4m-4 0h-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                                </svg>
+                                <Image src="/logo.png" alt="Dr. Abdullah Maraş Logo" width={40} height={40} />
                             </div>
                             <div>
                                 <div className={styles.brandName}>Uzm. Dr. Abdullah Maraş</div>
