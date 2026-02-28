@@ -144,7 +144,7 @@
   font-size: 2.25rem;
   color: #0f172a;
   letter-spacing: 0.02em;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -161,10 +161,31 @@
   margin: 0 auto;
 }
 
+.textBlock {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  color: #334155;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+/* --- SEO Intro Section --- */
+.seoIntroSection {
+  background-color: #ffffff;
+  padding: 5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.seoContent {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
 /* --- Why Section --- */
 .whySection {
   background-color: #ffffff;
   padding: 6rem 0;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .whyGrid {
@@ -214,66 +235,133 @@
   margin-bottom: 1.5rem;
 }
 
-/* --- Services Section --- */
-.servicesSection {
+/* --- Process Section --- */
+.processSection {
   background-color: #f8fafc;
   padding: 6rem 0;
-  border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
 }
 
-.servicesGrid {
+.processGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 
-.serviceCard {
-  display: flex;
-  flex-direction: column;
+.processCard {
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
   border-radius: 6px;
   border: 1px solid #e2e8f0;
-  text-decoration: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.serviceCard:hover {
-  border-color: #94a3b8;
-  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.03);
-  /* Subtle, bare minimum shadow */
+.processNumber {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-weight: 800;
+  font-size: 3rem;
+  color: #e2e8f0;
+  /* muted huge text */
+  margin-bottom: 0.5rem;
+  line-height: 1;
 }
 
-.serviceIcon {
-  font-size: 1.75rem;
-  margin-bottom: 1.5rem;
-}
-
-.serviceTitle {
+.processTitle {
   font-family: var(--font-sans, 'Inter', sans-serif);
   font-weight: 600;
   font-size: 1.125rem;
   color: #0f172a;
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.01em;
+  margin-bottom: 1rem;
 }
 
-.serviceDesc {
+.processDesc {
   font-family: var(--font-sans, 'Inter', sans-serif);
   color: #475569;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  flex-grow: 1;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
-/* --- Local Authority Boost --- */
-.localText {
-  font-family: var(--font-sans, 'Inter', sans-serif);
-  color: #334155;
-  line-height: 1.8;
-  font-size: 1.05rem;
+/* --- Conditions Summary Block --- */
+.conditionsSection {
+  background-color: #ffffff;
+  padding: 6rem 0;
+  border-bottom: 1px solid #e2e8f0;
 }
+
+.conditionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.conditionCard {
+  background-color: #f8fafc;
+  padding: 2.5rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.conditionCard h3 {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.conditionCard p {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  color: #475569;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.conditionLink {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0f172a;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.conditionLink:hover {
+  color: #334155;
+}
+
+/* --- Doctor Trust Section --- */
+.doctorSection {
+  background-color: #ffffff;
+  padding: 6rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.doctorContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --- Local Authority Footer Block --- */
+.localFooterSection {
+  background-color: #f8fafc;
+  padding: 5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.localFooterContent {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --- FAQ Section inside page --- */
+.faqSection {
+  background-color: #ffffff;
+  padding: 6rem 0;
+}
+
 
 /* --- Responsive --- */
 @media (max-width: 1024px) {
@@ -293,7 +381,11 @@
     order: 1;
   }
 
-  .servicesGrid {
+  .processGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .whyGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -307,7 +399,11 @@
     grid-template-columns: 1fr;
   }
 
-  .servicesGrid {
+  .processGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .conditionsGrid {
     grid-template-columns: 1fr;
   }
 
