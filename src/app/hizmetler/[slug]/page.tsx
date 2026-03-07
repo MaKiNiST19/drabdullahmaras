@@ -152,8 +152,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     name: service.title,
                     description: service.metaDescription,
                     url: `https://drabdullahmaras.com/hizmetler/${service.slug}`,
-                    author: { "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş", medicalSpecialty: "Psychiatric" },
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
                     publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    isPartOf: { "@id": "https://drabdullahmaras.com/#website" }
                 })
             }} />
         </>
