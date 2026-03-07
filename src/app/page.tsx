@@ -3,14 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './page.module.css';
 import FAQSection from '@/components/FAQSection';
+import ScrollReveal from '@/components/ScrollReveal';
+
 
 export const metadata: Metadata = {
   title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
-  description: 'Ankara Eryaman’da yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, erişkin DEHB ve uyku sorunlarında bireysel görüşme süreci.',
+  description: 'Ankara Eryaman’da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
   alternates: { canonical: 'https://drabdullahmaras.com/' },
   openGraph: {
     title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
-    description: 'Ankara Eryaman’da yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, erişkin DEHB ve uyku sorunlarında bireysel görüşme süreci.',
+    description: 'Ankara Eryaman’da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
     type: 'website',
     locale: 'tr_TR',
     url: 'https://drabdullahmaras.com/'
@@ -20,15 +22,15 @@ export const metadata: Metadata = {
 const homeFAQ = [
   {
     question: "Ankara'da psikiyatrist randevusu nasıl alınır?",
-    answer: "Ankara'da Uzm. Dr. Abdullah Maraş klinik randevusu almak için web sitemiz üzerinde yer alan Randevu formunu kullanabilir ya da mesai saatleri içerisinde +90 5XX XXX XX XX numaralı doğrudan iletişim hattımızdan planlama yapabilirsiniz."
+    answer: "Ankara'da Uzm. Dr. Abdullah Maraş klinik randevusu almak için web sitemiz üzerinde yer alan Randevu formunu kullanabilir ya da mesai saatleri içerisinde 0 312 504 53 99 numaralı doğrudan iletişim hattımızdan planlama yapabilirsiniz."
   },
   {
     question: "Eryaman'da psikiyatrist var mı?",
-    answer: "Evet, Uzm. Dr. Abdullah Maraş Yetişkin Psikiyatri Kliniği, Ankara Eryaman Altay Mahallesi mevkiinde hizmet vermekte olup, bölge içerisinden Etimesgut ve Batıkent lokasyonlarına da oldukça kolay ve merkezi bir erişim ağında yer almaktadır."
+    answer: "Evet, Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği, Ankara Eryaman Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza'da hizmet vermekte olup; çocuk, ergen ve yetişkin tüm yaş gruplarına yönelik tıbbi değerlendirme sunmaktadır. Bölge içerisinden Etimesgut ve Batıkent lokasyonlarına da oldukça kolay ve merkezi bir erişim ağında yer almaktadır."
   },
   {
     question: "Psikiyatrik görüşme ne kadar sürer?",
-    answer: "Yetişkin değerlendirmesine yönelik uygulanan klinik psikiyatrik görüşmeler standart olarak bireyin detaylı anamnez (öykü) sürecini kapsayacak biçimde 40 ile 60 dakika aralığında sürdürülmektedir."
+    answer: "Klinik psikiyatrik görüşmeler standart olarak bireyin detaylı anamnez (öykü) sürecini kapsayacak biçimde 40 ile 60 dakika aralığında sürdürülmektedir. Bu süreçte çocuk, ergen ve yetişkin tüm danışanlar için yaş grubuna uygun bilimsel değerlendirme yöntemleri izlenir."
   },
   {
     question: "İlk görüşmede ne yapılır?",
@@ -40,199 +42,466 @@ const homeFAQ = [
   }
 ];
 
-export default function Home() {
+function HomePageHero() {
   return (
-    <>
-      <section className={styles.hero}>
-        <div className={`container ${styles.heroContent}`}>
-          <div className={styles.heroText}>
+    <section className={styles.heroSection}>
+      <div className={styles.container}>
+        <div className={styles.heroBand}>
+          <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              Uzm. Dr. Abdullah Maraş
-              <span className={styles.heroTitleSub}>Ankara Eryaman’da Yetişkin Psikiyatrik Değerlendirme</span>
+              <span className={styles.heroTitleTop}>Eryaman Psikiyatri Doktoru</span>
+              <span className={styles.heroTitleMain}>Uzm. Dr. Abdullah Maraş</span>
+              <span className={styles.heroTitleSmall}>Psikiyatrist</span>
             </h1>
             <p className={styles.heroDesc}>
-              Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, erişkin DEHB ve uyku sorunlarında kanıta dayalı, bireysel psikiyatrik görüşme süreci.
+              Çocuk, ergen ve yetişkinlerde; depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında kanıta dayalı, bireysel psikiyatrik görüşme süreci.
             </p>
-            <div className={styles.heroActions}>
+            <div className={styles.heroButtons}>
               <Link href="/randevu" className={styles.btnPrimary}>
                 Randevu Oluştur
               </Link>
-              <Link href="/hizmetler" className={styles.btnOutline}>
-                Hizmet Alanlarını İncele
+              <Link href="/hizmetler" className={styles.btnTextLink}>
+                Hizmet Alanlarını Görün
               </Link>
             </div>
-
-            <div className={styles.heroCredibility}>
-              <div className={styles.credibilityItem}>
-                <span className={styles.credDot}></span>
-                Yetişkin Psikiyatrisi
-              </div>
-              <div className={styles.credibilityItem}>
-                <span className={styles.credDot}></span>
-                Bireysel Klinik Değerlendirme
-              </div>
-              <div className={styles.credibilityItem}>
-                <span className={styles.credDot}></span>
-                Ankara Eryaman
-              </div>
-            </div>
           </div>
-
           <div className={styles.heroVisual}>
-            <Image
-              src="/dr-abdullah-maras.jpeg"
-              alt="Uzm. Dr. Abdullah Maraş - Ankara Eryaman Psikiyatrist"
-              width={480}
-              height={580}
-              className={styles.heroImage}
-              priority
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 1 — SEO POWER INTRO BLOCK */}
-      <section className={styles.seoIntroSection}>
-        <div className={`container ${styles.seoContent}`}>
-          <h2 className={styles.sectionTitle}>Ankara Eryaman Psikiyatrist</h2>
-          <p className={styles.textBlock}>
-            Ruh sağlığı pratiğinde, insan zihninin ve bedeninin maruz kaldığı kompleks yükler salt anlık belirtiler üzerinden değil; bireyin yaşamöyküsü, stres faktörleri ve nörobiyolojik altyapısı ışığında bütüncül olarak incelenmelidir. <strong>Ankara psikiyatrist</strong> arayışına giren erişkin bireyler için kliniğimiz, sıradanlaştırılmış etiketleyici teşhislerden ziyade nedenselliği ve klinik çözüm rotasını merkezine alan profesyonel bir yaklaşım sunmaktadır.
-          </p>
-          <p className={styles.textBlock}>
-            <strong>Eryaman psikiyatrist</strong> alanında faaliyet gösteren muayenehanemizde, sadece yetişkin (18+) danışan grubuna hizmet verilmekte olup depresyon, yaygın ve somatik anksiyete bozuklukları, OKB (Obsesif Kompulsif Bozukluk), panik atak, yetişkin dikkat eksikliği (Erişkin DEHB) ve tükenmişlik sendromu gibi ruh sağlığı alanlarında tıp bilimine dayalı hekimlik uygulanmaktadır.
-          </p>
-          <p className={styles.textBlock}>
-            Psikiyatrik şikayetlerin incelenmesi, herkese uyan tek tip kalıplarla gerçekleştirilemez. Kliniğimizin yaklaşımında, her danışan kendi sosyokültürel ve genetik gerçekliği içerisinde ele alınarak tıbbi bir <strong>yetişkin psikiyatri</strong> ve detaylı bir <strong>bireysel değerlendirme</strong> esasıyla planlanır. <strong>Batıkent psikiyatrist</strong> ve özellikle <strong>Etimesgut psikiyatrist</strong> ihtiyacı doğrultusunda kliniğimiz bölge ağında, çevre ilçelerden dahi direkt ulaşılabilen merkezi bir noktaya (Altay Mahallesi) sahiptir. Uzm. Dr. Abdullah Maraş nezaretindeki tahlil görüşmelerinde; danışanın sınırlarına, mahremiyetine ve yapısal özelliklerine azami saygı gösterilerek güvenli ve yargısız bir klinik zemin sağlığı korumak en önemli ilkemizdir.
-          </p>
-        </div>
-      </section>
-
-      {/* SECTION 2 — EVALUATION PROCESS STRUCTURE */}
-      <section className={styles.processSection}>
-        <div className="container">
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Psikiyatrik Değerlendirme Süreci Nasıl İlerler?</h2>
-            <p>Hastalıkları tek tipleştirmeden, bireyin dinamiklerine uygun tasarlanan profesyonel adımlar.</p>
-          </div>
-          <div className={styles.processGrid}>
-            <div className={styles.processCard}>
-              <div className={styles.processNumber}>01</div>
-              <h3 className={styles.processTitle}>Ön Görüşme ve Öykü Alma</h3>
-              <p className={styles.processDesc}>
-                Psikiyatrik konsültasyonun temel ve vazgeçilmez aşamasıdır. Başvuru nedeni, yaşanan ruhsal sancıların süresi ve yaşam fonksiyonlarına olan negatif etkileri detaylı bir anamnez bağlamında dinlenir. Geçmiş tıbbi veriler, iş ve sosyal yaşam düzeni bütünüyle ele alınarak yargısız bir klinik analiz başlatılır.
-              </p>
-            </div>
-            <div className={styles.processCard}>
-              <div className={styles.processNumber}>02</div>
-              <h3 className={styles.processTitle}>Klinik Değerlendirme</h3>
-              <p className={styles.processDesc}>
-                Öykü alımından sonra uzmanlık bilgisi dahilinde zihinsel durum muayenesi gerçekleştirilir. Uykusuzluk, motivasyon çökkünlüğü veya bedensel kaygılar uluslararası tıp kılavuzlarının rasyonelliğinde süzgeçten geçirilir. Bu, hastanın yaşadığı bulguları bilimsel zemine oturtan yapılı bir tahlildir.
-              </p>
-            </div>
-            <div className={styles.processCard}>
-              <div className={styles.processNumber}>03</div>
-              <h3 className={styles.processTitle}>Gerekli Yönlendirmeler</h3>
-              <p className={styles.processDesc}>
-                Klinik veriler ışığında hastanın fonksiyonlarını geri kazanması amacıyla bilimsel limitler dahilinde yol haritası çizilir. Gerekli durumlarda (farmakolojik veya terapötik bazda) planlamalar sunulur. Ancak her sürecin anatomisi kişiden kişiye değişebilir özelliktedir, asla standardı dayatan katı mucize algısı satılmaz.
-              </p>
-            </div>
-            <div className={styles.processCard}>
-              <div className={styles.processNumber}>04</div>
-              <h3 className={styles.processTitle}>İzlem Planı</h3>
-              <p className={styles.processDesc}>
-                Belirlenen yaklaşımın bedende ve zihindeki geri dönüşleri periyodik görüşmelerle izlenir. Stresle başa çıkabilme seviyesi ve süreçteki ilerleyiş yakından ele alınarak gerektiği durumlarda plan üzerinde medikal veya klinik esnetmeler gerçekleştirilir.
-              </p>
+            <div className={styles.heroImageWrapper}>
+              <Image
+                src="/dr-abdullah-maras.jpeg"
+                alt="Uzm. Dr. Abdullah Maraş - Ankara Eryaman Psikiyatrist"
+                width={420}
+                height={530}
+                className={styles.heroImage}
+                priority
+              />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+  );
+}
 
-      {/* SECTION 3 — CORE CONDITIONS SUMMARY BLOCK */}
-      <section className={styles.conditionsSection}>
-        <div className="container">
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Yetişkin Ruh Sağlığı Alanları</h2>
-            <p>Eryaman yetişkin psikiyatri kliniğimizde, uyguladığımız temel değerlendirme başlıkları.</p>
-          </div>
-
-          <div className={styles.conditionsGrid}>
-            <div className={styles.conditionCard}>
-              <h3>Depresyon</h3>
-              <p>Zihnin enerji merkezini kapatan; uzun seyirli karamsarlık, isteksizlik ve tamamen keyif alamama (anhedoni) haliyle gözlemlenen yaygın çökkünlük tablosunu inceler. Sosyal yıkımın önüne geçmek asıl tahlilin rotasıdır.</p>
-              <Link href="/hizmetler/depresyon" className={styles.conditionLink}>Depresyon detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Anksiyete Bozuklukları</h3>
-              <p>Ortada somut bir tehlike ya da uyaran olmasa dahi zihnin alarm halinde çalışması, olayları felaketleştirerek bedenin kas katı kalmasına neden olan evham sarmalını tıbbi yolla kontrol etmeyi hedefler.</p>
-              <Link href="/hizmetler/anksiyete" className={styles.conditionLink}>Anksiyete detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Panik Atak</h3>
-              <p>Aniden gelen nefes alamama, göğüs sıkışması ve ani korku nöbetlerinin bedende bıraktığı yoğun illüzyonel krizleri yöneten, hastayı acil servislerden klinik analize çekmeyi barındıran değerlendirmedir.</p>
-              <Link href="/hizmetler/panik-atak" className={styles.conditionLink}>Panik Atak detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Obsesif Kompulsif Bozukluk (OKB)</h3>
-              <p>Kişinin isteği dışında kontrolsüzce gelen rahatsız edici obsesyonların (takıntı) ve o kaygıyı söndürmek uğruna tekrarlanan kompulsiyon (ritüel) zincirlerinin yetişkin hekimliği boyutunda kırılmasını işler.</p>
-              <Link href="/hizmetler/okb" className={styles.conditionLink}>OKB detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Bipolar Bozukluk</h3>
-              <p>Duygudurumun yüksek eksende taşkınlık ve enerji patlamalarıyla; alt eksende derin dipsiz bir melankoli ağıyla sarsıldığı, çok hassas izlem gerektiren döngüsel reaksiyon bozukluğunun klinik yönetimidir.</p>
-              <Link href="/hizmetler/bipolar-bozukluk" className={styles.conditionLink}>Bipolar detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Erişkin DEHB</h3>
-              <p>Yetişkin iş ya da eğitim yaşamında ısrarla yaşanan dikkat kaybı, odak kalamama, iş erteleme ve içsel dürtüselliğin zemin oluşturduğu sistem sorunlarının değerlendirme metotlarını kapsamaktadır.</p>
-              <Link href="/hizmetler/eriskin-dehb" className={styles.conditionLink}>Erişkin DEHB detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Uyku Bozuklukları</h3>
-              <p>Dallanıp budaklanan uykusuzluk, sürekli yatakta dönme veya gün içinde oluşan yoğun enerji kayıplarının (kalitesiz bedensel iyileşme), psikiyatrik dinamiklerde ele alındığı nörobiyolojik analiz bacağıdır.</p>
-              <Link href="/hizmetler/uyku-bozukluklari" className={styles.conditionLink}>Uyku detaylarını incele</Link>
-            </div>
-            <div className={styles.conditionCard}>
-              <h3>Tükenmişlik Sendromu</h3>
-              <p>Süregelen kurumsal eşitsizlikler, toksik iş yükleri veya taşıması imkansız bakım stresi altında zihnin tamamen kendini fişten çekip (burnout) işten soğuma hissinin yarattığı sarsıntının profesyonel onarımıdır.</p>
-              <Link href="/hizmetler/tukenmislik-sendromu" className={styles.conditionLink}>Tükenmişlik detaylarını incele</Link>
+function ClinicBannerSection() {
+  return (
+    <section className={styles.clinicBannerSection}>
+      <div className={styles.clinicBannerInner}>
+        <Image
+          src="/images/abdullah-maras-klinigi.jpg"
+          alt="Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği İç Mekan"
+          width={1920}
+          height={600}
+          className={styles.clinicBannerImage}
+          quality={95}
+        />
+        <div className={styles.clinicBannerOverlay}>
+          <div className={styles.container}>
+            <div className={styles.bannerOverlayContent}>
+              <h2 className={`${styles.bannerOverlayTitle} serifFont`}>
+                <ScrollReveal baseRotation={0} blurStrength={2} as="span">Ruhsal Zorlukları Anlamak</ScrollReveal>
+              </h2>
+              <div className={styles.bannerOverlayText}>
+                <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="p">
+                  Sürekli devam eden yorgunluk hissi, nedensiz bir iç huzursuzluğu, geceleri bölünen veya hiç gelmeyen uyku, yeni güne başlama isteksizliği veya olağan dikkat fonksiyonlarındaki bozulmalar zihinsel yükünüzün bir yansıması olabilir.
+                </ScrollReveal>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+  );
+}
 
-      {/* SECTION 4 — TRUST + CREDENTIAL DEPTH */}
-      <section className={styles.doctorSection}>
-        <div className={`container ${styles.doctorContent}`}>
-          <h2 className={styles.sectionTitle}>Uzm. Dr. Abdullah Maraş</h2>
-          <p className={styles.textBlock} style={{ textAlign: 'center' }}>
-            Anadolu Üniversitesi Tıp Fakültesi altyapısından gelen Dr. Abdullah Maraş, tıp eğitimi sonrasında tamamladığı uzmanlık donanımını Ruh Sağlığı ve Hastalıkları alanına kanalize etmiştir. Klinik hekimlik süreci boyunca <strong>sadece yetişkin (adult) danışan odaklı</strong> psikiatrik değerlendirmeler sunmayı merkeze yerleştirmiş olup; tanısal işlemlerde hastayı dar kategorik etiketlere hapsetmekten kaçınan; genetik, kültürel ve çevresel doneleri "bütünsel bir yapıda" harmanlayan bir bakış felsefesini destekler.
-          </p>
-          <p className={styles.textBlock} style={{ textAlign: 'center', marginBottom: 0 }}>
-            Tıp dışı "100% garanti sözleri, iddialı mucize garantileri" veya bilimsellikten uzak piyasa dilini asla bünyesinde ihtiva etmeyen bu klinik organizasyon, doğrudan hastanın kendi güven sınırlarında yürüyen; tıbbi ve analitik veriler üzerine inşa edilmiş dürüst, profesyonel klinik destek ilkesinden yürütülmektedir.
-          </p>
+
+function ClinicGallerySection() {
+  return (
+    <section className={`${styles.gallerySection} ${styles.sectionPadding}`}>
+      <div className={styles.container}>
+        <h2 className={`${styles.galleryTitle} serifFont`}><ScrollReveal baseRotation={0} blurStrength={2} as="span">Klinikten Kareler</ScrollReveal></h2>
+        <div className={styles.galleryGrid}>
+          <ScrollReveal containerClassName={styles.galleryCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.galleryImageContainer}>
+              <Image
+                src="/images/ankara-psikiyatri-klinigi.jpg"
+                alt="Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği"
+                width={600}
+                height={450}
+                className={styles.galleryPhoto}
+              />
+              <span className={styles.galleryCaption}>Klinik İç Görünüm</span>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.galleryCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.galleryImageContainer}>
+              <Image
+                src="/images/abdullah-maras-klinik.jpg"
+                alt="Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği"
+                width={600}
+                height={450}
+                className={styles.galleryPhoto}
+              />
+              <span className={styles.galleryCaption}>Lobi</span>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.galleryCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.galleryImageContainer}>
+              <Image
+                src="/images/abdullah-maras-klinigi.jpg"
+                alt="Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği"
+                width={600}
+                height={450}
+                className={styles.galleryPhoto}
+              />
+              <span className={styles.galleryCaption}>Klinik Detay</span>
+            </div>
+          </ScrollReveal>
         </div>
-      </section>
+      </div>
+    </section>
+  );
+}
 
-      {/* SECTION 5 — LOCAL AUTHORITY FOOTER BLOCK */}
-      <section className={styles.localFooterSection}>
-        <div className={`container ${styles.localFooterContent}`}>
-          <h2 className={styles.sectionTitle}>Ankara Eryaman’da Yetişkin Psikiyatrist</h2>
-          <p className={styles.textBlock} style={{ textAlign: 'center', marginBottom: 0 }}>
-            Ankara genelinde var olan karmaşık ve kalabalık ruh sağlığı merkezi yapılaşmalarından izole biçimde dizayn edilmiş olan kliniğimiz, Etimesgut sınırları içindeki <strong>Altay Mahallesi</strong> konumundadır. Kliniğin yalnızca 18 yaş ve üzeri yetişkin gruplarına hizmet edecek yapıda optimize edilmesiyle ortam; steril, nötr ve oldukça sakin kurgulanmıştır. Bu stratejik lokasyon imkanı sayesinde büyükşehir trafiğinden bağımsız olarak Eryaman, <strong>Batıkent</strong> ve merkez <strong>Etimesgut</strong> güzergahından çok nitelikli ve kolay ulaşım ağı kazanmıştır. Mahremiyet prensibini ilk sıraya yerleştirdiğimiz “Ankara Eryaman ve çevresinde yetişkinlere yönelik psikiyatrik değerlendirme hizmeti” çizgisi, danışanlarımızın konforlu hekim desteği sürecine ulaşmalarına kesintisiz olanak sağlamaktadır.
-          </p>
-        </div>
-      </section>
-
-      {/* SECTION 6 — FAQ (Homepage Level) */}
-      <section className={styles.faqSection}>
-        <div className="container container--narrow">
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Sık Sorulan Sorular</h2>
-            <p>Psikiyatri kliniğimize dair hastalarımızın merak ettikleri temel süreçler.</p>
+function LocalAuthoritySection() {
+  return (
+    <section className={`${styles.localAuthoritySection} ${styles.sectionPadding}`}>
+      <div className={styles.container}>
+        <div className={styles.localLayout}>
+          <div className={styles.localTextColumn}>
+            <h2 className={`${styles.localTitle} serifFont`}><ScrollReveal baseRotation={0} blurStrength={4} as="span">Ankara Eryaman Psikiyatrist</ScrollReveal></h2>
+            <p className={styles.leadText}>
+              <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="span">Ruh sağlığı pratiğinde, insan zihninin ve bedeninin maruz kaldığı kompleks yükler salt anlık belirtiler üzerinden değil; bireyin yaşamöyküsü, stres faktörleri ve nörobiyolojik altyapısı ışığında bütüncül olarak incelenmelidir.</ScrollReveal> <strong className={styles.fontWeightOnly}>Ankara psikiyatrist</strong> arayışına giren bireyler için kliniğimiz, sıradanlaştırılmış etiketleyici teşhislerden ziyade nedenselliği ve klinik çözüm rotasını merkezine alan profesyonel bir yaklaşım sunmaktadır.
+            </p>
+            <p className={styles.normalText}>
+              <strong className={styles.fontWeightOnly}>Eryaman psikiyatrist</strong> alanında faaliyet gösteren muayenehanemizde; çocuk, ergen ve yetişkin tüm hastalara destek verilmektedir. Depresyon, yaygın ve somatik anksiyete bozuklukları, OKB (Obsesif Kompulsif Bozukluk), panik atak, dikkat eksikliği (DEHB) ve tükenmişlik sendromu gibi ruh sağlığı alanlarında tıp bilimine dayalı hekimlik uygulanmaktadır.
+            </p>
+            <p className={styles.normalText}>
+              Psikiyatrik şikayetlerin incelenmesi, herkese uyan tek tip kalıplarla gerçekleştirilemez. Kliniğimizin yaklaşımında, her danışan kendi sosyokültürel ve genetik gerçekliği içerisinde ele alınarak tıbbi bir <strong className={styles.fontWeightOnly}>psikiyatrik değerlendirme</strong> ve detaylı bir <strong className={styles.fontWeightOnly}>bireysel görüşme</strong> esasıyla planlanır. <strong className={styles.fontWeightOnly}>Batıkent psikiyatrist</strong> ve <strong className={styles.fontWeightOnly}>Etimesgut psikiyatrist</strong> ihtiyacı doğrultusunda kliniğimiz Ata Yıldız Plaza, Eryaman'da yer alır.
+            </p>
           </div>
-          <FAQSection items={homeFAQ} />
+          <div className={styles.localImageColumn}>
+            <ScrollReveal containerClassName={styles.localImageWrapper} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+              <Image
+                src="/images/eryaman-psikiyatri-doktoru-abdullah-maras.png"
+                alt="Uzm. Dr. Abdullah Maraş - Ankara Eryaman Psikiyatrist"
+                width={540}
+                height={680}
+                className={styles.localImage}
+                quality={90}
+              />
+            </ScrollReveal>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
+  );
+}
+
+function EvaluationStepsSection() {
+  const steps = [
+    {
+      title: "Ön Görüşme ve Öykü Alma",
+      desc: "Başvuru nedeni, yaşanan ruhsal sancıların süresi ve yaşam fonksiyonlarına olan negatif etkileri detaylı bir anamnez bağlamında dinlenir. Ayrıntılı öykü alınır.",
+      icon: "fa-user-plus",
+      colorClass: styles.stepColor1
+    },
+    {
+      title: "Klinik Değerlendirme",
+      desc: "Öykü alımından sonra uzmanlık bilgisi dahilinde zihinsel durum muayenesi gerçekleştirilir. Bulgular bilimsel zeminine oturtulan tahlildir.",
+      icon: "fa-stethoscope",
+      colorClass: styles.stepColor2
+    },
+    {
+      title: "Gerekli Yönlendirmeler",
+      desc: "Klinik veriler ışığında hastanın fonksiyonlarını geri kazanması amacıyla bireyin anatomisine uygun farmakolojik veya terapötik planlamalar sunulur.",
+      icon: "fa-wand-magic-sparkles",
+      colorClass: styles.stepColor3
+    },
+    {
+      title: "İzlem Planı",
+      desc: "Belirlenen yaklaşımın bedende ve zihindeki geri dönüşleri periyodik görüşmelerle izlenir, gerekirse plan üzerinde klinik esnetmeler gerçekleştirilir.",
+      icon: "fa-calendar-check",
+      colorClass: styles.stepColor4
+    }
+  ];
+
+  return (
+    <section className={`${styles.stepsSection} ${styles.sectionPadding}`}>
+      <div className={styles.container}>
+        <div className={styles.stepsHeader}>
+          <ScrollReveal baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <span className={styles.sectionLabel} style={{ textAlign: 'center', marginBottom: '1rem' }}>DEĞERLENDİRME SÜRECİ</span>
+          </ScrollReveal>
+          <ScrollReveal baseRotation={0} blurStrength={3} baseOpacity={0}>
+            <h2 className={`${styles.stepsTitle} serifFont`}>
+              Psikiyatrik Değerlendirme <span className="text-primary italic">Dört Aşamalı Süreç</span>
+            </h2>
+          </ScrollReveal>
+          <ScrollReveal baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <p className={styles.stepsDesc}>
+              Ruh sağlığı yolculuğunuzda her adım, bilimsel standartlar ve bireysel ihtiyaçlarınız gözetilerek titizlikle planlanır.
+            </p>
+          </ScrollReveal>
+        </div>
+
+        <div className={styles.stepsRelativeContainer}>
+          {/* Connecting Line (Desktop) */}
+          <div className={styles.stepsConnectingLine} />
+
+          <div className={styles.stepsGrid}>
+            {steps.map((step, i) => (
+              <ScrollReveal
+                key={i}
+                containerClassName={styles.stepCard}
+                baseRotation={0}
+                blurStrength={4}
+                baseOpacity={0}
+              >
+                <div className={styles.stepIconContainer}>
+                  <div className={`${styles.stepIconWrapper} ${step.colorClass}`}>
+                    <i className={`fas ${step.icon} ${styles.stepIcon}`}></i>
+                    <div className={styles.stepNumberBadge}>
+                      {i + 1}
+                    </div>
+                  </div>
+                </div>
+                <h3 className={styles.stepTitle}>
+                  {step.title}
+                </h3>
+                <p className={styles.stepDesc}>
+                  {step.desc}
+                </p>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ServicesGridSection() {
+  return (
+    <section className={`${styles.conditionsSection} ${styles.sectionPadding}`}>
+      <div className={styles.container}>
+        <span className={styles.sectionLabel} style={{ textAlign: 'center' }}>HİZMET ALANLARIMIZ</span>
+        <h2 className={`${styles.conditionsTitle} serifFont`}>Ruh Sağlığı Değerlendirme Alanları</h2>
+        <div className={styles.conditionsGrid}>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/depresyon.png"
+                alt="Depresyon Değerlendirmesi"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Depresyon</h3>
+              <p className={styles.conditionDesc}>Karamsarlık, isteksizlik ve tamamen keyif alamama (anhedoni) haliyle gözlemlenen yaygın çökkünlük tablosunu inceler.</p>
+              <Link href="/hizmetler/depresyon" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/anksiyete.png"
+                alt="Anksiyete Bozuklukları"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Anksiyete Bozuklukları</h3>
+              <p className={styles.conditionDesc}>Zihnin alarm halinde çalışması, olayları felaketleştirip bedeni kilitleyen evham sarmalının yönetimidir.</p>
+              <Link href="/hizmetler/anksiyete" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/panik-atak.png"
+                alt="Panik Atak"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Panik Atak</h3>
+              <p className={styles.conditionDesc}>Aniden gelen nefes alamama, göğüs sıkışması ve korku nöbetlerinin bedende bıraktığı yoğun illüzyonel krizleri yönetir.</p>
+              <Link href="/hizmetler/panik-atak" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/okb.png"
+                alt="Obsesif Kompulsif Bozukluk"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Obsesif Kompulsif Bozukluk</h3>
+              <p className={styles.conditionDesc}>İstemsiz gelen rahatsız edici obsesyonların ve ritüel zincirlerinin yetişkin hekimliği boyutunda kırılmasını işler.</p>
+              <Link href="/hizmetler/okb" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/bipolar.png"
+                alt="Bipolar Bozukluk"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Bipolar Bozukluk</h3>
+              <p className={styles.conditionDesc}>Taşkın enerji patlamalarıyla çok derin dipsiz bir melankoli ağıyla sarsıldığı, döngüsel reaksiyon bozukluğudur.</p>
+              <Link href="/hizmetler/bipolar-bozukluk" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/dehb.png"
+                alt="Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB)"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Dikkat Eksikliği (DEHB)</h3>
+              <p className={styles.conditionDesc}>İş ya da eğitim yaşamında ısrarla yaşanan dikkat kaybı, odak kalamama ve içsel dürtüselliğin yarattığı akademik sorunlardır.</p>
+              <Link href="/hizmetler/eriskin-dehb" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/uyku.png"
+                alt="Uyku Bozuklukları"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Uyku Bozuklukları</h3>
+              <p className={styles.conditionDesc}>Dallanıp budaklanan uykusuzluk, sürekli yatakta dönme veya gün içinde oluşan yoğun enerji kayıplarının psikiyatrik boyutudur.</p>
+              <Link href="/hizmetler/uyku-bozukluklari" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+            <div className={styles.conditionImageContainer}>
+              <Image
+                src="/images/service/burnout.png"
+                alt="Tükenmişlik Sendromu"
+                width={400}
+                height={225}
+                className={styles.conditionImage}
+              />
+            </div>
+            <div className={styles.conditionContent}>
+              <h3 className={styles.conditionTitle}>Tükenmişlik Sendromu</h3>
+              <p className={styles.conditionDesc}>Süregelen kurumsal eşitsizlikler veya toksik iş yükleri altında zihnin tamamen kendini işten soğutması (burnout) hissinin onarımıdır.</p>
+              <Link href="/hizmetler/tukenmislik-sendromu" className={styles.conditionLink}>İncele</Link>
+            </div>
+          </ScrollReveal>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function DoctorBioSection() {
+  return (
+    <section className={`${styles.bioSection} ${styles.sectionPadding}`}>
+      <div className={styles.container}>
+        <div className={styles.bioGrid}>
+          <div>
+            <span className={styles.sectionLabel}><ScrollReveal baseRotation={0} blurStrength={2} as="span">YÖNETİCİ HEKİM</ScrollReveal></span>
+            <h2 className={styles.bioTitle}><ScrollReveal baseRotation={0} blurStrength={2} as="span">Uzm. Dr. Abdullah Maraş</ScrollReveal></h2>
+            <div className={styles.bioContent}>
+              <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="p">
+                Anadolu Üniversitesi Tıp Fakültesi altyapısından gelen Dr. Abdullah Maraş, tıp eğitimi sonrasında tamamladığı uzmanlık donanımını Ruh Sağlığı ve Hastalıkları alanına kanalize etmiştir. Klinik hekimlik süreci boyunca <strong>çocuk, ergen ve yetişkin tüm hastalara destek vermeyi</strong> merkeze yerleştirmiş olup; tanısal işlemlerde hastayı dar kategorik etiketlere hapsetmekten kaçınan; genetik, kültürel ve çevresel doneleri bütünüyle harmanlayan felsefeyi destekler.
+              </ScrollReveal>
+              <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="p">
+                Tıp dışı "100% garanti sözleri", iddialı mucizeler veya bilimsellikten uzak piyasa dilini asla bünyesinde ihtiva etmeyen bu yapı, doğrudan hastanın kendi güven sınırlarında yürüyen tıbbi ve analitik veriler üzerine inşa edilmiş dürüst yaklaşımı temsil eder.
+              </ScrollReveal>
+            </div>
+          </div>
+          <div>
+            <ScrollReveal containerClassName={styles.bioCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
+              <h3 className={styles.bioCardTitle}>Klinik Odağı ve Uzmanlık</h3>
+              <ul className={styles.bioList}>
+                <li className={styles.bioListItem}>
+                  <span className={styles.bioListText}><strong>Üniversite</strong>Anadolu Üniversitesi Tıp Fakültesi</span>
+                </li>
+                <li className={styles.bioListItem}>
+                  <span className={styles.bioListText}><strong>Uzmanlık</strong>Ruh Sağlığı ve Hastalıkları</span>
+                </li>
+                <li className={styles.bioListItem}>
+                  <span className={styles.bioListText}><strong>Hedef Yaş Grubu</strong>Çocuk, Ergen ve Yetişkin Psikiyatrisi</span>
+                </li>
+                <li className={styles.bioListItem}>
+                  <span className={styles.bioListText}><strong>Lokasyon</strong>Ankara Eryaman (Etimesgut)</span>
+                </li>
+              </ul>
+            </ScrollReveal>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSectionComponent() {
+  return (
+    <section className={`${styles.faqSection} ${styles.sectionPadding}`}>
+      <div className={styles.container} style={{ maxWidth: '800px' }}>
+        <h2 className={`${styles.faqTitle} serifFont`}><ScrollReveal baseRotation={0} blurStrength={3} as="span">Sık Sorulan Sorular</ScrollReveal></h2>
+        <p className={styles.faqDesc}><ScrollReveal baseRotation={0} blurStrength={2} as="span">Psikiyatri kliniğimize dair hastalarımızın merak ettikleri temel süreçler.</ScrollReveal></p>
+        <FAQSection items={homeFAQ} />
+      </div>
+    </section>
+  );
+}
+
+function SmallFooterCtaSection() {
+  return (
+    <section className={styles.smallCtaSection}>
+      <div className={styles.smallCtaContainer}>
+        <h2 className={`${styles.smallCtaTitle} serifFont`}>Randevu Planlamak İsterseniz</h2>
+        <p className={styles.smallCtaDesc}>Çocuk, ergen ve yetişkin ruh sağlığı değerlendirmesi için randevu taleplerinizi web sitemiz üzerinden iletebilirsiniz.</p>
+        <Link href="/randevu" className={styles.smallCtaButton}>
+          Randevu Formu
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+export default function Home() {
+  return (
+    <div className={styles.pageWrapper}>
+      <HomePageHero />
+      <ClinicBannerSection />
+      <ClinicGallerySection />
+      <LocalAuthoritySection />
+      <EvaluationStepsSection />
+      <ServicesGridSection />
+      <DoctorBioSection />
+      <FaqSectionComponent />
+      <SmallFooterCtaSection />
 
       {/* SECTION 7 — STRUCTURED DATA BOOST */}
       <script
@@ -253,8 +522,8 @@ export default function Home() {
                 },
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi",
-                  "addressLocality": "Etimesgut",
+                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
+                  "addressLocality": "Eryaman",
                   "addressRegion": "Ankara",
                   "addressCountry": "TR"
                 },
@@ -280,8 +549,8 @@ export default function Home() {
                 },
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi",
-                  "addressLocality": "Etimesgut",
+                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
+                  "addressLocality": "Eryaman",
                   "addressRegion": "Ankara",
                   "addressCountry": "TR"
                 }
@@ -290,19 +559,19 @@ export default function Home() {
                 "@type": "WebSite",
                 "url": "https://drabdullahmaras.com/",
                 "name": "Uzm. Dr. Abdullah Maraş",
-                "description": "Ankara Eryaman'da yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, erişkin DEHB ve uyku sorunlarında bireysel görüşme süreci."
+                "description": "Ankara Eryaman'da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci."
               },
               {
                 "@type": "LocalBusiness",
-                "name": "Uzm. Dr. Abdullah Maraş - Yetişkin Psikiyatrist",
+                "name": "Uzm. Dr. Abdullah Maraş - Çocuk, Ergen ve Yetişkin Psikiyatrist",
                 "image": "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
                 "@id": "https://drabdullahmaras.com",
                 "url": "https://drabdullahmaras.com",
-                "telephone": "+90 5XX XXX XX XX", /* User's request to use place holder here from previous context */
+                "telephone": "0 312 504 53 99",
                 "priceRange": "$$",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi",
+                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
                   "addressLocality": "Eryaman, Etimesgut",
                   "addressRegion": "Ankara",
                   "addressCountry": "TR"
@@ -328,6 +597,6 @@ export default function Home() {
           })
         }}
       />
-    </>
+    </div>
   );
 }

@@ -39,40 +39,35 @@
 }
 
 .logoIcon {
-    width: 44px;
-    height: 44px;
-    border-radius: var(--radius-lg);
-    background: linear-gradient(135deg, var(--primary-500), var(--primary-700));
-    color: white;
+    /* width: 220px; */
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform var(--transition-base);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.logoImage {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.logoIcon img {
+    mix-blend-mode: multiply;
+    filter: brightness(1.05) contrast(1.05) blur(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .logo:hover .logoIcon {
-    transform: scale(1.05);
+    transform: scale(1.05) translateZ(0);
 }
 
-.logoText {
-    display: flex;
-    flex-direction: column;
-}
-
-.logoName {
-    font-family: var(--font-serif);
-    font-size: var(--text-base);
-    font-weight: 600;
-    color: var(--text-primary);
-    line-height: 1.2;
-}
-
-.logoTitle {
-    font-size: var(--text-xs);
-    color: var(--primary-600);
-    font-weight: 500;
-    letter-spacing: 0.3px;
-}
 
 /* Navigation */
 .nav {
@@ -172,21 +167,11 @@
         text-align: center;
     }
 
-    .logoName {
-        font-size: var(--text-sm);
-    }
 
-    .logoTitle {
-        font-size: 0.65rem;
-    }
 
     .logoIcon {
         width: 38px;
         height: 38px;
     }
 
-    .logoIcon svg {
-        width: 22px;
-        height: 22px;
-    }
 }

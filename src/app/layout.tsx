@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./prozen.css";
+import "./lenis.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -64,11 +68,11 @@ export default function RootLayout({
               description:
                 "Ankara Eryaman'da ruh sağlığı ve hastalıkları alanında uzman psikiyatri değerlendirmesi ve bireysel destek süreçleri.",
               url: "https://drabdullahmaras.com",
-              telephone: "",
+              telephone: "0 312 504 53 99",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Altay Mahallesi",
-                addressLocality: "Etimesgut",
+                streetAddress: "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
+                addressLocality: "Eryaman",
                 addressRegion: "Ankara",
                 postalCode: "06790",
                 addressCountry: "TR",
@@ -91,7 +95,7 @@ export default function RootLayout({
                     "Friday",
                   ],
                   opens: "09:00",
-                  closes: "17:00",
+                  closes: "18:00",
                 },
               ],
             }),
@@ -115,8 +119,8 @@ export default function RootLayout({
               jobTitle: "Psikiyatri Uzmanı",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Altay Mahallesi",
-                addressLocality: "Etimesgut",
+                streetAddress: "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
+                addressLocality: "Eryaman",
                 addressRegion: "Ankara",
                 postalCode: "06790",
                 addressCountry: "TR",

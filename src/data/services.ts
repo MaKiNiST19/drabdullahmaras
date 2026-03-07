@@ -289,7 +289,7 @@ export const services: ServiceData[] = [
         icon: '🧠',
         shortDesc: 'Yetişkin dönemine özgü ruh sağlığı sorunlarının kapsamlı değerlendirmesi.',
         content: {
-            intro: 'Yetişkin psikiyatrisi, 18 yaş üstü bireylerin ruh sağlığı sorunlarının değerlendirmesi, tanılanması ve yönetilmesini kapsayan psikiyatrinin temel alanlarından biridir. İş hayatı, ilişkiler, ailevi sorumluluklar ve yaşam geçişleri gibi yetişkinliğe özgü stresörler, ruh sağlığını etkileyebilmektedir. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş, yetişkinlere yönelik kapsamlı psikiyatrik değerlendirme sunmaktadır.',
+            intro: 'Yetişkin psikiyatrisi, yetişkinlik dönemindeki bireylerin ruh sağlığı sorunlarının değerlendirmesi, tanılanması ve yönetimini kapsayan psikiyatrinin temel alanlarından biridir. İş hayatı, ilişkiler, ailevi sorumluluklar ve yaşam geçişleri gibi yetişkinliğe özgü stresörler, ruh sağlığını etkileyebilmektedir. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş, yetişkinlere yönelik kapsamlı psikiyatrik değerlendirme sunmaktadır.',
             sections: [
                 {
                     title: 'Yetişkin Psikiyatrisi Kapsamı',

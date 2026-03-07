@@ -34,8 +34,21 @@ export default function IletisimPage() {
                                     </svg>
                                 </div>
                                 <h2>Adres</h2>
-                                <p>Altay Mahallesi<br />Eryaman, Etimesgut<br />Ankara</p>
+                                <p>Altay Mahallesi Orhan Bey Caddesi<br />Ata Yıldız Plaza No:1 Kat:1 Daire:4<br />Eryaman / Ankara</p>
                                 <span className={styles.note}>Eryaman, Batıkent ve Etimesgut bölgelerinden kolay ulaşım.</span>
+                            </div>
+
+                            <div className={`card ${styles.contactCard}`}>
+                                <div className={styles.cardIcon}>
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <h2>Telefon</h2>
+                                <p style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--primary-600)' }}>0 312 504 53 99</p>
+                                <Link href="/randevu" className="btn btn--primary" style={{ marginTop: '1rem', width: '100%' }}>
+                                    Online Randevu
+                                </Link>
                             </div>
 
                             <div className={`card ${styles.contactCard}`}>
@@ -47,26 +60,10 @@ export default function IletisimPage() {
                                 </div>
                                 <h2>Çalışma Saatleri</h2>
                                 <div className={styles.hours}>
-                                    <div className={styles.hourRow}><span>Pazartesi – Cuma</span><strong>09:00 – 17:00</strong></div>
-                                    <div className={styles.hourRow}><span>Cumartesi</span><strong>Randevuya göre</strong></div>
-                                    <div className={styles.hourRow}><span>Pazar</span><strong>Kapalı</strong></div>
+                                    <div className={styles.hourRow}><span>Hafta İçi</span><strong>09:00 – 18:00</strong></div>
+                                    <div className={styles.hourRow}><span>Hafta Sonu</span><strong>Kapalı</strong></div>
                                 </div>
-                            </div>
-
-                            <div className={`card ${styles.contactCard}`}>
-                                <div className={styles.cardIcon}>
-                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" />
-                                        <line x1="16" y1="2" x2="16" y2="6" />
-                                        <line x1="8" y1="2" x2="8" y2="6" />
-                                        <line x1="3" y1="10" x2="21" y2="10" />
-                                    </svg>
-                                </div>
-                                <h2>Randevu</h2>
-                                <p>Kliniğimiz randevu sistemiyle çalışmaktadır.</p>
-                                <Link href="/randevu" className="btn btn--primary" style={{ marginTop: '1rem' }}>
-                                    Online Randevu Formu
-                                </Link>
+                                <span className={styles.note} style={{ marginTop: '0.75rem' }}>*Randevu saatlerimiz hafta içi 09:00 - 18:00 arasındadır.</span>
                             </div>
                         </div>
 
