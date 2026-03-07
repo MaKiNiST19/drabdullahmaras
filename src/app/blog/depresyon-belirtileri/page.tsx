@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from './page.module.css';
@@ -337,7 +337,7 @@ export default function DepresyonBelirtileriBlog() {
                     datePublished: "2026-03-02T09:00:00+03:00",
                     dateModified: "2026-03-02T09:00:00+03:00",
                     author: {
-                        "@id": "https://drabdullahmaras.com/#physician" }
+                        "@id": "https://drabdullahmaras.com/#physician" 
                     },
                     publisher: {
                         "@id": "https://drabdullahmaras.com/#organization" },

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -279,7 +279,7 @@ export default function AnksiyetePillarPage() {
                             "@type": "FAQPage",
                             "mainEntity": faqItems.map(item => ({
                                 "@type": "Question",
-                                "name": item.question,. A little hacky but works for grouping
+                                "name": item.question,
                                 "acceptedAnswer": {
                                     "@type": "Answer",
                                     "text": item.answer
