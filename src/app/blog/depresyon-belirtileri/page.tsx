@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from './page.module.css';
@@ -337,16 +337,10 @@ export default function DepresyonBelirtileriBlog() {
                     datePublished: "2026-03-02T09:00:00+03:00",
                     dateModified: "2026-03-02T09:00:00+03:00",
                     author: {
-                        "@type": "Physician",
-                        name: "Uzm. Dr. Abdullah Maraş",
-                        medicalSpecialty: "Psychiatric",
-                        alumniOf: { "@type": "EducationalOrganization", name: "Anadolu Üniversitesi Tıp Fakültesi" }
+                        "@id": "https://drabdullahmaras.com/#physician" }
                     },
                     publisher: {
-                        "@type": "MedicalBusiness",
-                        name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
-                        url: "https://drabdullahmaras.com"
-                    },
+                        "@id": "https://drabdullahmaras.com/#organization" },
                     mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-belirtileri",
                     url: "https://drabdullahmaras.com/blog/depresyon-belirtileri",
                     wordCount: 1200,

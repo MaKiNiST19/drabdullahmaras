@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
@@ -172,8 +172,8 @@ export default function BipolarHubPage() {
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Bipolar Bozukluk Bilgilendirme Serisi Merkezi",
                     url: "https://drabdullahmaras.com/blog/bipolar",
-                    author: { "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş", url: "https://drabdullahmaras.com/hakkinda" },
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatro" }
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
                 })
             }} />
         </>

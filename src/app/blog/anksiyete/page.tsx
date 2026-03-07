@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
@@ -151,7 +151,7 @@ export default function AnksiyeteHubPage() {
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Anksiyete Hakkında Bilgilendirici Yazılar",
                     url: "https://drabdullahmaras.com/blog/anksiyete",
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" }
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
                 })
             }} />
         </>

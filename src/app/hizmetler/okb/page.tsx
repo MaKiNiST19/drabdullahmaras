@@ -1,16 +1,16 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Ankara Eryaman OKB Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
+    title: 'Ankara Eryaman OKB DeÄŸerlendirmesi | Uzm. Dr. Abdullah MaraÅŸ',
     description:
-        'Eryaman’da OKB (takıntı hastalığı) belirtileri, obsesyon ve kompulsiyon döngüsü hakkında bilgilendirme ve psikiyatrik değerlendirme süreci.',
+        'Eryamanâ€™da OKB (takÄ±ntÄ± hastalÄ±ÄŸÄ±) belirtileri, obsesyon ve kompulsiyon dÃ¶ngÃ¼sÃ¼ hakkÄ±nda bilgilendirme ve psikiyatrik deÄŸerlendirme sÃ¼reci.',
     alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/okb' },
     openGraph: {
-        title: 'Ankara Eryaman’da OKB (Takıntı Hastalığı) Değerlendirmesi',
-        description: 'Eryaman’da OKB (takıntı hastalığı) belirtileri, obsesyon ve kompulsiyon döngüsü hakkında yetişkin psikiyatrik değerlendirme.',
+        title: 'Ankara Eryamanâ€™da OKB (TakÄ±ntÄ± HastalÄ±ÄŸÄ±) DeÄŸerlendirmesi',
+        description: 'Eryamanâ€™da OKB (takÄ±ntÄ± hastalÄ±ÄŸÄ±) belirtileri, obsesyon ve kompulsiyon dÃ¶ngÃ¼sÃ¼ hakkÄ±nda yetiÅŸkin psikiyatrik deÄŸerlendirme.',
         type: 'article', locale: 'tr_TR',
     },
 };
@@ -18,35 +18,35 @@ export const metadata: Metadata = {
 const faqItems = [
     {
         question: 'OKB nedir?',
-        answer: 'OKB (Obsesif Kompulsif Bozukluk), kişinin aklına istemsizce gelen ve yoğun kaygı yaratan saplantılı düşünceler (obsesyonlar) ile bu kaygıyı azaltmak için yapılan tekrarlayıcı davranışlar (kompulsiyonlar) döngüsüyle karakterize klinik bir durumdur.',
+        answer: 'OKB (Obsesif Kompulsif Bozukluk), kiÅŸinin aklÄ±na istemsizce gelen ve yoÄŸun kaygÄ± yaratan saplantÄ±lÄ± dÃ¼ÅŸÃ¼nceler (obsesyonlar) ile bu kaygÄ±yÄ± azaltmak iÃ§in yapÄ±lan tekrarlayÄ±cÄ± davranÄ±ÅŸlar (kompulsiyonlar) dÃ¶ngÃ¼sÃ¼yle karakterize klinik bir durumdur.',
     },
     {
         question: 'OKB belirtileri nelerdir?',
-        answer: 'Aşırı el yıkama (temizlik), kapı/ocak kontrol etme, eşyaları simetrik dizme, dini veya zarar verici istenmeyen düşünceleri zihinden atamama gibi hem eylemsel hem de bilişsel takıntılardır.',
+        answer: 'AÅŸÄ±rÄ± el yÄ±kama (temizlik), kapÄ±/ocak kontrol etme, eÅŸyalarÄ± simetrik dizme, dini veya zarar verici istenmeyen dÃ¼ÅŸÃ¼nceleri zihinden atamama gibi hem eylemsel hem de biliÅŸsel takÄ±ntÄ±lardÄ±r.',
     },
     {
-        question: 'Takıntı hastalığı geçer mi?',
-        answer: 'Takıntı hastalığında gidişat kişiden kişiye değişebilir. Tamamen kaybolması her vakada söz konusu olmasa da, alanında yetişmiş hekimlerin sunduğu psikiyatrik değerlendirme ve yapılandırma sayesinde (ilaç ve/veya terapi süreçleriyle) belirtiler gündelik yaşamı etkilemeyecek seviyelere indirilebilir.',
+        question: 'TakÄ±ntÄ± hastalÄ±ÄŸÄ± geÃ§er mi?',
+        answer: 'TakÄ±ntÄ± hastalÄ±ÄŸÄ±nda gidiÅŸat kiÅŸiden kiÅŸiye deÄŸiÅŸebilir. Tamamen kaybolmasÄ± her vakada sÃ¶z konusu olmasa da, alanÄ±nda yetiÅŸmiÅŸ hekimlerin sunduÄŸu psikiyatrik deÄŸerlendirme ve yapÄ±landÄ±rma sayesinde (ilaÃ§ ve/veya terapi sÃ¼reÃ§leriyle) belirtiler gÃ¼ndelik yaÅŸamÄ± etkilemeyecek seviyelere indirilebilir.',
     },
     {
-        question: 'OKB kendi kendine düzelir mi?',
-        answer: 'Düşük seyirli takıntılar dönemsel olarak hafiflese bile, yerleşmiş bir OKB tablosunun kendi kendine tamamen düzelmesi oldukça güçtür. Zorlayıcı düşünceler çoğunlukla profesyonel uzmanlık gerektiren bir biyolojik/fizyolojik yaklaşıma ihtiyaç duyar.',
+        question: 'OKB kendi kendine dÃ¼zelir mi?',
+        answer: 'DÃ¼ÅŸÃ¼k seyirli takÄ±ntÄ±lar dÃ¶nemsel olarak hafiflese bile, yerleÅŸmiÅŸ bir OKB tablosunun kendi kendine tamamen dÃ¼zelmesi oldukÃ§a gÃ¼Ã§tÃ¼r. ZorlayÄ±cÄ± dÃ¼ÅŸÃ¼nceler Ã§oÄŸunlukla profesyonel uzmanlÄ±k gerektiren bir biyolojik/fizyolojik yaklaÅŸÄ±ma ihtiyaÃ§ duyar.',
     },
     {
         question: 'OKB anksiyete midir?',
-        answer: 'Evet. OKB’nin temel motor gücü yoğun bir anksiyetedir (kaygıdır). Düşüncenin (obsesyon) yarattığı korku ve kaygı (anksiyete) o kadar yükselir ki, kişi rahatlamak için kompulsiyon (örneğin tekrar tekrar el yıkama) yapmak zorunda kalır.',
+        answer: 'Evet. OKBâ€™nin temel motor gÃ¼cÃ¼ yoÄŸun bir anksiyetedir (kaygÄ±dÄ±r). DÃ¼ÅŸÃ¼ncenin (obsesyon) yarattÄ±ÄŸÄ± korku ve kaygÄ± (anksiyete) o kadar yÃ¼kselir ki, kiÅŸi rahatlamak iÃ§in kompulsiyon (Ã¶rneÄŸin tekrar tekrar el yÄ±kama) yapmak zorunda kalÄ±r.',
     },
     {
-        question: 'OKB günlük yaşamı etkiler mi?',
-        answer: 'Kesinlikle. El yıkamaktan işe / sosyal hayata geç kalmak, güvende hissetmediği için sürekli ocak kontrol edip evden çıkamamak gibi nedenlerle OKB, günlük işlevselliği, mesleği ve ilişkileri adeta felce uğratabilir.',
+        question: 'OKB gÃ¼nlÃ¼k yaÅŸamÄ± etkiler mi?',
+        answer: 'Kesinlikle. El yÄ±kamaktan iÅŸe / sosyal hayata geÃ§ kalmak, gÃ¼vende hissetmediÄŸi iÃ§in sÃ¼rekli ocak kontrol edip evden Ã§Ä±kamamak gibi nedenlerle OKB, gÃ¼nlÃ¼k iÅŸlevselliÄŸi, mesleÄŸi ve iliÅŸkileri adeta felce uÄŸratabilir.',
     },
     {
-        question: 'OKB için hangi doktora gidilir?',
-        answer: 'Takıntı bozukluklarının teşhisi, ayrımı ve izlem programı hastanelerin veya özel kliniklerin Ruh Sağlığı ve Hastalıkları (Psikiyatri) hekimlerince gerçekleştirilir.',
+        question: 'OKB iÃ§in hangi doktora gidilir?',
+        answer: 'TakÄ±ntÄ± bozukluklarÄ±nÄ±n teÅŸhisi, ayrÄ±mÄ± ve izlem programÄ± hastanelerin veya Ã¶zel kliniklerin Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± (Psikiyatri) hekimlerince gerÃ§ekleÅŸtirilir.',
     },
     {
-        question: 'Eryaman’da OKB değerlendirmesi nasıl yapılır?',
-        answer: 'Ankara Eryaman’da (Altay Mahallesi) Uzm. Dr. Abdullah Maraş, yetişkin hastalarla birebir klinik görüşme (konsültasyon) sağlayarak OKB’nin şiddetini, yaşam öyküsündeki yerini ve gerekli tıbbi sürecin çerçevesini bireysel olarak yapılandırır.',
+        question: 'Eryamanâ€™da OKB deÄŸerlendirmesi nasÄ±l yapÄ±lÄ±r?',
+        answer: 'Ankara Eryamanâ€™da (Altay Mahallesi) Uzm. Dr. Abdullah MaraÅŸ, yetiÅŸkin hastalarla birebir klinik gÃ¶rÃ¼ÅŸme (konsÃ¼ltasyon) saÄŸlayarak OKBâ€™nin ÅŸiddetini, yaÅŸam Ã¶ykÃ¼sÃ¼ndeki yerini ve gerekli tÄ±bbi sÃ¼recin Ã§erÃ§evesini bireysel olarak yapÄ±landÄ±rÄ±r.',
     },
 ];
 
@@ -56,26 +56,26 @@ export default function OkbPillarPage() {
             <section className={styles.hero}>
                 <div className={styles.heroBg}><div className={styles.heroOrb}></div></div>
                 <div className={`container ${styles.heroContent}`}>
-                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Değerlendirme Alanları</Link>
-                    <span className={styles.heroIcon}>🔄</span>
-                    <h1>Ankara Eryaman’da OKB (Takıntı Hastalığı) Değerlendirmesi</h1>
+                    <Link href="/hizmetler" className={styles.backLink}>â† TÃ¼m DeÄŸerlendirme AlanlarÄ±</Link>
+                    <span className={styles.heroIcon}>ğŸ”„</span>
+                    <h1>Ankara Eryamanâ€™da OKB (TakÄ±ntÄ± HastalÄ±ÄŸÄ±) DeÄŸerlendirmesi</h1>
                     <p className={styles.heroDesc}>
-                        Aklınızdan bir türlü atamadığınız ve sizi yoğun kaygıya sürükleyen "o istenmeyen düşünceler"
-                        ile onları susturmak için tekrarladığınız yorucu davranışlar bir kader değildir.
-                        Yetişkin bireylerde gözlenen takıntıların derin klinik yüzünü beraber inceleyelim.
+                        AklÄ±nÄ±zdan bir tÃ¼rlÃ¼ atamadÄ±ÄŸÄ±nÄ±z ve sizi yoÄŸun kaygÄ±ya sÃ¼rÃ¼kleyen "o istenmeyen dÃ¼ÅŸÃ¼nceler"
+                        ile onlarÄ± susturmak iÃ§in tekrarladÄ±ÄŸÄ±nÄ±z yorucu davranÄ±ÅŸlar bir kader deÄŸildir.
+                        YetiÅŸkin bireylerde gÃ¶zlenen takÄ±ntÄ±larÄ±n derin klinik yÃ¼zÃ¼nÃ¼ beraber inceleyelim.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı (Psikiyatrist) Uzmanı</span></div>
+                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± (Psikiyatrist) UzmanÄ±</span></div>
                     </div>
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
-                        <strong>📌 Bilgilendirme ve Kapsam Notu</strong>
-                        Bu metinler yalnızca yetişkin psikiyatrisi kapsamındaki OKB süreçlerine ait bilgilendirmeleri içerir (çocuk veya
-                        ergen süreçlerini içermemektedir). Tanı koyma, garanti veya kesin tedavi vadetme (tam başarı gibi) amaç gütmez; bireysel
-                        değerlendirmelerin tıp hekimlerince yapılması zorunludur.
+                        <strong>ğŸ“Œ Bilgilendirme ve Kapsam Notu</strong>
+                        Bu metinler yalnÄ±zca yetiÅŸkin psikiyatrisi kapsamÄ±ndaki OKB sÃ¼reÃ§lerine ait bilgilendirmeleri iÃ§erir (Ã§ocuk veya
+                        ergen sÃ¼reÃ§lerini iÃ§ermemektedir). TanÄ± koyma, garanti veya kesin tedavi vadetme (tam baÅŸarÄ± gibi) amaÃ§ gÃ¼tmez; bireysel
+                        deÄŸerlendirmelerin tÄ±p hekimlerince yapÄ±lmasÄ± zorunludur.
                     </div>
                 </div>
             </section>
@@ -85,153 +85,153 @@ export default function OkbPillarPage() {
                     <article className={styles.article}>
 
                         <p className={styles.lead}>
-                            "Acaba kapıyı kilitledim mi diye tekrar tekrar bakıyorum", "Ellerimi yıkamadan
-                            bir saniye bile rahat edemiyorum" veya "Aklımdan o korkunç, kötü düşünceler
-                            hiç gitmiyor..." Zihin her gün sayısız veri işler. Ancak bazı beyinler, önemsiz sayılabilecek
-                            şüphe ve kuruntulara alarm noktasında takılıp kalır. Yetişkin bireylerin yaşam kalitesini
-                            derinden sarsan Obsesif Kompulsif Bozukluk (OKB), nam-ı diğer Takıntı Hastalığı, tam olarak
-                            bu döngü üzerine kuruludur.
+                            "Acaba kapÄ±yÄ± kilitledim mi diye tekrar tekrar bakÄ±yorum", "Ellerimi yÄ±kamadan
+                            bir saniye bile rahat edemiyorum" veya "AklÄ±mdan o korkunÃ§, kÃ¶tÃ¼ dÃ¼ÅŸÃ¼nceler
+                            hiÃ§ gitmiyor..." Zihin her gÃ¼n sayÄ±sÄ±z veri iÅŸler. Ancak bazÄ± beyinler, Ã¶nemsiz sayÄ±labilecek
+                            ÅŸÃ¼phe ve kuruntulara alarm noktasÄ±nda takÄ±lÄ±p kalÄ±r. YetiÅŸkin bireylerin yaÅŸam kalitesini
+                            derinden sarsan Obsesif Kompulsif Bozukluk (OKB), nam-Ä± diÄŸer TakÄ±ntÄ± HastalÄ±ÄŸÄ±, tam olarak
+                            bu dÃ¶ngÃ¼ Ã¼zerine kuruludur.
                         </p>
 
                         <h2 id="okb-nedir">OKB (Obsesif Kompulsif Bozukluk) Nedir?</h2>
-                        <p>Obsesif Kompulsif Bozukluk (OKB), kişinin iradesi dışında zihnine giren rahatsız edici obsesif düşünceler ve bu düşüncelerin yarattığı yoğun kaygıyı azaltabilmek için yapılan tekrarlayıcı kompulsif davranışlardan oluşan klinik bir ruh sağlığı durumudur.</p>
+                        <p>Obsesif Kompulsif Bozukluk (OKB), kiÅŸinin iradesi dÄ±ÅŸÄ±nda zihnine giren rahatsÄ±z edici obsesif dÃ¼ÅŸÃ¼nceler ve bu dÃ¼ÅŸÃ¼ncelerin yarattÄ±ÄŸÄ± yoÄŸun kaygÄ±yÄ± azaltabilmek iÃ§in yapÄ±lan tekrarlayÄ±cÄ± kompulsif davranÄ±ÅŸlardan oluÅŸan klinik bir ruh saÄŸlÄ±ÄŸÄ± durumudur.</p>
                         <h3>OKB delilik midir?</h3>
-                        <p>Hayır, OKB kişinin muhakemesini kaybetmediği, sadece mantıksız olduğunu bildiği halde takıntılı döngülere karşı koyamadığı klinik bir anksiyete ve obsesyon tablosudur.</p>
-                        <h3>Takıntı hastalığı genetik midir?</h3>
-                        <p>Evet, genetik yatkınlığın beyin kimyasındaki (serotonin vb.) değişimlerle etkileşime girmesi OKB gelişiminde en önemli biyolojik risk faktörlerinden biridir.</p>
+                        <p>HayÄ±r, OKB kiÅŸinin muhakemesini kaybetmediÄŸi, sadece mantÄ±ksÄ±z olduÄŸunu bildiÄŸi halde takÄ±ntÄ±lÄ± dÃ¶ngÃ¼lere karÅŸÄ± koyamadÄ±ÄŸÄ± klinik bir anksiyete ve obsesyon tablosudur.</p>
+                        <h3>TakÄ±ntÄ± hastalÄ±ÄŸÄ± genetik midir?</h3>
+                        <p>Evet, genetik yatkÄ±nlÄ±ÄŸÄ±n beyin kimyasÄ±ndaki (serotonin vb.) deÄŸiÅŸimlerle etkileÅŸime girmesi OKB geliÅŸiminde en Ã¶nemli biyolojik risk faktÃ¶rlerinden biridir.</p>
                         <p>
-                            OKB, zihne kişinin açık iradesi dışında zorla ve aniden giren, rahatsız edici, kaygı
-                            yükseltici düşünceler (Obsesyon) ile; bu zihinsel bunaltıyı yatıştırmak veya olası
-                            felaketleri önlemek maksadıyla gerçekleştirilen ve adeta bir ritüel halini almış
-                            tekrarlayıcı eylemler / düşünceler (Kompulsiyon) sarmalıdır.
+                            OKB, zihne kiÅŸinin aÃ§Ä±k iradesi dÄ±ÅŸÄ±nda zorla ve aniden giren, rahatsÄ±z edici, kaygÄ±
+                            yÃ¼kseltici dÃ¼ÅŸÃ¼nceler (Obsesyon) ile; bu zihinsel bunaltÄ±yÄ± yatÄ±ÅŸtÄ±rmak veya olasÄ±
+                            felaketleri Ã¶nlemek maksadÄ±yla gerÃ§ekleÅŸtirilen ve adeta bir ritÃ¼el halini almÄ±ÅŸ
+                            tekrarlayÄ±cÄ± eylemler / dÃ¼ÅŸÃ¼nceler (Kompulsiyon) sarmalÄ±dÄ±r.
                         </p>
                         <p>
-                            Kısacası bu hastalık, şüphe hastalığıdır. Beynin "Acaba bir şeyi eksik yaptım mı diye içim
-                            rahat etmiyor" mekanizması yüzünden kişiyi aynı hareketi veya savunmayı defalarca kez yapmaya
-                            zorlayan nörobiyolojik ve psikiyatrik bir durumdur.
+                            KÄ±sacasÄ± bu hastalÄ±k, ÅŸÃ¼phe hastalÄ±ÄŸÄ±dÄ±r. Beynin "Acaba bir ÅŸeyi eksik yaptÄ±m mÄ± diye iÃ§im
+                            rahat etmiyor" mekanizmasÄ± yÃ¼zÃ¼nden kiÅŸiyi aynÄ± hareketi veya savunmayÄ± defalarca kez yapmaya
+                            zorlayan nÃ¶robiyolojik ve psikiyatrik bir durumdur.
                         </p>
 
-                        <h2 id="takinti-hastaligi-ne-anlama-gelir">Takıntı Hastalığı Ne Anlama Gelir?</h2>
+                        <h2 id="takinti-hastaligi-ne-anlama-gelir">TakÄ±ntÄ± HastalÄ±ÄŸÄ± Ne Anlama Gelir?</h2>
                         <p>
-                            Halk arasında genellikle basit bir "titizlik" veya "titiz kişi" karakteriyle karıştırılır.
-                            Halbuki klinik manada takıntı hastalığı (OKB) demek, bu düşüncelerin bireyin saatlerini
-                            çalması, hayatını zorlaştırması demektir. Temel özellik bireyin bu durumun (o düşüncelerin veya
-                            hareketlerin) <em>saçma, gereksiz ve abartılı olduğunun gayet iyi farkında olmasıdır.</em>
-                            Ancak ne kadar mantıksız bulsa da o içsel itici güce karşı koyamaz; kendisini o davranışı (el yıkamak,
-                            sayı saymak) yapmaya mecbur hisseder.
+                            Halk arasÄ±nda genellikle basit bir "titizlik" veya "titiz kiÅŸi" karakteriyle karÄ±ÅŸtÄ±rÄ±lÄ±r.
+                            Halbuki klinik manada takÄ±ntÄ± hastalÄ±ÄŸÄ± (OKB) demek, bu dÃ¼ÅŸÃ¼ncelerin bireyin saatlerini
+                            Ã§almasÄ±, hayatÄ±nÄ± zorlaÅŸtÄ±rmasÄ± demektir. Temel Ã¶zellik bireyin bu durumun (o dÃ¼ÅŸÃ¼ncelerin veya
+                            hareketlerin) <em>saÃ§ma, gereksiz ve abartÄ±lÄ± olduÄŸunun gayet iyi farkÄ±nda olmasÄ±dÄ±r.</em>
+                            Ancak ne kadar mantÄ±ksÄ±z bulsa da o iÃ§sel itici gÃ¼ce karÅŸÄ± koyamaz; kendisini o davranÄ±ÅŸÄ± (el yÄ±kamak,
+                            sayÄ± saymak) yapmaya mecbur hisseder.
                         </p>
 
                         <h2 id="obsesyon-nedir">Obsesyon Nedir?</h2>
                         <p>
-                            Obsesyon, kişinin bilincine sürekli, mantıksız şekilde ve adeta bir davetsiz misafir gibi dalan,
-                            istenmeyen (intrusive) fikirler ve dürtülerdir. Bu düşünceler bir an belirir ve kişide ciddi
-                            bir dehşet, suçluluk ya da yüksek doza yakın <Link href="/hizmetler/anksiyete">kaygı tablosu</Link>
-                            yaratır.
+                            Obsesyon, kiÅŸinin bilincine sÃ¼rekli, mantÄ±ksÄ±z ÅŸekilde ve adeta bir davetsiz misafir gibi dalan,
+                            istenmeyen (intrusive) fikirler ve dÃ¼rtÃ¼lerdir. Bu dÃ¼ÅŸÃ¼nceler bir an belirir ve kiÅŸide ciddi
+                            bir dehÅŸet, suÃ§luluk ya da yÃ¼ksek doza yakÄ±n <Link href="/hizmetler/anksiyete">kaygÄ± tablosu</Link>
+                            yaratÄ±r.
                         </p>
                         <p>
-                            Örneğin: "Ya şu masa üzerindeki kalem mikropsa ve bana hastalık bulaştırırsa?", "Ya tanrıya karşı aklımdan
-                            açıkça küfür geçerse?", "Ocağı kapatmadım ve tüm ev havaya uçacak." Bu tip kuruntular her insanda geçebilir
-                            çünkü beyinde milyonlarca düşünce saniyede akar. Lakin OKB beyni bu düşünceyi yakalar, gerçek felaket
-                            olarak kodlar ve üstüne bir büyüteçle bakar.
+                            Ã–rneÄŸin: "Ya ÅŸu masa Ã¼zerindeki kalem mikropsa ve bana hastalÄ±k bulaÅŸtÄ±rÄ±rsa?", "Ya tanrÄ±ya karÅŸÄ± aklÄ±mdan
+                            aÃ§Ä±kÃ§a kÃ¼fÃ¼r geÃ§erse?", "OcaÄŸÄ± kapatmadÄ±m ve tÃ¼m ev havaya uÃ§acak." Bu tip kuruntular her insanda geÃ§ebilir
+                            Ã§Ã¼nkÃ¼ beyinde milyonlarca dÃ¼ÅŸÃ¼nce saniyede akar. Lakin OKB beyni bu dÃ¼ÅŸÃ¼nceyi yakalar, gerÃ§ek felaket
+                            olarak kodlar ve Ã¼stÃ¼ne bir bÃ¼yÃ¼teÃ§le bakar.
                         </p>
 
                         <h2 id="kompulsiyon-nedir">Kompulsiyon Nedir?</h2>
                         <p>
-                            Kompulsiyon, beyni ele geçiren obsesyonun yarattığı dayanılmaz düzeydeki korkuyu veya "eyvah" hissini
-                            (anksiyetenin ateşini) söndürmek için kişinin bedensel veya zihinsel olarak geliştirdiği
-                            <strong>rahatlama davranışları (ritüelleri)</strong>dir.
+                            Kompulsiyon, beyni ele geÃ§iren obsesyonun yarattÄ±ÄŸÄ± dayanÄ±lmaz dÃ¼zeydeki korkuyu veya "eyvah" hissini
+                            (anksiyetenin ateÅŸini) sÃ¶ndÃ¼rmek iÃ§in kiÅŸinin bedensel veya zihinsel olarak geliÅŸtirdiÄŸi
+                            <strong>rahatlama davranÄ±ÅŸlarÄ± (ritÃ¼elleri)</strong>dir.
                         </p>
                         <p>
-                            Kişi "ellerim kirli" (obsesyon) fobisinden arınmak için, ellerini kanatana kadar belki de 45 dakika boyunca
-                            belirli bir sırayla sabunlar (kompulsiyon). İlk defa yıkadığında geçici bir rahatlama
-                            gelir, fakat hemen ardından "Acaba tam temizlenmedi mi?" takıntısı döner ve bu kısır döngü
-                            başlar.
+                            KiÅŸi "ellerim kirli" (obsesyon) fobisinden arÄ±nmak iÃ§in, ellerini kanatana kadar belki de 45 dakika boyunca
+                            belirli bir sÄ±rayla sabunlar (kompulsiyon). Ä°lk defa yÄ±kadÄ±ÄŸÄ±nda geÃ§ici bir rahatlama
+                            gelir, fakat hemen ardÄ±ndan "Acaba tam temizlenmedi mi?" takÄ±ntÄ±sÄ± dÃ¶ner ve bu kÄ±sÄ±r dÃ¶ngÃ¼
+                            baÅŸlar.
                         </p>
 
                         <h2 id="okb-belirtileri">OKB Belirtileri Nelerdir?</h2>
                         <p>
-                            Zihinsel takıntılar genelde birbiriyle iç içedir. Dışarıdan en çok bilinen temizlik takıntılarına ek olarak,
-                            OKB pek çok farklı <Link href="/blog/okb-belirtileri">obsesyon ve kompulsiyon döngüsü</Link> ile kendini gösterebilir:
+                            Zihinsel takÄ±ntÄ±lar genelde birbiriyle iÃ§ iÃ§edir. DÄ±ÅŸarÄ±dan en Ã§ok bilinen temizlik takÄ±ntÄ±larÄ±na ek olarak,
+                            OKB pek Ã§ok farklÄ± <Link href="/blog/okb-belirtileri">obsesyon ve kompulsiyon dÃ¶ngÃ¼sÃ¼</Link> ile kendini gÃ¶sterebilir:
                         </p>
                         <ul>
-                            <li><strong>Temizlik (Mizofobi):</strong> Dış dünyadan hastalık kapma korkusuyla yoğun kaçınma gösterilmesi. Buna bağlı <Link href="/blog/temizlik-takintisi">kontrolsüz temizlik ve yıkanma</Link> döngüsü.</li>
-                            <li><strong>Sürekli Kontrol Etme:</strong> Kapı, kilit veya ocak gibi eşyaların güvenliğinden kuşku duyarak <Link href="/blog/surekli-kontrol-etme">defalarca kontrol sağlama</Link>.</li>
-                            <li><strong>Dini ve Ahlaki Takıntılar:</strong> Bireyin değer yargılarına tam zıt yönde, irade dışı beliren <Link href="/blog/dini-takintilar-okb-mi">istenmeyen dini düşünceler</Link>.</li>
-                            <li><strong>Zarar Verme Düşüncesi:</strong> Eyleme dönüşmeyen ancak hastada "sevdiklerime kazara zarar verir miyim" şüphesi yaratan, şiddetli kaygıyla birlikte gelen sahnelerdir. Ayrıntılı klinik ayrım için <Link href="/blog/zarar-verme-dusuncesi-okb-mi">zarar verme düşüncesi değerlendirmelerine</Link> bakabilirsiniz.</li>
+                            <li><strong>Temizlik (Mizofobi):</strong> DÄ±ÅŸ dÃ¼nyadan hastalÄ±k kapma korkusuyla yoÄŸun kaÃ§Ä±nma gÃ¶sterilmesi. Buna baÄŸlÄ± <Link href="/blog/temizlik-takintisi">kontrolsÃ¼z temizlik ve yÄ±kanma</Link> dÃ¶ngÃ¼sÃ¼.</li>
+                            <li><strong>SÃ¼rekli Kontrol Etme:</strong> KapÄ±, kilit veya ocak gibi eÅŸyalarÄ±n gÃ¼venliÄŸinden kuÅŸku duyarak <Link href="/blog/surekli-kontrol-etme">defalarca kontrol saÄŸlama</Link>.</li>
+                            <li><strong>Dini ve Ahlaki TakÄ±ntÄ±lar:</strong> Bireyin deÄŸer yargÄ±larÄ±na tam zÄ±t yÃ¶nde, irade dÄ±ÅŸÄ± beliren <Link href="/blog/dini-takintilar-okb-mi">istenmeyen dini dÃ¼ÅŸÃ¼nceler</Link>.</li>
+                            <li><strong>Zarar Verme DÃ¼ÅŸÃ¼ncesi:</strong> Eyleme dÃ¶nÃ¼ÅŸmeyen ancak hastada "sevdiklerime kazara zarar verir miyim" ÅŸÃ¼phesi yaratan, ÅŸiddetli kaygÄ±yla birlikte gelen sahnelerdir. AyrÄ±ntÄ±lÄ± klinik ayrÄ±m iÃ§in <Link href="/blog/zarar-verme-dusuncesi-okb-mi">zarar verme dÃ¼ÅŸÃ¼ncesi deÄŸerlendirmelerine</Link> bakabilirsiniz.</li>
                         </ul>
 
-                        <h2 id="okb-gecer-mi">OKB Geçer mi?</h2>
-                        <p>Takıntı hastalığının iyileşme süreci kişinin tedavi uyumuna, nörolojik yapısına ve çevresel stresine bağlı olarak kişiden kişiye değişebilir. Klinik psikiyatri desteği ile (ilaç ve psikoterapi odaklı desteklerle) belirtiler önemli oranda geriletilerek gündelik yaşam kalitesi korunabilmektedir.</p>
-                        <h3>OKB kendi kendine geçer mi?</h3>
-                        <p>Yerleşmiş bir klinik OKB tablosunun profesyonel uzmanlık gerektiren yapısal ve psikoterapötik bir destek olmaksızın tamamen kendi kendine düzelmesi oldukça güç bir ihtimaldir.</p>
+                        <h2 id="okb-gecer-mi">OKB GeÃ§er mi?</h2>
+                        <p>TakÄ±ntÄ± hastalÄ±ÄŸÄ±nÄ±n iyileÅŸme sÃ¼reci kiÅŸinin tedavi uyumuna, nÃ¶rolojik yapÄ±sÄ±na ve Ã§evresel stresine baÄŸlÄ± olarak kiÅŸiden kiÅŸiye deÄŸiÅŸebilir. Klinik psikiyatri desteÄŸi ile (ilaÃ§ ve psikoterapi odaklÄ± desteklerle) belirtiler Ã¶nemli oranda geriletilerek gÃ¼ndelik yaÅŸam kalitesi korunabilmektedir.</p>
+                        <h3>OKB kendi kendine geÃ§er mi?</h3>
+                        <p>YerleÅŸmiÅŸ bir klinik OKB tablosunun profesyonel uzmanlÄ±k gerektiren yapÄ±sal ve psikoterapÃ¶tik bir destek olmaksÄ±zÄ±n tamamen kendi kendine dÃ¼zelmesi oldukÃ§a gÃ¼Ã§ bir ihtimaldir.</p>
                         <h3>Tedavi edilmeyen OKB ne olur?</h3>
-                        <p>Uzman takibi yapılmadığında çoğunlukla belirtiler şiddetlenerek kişinin evden çıkamamasına kadar uzanan süreçlerde iş ve temel sosyal uyumunu felce uğratabilir.</p>
+                        <p>Uzman takibi yapÄ±lmadÄ±ÄŸÄ±nda Ã§oÄŸunlukla belirtiler ÅŸiddetlenerek kiÅŸinin evden Ã§Ä±kamamasÄ±na kadar uzanan sÃ¼reÃ§lerde iÅŸ ve temel sosyal uyumunu felce uÄŸratabilir.</p>
 
-                        <h2 id="anksiyete-iliskisi">OKB ve Anksiyete İlişkisi</h2>
+                        <h2 id="anksiyete-iliskisi">OKB ve Anksiyete Ä°liÅŸkisi</h2>
                         <p>
-                            Her ikisinde de baş aktör "Korku ve beklenti" mekanizmasıdır. OKB beyni daima tetiktedir.
-                            Eğer ocağı kontrol etmesini (kompulsiyon) engellerseniz, hastanın içindeki ateş (anksiyete/kaygı)
-                            tavan yapar; kişi nefes alamaz, ecel terleri döker ve bazen bu durum fiziksel olarak <Link href="/hizmetler/panik-atak">OKB ile birlikte görülebilen panik atak belirtileri</Link> ile birleşebilir.
-                            Yaygın kaygının obsesyonu beslediği net bir birlikteliktir.
+                            Her ikisinde de baÅŸ aktÃ¶r "Korku ve beklenti" mekanizmasÄ±dÄ±r. OKB beyni daima tetiktedir.
+                            EÄŸer ocaÄŸÄ± kontrol etmesini (kompulsiyon) engellerseniz, hastanÄ±n iÃ§indeki ateÅŸ (anksiyete/kaygÄ±)
+                            tavan yapar; kiÅŸi nefes alamaz, ecel terleri dÃ¶ker ve bazen bu durum fiziksel olarak <Link href="/hizmetler/panik-atak">OKB ile birlikte gÃ¶rÃ¼lebilen panik atak belirtileri</Link> ile birleÅŸebilir.
+                            YaygÄ±n kaygÄ±nÄ±n obsesyonu beslediÄŸi net bir birlikteliktir.
                         </p>
 
-                        <h2 id="gunluk-yasam-okb">OKB Günlük Yaşamı Nasıl Etkiler?</h2>
+                        <h2 id="gunluk-yasam-okb">OKB GÃ¼nlÃ¼k YaÅŸamÄ± NasÄ±l Etkiler?</h2>
                         <p>
-                            Birey zihninin yarısı takıntılarıyla meşgul olduğu için; enerjisini tüketen (sürekli içinden 10'a kadar sayma
-                            veya yolları belli ritüellerle gezme gibi) eylemler yapar. Zihinsel veya fiziki bu eforlar sonucunda,
-                            hasta hem işlevsel tükenmişliğe uğrar hem de <Link href="/blog/okb-gunluk-hayati-nasil-etkiler">sürekli
-                                olarak sosyal platformdan (çevresinden) soyutlanır</Link>.
+                            Birey zihninin yarÄ±sÄ± takÄ±ntÄ±larÄ±yla meÅŸgul olduÄŸu iÃ§in; enerjisini tÃ¼keten (sÃ¼rekli iÃ§inden 10'a kadar sayma
+                            veya yollarÄ± belli ritÃ¼ellerle gezme gibi) eylemler yapar. Zihinsel veya fiziki bu eforlar sonucunda,
+                            hasta hem iÅŸlevsel tÃ¼kenmiÅŸliÄŸe uÄŸrar hem de <Link href="/blog/okb-gunluk-hayati-nasil-etkiler">sÃ¼rekli
+                                olarak sosyal platformdan (Ã§evresinden) soyutlanÄ±r</Link>.
                         </p>
 
-                        <h2 id="is-hayatinda-okb">İş Hayatında OKB Yansımaları</h2>
+                        <h2 id="is-hayatinda-okb">Ä°ÅŸ HayatÄ±nda OKB YansÄ±malarÄ±</h2>
                         <p>
-                            Yetişkin bireylerin en verimli çağlarında, bir dosyayı "acaba yanlış bir cümle yazdım da biri bunu okuyup rezil
-                            mi olurum" korkusuyla 20 defa kontrol etmesi mesai saatinin bitmesine, dolayısıyla başarısız olarak iş
-                            yerinden atılmasına bile neden olabilmektedir. Odaklanma becerisi, vesveselere harcanır.
+                            YetiÅŸkin bireylerin en verimli Ã§aÄŸlarÄ±nda, bir dosyayÄ± "acaba yanlÄ±ÅŸ bir cÃ¼mle yazdÄ±m da biri bunu okuyup rezil
+                            mi olurum" korkusuyla 20 defa kontrol etmesi mesai saatinin bitmesine, dolayÄ±sÄ±yla baÅŸarÄ±sÄ±z olarak iÅŸ
+                            yerinden atÄ±lmasÄ±na bile neden olabilmektedir. Odaklanma becerisi, vesveselere harcanÄ±r.
                         </p>
 
-                        <h2 id="iliskilerde-okb">İlişkilerde OKB</h2>
+                        <h2 id="iliskilerde-okb">Ä°liÅŸkilerde OKB</h2>
                         <p>
-                            Evlilik veya flörtlerde partner için OKB hastası ile yaşamak, belirli kurallara zorunlu uymak anlamına
-                            gelebileceğinden eşler arası çatışma kaçınılmaz olur ("Sen de eve gelince o kıyafetleri poşetleyeceksin!" gibi
-                            dayatmalar veya sürekli eşinin kendisini sevip sevmediğini "emin olmak için" sorma takıntıları).
-                            Bireysel hayatın sınırları partner tarafından da aşılamaz ve bu derin bir buhran doğurur.
+                            Evlilik veya flÃ¶rtlerde partner iÃ§in OKB hastasÄ± ile yaÅŸamak, belirli kurallara zorunlu uymak anlamÄ±na
+                            gelebileceÄŸinden eÅŸler arasÄ± Ã§atÄ±ÅŸma kaÃ§Ä±nÄ±lmaz olur ("Sen de eve gelince o kÄ±yafetleri poÅŸetleyeceksin!" gibi
+                            dayatmalar veya sÃ¼rekli eÅŸinin kendisini sevip sevmediÄŸini "emin olmak iÃ§in" sorma takÄ±ntÄ±larÄ±).
+                            Bireysel hayatÄ±n sÄ±nÄ±rlarÄ± partner tarafÄ±ndan da aÅŸÄ±lamaz ve bu derin bir buhran doÄŸurur.
                         </p>
 
-                        <h2 id="ne-zaman-psikiyatri">Ne Zaman Psikiyatri Değerlendirmesi Düşünülmeli?</h2>
+                        <h2 id="ne-zaman-psikiyatri">Ne Zaman Psikiyatri DeÄŸerlendirmesi DÃ¼ÅŸÃ¼nÃ¼lmeli?</h2>
                         <p>
-                            Şayet bu "kuruntular veya savunma davranışları":
+                            Åayet bu "kuruntular veya savunma davranÄ±ÅŸlarÄ±":
                         </p>
                         <ul>
-                            <li>Günde asgari 1 saatinizden fazlasını çalıyorsa,</li>
-                            <li>Size derin bir kaygı, ızdırap ve suçluluk (Dini düşünceler veyahut Zarar verme fikirleri gibi) veriyorsa,</li>
-                            <li>Sizi toplumdan/aşkınızdan veya iş motivasyonunuzdan geri bırakıyorsa; artık bireysel uğraşlardan ziyade bilimsel bir psikiyatrik değerlendirme düşünülmesinin vakti gelmiştir.</li>
+                            <li>GÃ¼nde asgari 1 saatinizden fazlasÄ±nÄ± Ã§alÄ±yorsa,</li>
+                            <li>Size derin bir kaygÄ±, Ä±zdÄ±rap ve suÃ§luluk (Dini dÃ¼ÅŸÃ¼nceler veyahut Zarar verme fikirleri gibi) veriyorsa,</li>
+                            <li>Sizi toplumdan/aÅŸkÄ±nÄ±zdan veya iÅŸ motivasyonunuzdan geri bÄ±rakÄ±yorsa; artÄ±k bireysel uÄŸraÅŸlardan ziyade bilimsel bir psikiyatrik deÄŸerlendirme dÃ¼ÅŸÃ¼nÃ¼lmesinin vakti gelmiÅŸtir.</li>
                         </ul>
 
-                        <h2 id="eryaman-degerlendirme">Ankara Eryaman’da OKB Değerlendirme Süreci</h2>
+                        <h2 id="eryaman-degerlendirme">Ankara Eryamanâ€™da OKB DeÄŸerlendirme SÃ¼reci</h2>
                         <p>
-                            Obsesyonlarınızla yalnız baş etmek, yalnızca OKB'nin canavarına daha fazla direniş gücü
-                            aşılar. Takıntıların "Ne Kadar Süreceği? Kişiden kişiye nasıl şekilleneceği" (bkz. <Link href="/blog/okb-gecer-mi">OKB'nin Seyri</Link>)
-                            iletişime geçtiğiniz uzman değerlendirmesinin kılavuzluğunda yanıt bulur.
+                            ObsesyonlarÄ±nÄ±zla yalnÄ±z baÅŸ etmek, yalnÄ±zca OKB'nin canavarÄ±na daha fazla direniÅŸ gÃ¼cÃ¼
+                            aÅŸÄ±lar. TakÄ±ntÄ±larÄ±n "Ne Kadar SÃ¼receÄŸi? KiÅŸiden kiÅŸiye nasÄ±l ÅŸekilleneceÄŸi" (bkz. <Link href="/blog/okb-gecer-mi">OKB'nin Seyri</Link>)
+                            iletiÅŸime geÃ§tiÄŸiniz uzman deÄŸerlendirmesinin kÄ±lavuzluÄŸunda yanÄ±t bulur.
                         </p>
                         <p>
-                            Ankara Eryaman (Altay Mh.) civarındaki Etimesgut - Batıkent arterlerinde yetişkin hastalarıyla çalışan
-                            Uzm. Dr. Abdullah Maraş; sahip olduğunuz bu obsesif zihinsel prangaların tıbbi psikiyatrik teşhisini,
-                            farmakolojik (ilaç) gerekliliklerini ve terapi eksenindeki klinik vizyonunu planlayarak (bireysel
-                            değerlendirme seanslarıyla) özgürleşme şemasını tarafınıza sunmaktadır.
+                            Ankara Eryaman (Altay Mh.) civarÄ±ndaki Etimesgut - BatÄ±kent arterlerinde yetiÅŸkin hastalarÄ±yla Ã§alÄ±ÅŸan
+                            Uzm. Dr. Abdullah MaraÅŸ; sahip olduÄŸunuz bu obsesif zihinsel prangalarÄ±n tÄ±bbi psikiyatrik teÅŸhisini,
+                            farmakolojik (ilaÃ§) gerekliliklerini ve terapi eksenindeki klinik vizyonunu planlayarak (bireysel
+                            deÄŸerlendirme seanslarÄ±yla) Ã¶zgÃ¼rleÅŸme ÅŸemasÄ±nÄ± tarafÄ±nÄ±za sunmaktadÄ±r.
                         </p>
 
 
                         <div className={styles.faqSection} id="sss">
-                            <h2>Sık Sorulan Sorular</h2>
+                            <h2>SÄ±k Sorulan Sorular</h2>
                             <FAQSection items={faqItems} />
                         </div>
 
                         <div className={styles.articleCta}>
-                            <h3>Takıntılar Kaderiniz Değil, Beraber Aşabiliriz</h3>
-                            <p>Zihninizi hapseden tekrarlı düşüncelerin bilimsel analizine ve tedavi yaklaşımlarına (Ankara Eryaman'da) ulaşmak için bize randevu sekmesinden bağlanın.</p>
+                            <h3>TakÄ±ntÄ±lar Kaderiniz DeÄŸil, Beraber AÅŸabiliriz</h3>
+                            <p>Zihninizi hapseden tekrarlÄ± dÃ¼ÅŸÃ¼ncelerin bilimsel analizine ve tedavi yaklaÅŸÄ±mlarÄ±na (Ankara Eryaman'da) ulaÅŸmak iÃ§in bize randevu sekmesinden baÄŸlanÄ±n.</p>
                             <Link href="/randevu" className="btn btn--primary btn--lg" style={{ marginTop: 'var(--space-4)' }}>
-                                Doktor Değerlendirme Randevusu →
+                                Doktor DeÄŸerlendirme Randevusu â†’
                             </Link>
                         </div>
                     </article>
@@ -244,23 +244,23 @@ export default function OkbPillarPage() {
                             <h4>Bu Sayfada</h4>
                             <ul className={styles.tocList}>
                                 <li><a href="#okb-nedir">OKB Nedir?</a></li>
-                                <li><a href="#takinti-hastaligi-ne-anlama-gelir">Takıntı Ne Demek?</a></li>
-                                <li><a href="#obsesyon-nedir">Obsesyon (Düşünce)</a></li>
-                                <li><a href="#kompulsiyon-nedir">Kompulsiyon (Davranış)</a></li>
+                                <li><a href="#takinti-hastaligi-ne-anlama-gelir">TakÄ±ntÄ± Ne Demek?</a></li>
+                                <li><a href="#obsesyon-nedir">Obsesyon (DÃ¼ÅŸÃ¼nce)</a></li>
+                                <li><a href="#kompulsiyon-nedir">Kompulsiyon (DavranÄ±ÅŸ)</a></li>
                                 <li><a href="#okb-belirtileri">Temel Belirtiler</a></li>
-                                <li><a href="#anksiyete-iliskisi">Anksiyete Farkı/İlişkisi</a></li>
-                                <li><a href="#gunluk-yasam-okb">Yaşam Etkileri</a></li>
-                                <li><a href="#is-hayatinda-okb">Mesai-İş Hayatı</a></li>
-                                <li><a href="#iliskilerde-okb">İlişkiler</a></li>
-                                <li><a href="#ne-zaman-psikiyatri">Uzm. Başvurusu</a></li>
-                                <li><a href="#eryaman-degerlendirme">Eryaman Süreçleri</a></li>
+                                <li><a href="#anksiyete-iliskisi">Anksiyete FarkÄ±/Ä°liÅŸkisi</a></li>
+                                <li><a href="#gunluk-yasam-okb">YaÅŸam Etkileri</a></li>
+                                <li><a href="#is-hayatinda-okb">Mesai-Ä°ÅŸ HayatÄ±</a></li>
+                                <li><a href="#iliskilerde-okb">Ä°liÅŸkiler</a></li>
+                                <li><a href="#ne-zaman-psikiyatri">Uzm. BaÅŸvurusu</a></li>
+                                <li><a href="#eryaman-degerlendirme">Eryaman SÃ¼reÃ§leri</a></li>
                             </ul>
                         </nav>
 
                         <div className={styles.sidebarCta}>
                             <h3>Psikiyatrist Randevusu</h3>
-                            <p>Takıntılarınız (OKB) için klinik izleme seansları planlayın (Eryaman, Ankara).</p>
-                            <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Değerlendirme Al</Link>
+                            <p>TakÄ±ntÄ±larÄ±nÄ±z (OKB) iÃ§in klinik izleme seanslarÄ± planlayÄ±n (Eryaman, Ankara).</p>
+                            <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>DeÄŸerlendirme Al</Link>
                         </div>
 
                         <div className={styles.sidebarCard}>
@@ -269,19 +269,19 @@ export default function OkbPillarPage() {
                                 <div className={styles.doctorIcon}>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                                 </div>
-                                <strong>Uzm. Dr. Abdullah Maraş</strong>
-                                <span>Ruh Sağlığı (Psikiyatrist) Uzmanı</span>
+                                <strong>Uzm. Dr. Abdullah MaraÅŸ</strong>
+                                <span>Ruh SaÄŸlÄ±ÄŸÄ± (Psikiyatrist) UzmanÄ±</span>
                                 <span>Ankara, Eryaman</span>
                             </div>
                         </div>
 
                         <div className={styles.sidebarCard}>
-                            <h4>İlgili Hastalıklar ve Bloklar</h4>
+                            <h4>Ä°lgili HastalÄ±klar ve Bloklar</h4>
                             <ul className={styles.sidebarLinks}>
-                                <li><Link href="/hizmetler/anksiyete">Anksiyete ve Kaygı</Link></li>
+                                <li><Link href="/hizmetler/anksiyete">Anksiyete ve KaygÄ±</Link></li>
                                 <li><Link href="/hizmetler/depresyon">Depresyon ve Mutsuzluk</Link></li>
                                 <li><Link href="/hizmetler/panik-atak">Ani Panik Krizleri</Link></li>
-                                <li><Link href="/blog/okb">Takıntı Blog Kütüphanesi</Link></li>
+                                <li><Link href="/blog/okb">TakÄ±ntÄ± Blog KÃ¼tÃ¼phanesi</Link></li>
                             </ul>
                         </div>
                     </aside>
@@ -295,19 +295,15 @@ export default function OkbPillarPage() {
                     "@graph": [
                         {
                             "@type": "MedicalWebPage",
-                            "name": "Ankara Eryaman OKB Değerlendirmesi",
+                            "name": "Ankara Eryaman OKB DeÄŸerlendirmesi",
                             "url": "https://drabdullahmaras.com/hizmetler/okb",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "ObsessiveCompulsiveDisorder",
-                                "alternateName": "OKB, Takıntı Hastalığı"
+                                "alternateName": "OKB, TakÄ±ntÄ± HastalÄ±ÄŸÄ±"
                             },
-                            "author": {
-                                "@type": "Physician",
-                                "name": "Uzm. Dr. Abdullah Maraş",
-                                "medicalSpecialty": "Psychiatric",
-                                "url": "https://drabdullahmaras.com/hakkinda"
-                            }
+                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
+"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
                         },
                         {
                             "@type": "FAQPage",

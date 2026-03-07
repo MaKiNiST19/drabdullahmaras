@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
@@ -146,7 +146,7 @@ export default function PanikAtakHubPage() {
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Panik Atak Bilgilendirme Makaleleri",
                     url: "https://drabdullahmaras.com/blog/panik-atak",
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Kliniği" }
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
                 })
             }} />
         </>

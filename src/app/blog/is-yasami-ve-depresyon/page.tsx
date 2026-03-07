@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
@@ -239,7 +239,7 @@ export default function IsYasamiVeDepresyonBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş" }, publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/is-yasami-ve-depresyon" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/is-yasami-ve-depresyon" }) }} />
         </>
     );
 }

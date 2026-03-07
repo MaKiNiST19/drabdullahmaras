@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
@@ -181,7 +181,7 @@ export default function OkbHubPage() {
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "OKB Bilgilendirme Makaleleri (Yetişkin)",
                     url: "https://drabdullahmaras.com/blog/okb",
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri" }
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
                 })
             }} />
         </>

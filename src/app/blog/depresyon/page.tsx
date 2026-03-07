@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from './page.module.css';
 
@@ -159,7 +159,7 @@ export default function DepresyonHubPage() {
                     name: "Depresyon Hakkında Bilgilendirici Yazılar",
                     description: metadata.description,
                     url: "https://drabdullahmaras.com/blog/depresyon",
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
                     mainEntity: {
                         "@type": "ItemList",
                         numberOfItems: blogPosts.length,

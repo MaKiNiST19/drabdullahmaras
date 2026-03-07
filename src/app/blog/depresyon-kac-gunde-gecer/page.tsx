@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
@@ -276,8 +276,8 @@ export default function DepresyonKacGundeGecerBlog() {
                     "@context": "https://schema.org", "@type": "Article",
                     headline: "Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler",
                     datePublished: "2026-03-18T09:00:00+03:00",
-                    author: { "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş", medicalSpecialty: "Psychiatric" },
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği" },
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
                     mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-kac-gunde-gecer",
                 })
             }} />
