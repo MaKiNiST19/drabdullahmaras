@@ -511,79 +511,19 @@ export default function Home() {
             "@context": "https://schema.org",
             "@graph": [
               {
-                "@type": "Physician",
-                "name": "Uzm. Dr. Abdullah Maraş",
-                "medicalSpecialty": "Psychiatry",
-                "image": "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
-                "url": "https://drabdullahmaras.com",
-                "availableService": {
-                  "@type": "MedicalTest",
-                  "name": "Psychiatric Evaluation"
-                },
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
-                  "addressLocality": "Eryaman",
-                  "addressRegion": "Ankara",
-                  "addressCountry": "TR"
-                },
-                "areaServed": {
-                  "@type": "AdministrativeArea",
-                  "name": "Ankara"
-                },
-                "geo": {
-                  "@type": "GeoCoordinates",
-                  "latitude": "39.9654",
-                  "longitude": "32.6186"
-                }
-              },
-              {
-                "@type": "MedicalOrganization",
-                "name": "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
-                "url": "https://drabdullahmaras.com",
-                "logo": "https://drabdullahmaras.com/logo.png",
-                "contactPoint": {
-                  "@type": "ContactPoint",
-                  "contactType": "Randevu İletişim",
-                  "areaServed": "Ankara"
-                },
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
-                  "addressLocality": "Eryaman",
-                  "addressRegion": "Ankara",
-                  "addressCountry": "TR"
-                }
-              },
-              {
-                "@type": "WebSite",
+                "@type": "WebPage",
+                "@id": "https://drabdullahmaras.com/#webpage",
                 "url": "https://drabdullahmaras.com/",
-                "name": "Uzm. Dr. Abdullah Maraş",
-                "description": "Ankara Eryaman'da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci."
-              },
-              {
-                "@type": "LocalBusiness",
-                "name": "Uzm. Dr. Abdullah Maraş - Çocuk, Ergen ve Yetişkin Psikiyatrist",
-                "image": "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
-                "@id": "https://drabdullahmaras.com",
-                "url": "https://drabdullahmaras.com",
-                "telephone": "0 312 504 53 99",
-                "priceRange": "$$",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
-                  "addressLocality": "Eryaman, Etimesgut",
-                  "addressRegion": "Ankara",
-                  "addressCountry": "TR"
-                },
-                "geo": {
-                  "@type": "GeoCoordinates",
-                  "latitude": "39.9654",
-                  "longitude": "32.6186"
-                }
+                "name": "Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist",
+                "description": "Ankara Eryaman'da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.",
+                "isPartOf": { "@id": "https://drabdullahmaras.com/#website" },
+                "about": { "@id": "https://drabdullahmaras.com/#organization" },
+                "inLanguage": "tr-TR"
               },
               {
                 "@type": "FAQPage",
+                "@id": "https://drabdullahmaras.com/#faq",
+                "isPartOf": { "@id": "https://drabdullahmaras.com/#webpage" },
                 "mainEntity": homeFAQ.map((faq) => ({
                   "@type": "Question",
                   "name": faq.question,

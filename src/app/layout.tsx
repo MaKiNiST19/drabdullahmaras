@@ -61,70 +61,78 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "MedicalBusiness",
-              name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
-              logo: "https://drabdullahmaras.com/logo.png",
-              image: "https://drabdullahmaras.com/logo.png",
-              description:
-                "Ankara Eryaman'da ruh sağlığı ve hastalıkları alanında uzman psikiyatri değerlendirmesi ve bireysel destek süreçleri.",
-              url: "https://drabdullahmaras.com",
-              telephone: "0 312 504 53 99",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
-                addressLocality: "Eryaman",
-                addressRegion: "Ankara",
-                postalCode: "06790",
-                addressCountry: "TR",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: "39.9524",
-                longitude: "32.6279",
-              },
-              medicalSpecialty: "Psychiatric",
-              priceRange: "$$",
-              openingHoursSpecification: [
+              "@graph": [
                 {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                  ],
-                  opens: "09:00",
-                  closes: "18:00",
+                  "@type": "WebSite",
+                  "@id": "https://drabdullahmaras.com/#website",
+                  url: "https://drabdullahmaras.com/",
+                  name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
+                  description: "Ankara Eryaman'da ruh sağlığı ve hastalıkları alanında uzman psikiyatri değerlendirmesi.",
+                  publisher: {
+                    "@id": "https://drabdullahmaras.com/#organization"
+                  },
+                  inLanguage: "tr-TR"
                 },
-              ],
-            }),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Physician",
-              name: "Uzm. Dr. Abdullah Maraş",
-              description:
-                "Ruh Sağlığı ve Hastalıkları (Psikiyatri) Uzmanı. Anadolu Üniversitesi Tıp Fakültesi mezunu.",
-              url: "https://drabdullahmaras.com/hakkinda",
-              medicalSpecialty: "Psychiatric",
-              alumniOf: {
-                "@type": "EducationalOrganization",
-                name: "Anadolu Üniversitesi Tıp Fakültesi",
-              },
-              jobTitle: "Psikiyatri Uzmanı",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
-                addressLocality: "Eryaman",
-                addressRegion: "Ankara",
-                postalCode: "06790",
-                addressCountry: "TR",
-              },
+                {
+                  "@type": ["MedicalClinic", "MedicalOrganization", "LocalBusiness"],
+                  "@id": "https://drabdullahmaras.com/#organization",
+                  name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
+                  url: "https://drabdullahmaras.com",
+                  logo: "https://drabdullahmaras.com/logo.png",
+                  image: "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
+                  description: "Ankara Eryaman'da ruh sağlığı ve hastalıkları (psikiyatri) alanında uzman medikal değerlendirme ve bireysel destek süreçleri.",
+                  telephone: "+903125045399",
+                  medicalSpecialty: ["Psychiatry", "Psychiatric"],
+                  priceRange: "$$",
+                  address: {
+                    "@type": "PostalAddress",
+                    streetAddress: "Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza No:1 Kat:1 Daire:4",
+                    addressLocality: "Etimesgut",
+                    addressRegion: "Ankara",
+                    postalCode: "06790",
+                    addressCountry: "TR"
+                  },
+                  areaServed: [
+                    { "@type": "City", name: "Ankara" },
+                    { "@type": "City", name: "Etimesgut" },
+                    { "@type": "City", name: "Eryaman" },
+                    { "@type": "City", name: "Batıkent" }
+                  ],
+                  geo: {
+                    "@type": "GeoCoordinates",
+                    latitude: "39.9654",
+                    longitude: "32.6186"
+                  },
+                  openingHoursSpecification: [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                      opens: "09:00",
+                      closes: "18:00"
+                    }
+                  ],
+                  employee: {
+                    "@id": "https://drabdullahmaras.com/#physician"
+                  }
+                },
+                {
+                  "@type": "Physician",
+                  "@id": "https://drabdullahmaras.com/#physician",
+                  name: "Uzm. Dr. Abdullah Maraş",
+                  jobTitle: "Psikiyatri Uzmanı (Psychiatrist)",
+                  description: "Ruh Sağlığı ve Hastalıkları (Psikiyatri) Uzmanı. Anadolu Üniversitesi Tıp Fakültesi mezunu.",
+                  url: "https://drabdullahmaras.com/hakkinda",
+                  image: "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
+                  medicalSpecialty: ["Psychiatry", "Psychiatric"],
+                  alumniOf: {
+                    "@type": "EducationalOrganization",
+                    name: "Anadolu Üniversitesi Tıp Fakültesi"
+                  },
+                  worksFor: {
+                    "@id": "https://drabdullahmaras.com/#organization"
+                  }
+                }
+              ]
             }),
           }}
         />

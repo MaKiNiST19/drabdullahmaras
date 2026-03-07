@@ -497,18 +497,17 @@ export default function DepresyonPillarPage() {
                     url: "https://drabdullahmaras.com/hizmetler/depresyon",
                     specialty: { "@type": "MedicalSpecialty", name: "Psychiatric" },
                     about: { "@type": "MedicalCondition", name: "Depresyon", alternateName: "Majör Depresif Bozukluk" },
-                    author: {
-                        "@type": "Physician", name: "Uzm. Dr. Abdullah Maraş", medicalSpecialty: "Psychiatric",
-                        alumniOf: { "@type": "EducationalOrganization", name: "Anadolu Üniversitesi Tıp Fakültesi" },
-                        address: { "@type": "PostalAddress", streetAddress: "Altay Mahallesi", addressLocality: "Etimesgut", addressRegion: "Ankara", addressCountry: "TR" }
-                    },
-                    publisher: { "@type": "MedicalBusiness", name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği", url: "https://drabdullahmaras.com", logo: "https://drabdullahmaras.com/logo.png" },
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    isPartOf: { "@id": "https://drabdullahmaras.com/#website" },
+                    inLanguage: "tr-TR",
                     lastReviewed: "2026-02-27", mainEntityOfPage: "https://drabdullahmaras.com/hizmetler/depresyon"
                 })
             }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "FAQPage",
+                    "@id": "https://drabdullahmaras.com/hizmetler/depresyon/#faq",
                     mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } }))
                 })
             }} />
