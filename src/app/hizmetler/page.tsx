@@ -4,8 +4,8 @@ import { services } from '@/data/services';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Psikiyatrik DeÄŸerlendirme Hizmetleri | Eryaman Psikiyatrist',
-    description: 'Ankara Eryaman\'da Uzm. Dr. Abdullah MaraÅŸ psikiyatri kliniÄŸinde sunulan deÄŸerlendirme alanlarÄ±. Depresyon, anksiyete, panik atak, OKB, DEHB ve daha fazlasÄ±.',
+    title: 'Psikiyatrik Değerlendirme Hizmetleri | Eryaman Psikiyatrist',
+    description: 'Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş psikiyatri kliniğinde sunulan değerlendirme alanları. Depresyon, anksiyete, panik atak, OKB, DEHB ve daha fazlası.',
     alternates: { canonical: 'https://drabdullahmaras.com/hizmetler' },
 };
 
@@ -14,12 +14,12 @@ export default function HizmetlerPage() {
         <>
             <section className={styles.hero}>
                 <div className={`container ${styles.heroContent}`}>
-                    <span className="section-badge">âœ¦ DeÄŸerlendirme AlanlarÄ±</span>
-                    <h1>Psikiyatrik DeÄŸerlendirme Hizmetleri</h1>
+                    <span className="section-badge">✦ Değerlendirme Alanları</span>
+                    <h1>Psikiyatrik Değerlendirme Hizmetleri</h1>
                     <p className={styles.heroDesc}>
-                        Ankara Eryaman, Altay Mahallesi Ã§evresinde Uzm. Dr. Abdullah MaraÅŸ tarafÄ±ndan
-                        sunulan psikiyatrik deÄŸerlendirme alanlarÄ±. Her alan iÃ§in detaylÄ± bilgilendirme
-                        sayfalarÄ±nÄ± inceleyebilirsiniz.
+                        Ankara Eryaman, Altay Mahallesi çevresinde Uzm. Dr. Abdullah Maraş tarafından
+                        sunulan psikiyatrik değerlendirme alanları. Her alan için detaylı bilgilendirme
+                        sayfalarını inceleyebilirsiniz.
                     </p>
                 </div>
             </section>
@@ -33,14 +33,14 @@ export default function HizmetlerPage() {
                                 <h2 className={styles.cardTitle}>{service.title}</h2>
                                 <p className={styles.cardDesc}>{service.shortDesc}</p>
                                 <span className={styles.cardLink}>
-                                    DetaylÄ± Bilgi â†’
+                                    Detaylı Bilgi →
                                 </span>
                             </Link>
                         ))}
                     </div>
                     <div className="info-banner" style={{ marginTop: '3rem' }}>
-                        <strong>ğŸ“Œ Bilgilendirme</strong>
-                        Bu sayfadaki iÃ§erikler genel bilgilendirme amaÃ§lÄ±dÄ±r. TanÄ± ve tedavi sÃ¼reÃ§leri iÃ§in mutlaka uzman hekim deÄŸerlendirmesi gereklidir.
+                        <strong>📌 Bilgilendirme</strong>
+                        Bu sayfadaki içerikler genel bilgilendirme amaçlıdır. Tanı ve tedavi süreçleri için mutlaka uzman hekim değerlendirmesi gereklidir.
                     </div>
                 </div>
             </section>

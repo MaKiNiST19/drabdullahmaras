@@ -4,13 +4,13 @@ import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Panik Atak DeÄŸerlendirmesi | Eryaman Psikiyatrist Uzm. Dr. Abdullah MaraÅŸ',
+    title: 'Panik Atak Değerlendirmesi | Eryaman Psikiyatrist Uzm. Dr. Abdullah Maraş',
     description:
-        'Ankara Eryaman\'da panik atak deÄŸerlendirmesi. Ã–lÃ¼m korkusu, nefes alamama, kalp krizi ÅŸÃ¼phesi ve gece Ã§arpÄ±ntÄ±sÄ± gibi bedensel/zihinsel belirtilerin psikiyatrik analizi.',
+        'Ankara Eryaman\'da panik atak değerlendirmesi. Ölüm korkusu, nefes alamama, kalp krizi şüphesi ve gece çarpıntısı gibi bedensel/zihinsel belirtilerin psikiyatrik analizi.',
     alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/panik-atak' },
     openGraph: {
-        title: 'Ankara Eryaman\'da Panik Atak DeÄŸerlendirmesi',
-        description: 'Ankara Eryaman\'da bilimsel Ã§erÃ§evede panik atak deÄŸerlendirmesi. Ruh saÄŸlÄ±ÄŸÄ± uzmanÄ± ile bireysel klinik gÃ¶rÃ¼ÅŸme.',
+        title: 'Ankara Eryaman\'da Panik Atak Değerlendirmesi',
+        description: 'Ankara Eryaman\'da bilimsel çerçevede panik atak değerlendirmesi. Ruh sağlığı uzmanı ile bireysel klinik görüşme.',
         type: 'article',
         locale: 'tr_TR',
     },
@@ -18,36 +18,36 @@ export const metadata: Metadata = {
 
 const faqItems = [
     {
-        question: 'Panik atak Ã¶ldÃ¼rÃ¼r mÃ¼?',
-        answer: 'HayÄ±r, panik ataÄŸÄ±n kendisi Ã¶lÃ¼mcÃ¼l deÄŸildir ve kalbe zarar vermez. O an yaÅŸanan "Ã¶lecekmiÅŸim" hissi, beynin yanlÄ±ÅŸ bir alarm vererek vÃ¼cuda aÅŸÄ±rÄ± adrenalin pompalamasÄ±ndan kaynaklanÄ±r.',
+        question: 'Panik atak öldürür mü?',
+        answer: 'Hayır, panik atağın kendisi ölümcül değildir ve kalbe zarar vermez. O an yaşanan "ölecekmişim" hissi, beynin yanlış bir alarm vererek vücuda aşırı adrenalin pompalamasından kaynaklanır.',
     },
     {
         question: 'Panik atak kalp krizi midir?',
-        answer: 'Panik atak bir kalp krizi deÄŸildir. Ancak belirtileri (gÃ¶ÄŸÃ¼s aÄŸrÄ±sÄ±, Ã§arpÄ±ntÄ±, uyuÅŸma) kalp krizini taklit edebilir. Bu nedenle ilk defa yaÅŸandÄ±ÄŸÄ±nda mutlaka acil tÄ±bbi deÄŸerlendirme ile kalp saÄŸlÄ±ÄŸÄ± ekarte edilmelidir.',
+        answer: 'Panik atak bir kalp krizi değildir. Ancak belirtileri (göğüs ağrısı, çarpıntı, uyuşma) kalp krizini taklit edebilir. Bu nedenle ilk defa yaşandığında mutlaka acil tıbbi değerlendirme ile kalp sağlığı ekarte edilmelidir.',
     },
     {
-        question: 'Panik atak kaÃ§ dakika sÃ¼rer?',
-        answer: 'Genellikle 10-20 dakika iÃ§inde zirveye ulaÅŸÄ±r ve nadiren 30 dakikadan uzun sÃ¼rer. Ancak ataÄŸÄ±n bÄ±raktÄ±ÄŸÄ± yorgunluk hissi saatlerce ya da gÃ¼n boyu devam edebilir.',
+        question: 'Panik atak kaç dakika sürer?',
+        answer: 'Genellikle 10-20 dakika içinde zirveye ulaşır ve nadiren 30 dakikadan uzun sürer. Ancak atağın bıraktığı yorgunluk hissi saatlerce ya da gün boyu devam edebilir.',
     },
     {
         question: 'Gece uykudan panik atakla uyanmak neden olur?',
-        answer: 'BilinÃ§altÄ±ndaki biriken stres, gÃ¼n iÃ§i yorgunluk veya uyku apnea gibi organik nedenler tetiÄŸi Ã§ekebilir. Gece panik ataklarÄ±, uykudayken dahi beynin tehdit algÄ±lamaya devam etmesinden kaynaklanÄ±r.',
+        answer: 'Bilinçaltındaki biriken stres, gün içi yorgunluk veya uyku apnea gibi organik nedenler tetiği çekebilir. Gece panik atakları, uykudayken dahi beynin tehdit algılamaya devam etmesinden kaynaklanır.',
     },
     {
-        question: 'Panik atak tekrarlar mÄ±?',
-        answer: 'KiÅŸi bir kez atak yaÅŸadÄ±ÄŸÄ±nda genellikle "ya tekrar olursa" beklenti kaygÄ±sÄ± geliÅŸtirir. Bu korkunun kendisi de maalesef yeni ataklarÄ±n tetikleyicisi olabilmektedir.',
+        question: 'Panik atak tekrarlar mı?',
+        answer: 'Kişi bir kez atak yaşadığında genellikle "ya tekrar olursa" beklenti kaygısı geliştirir. Bu korkunun kendisi de maalesef yeni atakların tetikleyicisi olabilmektedir.',
     },
     {
-        question: 'Panik atak kendi kendine geÃ§er mi?',
-        answer: 'Tek bir atak kendi kendine sonlanabilir. Ancak ataklar sÄ±klaÅŸtÄ±ysa ve kiÅŸinin sÃ¼rekli kaÃ§Ä±nma davranÄ±ÅŸlarÄ± (kalabalÄ±ktan, asansÃ¶rden vb.) geliÅŸtirmesine neden olduysa profesyonel psikiyatrik deÄŸerlendirme dÃ¼ÅŸÃ¼nÃ¼lmelidir.',
+        question: 'Panik atak kendi kendine geçer mi?',
+        answer: 'Tek bir atak kendi kendine sonlanabilir. Ancak ataklar sıklaştıysa ve kişinin sürekli kaçınma davranışları (kalabalıktan, asansörden vb.) geliştirmesine neden olduysa profesyonel psikiyatrik değerlendirme düşünülmelidir.',
     },
     {
-        question: 'Eryamanâ€™da panik atak iÃ§in hangi doktora gidilir?',
-        answer: 'Organik (fiziksel) rahatsÄ±zlÄ±klar ekarte edildikten sonra (kardiyoloji vb temiz Ã§Ä±ktÄ±ktan sonra), sÃ¼recin psikiyatrik analizi ve yapÄ±landÄ±rÄ±lmasÄ± iÃ§in Eryamanâ€™da Uzm. Dr. Abdullah MaraÅŸ kliniÄŸimize baÅŸvurulur.',
+        question: 'Eryaman’da panik atak için hangi doktora gidilir?',
+        answer: 'Organik (fiziksel) rahatsızlıklar ekarte edildikten sonra (kardiyoloji vb temiz çıktıktan sonra), sürecin psikiyatrik analizi ve yapılandırılması için Eryaman’da Uzm. Dr. Abdullah Maraş kliniğimize başvurulur.',
     },
     {
-        question: 'Panik atak yaÅŸayan biri ne yapmalÄ±?',
-        answer: 'Kriz anÄ±nda derin ve yavaÅŸ nefes alÄ±p vermeye (diyafram nefesi) Ã§alÄ±ÅŸmak, gÃ¼venli bir ortama geÃ§ip dikkatini 5 duyuya (Ã§evredeki renk, ses) yÃ¶neltmek (grounding tekniÄŸi) fayda saÄŸlayabilir.',
+        question: 'Panik atak yaşayan biri ne yapmalı?',
+        answer: 'Kriz anında derin ve yavaş nefes alıp vermeye (diyafram nefesi) çalışmak, güvenli bir ortama geçip dikkatini 5 duyuya (çevredeki renk, ses) yöneltmek (grounding tekniği) fayda sağlayabilir.',
     },
 ];
 
@@ -60,24 +60,24 @@ export default function PanikAtakPillarPage() {
                     <div className={styles.heroOrb}></div>
                 </div>
                 <div className={`container ${styles.heroContent}`}>
-                    <Link href="/hizmetler" className={styles.backLink}>â† TÃ¼m DeÄŸerlendirme AlanlarÄ±</Link>
-                    <span className={styles.heroIcon}>âš¡</span>
-                    <h1>Ankara Eryaman&apos;da Panik Atak DeÄŸerlendirmesi</h1>
+                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Değerlendirme Alanları</Link>
+                    <span className={styles.heroIcon}>⚡</span>
+                    <h1>Ankara Eryaman&apos;da Panik Atak Değerlendirmesi</h1>
                     <p className={styles.heroDesc}>
-                        Ortada hiÃ§bir neden yokken gelen anlÄ±k ve kuvvetli endiÅŸe patlamalarÄ±, gÃ¶ÄŸÃ¼ste
-                        yoÄŸun bir sÄ±kÄ±ÅŸma, terleme, boÄŸulma veya "kalbim bir anda fÄ±rlayacak gibi oluyor" hissi...
+                        Ortada hiçbir neden yokken gelen anlık ve kuvvetli endişe patlamaları, göğüste
+                        yoğun bir sıkışma, terleme, boğulma veya "kalbim bir anda fırlayacak gibi oluyor" hissi...
                     </p>
                     <p className={styles.heroDesc}>
-                        Panik ataklar, yarattÄ±ÄŸÄ± belirsizlik ve Ã¶lÃ¼m hissiyle hayatÄ±nÄ±zÄ± kÄ±sÄ±tlamamalÄ±. Uzm. Dr.
-                        Abdullah MaraÅŸ kliniÄŸinde bu ÅŸiddetli bedensel ve dÃ¼ÅŸÃ¼nsel krizlerin psikiyatrik analizini,
-                        Eryaman sÄ±nÄ±rlarÄ±nda gÃ¼venle deneyimleyebilirsiniz.
+                        Panik ataklar, yarattığı belirsizlik ve ölüm hissiyle hayatınızı kısıtlamamalı. Uzm. Dr.
+                        Abdullah Maraş kliniğinde bu şiddetli bedensel ve düşünsel krizlerin psikiyatrik analizini,
+                        Eryaman sınırlarında güvenle deneyimleyebilirsiniz.
                     </p>
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
-                        <strong>ğŸ“Œ Bilgilendirme</strong>
-                        Bu metin, tÄ±bbi genel kÃ¼ltÃ¼r ve bilgilendirme taÅŸÄ±maktadÄ±r. TanÄ± koyma veya kesin bir tedavi
-                        vadetme (garanti etme) amacÄ± gÃ¼tmez. Herhangi bir ÅŸiddetli gÃ¶ÄŸÃ¼s aÄŸrÄ±sÄ± / sol kol uyuÅŸmasÄ±nda
-                        Ã¶ncelik tÄ±bbi fizyolojik durum olarak yorumlanÄ±p Acil Servis olmalÄ±dÄ±r.
+                        <strong>📌 Bilgilendirme</strong>
+                        Bu metin, tıbbi genel kültür ve bilgilendirme taşımaktadır. Tanı koyma veya kesin bir tedavi
+                        vadetme (garanti etme) amacı gütmez. Herhangi bir şiddetli göğüs ağrısı / sol kol uyuşmasında
+                        öncelik tıbbi fizyolojik durum olarak yorumlanıp Acil Servis olmalıdır.
                     </div>
                 </div>
             </section>
@@ -91,147 +91,147 @@ export default function PanikAtakPillarPage() {
 
                         <h2 id="nedir">Panik Atak Nedir?</h2>
                         <p>
-                            Panik atak, bireyin aniden (hiÃ§bir gÃ¶rÃ¼nÃ¼r ve spesifik uyaran olmadan) yakalandÄ±ÄŸÄ±, son derece ÅŸiddetli
-                            korku ve endiÅŸe hissini saniyeler / dakikalar iÃ§inde tÄ±rmanarak doruÄŸa taÅŸÄ±dÄ±ÄŸÄ± epizodlardÄ±r.
-                            Sanki hayati bir tehdit ile karÅŸÄ± karÅŸÄ±ya imiÅŸÃ§esine (SavaÅŸ, KaÃ§ tepkisi), vÃ¼cutta bir dizi fiziksel
-                            ve zihinsel belirti patlak verir. Oysaki objektif olarak bakÄ±ldÄ±ÄŸÄ±nda ortada herhangi bir aslan, herhangi
-                            bir deprem vb. bÃ¼yÃ¼k bir tehdit unsuru yoktur.
+                            Panik atak, bireyin aniden (hiçbir görünür ve spesifik uyaran olmadan) yakalandığı, son derece şiddetli
+                            korku ve endişe hissini saniyeler / dakikalar içinde tırmanarak doruğa taşıdığı epizodlardır.
+                            Sanki hayati bir tehdit ile karşı karşıya imişçesine (Savaş, Kaç tepkisi), vücutta bir dizi fiziksel
+                            ve zihinsel belirti patlak verir. Oysaki objektif olarak bakıldığında ortada herhangi bir aslan, herhangi
+                            bir deprem vb. büyük bir tehdit unsuru yoktur.
                         </p>
                         <p>
-                            Toplumun Ã§ok Ã¶nemli bir kesimi hayatÄ±nda en az bir defa panik atak yaÅŸar ve bu olaÄŸandÄ±r.
-                            Fakat bu ataklarÄ±n Ã§ok sÄ±k tekrar etmesi ve <strong>beklenti endiÅŸesi</strong> ile kiÅŸinin
-                            dÄ±ÅŸ dÃ¼nyadan soyutlanmasÄ±na neden olmasÄ±, Panik BozukluÄŸu tablosuna yol aÃ§ar.
+                            Toplumun çok önemli bir kesimi hayatında en az bir defa panik atak yaşar ve bu olağandır.
+                            Fakat bu atakların çok sık tekrar etmesi ve <strong>beklenti endişesi</strong> ile kişinin
+                            dış dünyadan soyutlanmasına neden olması, Panik Bozukluğu tablosuna yol açar.
                         </p>
 
                         <h2 id="belirtiler">Panik Atak Belirtileri Nelerdir?</h2>
                         <p>
-                            Ataklar tamamen bir anda gelir ve aÅŸaÄŸÄ±daki belirgin semptomlarÄ±n genellikle birkaÃ§Ä±nÄ± aynÄ±
-                            anda gÃ¼Ã§lÃ¼ biÃ§imde hissettirir:
+                            Ataklar tamamen bir anda gelir ve aşağıdaki belirgin semptomların genellikle birkaçını aynı
+                            anda güçlü biçimde hissettirir:
                         </p>
                         <ul>
-                            <li><strong>Bedensel Belirtiler:</strong> Ã‡arpÄ±ntÄ±, gÃ¶ÄŸÃ¼s kafesinde ÅŸiddetli baskÄ± aÄŸrÄ±sÄ±, nefes
-                                alamÄ±yorum (hava aÃ§lÄ±ÄŸÄ±) hissi, soÄŸuk terleme, kontrolsÃ¼z titreme veya Ã¼ÅŸÃ¼me, elde ayakta uyuÅŸma.</li>
-                            <li><strong>Zihinsel Belirtiler:</strong> "Acaba Ã–lecekmiÅŸim gibi hissediyorum",
-                                "AklÄ±mÄ± yitiriyorum", "KontrolÃ¼mÃ¼ dÄ±ÅŸarÄ±ya rezil olacak biÃ§imde kaybedebilirim" dÃ¼ÅŸÃ¼nceleri.</li>
-                            <li><strong>Ã‡evresel AlgÄ±:</strong> GÃ¶zlerin kararmasÄ±, sanki kiÅŸinin etrafa uzaktan, dÄ±ÅŸarÄ±dan hayal
-                                gibi (derealizasyon) veya kendi bedenine yabancÄ±laÅŸÄ±yor (depersonalizasyon) gibi bakmasÄ±.</li>
+                            <li><strong>Bedensel Belirtiler:</strong> Çarpıntı, göğüs kafesinde şiddetli baskı ağrısı, nefes
+                                alamıyorum (hava açlığı) hissi, soğuk terleme, kontrolsüz titreme veya üşüme, elde ayakta uyuşma.</li>
+                            <li><strong>Zihinsel Belirtiler:</strong> "Acaba Ölecekmişim gibi hissediyorum",
+                                "Aklımı yitiriyorum", "Kontrolümü dışarıya rezil olacak biçimde kaybedebilirim" düşünceleri.</li>
+                            <li><strong>Çevresel Algı:</strong> Gözlerin kararması, sanki kişinin etrafa uzaktan, dışarıdan hayal
+                                gibi (derealizasyon) veya kendi bedenine yabancılaşıyor (depersonalizasyon) gibi bakması.</li>
                         </ul>
 
-                        <h2 id="vucutta-neler-olur">Panik Atak SÄ±rasÄ±nda VÃ¼cutta Neler Olur?</h2>
+                        <h2 id="vucutta-neler-olur">Panik Atak Sırasında Vücutta Neler Olur?</h2>
                         <p>
-                            VÃ¼cudun ilkel alarm sistemi (Amigdala), bir yanlÄ±ÅŸ kodlamaya girerek
-                            kana bol miktarda <strong>Adrenalin</strong> (epinefrin) salgÄ±lar. Kalp kanÄ± hÄ±zla pompalar ki kaslara
-                            (kaÃ§abilmek iÃ§in) oksijen gitsin; gÃ¶z bebekleri bÃ¼yÃ¼r; ciÄŸerler ise daha fazla oksijen doldurabilmek iÃ§in
-                            hÄ±zlÄ± soluklanmaya geÃ§er. Kendi nefesimizi kontrol edemez bir "hiperventilasyon" (hÄ±zlÄ± solup verme)
-                            aÅŸamasÄ±na gireriz ki bu durum paradoksal biÃ§imde "boÄŸuluyorum" hissini yaratÄ±r.
+                            Vücudun ilkel alarm sistemi (Amigdala), bir yanlış kodlamaya girerek
+                            kana bol miktarda <strong>Adrenalin</strong> (epinefrin) salgılar. Kalp kanı hızla pompalar ki kaslara
+                            (kaçabilmek için) oksijen gitsin; göz bebekleri büyür; ciğerler ise daha fazla oksijen doldurabilmek için
+                            hızlı soluklanmaya geçer. Kendi nefesimizi kontrol edemez bir "hiperventilasyon" (hızlı solup verme)
+                            aşamasına gireriz ki bu durum paradoksal biçimde "boğuluyorum" hissini yaratır.
                         </p>
 
-                        <h2 id="kac-dakika-surer">Panik Atak KaÃ§ Dakika SÃ¼rer?</h2>
-                        <p>Panik atak genellikle aniden baÅŸlar ve belirtiler 10 ila 30 dakika iÃ§erisinde zirve noktasÄ±na ulaÅŸarak yavaÅŸÃ§a sÃ¶nÃ¼mlenir. Åiddetli ataklarÄ±n sÃ¼resi ve sÄ±klÄ±ÄŸÄ± kiÅŸiden kiÅŸiye deÄŸiÅŸebilir, ancak bedende bÄ±raktÄ±ÄŸÄ± yorgunluk ve tedirginlik hissi daha uzun saatlere yayÄ±labilir.</p>
-                        <h3>Panik atak saatlerce sÃ¼rer mi?</h3>
-                        <p>AtaÄŸÄ±n en ÅŸiddetli pik safhasÄ± saatlerce sÃ¼rmez, genellikle yarÄ±m saatte sonlanÄ±r ancak adrenalin deÅŸarjÄ±nÄ±n bedensel yorgunluk hissi gÃ¼n boyu devam edebilmektedir.</p>
-                        <h3>1 gÃ¼nde kaÃ§ kez panik atak geÃ§irilir?</h3>
-                        <p>Atak sÄ±klÄ±ÄŸÄ± tamamen bireysel stres faktÃ¶rlerine baÄŸlÄ±dÄ±r; klinik gÃ¶zlemlerde arka arkaya tetiklenen gÃ¼nlerin yanÄ± sÄ±ra aylarca atak yaÅŸanmayan aralÄ±klar da gÃ¶rÃ¼lmektedir.</p>
+                        <h2 id="kac-dakika-surer">Panik Atak Kaç Dakika Sürer?</h2>
+                        <p>Panik atak genellikle aniden başlar ve belirtiler 10 ila 30 dakika içerisinde zirve noktasına ulaşarak yavaşça sönümlenir. Şiddetli atakların süresi ve sıklığı kişiden kişiye değişebilir, ancak bedende bıraktığı yorgunluk ve tedirginlik hissi daha uzun saatlere yayılabilir.</p>
+                        <h3>Panik atak saatlerce sürer mi?</h3>
+                        <p>Atağın en şiddetli pik safhası saatlerce sürmez, genellikle yarım saatte sonlanır ancak adrenalin deşarjının bedensel yorgunluk hissi gün boyu devam edebilmektedir.</p>
+                        <h3>1 günde kaç kez panik atak geçirilir?</h3>
+                        <p>Atak sıklığı tamamen bireysel stres faktörlerine bağlıdır; klinik gözlemlerde arka arkaya tetiklenen günlerin yanı sıra aylarca atak yaşanmayan aralıklar da görülmektedir.</p>
                         <p>
-                            HastalarÄ±n kliniÄŸe anlattÄ±ÄŸÄ± en yaygÄ±n ifade <strong>"Dakikalar geÃ§mek bilmiyor, bu kriz hiÃ§ bitmeyecek
-                                gibi geliyor"</strong> yÃ¶nÃ¼ndedir. Ancak aslÄ±nda bedenin tÃ¼m sarmallarÄ±nÄ± seferber ettiÄŸi amigdala ve
-                            adrenalin patlamasÄ± sonsuza dek sÃ¼recek bir depo sunamaz. Saniyeler ile tÄ±rmanÄ±r ve genellikle
-                            <strong>10 ila 30 dakika arasÄ±nda zirve yaparak sÃ¶nÃ¼mlenir</strong>.
+                            Hastaların kliniğe anlattığı en yaygın ifade <strong>"Dakikalar geçmek bilmiyor, bu kriz hiç bitmeyecek
+                                gibi geliyor"</strong> yönündedir. Ancak aslında bedenin tüm sarmallarını seferber ettiği amigdala ve
+                            adrenalin patlaması sonsuza dek sürecek bir depo sunamaz. Saniyeler ile tırmanır ve genellikle
+                            <strong>10 ila 30 dakika arasında zirve yaparak sönümlenir</strong>.
                         </p>
 
                         <h2 id="gece-panik">Gece Panik Atak Neden Olur?</h2>
                         <p>
-                            Pek Ã§ok hasta, rahatlamasÄ± veya gÃ¼n yorgunluÄŸunu atmasÄ± beklenen gece saatlerinde "Gece uykudan
-                            Ã§arpÄ±ntÄ±yla uyanÄ±yorum" ÅŸikayetiyle baÅŸvurur. AslÄ±nda beyin uyuduÄŸumuzda dahi belli bir gÃ¼venlik
-                            algÄ±sÄ±nÄ± aÃ§Ä±k tutar. Gece atÄ±lan ataklar, genellikle derin veya REM uykusu fazlarÄ±ndaki kan
-                            gazÄ± (oksijen/karbondioksit) algÄ±lama hassasiyetidir. KiÅŸi rÃ¼yalarÄ±nda korkup deÄŸil, direkt bir
-                            adrenalin deÅŸarjÄ±yla bÃ¼yÃ¼k bir terlemeyle yataÄŸÄ±ndan baÄŸÄ±rarak uyanabilir.
+                            Pek çok hasta, rahatlaması veya gün yorgunluğunu atması beklenen gece saatlerinde "Gece uykudan
+                            çarpıntıyla uyanıyorum" şikayetiyle başvurur. Aslında beyin uyuduğumuzda dahi belli bir güvenlik
+                            algısını açık tutar. Gece atılan ataklar, genellikle derin veya REM uykusu fazlarındaki kan
+                            gazı (oksijen/karbondioksit) algılama hassasiyetidir. Kişi rüyalarında korkup değil, direkt bir
+                            adrenalin deşarjıyla büyük bir terlemeyle yatağından bağırarak uyanabilir.
                         </p>
 
-                        <h2 id="kalp-krizi-mi">Panik Atak Ä°le Kalp Krizi FarkÄ± Nedir?</h2>
+                        <h2 id="kalp-krizi-mi">Panik Atak İle Kalp Krizi Farkı Nedir?</h2>
                         <p>
-                            Panik atak o anlÄ±k korkunÃ§ yÃ¼zÃ¼yle, bedensel Ã¶lÃ¼m endiÅŸesini "Kalbim sÄ±kÄ±ÅŸÄ±yor" olarak direkt kalbe yorar.
-                            Diyalektik olarak ÅŸÃ¶yledir:
+                            Panik atak o anlık korkunç yüzüyle, bedensel ölüm endişesini "Kalbim sıkışıyor" olarak direkt kalbe yorar.
+                            Diyalektik olarak şöyledir:
                         </p>
                         <ul>
-                            <li><strong>Kalp krizinde</strong> nefes alma ÅŸeklinize ve hareket edip gÃ¶ÄŸÃ¼s kasÄ±nÄ±zÄ± duruÅŸunuzla
-                                deÄŸiÅŸtirmenize baÄŸlÄ± olarak aÄŸrÄ± <em>deÄŸiÅŸmez</em>. Efor (yÃ¼rÃ¼me vb) ile bu aÄŸÄ±r baskÄ± ÅŸiddetlenir.</li>
-                            <li><strong>Panik ataktaysa</strong> ÅŸiddetli aÄŸrÄ± gÃ¶ÄŸsÃ¼n belirli bÃ¶lgelerinde daha sÄ±zlama veya batma
-                                tarzÄ±nda olabilir; panik deÅŸarjÄ± bittikten sonra (20-30 dk) tamamen normale dÃ¶ner.</li>
+                            <li><strong>Kalp krizinde</strong> nefes alma şeklinize ve hareket edip göğüs kasınızı duruşunuzla
+                                değiştirmenize bağlı olarak ağrı <em>değişmez</em>. Efor (yürüme vb) ile bu ağır baskı şiddetlenir.</li>
+                            <li><strong>Panik ataktaysa</strong> şiddetli ağrı göğsün belirli bölgelerinde daha sızlama veya batma
+                                tarzında olabilir; panik deşarjı bittikten sonra (20-30 dk) tamamen normale döner.</li>
                         </ul>
                         <p>
-                            Yine de altÄ± Ã§izilmesi gereken kritik kural: Ä°lk defa bÃ¶yle bir gÃ¶ÄŸÃ¼s aÄŸrÄ±sÄ± yaÅŸayan hasta,
-                            panik de olsa mutlaka fiziksel (EKG/kardiyoloji) ekarte sÃ¼reci iÃ§in acil branÅŸlara gÃ¶rÃ¼lmelidir.
+                            Yine de altı çizilmesi gereken kritik kural: İlk defa böyle bir göğüs ağrısı yaşayan hasta,
+                            panik de olsa mutlaka fiziksel (EKG/kardiyoloji) ekarte süreci için acil branşlara görülmelidir.
                         </p>
 
-                        <h2 id="oldurur-mu">Panik Atak Ã–ldÃ¼rÃ¼r mÃ¼?</h2>
-                        <p>HayÄ±r, panik atak kalbe veya iÃ§ organlara doÄŸrudan zarar veren Ã¶lÃ¼mcÃ¼l bir akut durum oluÅŸturmaz. O esnada hissedilen yoÄŸun gÃ¶ÄŸÃ¼s aÄŸrÄ±sÄ± ve nefes darlÄ±ÄŸÄ±, beynin yanlÄ±ÅŸ alarm vererek salgÄ±ladÄ±ÄŸÄ± yoÄŸun adrenalinin geÃ§ici bir bedensel yansÄ±masÄ±dÄ±r.</p>
-                        <h3>Panik ataktan deliren var mÄ±?</h3>
-                        <p>HayÄ±r, panik atak esnasÄ±nda "aklÄ±mÄ± kaybediyorum" hissi Ã§ok yaygÄ±n ve korkutucu olsa da, bu durum bilinÃ§ kaybÄ± veya akÄ±l saÄŸlÄ±ÄŸÄ±nÄ±n yitirilmesiyle sonuÃ§lanmaz.</p>
-                        <h3>Panik atak kalp krizi yapar mÄ±?</h3>
-                        <p>Panik ataÄŸÄ±n kendisi doÄŸrudan kalp krizi tablosuna yol aÃ§maz, ancak ilk kez bÃ¶yle bir atak yaÅŸanÄ±yorsa kardiyolojik incelemeyle fizyolojik ÅŸÃ¼phelerin ekarte edilmesi ÅŸarttÄ±r.</p>
+                        <h2 id="oldurur-mu">Panik Atak Öldürür mü?</h2>
+                        <p>Hayır, panik atak kalbe veya iç organlara doğrudan zarar veren ölümcül bir akut durum oluşturmaz. O esnada hissedilen yoğun göğüs ağrısı ve nefes darlığı, beynin yanlış alarm vererek salgıladığı yoğun adrenalinin geçici bir bedensel yansımasıdır.</p>
+                        <h3>Panik ataktan deliren var mı?</h3>
+                        <p>Hayır, panik atak esnasında "aklımı kaybediyorum" hissi çok yaygın ve korkutucu olsa da, bu durum bilinç kaybı veya akıl sağlığının yitirilmesiyle sonuçlanmaz.</p>
+                        <h3>Panik atak kalp krizi yapar mı?</h3>
+                        <p>Panik atağın kendisi doğrudan kalp krizi tablosuna yol açmaz, ancak ilk kez böyle bir atak yaşanıyorsa kardiyolojik incelemeyle fizyolojik şüphelerin ekarte edilmesi şarttır.</p>
                         <p>
-                            HayÄ±r. YarattÄ±ÄŸÄ± yÃ¼ksek hislerin aksine, kalp ya da solunum sisteminin anlÄ±k yÃ¼ksek dozda ve yanlÄ±ÅŸ
-                            zamanlÄ± tepkimesidir; kalp-damar dokusuna veya kana bir fiziksel deforme / tÄ±kanÄ±klÄ±k ulaÅŸtÄ±rmaz. Ne
-                            kadar dehÅŸet verici hissettirirse hissettirsin panik ataÄŸÄ±n kendisi Ã¶ldÃ¼rÃ¼cÃ¼ (fatal) deÄŸildir. Ama
-                            mutlak manada hayat kalitesini Ã¶ldÃ¼rÃ¼r ve iÅŸlevsellikten bÃ¼yÃ¼k zararlar doÄŸurur.
+                            Hayır. Yarattığı yüksek hislerin aksine, kalp ya da solunum sisteminin anlık yüksek dozda ve yanlış
+                            zamanlı tepkimesidir; kalp-damar dokusuna veya kana bir fiziksel deforme / tıkanıklık ulaştırmaz. Ne
+                            kadar dehşet verici hissettirirse hissettirsin panik atağın kendisi öldürücü (fatal) değildir. Ama
+                            mutlak manada hayat kalitesini öldürür ve işlevsellikten büyük zararlar doğurur.
                         </p>
 
-                        <h2 id="anksiyete-iliskisi">Panik Atak ve Anksiyete Ä°liÅŸkisi</h2>
+                        <h2 id="anksiyete-iliskisi">Panik Atak ve Anksiyete İlişkisi</h2>
                         <p>
-                            Panik ataklarÄ± sÄ±klayan hastalarÄ±n zamanla o gÃ¼vende hissetmeme zeminlerinde, her ana sinirlilik ve
-                            huzursuzluk sarmalÄ± olan yaygÄ±n <Link href="/hizmetler/anksiyete">kaygÄ± bozukluÄŸu / anksiyetesini</Link>
-                            birlikte yaÅŸadÄ±ÄŸÄ± barizdir. Anksiyete (geniÅŸ zamana yayÄ±lan kaygÄ± sÃ¼reci) ile beraber gelen ani panikler,
-                            sÃ¼rekli kaygÄ± ve ani ataklarÄ±n birlikteliÄŸi (komorbidite) adÄ±na
-                            profesyonel olarak analiz edilmesi gereken Ã§oklu sÃ¼reÃ§leri kapsamaktadÄ±r. AyrÄ±ca atak beklemekten uyunamayan
-                            tÃ¼m geceler ciddi bir <Link href="/hizmetler/uyku-bozukluklari">uyku bozukluÄŸuna</Link> veya
-                            <Link href="/hizmetler/depresyon">klinik dÃ¼zeyde depresyona (tÃ¼kenmiÅŸliÄŸe)</Link> sebep olabilir.
+                            Panik atakları sıklayan hastaların zamanla o güvende hissetmeme zeminlerinde, her ana sinirlilik ve
+                            huzursuzluk sarmalı olan yaygın <Link href="/hizmetler/anksiyete">kaygı bozukluğu / anksiyetesini</Link>
+                            birlikte yaşadığı barizdir. Anksiyete (geniş zamana yayılan kaygı süreci) ile beraber gelen ani panikler,
+                            sürekli kaygı ve ani atakların birlikteliği (komorbidite) adına
+                            profesyonel olarak analiz edilmesi gereken çoklu süreçleri kapsamaktadır. Ayrıca atak beklemekten uyunamayan
+                            tüm geceler ciddi bir <Link href="/hizmetler/uyku-bozukluklari">uyku bozukluğuna</Link> veya
+                            <Link href="/hizmetler/depresyon">klinik düzeyde depresyona (tükenmişliğe)</Link> sebep olabilir.
                         </p>
 
-                        <h2 id="yorgunluk">Panik Atak SonrasÄ± YaÅŸanan Yorgunluk</h2>
+                        <h2 id="yorgunluk">Panik Atak Sonrası Yaşanan Yorgunluk</h2>
                         <p>
-                            10-20 dakikalÄ±k fÄ±rtÄ±na dinip de vÃ¼cut normale dÃ¶ndÃ¼ÄŸÃ¼nde, sanki kiÅŸi daÄŸ tÄ±rmanmÄ±ÅŸ veya dev bir kaplanla
-                            boÄŸuÅŸup kurtulmuÅŸ gibi devasa bir <strong>sersemlik ve kas ezikliÄŸi / enerji tÃ¼keniÅŸi</strong> yaÅŸar. Bu,
-                            aÅŸÄ±rÄ± salgÄ±lanan stres hormonlarÄ±nÄ±n karaciÄŸer veya bedende bÄ±raktÄ±ÄŸÄ± yoÄŸun yÄ±kÄ±m eforundan ileri
-                            gelmektedir. Titreme hissi ve kafasÄ±nÄ± toplayamama durumlarÄ± saatlerce bazen ertesi gÃ¼ne kadar sÃ¼rebilir.
+                            10-20 dakikalık fırtına dinip de vücut normale döndüğünde, sanki kişi dağ tırmanmış veya dev bir kaplanla
+                            boğuşup kurtulmuş gibi devasa bir <strong>sersemlik ve kas ezikliği / enerji tükenişi</strong> yaşar. Bu,
+                            aşırı salgılanan stres hormonlarının karaciğer veya bedende bıraktığı yoğun yıkım eforundan ileri
+                            gelmektedir. Titreme hissi ve kafasını toplayamama durumları saatlerce bazen ertesi güne kadar sürebilir.
                         </p>
 
-                        <h2 id="ne-zaman-basvuru">Ne Zaman Psikiyatri UzmanÄ±na BaÅŸvurulmalÄ±?</h2>
+                        <h2 id="ne-zaman-basvuru">Ne Zaman Psikiyatri Uzmanına Başvurulmalı?</h2>
                         <p>
-                            VÃ¼cudunuz, organlarÄ±nÄ±z fiziksel bir muayeneden tertemiz geÃ§tiyse ve siz hala:
+                            Vücudunuz, organlarınız fiziksel bir muayeneden tertemiz geçtiyse ve siz hala:
                         </p>
                         <ul>
-                            <li>Benzer ataklarÄ± yeniden yaÅŸamaktan (beklenti evhamÄ±) Ã¶tÃ¼rÃ¼ uÃ§aÄŸa/toplu taÅŸÄ±maya, kapalÄ± odalara
-                                ve asansÃ¶rlere giremiyorsanÄ±z (Agorafobi),</li>
-                            <li>"Acil bir ÅŸey olursa yanÄ±mda hastane olsun" diye evden tek baÅŸÄ±nÄ±za sosyal hayata karÄ±ÅŸamÄ±yorsanÄ±z,</li>
-                            <li>Bireysel veya ailenizdeki yaÅŸam enerjiniz korku yÃ¼zÃ¼nden sÄ±fÄ±rlanmÄ±ÅŸ ise;
-                                mutlaka <strong>bir psikiyatrist hekim</strong> ile gÃ¶rÃ¼ÅŸmeler (konsÃ¼ltasyon) yapmalÄ±sÄ±nÄ±z.</li>
+                            <li>Benzer atakları yeniden yaşamaktan (beklenti evhamı) ötürü uçağa/toplu taşımaya, kapalı odalara
+                                ve asansörlere giremiyorsanız (Agorafobi),</li>
+                            <li>"Acil bir şey olursa yanımda hastane olsun" diye evden tek başınıza sosyal hayata karışamıyorsanız,</li>
+                            <li>Bireysel veya ailenizdeki yaşam enerjiniz korku yüzünden sıfırlanmış ise;
+                                mutlaka <strong>bir psikiyatrist hekim</strong> ile görüşmeler (konsültasyon) yapmalısınız.</li>
                         </ul>
 
-                        <h2 id="degerlendirme">Ankara Eryaman'da Panik Atak Ä°Ã§in DeÄŸerlendirme SÃ¼reci</h2>
+                        <h2 id="degerlendirme">Ankara Eryaman'da Panik Atak İçin Değerlendirme Süreci</h2>
                         <p>
-                            Eryaman (Altay Mh.), Etimesgut ve BatÄ±kent bÃ¶lgelerinden kliniÄŸimize panik hisleriyle gelen hastalar;
-                            durumun fizyolojik mi yoksa bir amigdala (kaygÄ± merkezli psikiyatrik) sorunu mu olduÄŸunun ayÄ±rÄ±cÄ± tanÄ±sÄ±yla
-                            karÅŸÄ±laÅŸÄ±rlar. Uzm. Dr. Abdullah MaraÅŸ, panik ataklarÄ±n klinik anatomisini saptayarak, danÄ±ÅŸanÄ±n ihtiyaÃ§ duyduÄŸu
-                            Ã¶zel farmakolojik ya da terapik yÃ¶nlendirmeleri etik normlarda tasarlayacaktÄ±r. HastanÄ±n bu bedensel infaz
-                            hislerine maruz kalmak zorunda olmadÄ±ÄŸÄ± bilimsel muayene sÃ¼reci, Eryaman'da sunulmaktadÄ±r.
+                            Eryaman (Altay Mh.), Etimesgut ve Batıkent bölgelerinden kliniğimize panik hisleriyle gelen hastalar;
+                            durumun fizyolojik mi yoksa bir amigdala (kaygı merkezli psikiyatrik) sorunu mu olduğunun ayırıcı tanısıyla
+                            karşılaşırlar. Uzm. Dr. Abdullah Maraş, panik atakların klinik anatomisini saptayarak, danışanın ihtiyaç duyduğu
+                            özel farmakolojik ya da terapik yönlendirmeleri etik normlarda tasarlayacaktır. Hastanın bu bedensel infaz
+                            hislerine maruz kalmak zorunda olmadığı bilimsel muayene süreci, Eryaman'da sunulmaktadır.
                         </p>
 
                         {/* SSS */}
                         <div className={styles.faqSection} id="sss">
-                            <h2>SÄ±k Sorulan Sorular</h2>
+                            <h2>Sık Sorulan Sorular</h2>
                             <FAQSection items={faqItems} />
                         </div>
 
                         {/* CTA */}
                         <div className={styles.articleCta}>
-                            <h3>Korku ve Panik Ä°Ã§inde Olmak Zorunda DeÄŸilsiniz</h3>
+                            <h3>Korku ve Panik İçinde Olmak Zorunda Değilsiniz</h3>
                             <p>
-                                Ankara Eryaman panik atak deÄŸerlendirme sÃ¼reci kapsamÄ±nda kapsamlÄ± deÄŸerlendirme iÃ§in; randevu
-                                tercihlerine tÄ±klayarak psikiyatrik ve klinik izlem gÃ¶rÃ¼ÅŸmesi oluÅŸturabilirsiniz.
+                                Ankara Eryaman panik atak değerlendirme süreci kapsamında kapsamlı değerlendirme için; randevu
+                                tercihlerine tıklayarak psikiyatrik ve klinik izlem görüşmesi oluşturabilirsiniz.
                             </p>
                             <Link href="/randevu" className="btn btn--primary btn--lg" style={{ marginTop: 'var(--space-4)' }}>
-                                Doktor DeÄŸerlendirmesi Randevusu â†’
+                                Doktor Değerlendirmesi Randevusu →
                             </Link>
                         </div>
                     </article>
@@ -244,21 +244,21 @@ export default function PanikAtakPillarPage() {
                             <ul className={styles.tocList}>
                                 <li><a href="#nedir">Panik Atak Nedir?</a></li>
                                 <li><a href="#belirtiler">Belirtileri</a></li>
-                                <li><a href="#vucutta-neler-olur">VÃ¼cutta Neler Olur?</a></li>
-                                <li><a href="#kac-dakika-surer">KaÃ§ Dakika SÃ¼rer?</a></li>
+                                <li><a href="#vucutta-neler-olur">Vücutta Neler Olur?</a></li>
+                                <li><a href="#kac-dakika-surer">Kaç Dakika Sürer?</a></li>
                                 <li><a href="#gece-panik">Gece Panik Neden Olur?</a></li>
-                                <li><a href="#kalp-krizi-mi">Kalp Krizi FarkÄ±</a></li>
-                                <li><a href="#oldurur-mu">Ã–ldÃ¼rÃ¼r mÃ¼?</a></li>
-                                <li><a href="#anksiyete-iliskisi">Anksiyete Ä°liÅŸkisi</a></li>
-                                <li><a href="#yorgunluk">SonrasÄ± Yorgunluk</a></li>
-                                <li><a href="#ne-zaman-basvuru">Uzm. BaÅŸvurusu</a></li>
-                                <li><a href="#degerlendirme">Eryaman DeÄŸerlendirme</a></li>
+                                <li><a href="#kalp-krizi-mi">Kalp Krizi Farkı</a></li>
+                                <li><a href="#oldurur-mu">Öldürür mü?</a></li>
+                                <li><a href="#anksiyete-iliskisi">Anksiyete İlişkisi</a></li>
+                                <li><a href="#yorgunluk">Sonrası Yorgunluk</a></li>
+                                <li><a href="#ne-zaman-basvuru">Uzm. Başvurusu</a></li>
+                                <li><a href="#degerlendirme">Eryaman Değerlendirme</a></li>
                             </ul>
                         </nav>
 
                         <div className={styles.sidebarCta}>
-                            <h3>DeÄŸerlendirme Randevusu</h3>
-                            <p>Panik ataklarÄ±nÄ±z iÃ§in Ankara Eryaman'da klinik deÄŸerlendirmesi yapÄ±n.</p>
+                            <h3>Değerlendirme Randevusu</h3>
+                            <p>Panik ataklarınız için Ankara Eryaman'da klinik değerlendirmesi yapın.</p>
                             <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                         </div>
 
@@ -268,19 +268,19 @@ export default function PanikAtakPillarPage() {
                                 <div className={styles.doctorIcon}>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                                 </div>
-                                <strong>Uzm. Dr. Abdullah MaraÅŸ</strong>
-                                <span>Psikiyatri UzmanÄ±</span>
+                                <strong>Uzm. Dr. Abdullah Maraş</strong>
+                                <span>Psikiyatri Uzmanı</span>
                                 <span>Ankara, Eryaman</span>
                             </div>
                         </div>
 
                         <div className={styles.sidebarCard}>
-                            <h4>Ä°lgili Hizmetler & KÃ¼meler</h4>
+                            <h4>İlgili Hizmetler & Kümeler</h4>
                             <ul className={styles.sidebarLinks}>
                                 <li><Link href="/hizmetler/anksiyete">Anksiyete Hizmeti</Link></li>
                                 <li><Link href="/hizmetler/depresyon">Depresyon Psikiyatrisi</Link></li>
-                                <li><Link href="/hizmetler/uyku-bozukluklari">Gece ve Uyku ZorluÄŸu</Link></li>
-                                <li><Link href="/blog/panik-atak">Panik Atak Blog (TÃ¼mÃ¼)</Link></li>
+                                <li><Link href="/hizmetler/uyku-bozukluklari">Gece ve Uyku Zorluğu</Link></li>
+                                <li><Link href="/blog/panik-atak">Panik Atak Blog (Tümü)</Link></li>
                             </ul>
                         </div>
                     </aside>
@@ -294,12 +294,12 @@ export default function PanikAtakPillarPage() {
                     "@graph": [
                         {
                             "@type": "MedicalWebPage",
-                            "name": "Panik Atak DeÄŸerlendirmesi",
+                            "name": "Panik Atak Değerlendirmesi",
                             "url": "https://drabdullahmaras.com/hizmetler/panik-atak",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "Panic Disorder",
-                                "alternateName": "Panik BozukluÄŸu"
+                                "alternateName": "Panik Bozukluğu"
                             },
                             "author": { "@id": "https://drabdullahmaras.com/#physician" },
 "isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
