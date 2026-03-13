@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -249,8 +249,7 @@ export default function BipolarPillarPage() {
                             <strong>📌 Tıbbi Bilgilendirme ve Uyarı Bildirimi</strong>
                             Bu ve buna benzer içerikler tıbbi muayenenin, birebir hekim değerlendirmesinin ya da reçetenin yerini tutmayı amaçlamaz.
                             Psikiyatristiniz tarafından şahsen yapılmayan hiçbir tanı, internetteki okumalarınız ışığında kişiye konulamaz. Kliniğimiz
-                            sağlık bakanlığı kısıtlarına tam uyumlu ilerlemekte olup, "kesin tedavi, kalıcı iyileşme başarısı" vadetmez; tedaviler hastalığın durumuna ve kişiye özel seyreder. Yetişkin psikiyatrisi hizmetlerimiz sadece belirli yaş grubundakileri (ergen ve çocuk
-                            hariç) kapsamaktadır.
+                            sağlık bakanlığı kısıtlarına tam uyumlu ilerlemekte olup, "kesin tedavi, kalıcı iyileşme başarısı" vadetmez; tedaviler hastalığın durumuna ve kişiye özel seyreder. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> psikiyatrik değerlendirme sunulmakta olup, 16 yaş altı çocuk süreçlerini kapsamamaktadır.
                         </div>
 
                         <div className={styles.faqSection} id="sss">

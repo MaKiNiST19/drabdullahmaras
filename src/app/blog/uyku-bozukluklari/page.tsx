@@ -79,7 +79,7 @@ export default function UykuBozukluklariHub() {
 
                         <div className="info-banner" style={{ margin: 'var(--space-6) 0' }}>
                             <strong>📌 Kullanım ve Klinik Başvuru Uyarıları</strong>
-                            Bilgi amaçlı olan bu yazılar çocukların uyku problemlerini kapsamaz. Psikiyatrist Ankara (Eryaman - Altay Mh.) bölgesinde hekimimiz Uzm. Dr. Abdullah Maraş, "sadece eczaneden uyku takviyesi alınacak zannedilen bu tablonun", gerçek bir yetişkin hasta psikiyatrisi normlarında; hastanın hayat hikayesi doğrultusunda birebir muayenede yanıtlamakta ve kişiye has bireysel değerlendirme çizelgesi ile yürütmektedir.
+                            Bilgi amaçlı olan bu yazılar 16 yaş altı çocukların uyku problemlerini kapsamaz. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> değerlendirme yapılmaktadır. Psikiyatrist Ankara (Eryaman - Altay Mh.) bölgesinde hekimimiz Uzm. Dr. Abdullah Maraş, "sadece eczaneden uyku takviyesi alınacak zannedilen bu tablonun", gerçek bir yetişkin hasta psikiyatrisi normlarında; hastanın hayat hikayesi doğrultusunda birebir muayenede yanıtlamakta ve kişiye has bireysel değerlendirme çizelgesi ile yürütmektedir.
                         </div>
 
                         <Link href="/hizmetler/uyku-bozukluklari" className="btn btn--primary" style={{ display: 'inline-block' }}>

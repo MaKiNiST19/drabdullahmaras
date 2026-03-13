@@ -317,41 +317,68 @@ export const services: ServiceData[] = [
         }
     },
     {
-        slug: 'cocuk-ve-ergen-psikiyatrisi',
-        title: 'Çocuk ve Ergen Psikiyatrisi',
-        metaTitle: 'Çocuk ve Ergen Psikiyatrisi | Eryaman Psikiyatrist - Uzm. Dr. Abdullah Maraş',
-        metaDescription: 'Ankara Eryaman\'da çocuk ve ergen psikiyatrisi değerlendirmesi. Gelişim dönemine uygun psikiyatrik değerlendirme ve aile rehberliği.',
+        slug: '16-yas-uzeri-ergen-psikiyatrisi',
+        title: '16 Yaş Üzeri Ergen Psikiyatri',
+        metaTitle: '16 Yaş Üzeri Ergen Psikiyatrisi | Eryaman Psikiyatrist - Uzm. Dr. Abdullah Maraş',
+        metaDescription: 'Ankara Eryaman\'da 16 yaş üzeri ergen psikiyatrisi değerlendirmesi. Ergenlik dönemine uygun psikiyatrik değerlendirme ve destek.',
         icon: '🌱',
-        shortDesc: 'Gelişim dönemine uygun psikiyatrik değerlendirme ve aile rehberliği.',
+        shortDesc: '16 yaş ve üzeri ergenlik dönemine uygun psikiyatrik değerlendirme ve destek.',
         content: {
-            intro: 'Çocukluk ve ergenlik dönemi, bireyin ruhsal gelişiminin temellerinin atıldığı kritik bir dönemdir. Bu dönemde yaşanan ruhsal güçlükler, erken fark edildiğinde ve uygun şekilde ele alındığında, bireyin gelişim sürecine olumlu katkı sağlanabilir. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş, çocuk ve ergen dönemine özgü psikiyatrik değerlendirme sunmaktadır.',
+            intro: 'Ergenlik dönemi, bireyin çocukluktan yetişkinliğe geçtiği, kimlik kazanımı ve ruhsal gelişimin yoğun yaşandığı kritik bir süreçtir. Bu dönemde ortaya çıkan ruhsal zorluklar, bireyin ileriki yaşamını derinden etkileyebilir. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş, 16 yaş ve üzerindeki ergenlere yönelik kapsamlı psikiyatrik değerlendirme sunmaktadır.',
             sections: [
                 {
-                    title: 'Çocuk ve Ergen Psikiyatrisi Kapsamı',
-                    text: 'Çocuk ve ergen psikiyatrisi, 0-18 yaş grubundaki bireylerin ruhsal sağlık sorunlarının değerlendirmesini ve yönetimini kapsayan özel bir alandır. Dikkat eksikliği ve hiperaktivite bozukluğu (DEHB), kaygı bozuklukları, depresyon, davranış sorunları, okul uyum güçlükleri, sosyal beceri eksiklikleri, tik bozuklukları ve ergenlik dönemine özgü ruhsal zorluklar bu alanın kapsamındadır.'
+                    title: '16 Yaş Üzeri Ergen Psikiyatrisi Kapsamı',
+                    text: 'Bu alanda 16 yaş ve üzeri bireylerin ergenlik dönemine özgü ruhsal sağlık sorunları değerlendirilmektedir. Sınav kaygısı, kimlik arayışı, sosyal ilişki güçlükleri, dikkat eksikliği ve hiperaktivite (DEHB), duygu düzenleme sorunları ve gelecek kaygısı bu dönemin temel odak noktaları arasındadır.'
                 },
                 {
-                    title: 'Çocukta Ruh Sağlığı Değerlendirmesi',
-                    text: 'Çocuklarda ruh sağlığı değerlendirmesi, yetişkinlerden farklı bir yaklaşım gerektirir. Çocuğun gelişim basamakları, iletişim beceri düzeyi ve aile dinamikleri göz önünde bulundurulmalıdır. Eryaman\'daki kliniğimizde, çocuğun yaşına ve gelişim düzeyine uygun bir değerlendirme ortamı sağlanmaktadır. Ailenin sürece dahil edilmesi, değerlendirmenin önemli bir parçasıdır.'
+                    title: 'Ergenlikte Ruhsal Değerlendirme',
+                    text: 'Ergenlik dönemi, hormonal değişimlerin ve sosyal baskıların yoğun olarak yaşandığı bir süreçtir. Bu dönemde yaşanan kaygı, depresif belirtiler, öfke kontrolü güçlükleri ve akademik performans düşüklüğü sık görülebilmektedir. Altay Mahallesi çevresindeki kliniğimizde, ergenlerin kendilerini ifade edebilecekleri güvenli ve yargısız bir ortam sunulmaktadır.'
                 },
                 {
-                    title: 'Ergenlik Döneminde Ruhsal Değerlendirme',
-                    text: 'Ergenlik dönemi, hormonal değişimlerin, kimlik arayışının ve sosyal baskıların yoğun olarak yaşandığı bir geçiş sürecidir. Bu dönemde kaygı, depresif belirtiler, öfke kontrolü güçlükleri, akademik performans düşüklüğü ve sosyal ilişki sorunları sık görülebilmektedir. Altay Mahallesi çevresindeki kliniğimizde, ergenlerin kendilerini ifade edebilecekleri güvenli bir ortam sunulmaktadır.'
-                },
-                {
-                    title: 'Aile Rehberliği ve İşbirliği',
-                    text: 'Çocuk ve ergen psikiyatrisinde aile ile işbirliği, değerlendirme ve destek sürecinin temel bileşenlerindendir. Aileler, çocuklarının ruh sağlığı sürecini anlamaları ve desteklemeleri konusunda bilgilendirilmektedir. Ankara, Etimesgut ve Batıkent bölgelerinden kolay ulaşılabilen klinikte, aile odaklı bir yaklaşım benimsenmektedir.'
-                },
-                {
-                    title: 'Hangi Durumlarda Çocuk Psikiyatristi ile Görüşülmelidir?',
-                    text: 'Çocuğunuzun davranışlarında belirgin değişimler fark ediyorsanız, okul performansında düşüş yaşanıyorsa, aşırı kaygı veya korku belirtileri gözlüyorsanız, sosyal ilişkilerde güçlükler yaşıyorsanız veya gelişimsel süreçlerle ilgili endişeleriniz varsa, profesyonel bir değerlendirme almanız önerilmektedir.'
+                    title: 'Bireysel Yaklaşım ve Destek',
+                    text: 'Her ergenun yaşadığı zorluklar ve aile içindeki konumu benzersizdir. Değerlendirme sürecinde ergenin özerkliğine saygı duyularak, ihtiyaçlarına uygun bir destek planı oluşturulur. Ankara, Etimesgut ve Batıkent bölgelerinden kolay ulaşılabilen kliniğimizde, bilimsel verilere dayalı bir yaklaşım benimsenmektedir.'
                 }
             ],
             relatedServices: ['dikkat-eksikligi', 'anksiyete', 'depresyon'],
             faq: [
-                { question: 'Çocuğumu psikiyatriste götürmeli miyim?', answer: 'Çocuğunuzda davranış değişiklikleri, aşırı kaygı, okul uyum sorunları veya sosyal ilişki güçlükleri fark ediyorsanız, profesyonel bir değerlendirme almanız faydalı olabilir. Erken dönemde alınan destek, çocuğun sağlıklı gelişimine katkı sağlayabilir.' },
-                { question: 'Ergenlikte psikolojik sorunlar normal mi?', answer: 'Ergenlik döneminde belirli düzeyde ruhsal dalgalanmalar yaşanması doğal bir gelişim sürecidir. Ancak belirtiler yoğun ve sürekli hale geldiğinde, profesyonel değerlendirme önerilmektedir.' },
-                { question: 'Eryaman\'da çocuk psikiyatrisi değerlendirmesi yapılıyor mu?', answer: 'Evet, Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş\'ın kliniğinde çocuk ve ergen psikiyatrisi değerlendirmesi yapılmaktadır.' }
+                { question: 'Kliniğinizde her yaştan çocuk bakılıyor mu?', answer: 'Hayır, kliniğimizde özellikle 16 yaş ve üzerindeki ergen bireylere yönelik psikiyatrik değerlendirme süreçleri yürütülmektedir.' },
+                { question: 'Ergenlikte görülen her değişim normal midir?', answer: 'Ergenlikte belirli düzeyde ruhsal dalgalanmalar normal karşılansa da, belirtiler sürekli hale geldiğinde ve gencin günlük yaşamını, akademik başarısını ya da sosyal ilişkilerini bozmaya başladığında profesyonel bir değerlendirme yapılması önerilir.' },
+                { question: 'Eryaman\'da ergen psikiyatrisi değerlendirmesi yapılıyor mu?', answer: 'Evet, Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş\'ın kliniğinde 16 yaş üzeri ergenlere yönelik kapsamlı psikiyatrik değerlendirme yapılmaktadır.' }
+            ]
+        }
+    },
+    {
+        slug: 'cinsel-bozukluklar',
+        title: 'Cinsel Bozukluklar',
+        metaTitle: 'Cinsel Bozukluklar Değerlendirmesi | Eryaman Psikiyatrist - Uzm. Dr. Abdullah Maraş',
+        metaDescription: 'Ankara Eryaman\'da cinsel işlev bozuklukları değerlendirmesi. Sertleşme sorunu, erken boşalma ve cinsel isteksizlik gibi durumlara yönelik uzman psikiyatri değerlendirmesi.',
+        icon: '❤️',
+        shortDesc: 'Cinsel isteksizlik, sertleşme sorunları ve erken boşalma gibi durumların klinik değerlendirmesi.',
+        content: {
+            intro: 'Cinsel sağlık, genel iyilik halinin ve yaşam kalitesinin ayrılmaz bir parçasıdır. Cinsel işlev bozuklukları, bireyin veya çiftin cinsel yaşamından doyumu engelleyen fiziksel, psikolojik veya ilişkisel sorunları kapsar. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş, cinsel bozuklukların kapsamlı klinik değerlendirmesini bilimsel ve etik çerçevede gerçekleştirmektedir.',
+            sections: [
+                {
+                    title: 'Cinsel İşlev Bozuklukları Nedir?',
+                    text: 'Cinsel işlev bozuklukları; cinsel istek, uyarılma, haz alma veya boşalma aşamalarında yaşanan aksaklıkları ifade eder. Bu durumlar biyolojik nedenlerden (hormonal, damarsal, ilaç yan etkileri) kaynaklanabileceği gibi, yoğun stres, kaygı, geçmiş travmalar veya ilişki sorunları gibi psikolojik faktörlerden de kaynaklanabilir.'
+                },
+                {
+                    title: 'Yaygın Karşılaşılan Cinsel Sorunlar',
+                    text: 'Erkeklerde sertleşme sorunu (erektil disfonksiyon), erken boşalma ve cinsel isteksizlik sık görülürken; kadınlarda cinsel isteksizlik, orgazm bozuklukları, vajinismus ve ağrılı cinsel birleşme (disparoni) sık karşılaşılan durumlar arasındadır.'
+                },
+                {
+                    title: 'Klinik Değerlendirme Süreci',
+                    text: 'Kliniğimizde cinsel bozuklukların değerlendirmesi, detaylı bir klinik görüşme ile başlar. Sorunun başlangıcı, seyri, tıbbi geçmiş ve psikososyal etkenler bütüncül bir bakış açısıyla ele alınır. Ayrıcı tanı amacıyla gerekli tıbbi tetkikler için ilgili branşlar ile işbirliği yapılabilir.'
+                },
+                {
+                    title: 'Bireysel ve Çift Odaklı Yaklaşım',
+                    text: 'Cinsel sorunlar genellikle sadece bir bireyi değil, ilişkiyi de etkiler. Değerlendirme sonucunda bireysel ihtiyaçlara veya çift dinamiklerine uygun bir destek planı oluşturulur. Cinsel terapiler, farmakolojik yaklaşımlar veya her ikisi birlikte kullanılabilir.'
+                }
+            ],
+            relatedServices: ['anksiyete', 'depresyon', 'uyku-bozukluklari'],
+            faq: [
+                { question: 'Cinsel bozukluklar tedavi edilebilir mi?', answer: 'Evet, birçok cinsel işlev bozukluğu doğru tanı ve uygun yaklaşımlarla başarılı bir şekilde tedavi edilebilir. Önemli olan sorunun temel nedenlerini doğru saptamaktır.' },
+                { question: 'Psikiyatri uzmanı cinsel sorunlara bakar mı?', answer: 'Evet, cinsel işlev bozukluklarının büyük bir kısmı psikolojik kökenlidir veya psikolojik faktörlerle ağırlaşmaktadır. Psikiyatri uzmanları, bu sorunların hem tıbbi hem de psikolojik değerlendirmesinde yetkin tıp doktorlarıdır.' },
+                { question: 'Eryaman\'da cinsel terapi değerlendirmesi yapılıyor mu?', answer: 'Ankara Eryaman, Altay Mahallesi çevresinde Uzm. Dr. Abdullah Maraş\'ın kliniğinde cinsel işlev bozukluklarına yönelik kapsamlı klinik değerlendirme gerçekleştirilmektedir.' }
             ]
         }
     }

@@ -9,8 +9,9 @@ const services = [
     { href: '/hizmetler/dikkat-eksikligi', label: 'Dikkat Eksikliği' },
     { href: '/hizmetler/bipolar-bozukluk', label: 'Bipolar Bozukluk' },
     { href: '/hizmetler/uyku-bozukluklari', label: 'Uyku Bozuklukları' },
+    { href: '/hizmetler/cinsel-bozukluklar', label: 'Cinsel Bozukluklar' },
     { href: '/hizmetler/yetiskin-psikiyatrisi', label: 'Yetişkin Psikiyatrisi' },
-    { href: '/hizmetler/cocuk-ve-ergen-psikiyatrisi', label: 'Çocuk ve Ergen Psikiyatrisi' },
+    { href: '/hizmetler/16-yas-uzeri-ergen-psikiyatrisi', label: '16 Yaş Üzeri Ergen Psikiyatri' },
 ];
 
 export default function Footer() {
@@ -50,7 +51,7 @@ export default function Footer() {
                                         <div className="mt-1 flex-shrink-0">
                                             <i className="fa-regular fa-clock" style={{ color: "var(--primary-300)" }}></i>
                                         </div>
-                                        <span>*Randevu saatlerimiz hafta içi 09:00 - 18:00 arasındadır.</span>
+                                        <span>*Randevu saatlerimiz hafta içi 09:00 - 18:00 ve Cumartesi 09:00 - 16:00 arasındadır.</span>
                                     </div>
                                 </div>
                             </div>

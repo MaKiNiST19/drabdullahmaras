@@ -150,7 +150,7 @@ export default function OkbBelirtileriBlog() {
                                 <strong>📌 Yetişkin Sağlığı Bilgilendirme Notu</strong>
                                 Metin okuru; bir "tıbbi iyileşme" teşhisi vadedilmeden genel bilgilendirilmektedir. Takıntıların adının konulabilmesi hastanelerde/kliniklerde
                                 yalnızca psikiyatri tıp doktorları ("kesin çözüm, tam garanti verilmemesi" ilkesiyle) tarafından icra edilir. Kliniğimizde
-                                çocuk danışan / ergen takıntı gruplarına hizmet verilmemekte olup yetişkin odaklıdır.
+                                16 yaş altı çocuk danışan gruplarına hizmet verilmemekte olup, 16 yaş ve üzeri ergenlere yönelik psikiyatrik değerlendirme verilmektedir.
                             </div>
 
                             <div className={styles.faqSection} id="sss">

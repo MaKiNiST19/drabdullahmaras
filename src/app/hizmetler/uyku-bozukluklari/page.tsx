@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -74,7 +74,7 @@ export default function UykuBozukluklariPillarPage() {
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
                         <strong>📌 Bilgilendirme ve Kapsam Notu</strong>
                         Bu sayfa içeriği yalnızca yetişkin psikiyatrisi kapsamındaki Uyku Bozuklukları hakkında klinik bilgilendirme sağlar.
-                        Metinler çocuk ve ergen uykusuzluklarını kapsamaz. İnternet sayfaları üzerinden kesin tedavi vaadi veya standart medikal
+                        Metinler 16 yaş altı çocuk uykusuzluklarını kapsamaz. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> psikiyatrik değerlendirme hizmeti sunulmaktadır.
                         öneriler verilemez; tüm uygulamalar birebir uzman hekim görüşmesiyle kişiye özel yapılandırılır.
                     </div>
                 </div>

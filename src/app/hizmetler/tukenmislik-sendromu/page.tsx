@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -74,7 +74,7 @@ export default function TukenmislikPillarPage() {
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
                         <strong>📌 Klinik Bildirim</strong>
                         Tükenmişlik (Burnout) olgusu sadece yetişkin çalışma/iş ve özel yaşam pratikleri çerçevesinde ele alınır.
-                        Bu sayfa üzerindeki tıbbi bilgilendirmeler çocuk ve meslek dışı çağları kapsamaz. Kesin tedavi vaadinde
+                        Bu sayfa üzerindeki tıbbi bilgilendirmeler 16 yaş altı çocukları kapsamaz. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> psikiyatrik değerlendirme hizmeti sunulmaktadır. Kesin tedavi vaadinde
                         bulunulmaz, seyrin gidişatı yalnızca birebir hekim muayenesi sonrasında yapılandırılabilir.
                     </div>
                 </div>

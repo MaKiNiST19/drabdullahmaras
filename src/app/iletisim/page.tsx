@@ -61,9 +61,9 @@ export default function IletisimPage() {
                                 <h2>Çalışma Saatleri</h2>
                                 <div className={styles.hours}>
                                     <div className={styles.hourRow}><span>Hafta İçi</span><strong>09:00 – 18:00</strong></div>
-                                    <div className={styles.hourRow}><span>Hafta Sonu</span><strong>Kapalı</strong></div>
+                                    <div className={styles.hourRow}><span>Cumartesi</span><strong>09:00 – 16:00</strong></div>
                                 </div>
-                                <span className={styles.note} style={{ marginTop: '0.75rem' }}>*Randevu saatlerimiz hafta içi 09:00 - 18:00 arasındadır.</span>
+                                <span className={styles.note} style={{ marginTop: '0.75rem' }}>*Randevu saatlerimiz hafta içi 09:00 - 18:00 ve Cumartesi 09:00 - 16:00 arasındadır.</span>
                             </div>
                         </div>
 

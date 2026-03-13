@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
@@ -156,7 +156,7 @@ export default function OkbHubPage() {
                         <strong>📌 Bilgilendirme Notu</strong>
                         Bloglar ve makalelerdeki yaklaşımlar "%100 başarı, garanti, kesin tedavi vaat etmez". Tıbbi süreçler
                         içerisindeki gidişat kişiden kişiye farklı şekillenecek olup teşhis / farmakoterapi (veya terapi) sadece
-                        kendi hekiminizce yürütülebilir. Kliniğimizde çocuk ve ergen kabulü YAPILMAMAKTADIR.
+                        kendi hekiminizce yürütülebilir. Kliniğimizde 16 yaş altı çocuk kabulü yapılmamaktadır. 16 yaş ve üzeri ergenler için değerlendirme hizmeti sunulmaktadır.
                         Yetişkin psikiyatrisi temellidir.
                     </div>
                 </div>

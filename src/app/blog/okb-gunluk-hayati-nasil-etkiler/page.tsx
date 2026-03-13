@@ -158,7 +158,7 @@ export default function OkbGunlukHayatBlog() {
                                 <strong>📌 Yetişkin Sağlığı Bilgilendirme Notu</strong>
                                 Bu blog kütüphanesi; "%100 garanti tedaviler, son teknoloji çareler" adı altında popüler ve yanlış beyanlar
                                 taşımadan tıbbın etik sınırlarınca sizleri bilgilendirmek içindir. Kişinin işlev kaybının derecesine hekim ile ilk görüşmesinde teşhis-teşhisin ekarte süreci başlar. Eryaman bölgesinde
-                                bulunan özel Kliniğimizin kabulleri yalnızca "Yetişkinlik (Erişkin) dönemi OKB'lerinden" ve yaş gruplarından (çocuk kabulü yoktur) oluşmaktadır.
+                                bulunan özel Kliniğimizin kabulleri 16 yaş ve üzeri ergen ve yetişkin yaş gruplarından (16 yaş altı çocuk kabulü yoktur) oluşmaktadır.
                             </div>
 
                             <div className={styles.faqSection} id="sss">

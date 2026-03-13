@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from './page.module.css';
@@ -480,7 +480,8 @@ export default function DepresyonPillarPage() {
                                     <li><Link href="/hizmetler/bipolar-bozukluk">Bipolar Bozukluk</Link></li>
                                     <li><Link href="/hizmetler/uyku-bozukluklari">Uyku Bozuklukları</Link></li>
                                     <li><Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin Psikiyatrisi</Link></li>
-                                    <li><Link href="/hizmetler/cocuk-ve-ergen-psikiyatrisi">Çocuk ve Ergen</Link></li>
+                                    <li><Link href="/hizmetler/16-yas-uzeri-ergen-psikiyatrisi">16 Yaş Üzeri Ergen Psikiyatri</Link></li>
+                                    <li><Link href="/hizmetler/cinsel-bozukluklar">Cinsel Bozukluklar</Link></li>
                                 </ul>
                             </div>
                         </aside>

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -73,7 +73,7 @@ export default function EriskinDehbPillarPage() {
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
                         <strong>📌 Bilgilendirme ve Kapsam Notu</strong>
-                        Bu sayfa içeriği yetişkin psikiyatrisi kapsamındaki Erişkin DEHB (Dikkat Eksikliği ve Hiperaktivite Bozukluğu) hakkındaki süreçleri ele almaktadır. Kliniğimizde <strong>çocuk ve ergenlere yönelik</strong> gelişimsel psikiyatrik değerlendirme süreçleri de yürütülmekte olup, çocuk-ergen randevuları için de başvuruda bulunabilirsiniz.
+                        Bu sayfa içeriği yetişkin psikiyatrisi kapsamındaki Erişkin DEHB (Dikkat Eksikliği ve Hiperaktivite Bozukluğu) hakkındaki süreçleri ele almaktadır. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> psikiyatrik değerlendirme süreçleri yürütülmekte olup, ergen randevuları için de başvuruda bulunabilirsiniz.
                     </div>
                 </div>
             </section>
@@ -225,7 +225,7 @@ export default function EriskinDehbPillarPage() {
                             İş hayatındaki bitmeyen savrukluk, her projeyi yarım bırakmanın getirdiği özgüven kaybı
                             ve zihindeki kaosu yönetmek için, artık kendinizi suçlamayı bırakabilirsiniz.
                             Ankara Eryaman (ve bağlı bulunduğu Altay Mh., Etimesgut, Batıkent) odaklı hizmet veren
-                            kliniğimizde Uzm. Dr. Abdullah Maraş, çocuk, ergen ve yetişkin tüm yaş gruplarına yönelik <Link href="/randevu">Ankara Eryaman DEHB değerlendirme süreci</Link> tasarısını
+                            kliniğimizde Uzm. Dr. Abdullah Maraş, 16 yaş üzeri ergen ve yetişkin tüm yaş gruplarına yönelik <Link href="/randevu">Ankara Eryaman DEHB değerlendirme süreci</Link> tasarısını
                             profesyonel olarak uygulamaktadır.
                         </p>
                         <p>

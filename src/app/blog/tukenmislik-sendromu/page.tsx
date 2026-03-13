@@ -78,7 +78,7 @@ export default function TukenmislikHub() {
 
                         <div className="info-banner" style={{ margin: 'var(--space-6) 0' }}>
                             <strong>📌 Kullanım Bağlamı ve Tıbbi Hukuk</strong>
-                            Bu içerik kümesi tamamen erişkin odaklıdır; çocuk yaş veya ebeveyn (çocuk okul eğitimleri) zorluklarını kapsamaz.
+                            Bu içerik kümesi erişkin ve 16 yaş üzeri ergen odaklıdır; 16 yaş altı çocuk yaş veya ebeveyn (çocuk okul eğitimleri) zorluklarını kapsamaz.
                             Verilen tavsiyeler ya da tanımlar kesin tedavi vaadi barındırmadığı gibi; tanı ve kalıcı çözümler kişinin kendine has yapısının psikiyatrik konsültasyona, (hastalığı okuma vizyonuyla) bireysel değerlendirmeye açılmasıyla Uzm. Dr. Abdullah Maraş / Ankara kliniğimizde elde edilebilir.
                         </div>
 

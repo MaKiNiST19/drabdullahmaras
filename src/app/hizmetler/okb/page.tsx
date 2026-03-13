@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon/page.module.css';
@@ -73,8 +73,7 @@ export default function OkbPillarPage() {
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-6)' }}>
                         <strong>📌 Bilgilendirme ve Kapsam Notu</strong>
-                        Bu metinler yalnızca yetişkin psikiyatrisi kapsamındaki OKB süreçlerine ait bilgilendirmeleri içerir (çocuk veya
-                        ergen süreçlerini içermemektedir). Tanı koyma, garanti veya kesin tedavi vadetme (tam başarı gibi) amaç gütmez; bireysel
+                        Bu metinler yalnızca yetişkin psikiyatrisi kapsamındaki OKB süreçlerine ait bilgilendirmeleri içerir. Kliniğimizde <strong>16 yaş ve üzeri ergenlere yönelik</strong> psikiyatrik değerlendirme sunulmaktadır. (16 yaş altı çocuk süreçlerini içermemektedir).
                         değerlendirmelerin tıp hekimlerince yapılması zorunludur.
                     </div>
                 </div>

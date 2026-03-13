@@ -199,7 +199,7 @@ export default function DepresyonBelirtileriBlog() {
                                 huzursuzluk da depresyon belirtisi olarak ortaya çıkabilir. Özellikle
                                 erkeklerde ve ergenlerde depresyon, üzüntüden ziyade öfke ve sinirlilik
                                 şeklinde kendini gösterebilir. Ergenlik döneminde yaşanan belirtiler için{' '}
-                                <Link href="/hizmetler/cocuk-ve-ergen-psikiyatrisi">çocuk ve ergen psikiyatrisi</Link>{' '}
+                                <Link href="/hizmetler/16-yas-uzeri-ergen-psikiyatrisi">16 yaş üzeri ergen psikiyatrisi</Link>{' '}
                                 değerlendirmesi önem kazanmaktadır.
                             </p>
 

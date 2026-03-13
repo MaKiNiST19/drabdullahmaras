@@ -21,7 +21,7 @@ const aboutFAQ = [
     {
         question: 'Hangi alanlarda psikiyatrik değerlendirme yapılmaktadır?',
         answer:
-            'Depresyon, anksiyete bozuklukları, panik atak, obsesif kompulsif bozukluk (OKB), dikkat eksikliği ve hiperaktivite bozukluğu (DEHB), bipolar bozukluk, uyku bozuklukları, yetişkin ve çocuk-ergen psikiyatrisi alanlarında kapsamlı değerlendirme yapılmaktadır.',
+            'Depresyon, anksiyete bozuklukları, panik atak, obsesif kompulsif bozukluk (OKB), dikkat eksikliği ve hiperaktivite bozukluğu (DEHB), bipolar bozukluk, uyku bozuklukları, cinsel bozukluklar, yetişkin ve 16 yaş üzeri ergen psikiyatrisi alanlarında kapsamlı değerlendirme yapılmaktadır.',
     },
     {
         question: 'Klinikte nasıl bir yaklaşım benimsenmektedir?',
@@ -84,8 +84,9 @@ export default function HakkindaPage() {
                                 <li><Link href="/hizmetler/dikkat-eksikligi">Dikkat eksikliği ve hiperaktivite bozukluğu (DEHB)</Link></li>
                                 <li><Link href="/hizmetler/bipolar-bozukluk">Bipolar bozukluk</Link></li>
                                 <li><Link href="/hizmetler/uyku-bozukluklari">Uyku bozuklukları</Link></li>
+                                <li><Link href="/hizmetler/cinsel-bozukluklar">Cinsel bozukluklar</Link></li>
                                 <li><Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin psikiyatrisi</Link></li>
-                                <li><Link href="/hizmetler/cocuk-ve-ergen-psikiyatrisi">Çocuk ve ergen psikiyatrisi</Link></li>
+                                <li><Link href="/hizmetler/16-yas-uzeri-ergen-psikiyatrisi">16 yaş üzeri ergen psikiyatri</Link></li>
                             </ul>
 
                             <h2>Klinik Yaklaşım ve Prensipler</h2>

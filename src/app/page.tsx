@@ -8,11 +8,11 @@ import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
-  description: 'Ankara Eryaman’da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
+  description: 'Ankara Eryaman’da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
   alternates: { canonical: 'https://drabdullahmaras.com/' },
   openGraph: {
     title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
-    description: 'Ankara Eryaman’da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
+    description: 'Ankara Eryaman’da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
     type: 'website',
     locale: 'tr_TR',
     url: 'https://drabdullahmaras.com/'
@@ -26,11 +26,11 @@ const homeFAQ = [
   },
   {
     question: "Eryaman'da psikiyatrist var mı?",
-    answer: "Evet, Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği, Ankara Eryaman Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza'da hizmet vermekte olup; çocuk, ergen ve yetişkin tüm yaş gruplarına yönelik tıbbi değerlendirme sunmaktadır. Bölge içerisinden Etimesgut ve Batıkent lokasyonlarına da oldukça kolay ve merkezi bir erişim ağında yer almaktadır."
+    answer: "Evet, Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği, Ankara Eryaman Altay Mahallesi Orhan Bey Caddesi Ata Yıldız Plaza'da hizmet vermekte olup; 16 yaş üzeri ergen ve yetişkin yaş gruplarına yönelik tıbbi değerlendirme sunmaktadır. Bölge içerisinden Etimesgut ve Batıkent lokasyonlarına da oldukça kolay ve merkezi bir erişim ağında yer almaktadır."
   },
   {
     question: "Psikiyatrik görüşme ne kadar sürer?",
-    answer: "Klinik psikiyatrik görüşmeler standart olarak bireyin detaylı anamnez (öykü) sürecini kapsayacak biçimde 40 ile 60 dakika aralığında sürdürülmektedir. Bu süreçte çocuk, ergen ve yetişkin tüm danışanlar için yaş grubuna uygun bilimsel değerlendirme yöntemleri izlenir."
+    answer: "Klinik psikiyatrik görüşmeler standart olarak bireyin detaylı anamnez (öykü) sürecini kapsayacak biçimde 40 ile 60 dakika aralığında sürdürülmektedir. Bu süreçte 16 yaş üzeri ergen ve yetişkin tüm danışanlar için yaş grubuna uygun bilimsel değerlendirme yöntemleri izlenir."
   },
   {
     question: "İlk görüşmede ne yapılır?",
@@ -54,7 +54,7 @@ function HomePageHero() {
               <span className={styles.heroTitleSmall}>Psikiyatrist</span>
             </h1>
             <p className={styles.heroDesc}>
-              Çocuk, ergen ve yetişkinlerde; depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında kanıta dayalı, bireysel psikiyatrik görüşme süreci.
+              16 yaş üzeri ergen ve yetişkinlerde; depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında kanıta dayalı, bireysel psikiyatrik görüşme süreci.
             </p>
             <div className={styles.heroButtons}>
               <Link href="/randevu" className={styles.btnPrimary}>
@@ -174,7 +174,7 @@ function LocalAuthoritySection() {
               <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="span">Ruh sağlığı pratiğinde, insan zihninin ve bedeninin maruz kaldığı kompleks yükler salt anlık belirtiler üzerinden değil; bireyin yaşamöyküsü, stres faktörleri ve nörobiyolojik altyapısı ışığında bütüncül olarak incelenmelidir.</ScrollReveal> <strong className={styles.fontWeightOnly}>Ankara psikiyatrist</strong> arayışına giren bireyler için kliniğimiz, sıradanlaştırılmış etiketleyici teşhislerden ziyade nedenselliği ve klinik çözüm rotasını merkezine alan profesyonel bir yaklaşım sunmaktadır.
             </p>
             <p className={styles.normalText}>
-              <strong className={styles.fontWeightOnly}>Eryaman psikiyatrist</strong> alanında faaliyet gösteren muayenehanemizde; çocuk, ergen ve yetişkin tüm hastalara destek verilmektedir. Depresyon, yaygın ve somatik anksiyete bozuklukları, OKB (Obsesif Kompulsif Bozukluk), panik atak, dikkat eksikliği (DEHB) ve tükenmişlik sendromu gibi ruh sağlığı alanlarında tıp bilimine dayalı hekimlik uygulanmaktadır.
+              <strong className={styles.fontWeightOnly}>Eryaman psikiyatrist</strong> alanında faaliyet gösteren muayenehanemizde; 16 yaş üzeri ergen ve yetişkin hastalara destek verilmektedir. Depresyon, yaygın ve somatik anksiyete bozuklukları, OKB (Obsesif Kompulsif Bozukluk), panik atak, dikkat eksikliği (DEHB) ve tükenmişlik sendromu gibi ruh sağlığı alanlarında tıp bilimine dayalı hekimlik uygulanmaktadır.
             </p>
             <p className={styles.normalText}>
               Psikiyatrik şikayetlerin incelenmesi, herkese uyan tek tip kalıplarla gerçekleştirilemez. Kliniğimizin yaklaşımında, her danışan kendi sosyokültürel ve genetik gerçekliği içerisinde ele alınarak tıbbi bir <strong className={styles.fontWeightOnly}>psikiyatrik değerlendirme</strong> ve detaylı bir <strong className={styles.fontWeightOnly}>bireysel görüşme</strong> esasıyla planlanır. <strong className={styles.fontWeightOnly}>Batıkent psikiyatrist</strong> ve <strong className={styles.fontWeightOnly}>Etimesgut psikiyatrist</strong> ihtiyacı doğrultusunda kliniğimiz Ata Yıldız Plaza, Eryaman'da yer alır.
@@ -432,7 +432,7 @@ function DoctorBioSection() {
             <h2 className={styles.bioTitle}><ScrollReveal baseRotation={0} blurStrength={2} as="span">Uzm. Dr. Abdullah Maraş</ScrollReveal></h2>
             <div className={styles.bioContent}>
               <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="p">
-                Anadolu Üniversitesi Tıp Fakültesi altyapısından gelen Dr. Abdullah Maraş, tıp eğitimi sonrasında tamamladığı uzmanlık donanımını Ruh Sağlığı ve Hastalıkları alanına kanalize etmiştir. Klinik hekimlik süreci boyunca <strong>çocuk, ergen ve yetişkin tüm hastalara destek vermeyi</strong> merkeze yerleştirmiş olup; tanısal işlemlerde hastayı dar kategorik etiketlere hapsetmekten kaçınan; genetik, kültürel ve çevresel doneleri bütünüyle harmanlayan felsefeyi destekler.
+                Anadolu Üniversitesi Tıp Fakültesi altyapısından gelen Dr. Abdullah Maraş, tıp eğitimi sonrasında tamamladığı uzmanlık donanımını Ruh Sağlığı ve Hastalıkları alanına kanalize etmiştir. Klinik hekimlik süreci boyunca <strong>16 yaş üzeri ergen ve yetişkin hastalara destek vermeyi</strong> merkeze yerleştirmiş olup; tanısal işlemlerde hastayı dar kategorik etiketlere hapsetmekten kaçınan; genetik, kültürel ve çevresel doneleri bütünüyle harmanlayan felsefeyi destekler.
               </ScrollReveal>
               <ScrollReveal baseOpacity={0} blurStrength={2} baseRotation={1} as="p">
                 Tıp dışı "100% garanti sözleri", iddialı mucizeler veya bilimsellikten uzak piyasa dilini asla bünyesinde ihtiva etmeyen bu yapı, doğrudan hastanın kendi güven sınırlarında yürüyen tıbbi ve analitik veriler üzerine inşa edilmiş dürüst yaklaşımı temsil eder.
@@ -450,7 +450,7 @@ function DoctorBioSection() {
                   <span className={styles.bioListText}><strong>Uzmanlık</strong>Ruh Sağlığı ve Hastalıkları</span>
                 </li>
                 <li className={styles.bioListItem}>
-                  <span className={styles.bioListText}><strong>Hedef Yaş Grubu</strong>Çocuk, Ergen ve Yetişkin Psikiyatrisi</span>
+                  <span className={styles.bioListText}><strong>Hedef Yaş Grubu</strong>16 Yaş Üzeri Ergen ve Yetişkin Psikiyatrisi</span>
                 </li>
                 <li className={styles.bioListItem}>
                   <span className={styles.bioListText}><strong>Lokasyon</strong>Ankara Eryaman (Etimesgut)</span>
@@ -481,7 +481,7 @@ function SmallFooterCtaSection() {
     <section className={styles.smallCtaSection}>
       <div className={styles.smallCtaContainer}>
         <h2 className={`${styles.smallCtaTitle} serifFont`}>Randevu Planlamak İsterseniz</h2>
-        <p className={styles.smallCtaDesc}>Çocuk, ergen ve yetişkin ruh sağlığı değerlendirmesi için randevu taleplerinizi web sitemiz üzerinden iletebilirsiniz.</p>
+        <p className={styles.smallCtaDesc}>16 yaş üzeri ergen ve yetişkin ruh sağlığı değerlendirmesi için randevu taleplerinizi web sitemiz üzerinden iletebilirsiniz.</p>
         <Link href="/randevu" className={styles.smallCtaButton}>
           Randevu Formu
         </Link>
@@ -515,7 +515,7 @@ export default function Home() {
                 "@id": "https://drabdullahmaras.com/#webpage",
                 "url": "https://drabdullahmaras.com/",
                 "name": "Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist",
-                "description": "Ankara Eryaman'da çocuk, ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.",
+                "description": "Ankara Eryaman'da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.",
                 "isPartOf": { "@id": "https://drabdullahmaras.com/#website" },
                 "about": { "@id": "https://drabdullahmaras.com/#organization" },
                 "inLanguage": "tr-TR"
