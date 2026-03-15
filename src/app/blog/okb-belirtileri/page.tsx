@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'OKB Belirtileri Nelerdir? (Obsesyon ve Kompulsiyon) | Uzm. Dr. Abdullah Maraş',
     description:
         'OKB (Takıntı Hastalığı) belirtileri nelerdir? Hastalık bulaşması hissi, evden çıkamama, saçma düşüncelerin zihni kemirmesi ve Ankara Eryaman uzman psikiyatrist değerlendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/okb-belirtileri' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/okb-belirtileri' },
     openGraph: {
         title: 'Yetişkinlerde Obsesyon ve Kompulsif Bozukluk (OKB) Belirtileri',
         type: 'article', locale: 'tr_TR',

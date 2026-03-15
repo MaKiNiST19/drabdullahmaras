@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'OKB Geçer mi? Takıntı Hastalığı Kendi Kendine Düzelir mi? | Uzm. Dr. Abdullah Maraş',
     description:
         'OKB geçer mi? Takıntı hastalığının seyri ve kendi kendine düzelme olasılığı. Ankara Eryaman psikiyatrik değerlendirme süreci ve obsesyonların klinik yapısı.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/okb-gecer-mi' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/okb-gecer-mi' },
     openGraph: {
         title: 'OKB (Takıntılar) Geçer mi? İyileşme Seyri',
         type: 'article', locale: 'tr_TR',

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'OKB Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
         'Takıntı hastalığı (OKB) nedir? Temizlik, simetri, zarar verme ve dini takıntı belirtileri hakkında yetişkinlere yönelik tıbbi blog kütüphanesi. Ankara Eryaman.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/okb' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/okb' },
     openGraph: {
         title: 'OKB ve Takıntı Hastalığı Hakkında Bilgilendirici (Klinik) Makaleler',
         description: 'Yetişkinlerde Obsesyon ve Kompulsiyonlara dair zihinsel döngüleri açıklayan tıbbi rehber içerikler. Uzm. Dr. Abdullah Maraş, Eryaman.',
@@ -171,7 +171,7 @@ export default function OkbHubPage() {
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -180,8 +180,8 @@ export default function OkbHubPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "OKB Bilgilendirme Makaleleri (Yetişkin)",
-                    url: "https://drabdullahmaras.com/blog/okb",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
+                    url: "https://www.drabdullahmaras.com.tr/blog/okb",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
                 })
             }} />
         </>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Uyku Bozuklukları Bilgi Kütüphanesi | Uykusuzluk ve Çözümleri',
     description:
         'Uykusuzluk, gece sık uyanma sorunu, uyku kalitesi ve yataktaki kaygı döngüleriyle mücadele eden yetişkinlere yönelik Eryaman (Ankara) klinik bilgi platformu.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/uyku-bozukluklari' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/uyku-bozukluklari' },
     openGraph: {
         title: 'Yetişkinlerde Uyku Bozuklukları: İnsomnia ve Gece Uyanmaları',
         type: 'website', locale: 'tr_TR',
@@ -127,13 +127,13 @@ export default function UykuBozukluklariHub() {
                     "@type": "CollectionPage",
                     "name": "Uyku Bozuklukları Bilgi Kütüphanesi",
                     "description": "Yetişkinlerde uyku ve uykusuzluk zorlukları üzerine Ankara Eryaman klinik bilgileri.",
-                    "url": "https://drabdullahmaras.com/blog/uyku-bozukluklari",
+                    "url": "https://www.drabdullahmaras.com.tr/blog/uyku-bozukluklari",
                     "mainEntity": {
                         "@type": "ItemList",
                         "itemListElement": uykuArticles.map((article, index) => ({
                             "@type": "ListItem",
                             "position": index + 1,
-                            "url": "https://drabdullahmaras.com" + article.path,
+                            "url": "https://www.drabdullahmaras.com.tr" + article.path,
                             "name": article.title
                         }))
                     }

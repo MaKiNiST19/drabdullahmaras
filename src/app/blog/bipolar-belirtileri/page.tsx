@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Bipolar Belirtileri Nelerdir? (Mani ve Depresyon Bulguları)',
     description:
         'Yetişkinlerde bipolar belirtileri. Mani ve depresyon arasındaki organik değişimleri öğrenin. Ankara Eryaman’da psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar-belirtileri' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar-belirtileri' },
     openGraph: {
         title: 'Bipolar Bozukluk Belirtileri | Yetişkin Psikiyatrisi',
         type: 'article', locale: 'tr_TR',

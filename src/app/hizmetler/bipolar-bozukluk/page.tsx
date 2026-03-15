@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Ankara Eryaman Bipolar Bozukluk Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
     description:
         'Bipolar bozukluk belirtileri, mani ve depresyon dönemleri hakkında bilgilendirme ve Eryaman’da psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/bipolar-bozukluk' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/bipolar-bozukluk' },
     openGraph: {
         title: 'Ankara Eryaman’da Bipolar Bozukluk Değerlendirmesi',
         description: 'Bipolar bozukluk belirtileri, mani ve depresyon dönemleri hakkında bilgilendirme ve Eryaman’da psikiyatrik değerlendirme süreci.',
@@ -317,14 +317,14 @@ export default function BipolarPillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Ankara Eryaman Bipolar Bozukluk Değerlendirmesi",
-                            "url": "https://drabdullahmaras.com/hizmetler/bipolar-bozukluk",
+                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/bipolar-bozukluk",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "BipolarDisorder",
                                 "alternateName": "Bipolar Bozukluk, Manik Depresif Hastalık"
                             },
-                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
-"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
+                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -337,9 +337,9 @@ export default function BipolarPillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "Bipolar Bozukluk", "item": "https://drabdullahmaras.com/hizmetler/bipolar-bozukluk" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "Bipolar Bozukluk", "item": "https://www.drabdullahmaras.com.tr/hizmetler/bipolar-bozukluk" }
                             ]
                         }
                     ]

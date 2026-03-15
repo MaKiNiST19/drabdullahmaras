@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Bipolar Bozukluk Nedir? Kısa Özeti | Psikiyatri Kliniği',
     description:
         'Bipolar bozukluk nedir? İki uçlu duygu durum hastalığının temel tanımı, mani ile depresyon evreleri ve yetişkinlerde psikiyatrik süreç.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar-bozukluk-nedir' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar-bozukluk-nedir' },
     openGraph: {
         title: 'Bipolar Bozukluk Nedir? Temel Kılavuz',
         type: 'article', locale: 'tr_TR',

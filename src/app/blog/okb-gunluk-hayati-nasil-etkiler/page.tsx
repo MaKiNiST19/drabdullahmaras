@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'OKB Günlük Hayatı Nasıl Etkiler? İş ve İlişkilerdeki Yıkım | Uzm. Dr. Abdullah Maraş',
     description:
         'Takıntılar (OKB) günlük yaşantıyı, mesai hayatını ve evlilik ilişkilerini nasıl etkiler? Sürekli bir şeyleri kontrol etmekten evden çıkamamak ve Ankara Eryaman klinik süreçleri.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/okb-gunluk-hayati-nasil-etkiler' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/okb-gunluk-hayati-nasil-etkiler' },
     openGraph: {
         title: 'Obsesif Kompulsif Bozuklukların Günlük Hayattaki ve İş Hayatındaki Maskesi',
         type: 'article', locale: 'tr_TR',

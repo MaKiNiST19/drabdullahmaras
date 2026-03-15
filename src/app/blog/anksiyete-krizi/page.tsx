@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Anksiyete Krizi Sırasında Ne Olur? Belirtiler ve Destek | Uzm. Dr. Abdullah Maraş',
     description:
         'Anksiyete krizi nasıl başlar, zihinsel ve bedensel belirtileri nelerdir? Kriz anında sakinleşmeye yardımcı adımlar ve Eryaman panik değerlendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete-krizi' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete-krizi' },
     openGraph: {
         title: 'Anksiyete Krizi Sırasında Neler Yaşanır?',
         type: 'article', locale: 'tr_TR',

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Anksiyete Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
         'Anksiyete belirtileri, sürekli endişe hali, panik atak farkı ve sosyal anksiyete üzerine uzman bilgilendirme yazıları. Ankara Eryaman.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete' },
     openGraph: {
         title: 'Anksiyete Hakkında Bilgilendirici Yazılar',
         description: 'Anksiyete bozukluğu (kaygı bozukluğu) ve ilişkili sorunlar hakkında tıbbi bilgilendirme yazıları.',
@@ -141,7 +141,7 @@ export default function AnksiyeteHubPage() {
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -150,8 +150,8 @@ export default function AnksiyeteHubPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Anksiyete Hakkında Bilgilendirici Yazılar",
-                    url: "https://drabdullahmaras.com/blog/anksiyete",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
+                    url: "https://www.drabdullahmaras.com.tr/blog/anksiyete",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
                 })
             }} />
         </>

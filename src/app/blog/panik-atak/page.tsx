@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
         'Panik atak belirtileri, süresi, gece uykudayken atak geçirmek ve panik atak kalp krizi farkı içerikleri. Ankara Eryaman.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak' },
     openGraph: {
         title: 'Panik Atak Hakkında Bilgilendirici Yazılar',
         description: 'Ölüm korkusu, nefes alamama, çarpıntı... panik atak bozuklukları hakkında klinik bilgilendirme yazıları.',
@@ -136,7 +136,7 @@ export default function PanikAtakHubPage() {
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -145,8 +145,8 @@ export default function PanikAtakHubPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Panik Atak Bilgilendirme Makaleleri",
-                    url: "https://drabdullahmaras.com/blog/panik-atak",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
+                    url: "https://www.drabdullahmaras.com.tr/blog/panik-atak",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
                 })
             }} />
         </>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler | Uzm. Dr. Abdullah Maraş',
     description:
         'Depresyon kaç günde geçer? Depresyonun süresi kişiden kişiye değişir. Belirtilerin süresi, etkileyen faktörler ve profesyonel değerlendirmenin önemi. Ankara Eryaman.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyon-kac-gunde-gecer' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon-kac-gunde-gecer' },
     openGraph: {
         title: 'Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler',
         type: 'article', locale: 'tr_TR',
@@ -276,9 +276,9 @@ export default function DepresyonKacGundeGecerBlog() {
                     "@context": "https://schema.org", "@type": "Article",
                     headline: "Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler",
                     datePublished: "2026-03-18T09:00:00+03:00",
-                    author: { "@id": "https://drabdullahmaras.com/#physician" },
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
-                    mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-kac-gunde-gecer",
+                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
+                    mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyon-kac-gunde-gecer",
                 })
             }} />
         </>

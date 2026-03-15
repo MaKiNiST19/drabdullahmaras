@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Erişkin DEHB İş Hayatını Nasıl Etkiler? | Mesleki Odaklanma',
     description:
         'DEHB (Dikkat Eksikliği) iş yerinde ve kariyere nasıl yansır? Toplantılarda odaklanamama, iş erteleme ve çalışanlardaki etkileri üzerine Ankara değerlendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/eriskin-dehb-is-hayatini-nasil-etkiler' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/eriskin-dehb-is-hayatini-nasil-etkiler' },
     openGraph: {
         title: 'Yetişkin DEHB\'in Evliliklere ve İş Kariyerine Yansıyan Gerçek Faturası',
         type: 'article', locale: 'tr_TR',

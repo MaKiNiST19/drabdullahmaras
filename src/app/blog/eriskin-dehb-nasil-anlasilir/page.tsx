@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Erişkin DEHB Nasıl Anlaşılır? | Teşhis Edilme ve Pofesyonel Süreçler',
     description:
         'Yetişkinlerde, kan veya MR testi olmayan DEHB’nin nasıl teşhis edildiği, psikiyatrik öykünün rolü ve Ankara (Eryaman) değerlendirme adımları.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/eriskin-dehb-nasil-anlasilir' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/eriskin-dehb-nasil-anlasilir' },
     openGraph: {
         title: 'Geçmişi Kazımak: Erişkin DEHB Tanısında Klinik Harita',
         type: 'article', locale: 'tr_TR',

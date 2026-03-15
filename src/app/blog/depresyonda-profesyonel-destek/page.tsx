@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Depresyonda Profesyonel Destek Süreci Nasıl İşler? | Uzm. Dr. Abdullah Maraş',
     description:
         'Depresyonda profesyonel destek süreci nasıl ilerler? İlk görüşmeden izleme kadar psikiyatrik değerlendirme aşamaları. Ankara Eryaman psikiyatri uzmanı.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyonda-profesyonel-destek' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyonda-profesyonel-destek' },
     openGraph: {
         title: 'Depresyonda Profesyonel Destek Süreci Nasıl İşler?',
         type: 'article', locale: 'tr_TR',
@@ -242,7 +242,7 @@ export default function DepresyondaProfesyonelDestekBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyonda Profesyonel Destek Süreci Nasıl İşler?", datePublished: "2026-04-07T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyonda-profesyonel-destek" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyonda Profesyonel Destek Süreci Nasıl İşler?", datePublished: "2026-04-07T09:00:00+03:00", author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" }, publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }, mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyonda-profesyonel-destek" }) }} />
         </>
     );
 }

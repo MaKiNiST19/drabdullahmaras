@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Erişkin DEHB Belirtileri Nelerdir? | Yetişkinlerde Odak Sorunları',
     description:
         'Yetişkinlik döneminde Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB) belirtileri, içsel huzursuzluk ve zaman yönetimi sorunları; Ankara psikiyatri incelemesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/eriskin-dehb-belirtileri-nelerdir' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/eriskin-dehb-belirtileri-nelerdir' },
     openGraph: {
         title: 'Erişkin DEHB Belirtileri ve Eryaman Yetişkin Psikiyatri Değerlendirmesi',
         type: 'article', locale: 'tr_TR',

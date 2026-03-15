@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Zarar Verme Düşüncesi OKB mi? Kontrolü Kaybettiğim Anlar | Uzm. Dr. Abdullah Maraş',
     description:
         'İstemeden, aniden gelen: "Ya sevdiklerime bıçakla zarar verirsem?" düşüncesi nedir? Zarar verme obsesyonunun (Harm OCD) psikiyatriyik süreç değerlendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/zarar-verme-dusuncesi-okb-mi' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/zarar-verme-dusuncesi-okb-mi' },
     openGraph: {
         title: 'Zarar Verme Obsesyonu OKB mi? İstenmeyen Düşünceler',
         type: 'article', locale: 'tr_TR',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Bipolar Atak Ne Kadar Sürer? (Mani ve Depresyon Süreleri)',
     description:
         'Bipolar bozuklukta mani ve depresyon atak sürelerini inceliyoruz. Hastaların ömür boyu atak geçirip geçirmeyeceği ve Ankara kliniğindeki süreçler.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar-atak-ne-kadar-surer' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar-atak-ne-kadar-surer' },
     openGraph: {
         title: 'Bipolar Ataklar ve Dalgalanma Süreleri | Psikiyatrist Değerlendirmesi',
         type: 'article', locale: 'tr_TR',

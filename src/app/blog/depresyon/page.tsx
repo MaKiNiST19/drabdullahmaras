@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Depresyon Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
         'Depresyon belirtileri, mevsimsel depresyon, profesyonel destek süreci ve iş yaşamına etkileri hakkında bilgilendirici yazılar. Ankara Eryaman psikiyatri uzmanı.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyon' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon' },
     openGraph: {
         title: 'Depresyon Hakkında Bilgilendirici Yazılar',
         description: 'Depresyon hakkında kapsamlı bilgilendirme yazıları. Ankara Eryaman psikiyatri uzmanı.',
@@ -148,7 +148,7 @@ export default function DepresyonHubPage() {
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -158,13 +158,13 @@ export default function DepresyonHubPage() {
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Depresyon Hakkında Bilgilendirici Yazılar",
                     description: metadata.description,
-                    url: "https://drabdullahmaras.com/blog/depresyon",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    url: "https://www.drabdullahmaras.com.tr/blog/depresyon",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
                     mainEntity: {
                         "@type": "ItemList",
                         numberOfItems: blogPosts.length,
                         itemListElement: blogPosts.map((p, i) => ({
-                            "@type": "ListItem", position: i + 1, url: `https://drabdullahmaras.com${p.slug}`,
+                            "@type": "ListItem", position: i + 1, url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         })),
                     },
                 })

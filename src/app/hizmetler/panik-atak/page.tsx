@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak Değerlendirmesi | Eryaman Psikiyatrist Uzm. Dr. Abdullah Maraş',
     description:
         'Ankara Eryaman\'da panik atak değerlendirmesi. Ölüm korkusu, nefes alamama, kalp krizi şüphesi ve gece çarpıntısı gibi bedensel/zihinsel belirtilerin psikiyatrik analizi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/panik-atak' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/panik-atak' },
     openGraph: {
         title: 'Ankara Eryaman\'da Panik Atak Değerlendirmesi',
         description: 'Ankara Eryaman\'da bilimsel çerçevede panik atak değerlendirmesi. Ruh sağlığı uzmanı ile bireysel klinik görüşme.',
@@ -295,14 +295,14 @@ export default function PanikAtakPillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Panik Atak Değerlendirmesi",
-                            "url": "https://drabdullahmaras.com/hizmetler/panik-atak",
+                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/panik-atak",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "Panic Disorder",
                                 "alternateName": "Panik Bozukluğu"
                             },
-                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
-"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
+                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -315,9 +315,9 @@ export default function PanikAtakPillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "Panik Atak", "item": "https://drabdullahmaras.com/hizmetler/panik-atak" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "Panik Atak", "item": "https://www.drabdullahmaras.com.tr/hizmetler/panik-atak" }
                             ]
                         }
                     ]

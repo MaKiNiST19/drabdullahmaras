@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: service.metaTitle,
         description: service.metaDescription,
-        alternates: { canonical: `https://drabdullahmaras.com/hizmetler/${service.slug}` },
+        alternates: { canonical: `https://www.drabdullahmaras.com.tr/hizmetler/${service.slug}` },
     };
 }
 
@@ -151,10 +151,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     "@type": "MedicalWebPage",
                     name: service.title,
                     description: service.metaDescription,
-                    url: `https://drabdullahmaras.com/hizmetler/${service.slug}`,
-                    author: { "@id": "https://drabdullahmaras.com/#physician" },
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
-                    isPartOf: { "@id": "https://drabdullahmaras.com/#website" }
+                    url: `https://www.drabdullahmaras.com.tr/hizmetler/${service.slug}`,
+                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
+                    isPartOf: { "@id": "https://www.drabdullahmaras.com.tr/#website" }
                 })
             }} />
         </>

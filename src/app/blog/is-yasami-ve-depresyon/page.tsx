@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'İş Yaşamı ve Depresyon: İşlevselliği Korumak | Uzm. Dr. Abdullah Maraş',
     description:
         'Depresyonun iş yaşamı üzerindeki etkileri nelerdir? Performans düşüklüğü, devamsızlık ve tükenmişlik ile depresyon ilişkisi. Ankara Eryaman psikiyatri uzmanı.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/is-yasami-ve-depresyon' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/is-yasami-ve-depresyon' },
     openGraph: {
         title: 'İş Yaşamı ve Depresyon: İşlevselliği Korumak',
         type: 'article', locale: 'tr_TR',
@@ -239,7 +239,7 @@ export default function IsYasamiVeDepresyonBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/is-yasami-ve-depresyon" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" }, publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }, mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/is-yasami-ve-depresyon" }) }} />
         </>
     );
 }

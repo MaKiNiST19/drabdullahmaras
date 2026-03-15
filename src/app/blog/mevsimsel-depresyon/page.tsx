@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Mevsimsel Depresyon Nedir? Kış Depresyonu Belirtileri | Uzm. Dr. Abdullah Maraş',
     description:
         'Mevsimsel depresyon (kış depresyonu) nedir? Kısa gün ışığı, enerji kaybı ve duygudurum değişiklikleri. Ankara Eryaman psikiyatri uzmanı bilgilendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/mevsimsel-depresyon' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/mevsimsel-depresyon' },
     openGraph: {
         title: 'Mevsimsel Depresyon Nedir? Kış Depresyonu Belirtileri',
         description: 'Mevsimsel duygudurum değişiklikleri hakkında kapsamlı bilgilendirme yazısı.',
@@ -273,9 +273,9 @@ export default function MevsimselDepresyonBlog() {
                     "@context": "https://schema.org", "@type": "Article",
                     headline: "Mevsimsel Duygudurum Değişiklikleri ve Kış Depresyonu",
                     datePublished: "2026-03-26T09:00:00+03:00",
-                    author: { "@id": "https://drabdullahmaras.com/#physician" },
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
-                    mainEntityOfPage: "https://drabdullahmaras.com/blog/mevsimsel-depresyon"
+                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
+                    mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/mevsimsel-depresyon"
                 })
             }} />
         </>

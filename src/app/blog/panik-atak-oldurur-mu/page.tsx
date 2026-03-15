@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak Öldürür mü? Boğulur muyum veya Çıldırır mıyım? | Uzm. Dr. Abdullah Maraş',
     description:
         'Panik atak öldürür mü? Ölüm korkusu, fırlayacak gibi atan kalp ve boğulma hislerinin fizyolojik açıklanması; kriz kalbe fiziksel hasar verir mi? Eryaman, Ankara.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak-oldurur-mu' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak-oldurur-mu' },
     openGraph: {
         title: 'Panik Atak Öldürür mü? Kriz Kalbe Hasar Verir mi?',
         type: 'article', locale: 'tr_TR',

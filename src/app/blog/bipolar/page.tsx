@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Bipolar Bozukluk Makaleleri | Uzm. Dr. Abdullah Maraş',
     description:
         'Bipolar bozukluk spektrumu, mani belirtileri, depresif ataklar ve hastalığın günlük yaşamdaki izleri hakkında bilgilendirici tıbbi yayın arşivi. Eryaman Psikiyatri.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar' },
     openGraph: {
         title: 'Bipolar (İki Uçlu) Bozukluk Blogu | Yetişkin Psikiyatrisi',
         description: 'Bipoların yıkıcı fırtınalarına, mani ve depresyon dalgalanmalarına bilimsel bir pencereden bakan Ankara kapsamlı psikiyatrist blogları.',
@@ -162,7 +162,7 @@ export default function BipolarHubPage() {
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -171,9 +171,9 @@ export default function BipolarHubPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Bipolar Bozukluk Bilgilendirme Serisi Merkezi",
-                    url: "https://drabdullahmaras.com/blog/bipolar",
-                    author: { "@id": "https://drabdullahmaras.com/#physician" },
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
+                    url: "https://www.drabdullahmaras.com.tr/blog/bipolar",
+                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
                 })
             }} />
         </>
