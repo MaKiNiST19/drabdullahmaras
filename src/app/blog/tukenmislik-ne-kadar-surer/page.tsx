@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Tükenmişlik Ne Kadar Sürer? | Burnout İyileşme Süreci',
     description:
         'Yetişkinlerde çalışma stresiyle oluşan tükenmişlik sendromu (burnout) kaç ay sürer, kendi başına geçer mi ve psikiyatrik düzelme faktörleri nelerdir?',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/tukenmislik-ne-kadar-surer' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/tukenmislik-ne-kadar-surer' },
     openGraph: {
         title: 'Bu İşkence Ne Zaman Biter: Tükenmişlik Ne Kadar Sürer?',
         type: 'article', locale: 'tr_TR',

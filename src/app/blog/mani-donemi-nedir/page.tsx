@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Mani Dönemi Nedir? (Manik Atak ve Taşkınlık) | Psikiyatri Uzmanı',
     description:
         'Bipolar mani dönemi nedir? Riskli kararlar, yüksek enerji ve uyku ihtiyacındaki azalmanın klinik boyutu. Ankara Eryaman bipolar değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/mani-donemi-nedir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/mani-donemi-nedir' },
     openGraph: {
         title: 'Mani (Taşkınlık) Dönemi - Bipolar Ataklar | Eryaman',
         type: 'article', locale: 'tr_TR',

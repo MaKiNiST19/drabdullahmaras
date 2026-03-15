@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Motivasyon Kaybı Neden Olur? | İş ve Gündelik Yaşam İsteği',
     description:
         'Yetişkinlerde daha önce severek yapılan işlere karşı ortaya çıkan motivasyon kaybı, isteksizlik ve tükenmişlik (burnout) sendromunun psikiyatrik asıl nedenleri.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/motivasyon-kaybi-neden-olur' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/motivasyon-kaybi-neden-olur' },
     openGraph: {
         title: 'Ödül Merkezinin İflası: Motivasyon Kaybı Neden Olur ve Yenilir?',
         type: 'article', locale: 'tr_TR',

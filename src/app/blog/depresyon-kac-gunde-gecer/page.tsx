@@ -1,41 +1,41 @@
-import type { Metadata } from 'next';
+ï»¿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler | Uzm. Dr. Abdullah Maraş',
+    title: 'Depresyon KaÃ§ GÃ¼nde GeÃ§er? SÃ¼re HakkÄ±nda Bilinmesi Gerekenler | Uzm. Dr. Abdullah MaraÅŸ',
     description:
-        'Depresyon kaç günde geçer? Depresyonun süresi kişiden kişiye değişir. Belirtilerin süresi, etkileyen faktörler ve profesyonel değerlendirmenin önemi. Ankara Eryaman.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon-kac-gunde-gecer' },
+        'Depresyon kaÃ§ gÃ¼nde geÃ§er? Depresyonun sÃ¼resi kiÅŸiden kiÅŸiye deÄŸiÅŸir. Belirtilerin sÃ¼resi, etkileyen faktÃ¶rler ve profesyonel deÄŸerlendirmenin Ã¶nemi. Ankara Eryaman.',
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyon-kac-gunde-gecer' },
     openGraph: {
-        title: 'Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler',
+        title: 'Depresyon KaÃ§ GÃ¼nde GeÃ§er? SÃ¼re HakkÄ±nda Bilinmesi Gerekenler',
         type: 'article', locale: 'tr_TR',
         publishedTime: '2026-03-18T09:00:00+03:00',
-        authors: ['Uzm. Dr. Abdullah Maraş'],
+        authors: ['Uzm. Dr. Abdullah MaraÅŸ'],
     },
 };
 
 const faqItems = [
     {
-        question: 'Depresyon kaç günde geçer?',
-        answer: 'Depresyonun süresi kişiden kişiye önemli ölçüde farklılık gösterir. Depresif bir dönem, profesyonel destek olmaksızın ortalama 6-13 ay sürebilmektedir. Ancak erken dönemde alınan profesyonel değerlendirme ve destek, sürecin daha sağlıklı yönetilmesine katkı sağlayabilir.',
+        question: 'Depresyon kaÃ§ gÃ¼nde geÃ§er?',
+        answer: 'Depresyonun sÃ¼resi kiÅŸiden kiÅŸiye Ã¶nemli Ã¶lÃ§Ã¼de farklÄ±lÄ±k gÃ¶sterir. Depresif bir dÃ¶nem, profesyonel destek olmaksÄ±zÄ±n ortalama 6-13 ay sÃ¼rebilmektedir. Ancak erken dÃ¶nemde alÄ±nan profesyonel deÄŸerlendirme ve destek, sÃ¼recin daha saÄŸlÄ±klÄ± yÃ¶netilmesine katkÄ± saÄŸlayabilir.',
     },
     {
-        question: 'Depresyon kendiliğinden geçer mi?',
-        answer: 'Bazı hafif depresif dönemler zamanla kendiliğinden hafifleme eğilimi gösterebilir. Ancak orta ve ağır düzeydeki depresyonlarda profesyonel değerlendirme ve destek önerilmektedir. Belirtilerin ihmal edilmesi, durumun kronikleşme riskini artırabilir.',
+        question: 'Depresyon kendiliÄŸinden geÃ§er mi?',
+        answer: 'BazÄ± hafif depresif dÃ¶nemler zamanla kendiliÄŸinden hafifleme eÄŸilimi gÃ¶sterebilir. Ancak orta ve aÄŸÄ±r dÃ¼zeydeki depresyonlarda profesyonel deÄŸerlendirme ve destek Ã¶nerilmektedir. Belirtilerin ihmal edilmesi, durumun kronikleÅŸme riskini artÄ±rabilir.',
     },
     {
-        question: 'Depresyon belirtileri ne kadar süre devam ederse ciddiye alınmalıdır?',
-        answer: 'Depresif belirtiler en az iki hafta boyunca çoğu gün devam ediyorsa ve günlük işlevselliği olumsuz etkiliyorsa, profesyonel psikiyatrik değerlendirme almanız önerilmektedir.',
+        question: 'Depresyon belirtileri ne kadar sÃ¼re devam ederse ciddiye alÄ±nmalÄ±dÄ±r?',
+        answer: 'Depresif belirtiler en az iki hafta boyunca Ã§oÄŸu gÃ¼n devam ediyorsa ve gÃ¼nlÃ¼k iÅŸlevselliÄŸi olumsuz etkiliyorsa, profesyonel psikiyatrik deÄŸerlendirme almanÄ±z Ã¶nerilmektedir.',
     },
     {
-        question: 'Depresyon tekrarlar mı?',
-        answer: 'Evet, depresyon tekrarlama özelliği taşıyabilir. İlk depresif dönemi yaşayan bireylerin önemli bir kısmı ilerleyen dönemlerde yeni epizodlar yaşayabilmektedir. Düzenli izlem ve bireysel planlama, tekrar riskinin yönetilmesine katkı sağlayabilir.',
+        question: 'Depresyon tekrarlar mÄ±?',
+        answer: 'Evet, depresyon tekrarlama Ã¶zelliÄŸi taÅŸÄ±yabilir. Ä°lk depresif dÃ¶nemi yaÅŸayan bireylerin Ã¶nemli bir kÄ±smÄ± ilerleyen dÃ¶nemlerde yeni epizodlar yaÅŸayabilmektedir. DÃ¼zenli izlem ve bireysel planlama, tekrar riskinin yÃ¶netilmesine katkÄ± saÄŸlayabilir.',
     },
     {
-        question: 'Eryaman\'da depresyon süreci değerlendirmesi yapılır mı?',
-        answer: 'Evet. Ankara Eryaman, Altay Mahallesi çevresinde Uzm. Dr. Abdullah Maraş\'ın kliniğinde depresyon değerlendirmesi ve bireysel izlem süreçleri yürütülmektedir.',
+        question: 'Eryaman\'da depresyon sÃ¼reci deÄŸerlendirmesi yapÄ±lÄ±r mÄ±?',
+        answer: 'Evet. Ankara Eryaman, Altay Mahallesi Ã§evresinde Uzm. Dr. Abdullah MaraÅŸ\'Ä±n kliniÄŸinde depresyon deÄŸerlendirmesi ve bireysel izlem sÃ¼reÃ§leri yÃ¼rÃ¼tÃ¼lmektedir.',
     },
 ];
 
@@ -48,24 +48,24 @@ export default function DepresyonKacGundeGecerBlog() {
                         <Link href="/">Ana Sayfa</Link><span>/</span>
                         <Link href="/blog">Blog</Link><span>/</span>
                         <Link href="/blog/depresyon">Depresyon</Link><span>/</span>
-                        <span>Depresyon Kaç Günde Geçer?</span>
+                        <span>Depresyon KaÃ§ GÃ¼nde GeÃ§er?</span>
                     </div>
                     <div className={styles.meta}>
                         <span className={styles.category}>Depresyon</span>
                         <time dateTime="2026-03-18">18 Mart 2026</time>
-                        <span>•</span><span>8 dk okuma</span>
+                        <span>â€¢</span><span>8 dk okuma</span>
                     </div>
-                    <h1>Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler</h1>
+                    <h1>Depresyon KaÃ§ GÃ¼nde GeÃ§er? SÃ¼re HakkÄ±nda Bilinmesi Gerekenler</h1>
                     <p className={styles.heroDesc}>
-                        &ldquo;Bu durum ne kadar sürecek?&rdquo; sorusu, depresyon yaşayan bireylerin
-                        en sık sorduğu sorulardan biridir. Depresyonun süresi, birçok faktöre bağlı
-                        olarak kişiden kişiye değişir.
+                        &ldquo;Bu durum ne kadar sÃ¼recek?&rdquo; sorusu, depresyon yaÅŸayan bireylerin
+                        en sÄ±k sorduÄŸu sorulardan biridir. Depresyonun sÃ¼resi, birÃ§ok faktÃ¶re baÄŸlÄ±
+                        olarak kiÅŸiden kiÅŸiye deÄŸiÅŸir.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı ve Hastalıkları Uzmanı</span></div>
+                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± UzmanÄ±</span></div>
                     </div>
                 </div>
             </section>
@@ -76,185 +76,185 @@ export default function DepresyonKacGundeGecerBlog() {
                         <article className={styles.article}>
 
                             <p className={styles.lead}>
-                                &ldquo;Depresyon kaç günde geçer?&rdquo; — Bu soru, hem depresyon belirtileri
-                                yaşayan bireyler hem de yakınları tarafından sıklıkla sorulmaktadır. Sorunun
-                                ardında doğal bir umut ve belirsizlik kaygısı yatmaktadır. Net bir rakam vermek
-                                ne yazık ki mümkün değildir; çünkü depresyonun süresi birçok bireysel faktöre
-                                bağlı olarak büyük farklılıklar göstermektedir.
+                                &ldquo;Depresyon kaÃ§ gÃ¼nde geÃ§er?&rdquo; â€” Bu soru, hem depresyon belirtileri
+                                yaÅŸayan bireyler hem de yakÄ±nlarÄ± tarafÄ±ndan sÄ±klÄ±kla sorulmaktadÄ±r. Sorunun
+                                ardÄ±nda doÄŸal bir umut ve belirsizlik kaygÄ±sÄ± yatmaktadÄ±r. Net bir rakam vermek
+                                ne yazÄ±k ki mÃ¼mkÃ¼n deÄŸildir; Ã§Ã¼nkÃ¼ depresyonun sÃ¼resi birÃ§ok bireysel faktÃ¶re
+                                baÄŸlÄ± olarak bÃ¼yÃ¼k farklÄ±lÄ±klar gÃ¶stermektedir.
                             </p>
                             <p>
-                                Bu yazıda depresyonun süresi hakkında bilimsel çerçevede bilgilendirme
-                                sunmaktayız.{' '}
-                                <Link href="/hizmetler/depresyon">Depresyon değerlendirmesi</Link> hakkında
-                                detaylı bilgi için hizmet sayfamızı inceleyebilirsiniz.
+                                Bu yazÄ±da depresyonun sÃ¼resi hakkÄ±nda bilimsel Ã§erÃ§evede bilgilendirme
+                                sunmaktayÄ±z.{' '}
+                                <Link href="/hizmetler/depresyon">Depresyon deÄŸerlendirmesi</Link> hakkÄ±nda
+                                detaylÄ± bilgi iÃ§in hizmet sayfamÄ±zÄ± inceleyebilirsiniz.
                             </p>
 
-                            <h2>Depresyonun Süresi: Net Bir Rakam Var mı?</h2>
+                            <h2>Depresyonun SÃ¼resi: Net Bir Rakam Var mÄ±?</h2>
                             <p>
-                                Depresyonun süresi hakkında kesin bir &ldquo;gün sayısı&rdquo; vermek bilimsel
-                                olarak doğru değildir. Her birey benzersizdir ve depresif süreç, kişinin
-                                biyolojik yapısına, yaşam koşullarına ve aldığı desteğe göre farklı
-                                şekillenmektedir.
+                                Depresyonun sÃ¼resi hakkÄ±nda kesin bir &ldquo;gÃ¼n sayÄ±sÄ±&rdquo; vermek bilimsel
+                                olarak doÄŸru deÄŸildir. Her birey benzersizdir ve depresif sÃ¼reÃ§, kiÅŸinin
+                                biyolojik yapÄ±sÄ±na, yaÅŸam koÅŸullarÄ±na ve aldÄ±ÄŸÄ± desteÄŸe gÃ¶re farklÄ±
+                                ÅŸekillenmektedir.
                             </p>
                             <p>
-                                Bununla birlikte, klinik literatürde bazı genel çerçeveler mevcuttur:
+                                Bununla birlikte, klinik literatÃ¼rde bazÄ± genel Ã§erÃ§eveler mevcuttur:
                             </p>
                             <ul>
-                                <li>Profesyonel destek almayan bir depresif dönem, ortalama <strong>6-13 ay</strong> sürebilmektedir.</li>
-                                <li>Hafif düzeydeki depresif belirtiler daha kısa sürede hafifleme eğilimi gösterebilir.</li>
-                                <li>Orta ve ağır düzey depresyonda süre daha uzun olabilir ve profesyonel destek sürecin yönetiminde kritik önem taşır.</li>
-                                <li>Erken dönemde alınan profesyonel değerlendirme ve destek, sürecin daha sağlıklı seyretmesine katkı sağlayabilir.</li>
+                                <li>Profesyonel destek almayan bir depresif dÃ¶nem, ortalama <strong>6-13 ay</strong> sÃ¼rebilmektedir.</li>
+                                <li>Hafif dÃ¼zeydeki depresif belirtiler daha kÄ±sa sÃ¼rede hafifleme eÄŸilimi gÃ¶sterebilir.</li>
+                                <li>Orta ve aÄŸÄ±r dÃ¼zey depresyonda sÃ¼re daha uzun olabilir ve profesyonel destek sÃ¼recin yÃ¶netiminde kritik Ã¶nem taÅŸÄ±r.</li>
+                                <li>Erken dÃ¶nemde alÄ±nan profesyonel deÄŸerlendirme ve destek, sÃ¼recin daha saÄŸlÄ±klÄ± seyretmesine katkÄ± saÄŸlayabilir.</li>
                             </ul>
                             <p>
-                                Bu rakamlar genel yönelimlerdir; bireysel süreçler bunlardan farklılık
-                                gösterebilir. Kesin değerlendirme, uzman bir psikiyatrist tarafından yapılmalıdır.
+                                Bu rakamlar genel yÃ¶nelimlerdir; bireysel sÃ¼reÃ§ler bunlardan farklÄ±lÄ±k
+                                gÃ¶sterebilir. Kesin deÄŸerlendirme, uzman bir psikiyatrist tarafÄ±ndan yapÄ±lmalÄ±dÄ±r.
                             </p>
 
-                            <h2>Süreyi Etkileyen Faktörler</h2>
+                            <h2>SÃ¼reyi Etkileyen FaktÃ¶rler</h2>
                             <p>
-                                Depresyonun ne kadar süreceği, birbirleriyle etkileşen birçok faktöre bağlıdır:
+                                Depresyonun ne kadar sÃ¼receÄŸi, birbirleriyle etkileÅŸen birÃ§ok faktÃ¶re baÄŸlÄ±dÄ±r:
                             </p>
-                            <h3>Belirtilerin Şiddeti</h3>
+                            <h3>Belirtilerin Åiddeti</h3>
                             <p>
-                                Depresyonun şiddeti, süresini etkileyen en önemli faktörlerden biridir.
-                                Hafif düzeydeki depresif belirtiler daha kısa sürede hafifleme eğilimi
-                                gösterirken, ağır depresyonda süreç daha uzun ve karmaşık olabilmektedir.
+                                Depresyonun ÅŸiddeti, sÃ¼resini etkileyen en Ã¶nemli faktÃ¶rlerden biridir.
+                                Hafif dÃ¼zeydeki depresif belirtiler daha kÄ±sa sÃ¼rede hafifleme eÄŸilimi
+                                gÃ¶sterirken, aÄŸÄ±r depresyonda sÃ¼reÃ§ daha uzun ve karmaÅŸÄ±k olabilmektedir.
                             </p>
-                            <h3>Profesyonel Destek Zamanlaması</h3>
+                            <h3>Profesyonel Destek ZamanlamasÄ±</h3>
                             <p>
-                                Araştırmalar, erken dönemde profesyonel değerlendirme alan bireylerde sürecin
-                                daha olumlu seyrettiğini göstermektedir. Belirtilerin uzun süre ihmal edilmesi,
-                                durumun kronikleşme riskini artırabilir.
+                                AraÅŸtÄ±rmalar, erken dÃ¶nemde profesyonel deÄŸerlendirme alan bireylerde sÃ¼recin
+                                daha olumlu seyrettiÄŸini gÃ¶stermektedir. Belirtilerin uzun sÃ¼re ihmal edilmesi,
+                                durumun kronikleÅŸme riskini artÄ±rabilir.
                             </p>
-                            <h3>Psikososyal Faktörler</h3>
+                            <h3>Psikososyal FaktÃ¶rler</h3>
                             <p>
-                                Sosyal destek ağı, yaşam koşulları, devam eden stresörler ve başa çıkma
-                                kaynakları süreyi etkileyebilir. Güçlü bir sosyal destek ağına sahip
-                                bireylerde süreç daha yapıcı ilerleyebilmektedir.
+                                Sosyal destek aÄŸÄ±, yaÅŸam koÅŸullarÄ±, devam eden stresÃ¶rler ve baÅŸa Ã§Ä±kma
+                                kaynaklarÄ± sÃ¼reyi etkileyebilir. GÃ¼Ã§lÃ¼ bir sosyal destek aÄŸÄ±na sahip
+                                bireylerde sÃ¼reÃ§ daha yapÄ±cÄ± ilerleyebilmektedir.
                             </p>
-                            <h3>Eşlik Eden Durumlar</h3>
+                            <h3>EÅŸlik Eden Durumlar</h3>
                             <p>
                                 Depresyona{' '}
-                                <Link href="/hizmetler/anksiyete">anksiyete bozuklukları</Link>,{' '}
-                                <Link href="/hizmetler/uyku-bozukluklari">uyku bozuklukları</Link> veya
-                                kronik fiziksel hastalıklar eşlik ettiğinde, süreç daha karmaşık hale
-                                gelebilir ve kapsamlı bir değerlendirme gerektirmektedir.
+                                <Link href="/hizmetler/anksiyete">anksiyete bozukluklarÄ±</Link>,{' '}
+                                <Link href="/hizmetler/uyku-bozukluklari">uyku bozukluklarÄ±</Link> veya
+                                kronik fiziksel hastalÄ±klar eÅŸlik ettiÄŸinde, sÃ¼reÃ§ daha karmaÅŸÄ±k hale
+                                gelebilir ve kapsamlÄ± bir deÄŸerlendirme gerektirmektedir.
                             </p>
 
-                            <h2>Belirtilerin Süresi Neden Önemlidir?</h2>
+                            <h2>Belirtilerin SÃ¼resi Neden Ã–nemlidir?</h2>
                             <p>
-                                Depresif belirtilerin süresi, değerlendirme açısından kritik bir veridir.{' '}
+                                Depresif belirtilerin sÃ¼resi, deÄŸerlendirme aÃ§Ä±sÄ±ndan kritik bir veridir.{' '}
                                 <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri</Link>{' '}
-                                hakkında kapsamlı yazımızda belirtilerin detaylarını inceleyebilirsiniz.
+                                hakkÄ±nda kapsamlÄ± yazÄ±mÄ±zda belirtilerin detaylarÄ±nÄ± inceleyebilirsiniz.
                             </p>
                             <ul>
-                                <li>Belirtiler <strong>iki hafta veya daha uzun</strong> süre çoğu gün devam ediyorsa, klinik bir değerlendirme önem kazanır.</li>
-                                <li>Belirtilerin <strong>şiddeti artıyorsa</strong> veya <strong>yeni belirtiler ekleniyorsa</strong>, profesyonel değerlendirme aciliyet kazanır.</li>
-                                <li>Belirtiler <strong>günlük işlevselliği</strong> (iş, ev, sosyal yaşam) olumsuz etkiliyorsa, destek ertelenmemelidir.</li>
+                                <li>Belirtiler <strong>iki hafta veya daha uzun</strong> sÃ¼re Ã§oÄŸu gÃ¼n devam ediyorsa, klinik bir deÄŸerlendirme Ã¶nem kazanÄ±r.</li>
+                                <li>Belirtilerin <strong>ÅŸiddeti artÄ±yorsa</strong> veya <strong>yeni belirtiler ekleniyorsa</strong>, profesyonel deÄŸerlendirme aciliyet kazanÄ±r.</li>
+                                <li>Belirtiler <strong>gÃ¼nlÃ¼k iÅŸlevselliÄŸi</strong> (iÅŸ, ev, sosyal yaÅŸam) olumsuz etkiliyorsa, destek ertelenmemelidir.</li>
                             </ul>
                             <p>
-                                Önemle belirtmek gerekir ki, belirtilerin kısa sürmesi her zaman
-                                &ldquo;sorun yok&rdquo; anlamına gelmez. Hafif seyreden ancak tekrarlayan
-                                depresif dönemler de değerlendirme gerektirebilir.
+                                Ã–nemle belirtmek gerekir ki, belirtilerin kÄ±sa sÃ¼rmesi her zaman
+                                &ldquo;sorun yok&rdquo; anlamÄ±na gelmez. Hafif seyreden ancak tekrarlayan
+                                depresif dÃ¶nemler de deÄŸerlendirme gerektirebilir.
                             </p>
 
-                            <h2>&ldquo;Kendiliğinden Geçer mi?&rdquo; Sorusu</h2>
+                            <h2>&ldquo;KendiliÄŸinden GeÃ§er mi?&rdquo; Sorusu</h2>
                             <p>
-                                Bazı hafif depresif dönemler, özellikle belirli bir tetikleyiciyle ilişkiliyse,
-                                zamanla kendiliğinden hafifleme eğilimi gösterebilir. Ancak bu durum,
-                                &ldquo;depresyon beklemeyle geçer&rdquo; şeklinde genelleştirilemez.
+                                BazÄ± hafif depresif dÃ¶nemler, Ã¶zellikle belirli bir tetikleyiciyle iliÅŸkiliyse,
+                                zamanla kendiliÄŸinden hafifleme eÄŸilimi gÃ¶sterebilir. Ancak bu durum,
+                                &ldquo;depresyon beklemeyle geÃ§er&rdquo; ÅŸeklinde genelleÅŸtirilemez.
                             </p>
                             <p>
-                                Profesyonel değerlendirme almak yerine beklemeyi tercih etmenin riskleri
-                                bulunmaktadır:
+                                Profesyonel deÄŸerlendirme almak yerine beklemeyi tercih etmenin riskleri
+                                bulunmaktadÄ±r:
                             </p>
                             <ul>
-                                <li>Belirtiler <strong>kronikleşebilir</strong> ve daha dirençli bir hale gelebilir</li>
-                                <li>Günlük işlevsellik kaybı <strong>birikebilir</strong> (iş kaybı, ilişki sorunları)</li>
-                                <li><strong>Eşlik eden durumlar</strong> gelişebilir (anksiyete, uyku bozuklukları)</li>
+                                <li>Belirtiler <strong>kronikleÅŸebilir</strong> ve daha direnÃ§li bir hale gelebilir</li>
+                                <li>GÃ¼nlÃ¼k iÅŸlevsellik kaybÄ± <strong>birikebilir</strong> (iÅŸ kaybÄ±, iliÅŸki sorunlarÄ±)</li>
+                                <li><strong>EÅŸlik eden durumlar</strong> geliÅŸebilir (anksiyete, uyku bozukluklarÄ±)</li>
                                 <li>Tekrar riski <strong>artabilir</strong></li>
                             </ul>
                             <p>
-                                Bu nedenle, belirtiler yaşam kalitenizi etkiliyorsa, &ldquo;kendiliğinden
-                                geçmesini beklemek&rdquo; yerine profesyonel bir değerlendirme almanız
-                                önerilmektedir.
+                                Bu nedenle, belirtiler yaÅŸam kalitenizi etkiliyorsa, &ldquo;kendiliÄŸinden
+                                geÃ§mesini beklemek&rdquo; yerine profesyonel bir deÄŸerlendirme almanÄ±z
+                                Ã¶nerilmektedir.
                             </p>
 
-                            <h2>Depresyonun Tekrarlama Özelliği</h2>
+                            <h2>Depresyonun Tekrarlama Ã–zelliÄŸi</h2>
                             <p>
-                                Depresyon, tekrarlama özelliği taşıyabilen bir durumdur. İlk depresif dönemi
-                                yaşayan bireylerin yarıdan fazlasında ilerleyen yıllarda yeni depresif dönemler
-                                görülebilmektedir. Bu nedenle:
+                                Depresyon, tekrarlama Ã¶zelliÄŸi taÅŸÄ±yabilen bir durumdur. Ä°lk depresif dÃ¶nemi
+                                yaÅŸayan bireylerin yarÄ±dan fazlasÄ±nda ilerleyen yÄ±llarda yeni depresif dÃ¶nemler
+                                gÃ¶rÃ¼lebilmektedir. Bu nedenle:
                             </p>
                             <ul>
-                                <li>İlk depresif dönemin uygun şekilde değerlendirilmesi ve yönetilmesi önemlidir</li>
-                                <li>Düzenli izlem, tekrar riskinin erken fark edilmesine katkı sağlar</li>
-                                <li>Bireyin uyarıcı belirtilerini tanıması, koruyucu bir yaklaşım geliştirmesine yardımcı olabilir</li>
-                                <li>Yaşam tarzı düzenlemeleri ve başa çıkma stratejileri destekleyici rol üstlenebilir</li>
+                                <li>Ä°lk depresif dÃ¶nemin uygun ÅŸekilde deÄŸerlendirilmesi ve yÃ¶netilmesi Ã¶nemlidir</li>
+                                <li>DÃ¼zenli izlem, tekrar riskinin erken fark edilmesine katkÄ± saÄŸlar</li>
+                                <li>Bireyin uyarÄ±cÄ± belirtilerini tanÄ±masÄ±, koruyucu bir yaklaÅŸÄ±m geliÅŸtirmesine yardÄ±mcÄ± olabilir</li>
+                                <li>YaÅŸam tarzÄ± dÃ¼zenlemeleri ve baÅŸa Ã§Ä±kma stratejileri destekleyici rol Ã¼stlenebilir</li>
                             </ul>
 
-                            <h2>Ankara Eryaman&apos;da Değerlendirme</h2>
+                            <h2>Ankara Eryaman&apos;da DeÄŸerlendirme</h2>
                             <p>
-                                Uzm. Dr. Abdullah Maraş, Ankara Eryaman&apos;da Altay Mahallesi çevresinde
-                                bilimsel çerçevede depresyon değerlendirmesi ve bireysel izlem süreçleri
-                                sunmaktadır. Klinikte her bireye yeterli süre ayrılarak kapsamlı bir
-                                klinik görüşme gerçekleştirilmektedir. Etimesgut ve Batıkent bölgelerinden
-                                kolay ulaşım sağlanabilir.
+                                Uzm. Dr. Abdullah MaraÅŸ, Ankara Eryaman&apos;da Altay Mahallesi Ã§evresinde
+                                bilimsel Ã§erÃ§evede depresyon deÄŸerlendirmesi ve bireysel izlem sÃ¼reÃ§leri
+                                sunmaktadÄ±r. Klinikte her bireye yeterli sÃ¼re ayrÄ±larak kapsamlÄ± bir
+                                klinik gÃ¶rÃ¼ÅŸme gerÃ§ekleÅŸtirilmektedir. Etimesgut ve BatÄ±kent bÃ¶lgelerinden
+                                kolay ulaÅŸÄ±m saÄŸlanabilir.
                             </p>
                             <p>
-                                Depresyon belirtileri yaşıyorsanız ve sürenin belirsizliği sizi
-                                kaygılandırıyorsa, profesyonel bir değerlendirme bu kaygıyı azaltmanın
-                                ilk adımı olabilir.{' '}
-                                <Link href="/randevu">Randevu almak için tıklayınız.</Link>
+                                Depresyon belirtileri yaÅŸÄ±yorsanÄ±z ve sÃ¼renin belirsizliÄŸi sizi
+                                kaygÄ±landÄ±rÄ±yorsa, profesyonel bir deÄŸerlendirme bu kaygÄ±yÄ± azaltmanÄ±n
+                                ilk adÄ±mÄ± olabilir.{' '}
+                                <Link href="/randevu">Randevu almak iÃ§in tÄ±klayÄ±nÄ±z.</Link>
                             </p>
 
                             <div className="info-banner">
-                                <strong>?? Önemli Bilgilendirme</strong>
-                                Bu yazıdaki içerikler genel bilgilendirme amaçlıdır ve tıbbi tanı ya da tedavi
-                                önerisi niteliği taşımamaktadır. Depresyonun süresi bireysel faktörlere bağlıdır;
-                                kesin değerlendirme için bir psikiyatri uzmanına başvurunuz.
+                                <strong>ğŸ“Œ Ã–nemli Bilgilendirme</strong>
+                                Bu yazÄ±daki iÃ§erikler genel bilgilendirme amaÃ§lÄ±dÄ±r ve tÄ±bbi tanÄ± ya da tedavi
+                                Ã¶nerisi niteliÄŸi taÅŸÄ±mamaktadÄ±r. Depresyonun sÃ¼resi bireysel faktÃ¶rlere baÄŸlÄ±dÄ±r;
+                                kesin deÄŸerlendirme iÃ§in bir psikiyatri uzmanÄ±na baÅŸvurunuz.
                             </div>
 
                             <div className={styles.faqSection}>
-                                <h2>Depresyonun Süresi Hakkında Sık Sorulan Sorular</h2>
+                                <h2>Depresyonun SÃ¼resi HakkÄ±nda SÄ±k Sorulan Sorular</h2>
                                 <FAQSection items={faqItems} />
                             </div>
 
                             <div className={styles.relatedBox}>
-                                <h3>İlgili Sayfalar</h3>
+                                <h3>Ä°lgili Sayfalar</h3>
                                 <ul>
-                                    <li><Link href="/hizmetler/depresyon">Depresyon Değerlendirmesi ›</Link></li>
-                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? ›</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci ›</Link></li>
-                                    <li><Link href="/hizmetler/anksiyete">Anksiyete Bozuklukları ›</Link></li>
+                                    <li><Link href="/hizmetler/depresyon">Depresyon DeÄŸerlendirmesi â†’</Link></li>
+                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? â†’</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci â†’</Link></li>
+                                    <li><Link href="/hizmetler/anksiyete">Anksiyete BozukluklarÄ± â†’</Link></li>
                                 </ul>
                             </div>
 
                             <div className={styles.articleCta}>
-                                <h3>Profesyonel Değerlendirme İçin</h3>
-                                <p>Ankara Eryaman&apos;da bilimsel çerçevede depresyon değerlendirmesi ve bireysel izlem için randevu alabilirsiniz.</p>
-                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al ›</Link>
+                                <h3>Profesyonel DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede depresyon deÄŸerlendirmesi ve bireysel izlem iÃ§in randevu alabilirsiniz.</p>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al â†’</Link>
                             </div>
                         </article>
 
                         <aside className={styles.sidebar}>
                             <div className={styles.sidebarCta}>
-                                <h3>Değerlendirme İçin</h3>
-                                <p>Depresyon süreci değerlendirmesi</p>
+                                <h3>DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Depresyon sÃ¼reci deÄŸerlendirmesi</p>
                                 <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                             </div>
                             <div className={styles.sidebarCard}>
                                 <h4>Uzman Hekim</h4>
-                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah Maraş</strong><span>Psikiyatri Uzmanı</span><span>Eryaman, Ankara</span></div>
+                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Psikiyatri UzmanÄ±</span><span>Eryaman, Ankara</span></div>
                             </div>
                             <div className={styles.sidebarCard}>
-                                <h4>Depresyon Yazıları</h4>
+                                <h4>Depresyon YazÄ±larÄ±</h4>
                                 <ul className={styles.sidebarLinks}>
                                     <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri</Link></li>
                                     <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü?</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci</Link></li>
-                                    <li><Link href="/blog/is-yasami-ve-depresyon">İş Yaşamı ve Depresyon</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼?</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci</Link></li>
+                                    <li><Link href="/blog/is-yasami-ve-depresyon">Ä°ÅŸ YaÅŸamÄ± ve Depresyon</Link></li>
                                 </ul>
                             </div>
                         </aside>
@@ -274,11 +274,11 @@ export default function DepresyonKacGundeGecerBlog() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "Article",
-                    headline: "Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler",
+                    headline: "Depresyon KaÃ§ GÃ¼nde GeÃ§er? SÃ¼re HakkÄ±nda Bilinmesi Gerekenler",
                     datePublished: "2026-03-18T09:00:00+03:00",
-                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
-                    mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyon-kac-gunde-gecer",
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-kac-gunde-gecer",
                 })
             }} />
         </>

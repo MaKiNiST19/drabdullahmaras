@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak ile Kalp Krizi Farkı Nasıl Ayırt Edilir? | Uzm. Dr. Abdullah Maraş',
     description:
         'Panik atak kalp krizi midir? Göğüs kafesinde uyuşma, kalp sıkışması ve omuz sızıları panik atakta nasıl seyreder? Acil tanı ve Eryaman psikiyatrik süreç.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak-kalp-krizi-mi' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak-kalp-krizi-mi' },
     openGraph: {
         title: 'Panik Atak İle Kalp Krizini Ayırt Etme Adımları',
         type: 'article', locale: 'tr_TR',

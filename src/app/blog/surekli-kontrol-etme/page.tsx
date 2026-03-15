@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sürekli Kontrol Etme İsteği Neden Olur? Evden Çıkamama | Uzm. Dr. Abdullah Maraş',
     description:
         'Sürekli ocak, kapı ve ütü kontrol etme davranışı nedir? "Acaba kilitledim mi" şüphesinin ardındaki obsesif kompulsif döngü (OKB) ve Eryaman’daki değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/surekli-kontrol-etme' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/surekli-kontrol-etme' },
     openGraph: {
         title: 'Sürekli Kontrol Etme İsteği Neden Olur? (Kapı, Ocak, Kilit)',
         type: 'article', locale: 'tr_TR',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Anksiyete Ne Kadar Sürer? | Sürekli Kaygı Hakkında Bilgiler',
     description:
         'Anksiyete ne kadar sürer? Anksiyete bozukluğu belirtilerinin ne kadar devam edeceği kişiden kişiye farklılık gösterir. Ankara Eryaman anksiyete değerlendirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete-ne-kadar-surer' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete-ne-kadar-surer' },
     openGraph: {
         title: 'Anksiyete Ne Kadar Sürer? Kaç Günde Geçer?',
         description: 'Anksiyetenin süresi, belirtilerin şiddeti ve uzun / kısa dönem kaygı farkları.',

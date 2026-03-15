@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Depresyon Değerlendirmesi Eryaman | Psikiyatrist Ankara - Uzm. Dr. Abdullah Maraş',
     description:
         'Ankara Eryaman\'da depresyon hakkında kapsamlı psikiyatrik değerlendirme. Depresyon belirtileri, türleri, günlük yaşama etkileri ve bireysel değerlendirme süreci. Uzm. Dr. Abdullah Maraş.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/depresyon' },
+    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/depresyon' },
     openGraph: {
         title: 'Eryaman\'da Depresyon Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
         description: 'Ankara Eryaman\'da bilimsel çerçevede depresyon değerlendirmesi. Ruh sağlığı uzmanı ile bireysel klinik görüşme.',
@@ -58,7 +58,7 @@ export default function DepresyonPillarPage() {
             <section className={styles.hero}>
                 <div className={styles.heroBg}><div className={styles.heroOrb}></div></div>
                 <div className={`container ${styles.heroContent}`}>
-                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Çalışma Alanları</Link>
+                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Değerlendirme Alanları</Link>
                     <span className={styles.heroIcon}>ğŸŒ§ï¸</span>
                     <h1>Eryaman&apos;da Depresyon Hakkında Psikiyatrik Değerlendirme</h1>
                     <p className={styles.heroDesc}>
@@ -495,20 +495,20 @@ export default function DepresyonPillarPage() {
                     "@context": "https://schema.org", "@type": "MedicalWebPage",
                     name: "Eryaman'da Depresyon Hakkında Psikiyatrik Değerlendirme",
                     description: metadata.description,
-                    url: "https://www.drabdullahmaras.com.tr/hizmetler/depresyon",
+                    url: "https://drabdullahmaras.com/hizmetler/depresyon",
                     specialty: { "@type": "MedicalSpecialty", name: "Psychiatric" },
                     about: { "@type": "MedicalCondition", name: "Depresyon", alternateName: "Majör Depresif Bozukluk" },
-                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
-                    isPartOf: { "@id": "https://www.drabdullahmaras.com.tr/#website" },
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    isPartOf: { "@id": "https://drabdullahmaras.com/#website" },
                     inLanguage: "tr-TR",
-                    lastReviewed: "2026-02-27", mainEntityOfPage: "https://www.drabdullahmaras.com.tr/hizmetler/depresyon"
+                    lastReviewed: "2026-02-27", mainEntityOfPage: "https://drabdullahmaras.com/hizmetler/depresyon"
                 })
             }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "FAQPage",
-                    "@id": "https://www.drabdullahmaras.com.tr/hizmetler/depresyon/#faq",
+                    "@id": "https://drabdullahmaras.com/hizmetler/depresyon/#faq",
                     mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } }))
                 })
             }} />
@@ -516,8 +516,8 @@ export default function DepresyonPillarPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "BreadcrumbList",
                     itemListElement: [
-                        { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://www.drabdullahmaras.com.tr" },
-                        { "@type": "ListItem", position: 2, name: "Hizmetler", item: "https://www.drabdullahmaras.com.tr/hizmetler" },
+                        { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://drabdullahmaras.com" },
+                        { "@type": "ListItem", position: 2, name: "Hizmetler", item: "https://drabdullahmaras.com/hizmetler" },
                         { "@type": "ListItem", position: 3, name: "Depresyon" }
                     ]
                 })

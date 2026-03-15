@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: service.metaTitle,
         description: service.metaDescription,
-        alternates: { canonical: `https://www.drabdullahmaras.com.tr/hizmetler/${service.slug}` },
+        alternates: { canonical: `https://drabdullahmaras.com/hizmetler/${service.slug}` },
     };
 }
 
@@ -36,7 +36,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             {/* Hero */}
             <section className={styles.hero}>
                 <div className={`container ${styles.heroContent}`}>
-                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Çalışma Alanları</Link>
+                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Değerlendirme Alanları</Link>
                     <span className={styles.heroIcon}>{service.icon}</span>
                     <h1>{service.title}</h1>
                     <p className={styles.heroDesc}>{service.shortDesc}</p>
@@ -77,7 +77,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
                             {/* Related */}
                             <div className={styles.relatedSection}>
-                                <h2>İlgili Çalışma Alanları</h2>
+                                <h2>İlgili Değerlendirme Alanları</h2>
                                 <div className={styles.relatedGrid}>
                                     {related.map((r) => (
                                         <Link href={`/hizmetler/${r.slug}`} key={r.slug} className={`card ${styles.relatedCard}`}>

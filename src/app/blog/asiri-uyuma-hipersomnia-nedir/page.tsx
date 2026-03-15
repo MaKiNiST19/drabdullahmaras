@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Aşırı Uyuma (Hipersomnia) Nedir? | Gün Boyu Süren Uyku Hali',
     description:
         'Yetişkinlerde gereğinden fazla uyuma, 12-14 saat uykudan bitkin kalkma, stresten ve depresyondan kaçış aracı olarak hipersomnia.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/asiri-uyuma-hipersomnia-nedir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/asiri-uyuma-hipersomnia-nedir' },
     openGraph: {
         title: 'Hayati Çöküş: Depresyonda Kaçış ve Aşırı Uyuma İhtiyacı',
         type: 'article', locale: 'tr_TR',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'DEHB ve Anksiyete Arasındaki İlişki | Yetişkinlerde Kaygı Sorunları',
     description:
         'Odaklanamadığı veya işleri sürekli ertelediği için kendi kapasitesinden korkan yetişkin hastanın giderek yaygın anksiyete uykusuzluğu geliştirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/dehb-ve-anksiyete-arasindaki-iliski' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/dehb-ve-anksiyete-arasindaki-iliski' },
     openGraph: {
         title: 'Birlikte Gelen Fırtına: Odak Güçlüğü Sonrası Başlayan Yetişkin Kaygıları',
         type: 'article', locale: 'tr_TR',

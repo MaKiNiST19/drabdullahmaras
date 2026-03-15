@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Gece Panik Atak Neden Olur? Uykuda Çarpıntı | Uzm. Dr. Abdullah Maraş',
     description:
         'Gece uykudan çarpıntıyla uyanma durumu (Nocturnal Panic Attack) neden olur? Uyurken panik atak geçirmek, gece terlemesi ve uykusuzluk ilişkisi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/gece-panik-atak' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/gece-panik-atak' },
     openGraph: {
         title: 'Gece Panik Atak Neden Olur? Uykudan Neden Sıçrarız?',
         type: 'article', locale: 'tr_TR',

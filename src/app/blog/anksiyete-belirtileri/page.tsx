@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Anksiyete Belirtileri Nelerdir? Normal Kaygı ve Bozukluk | Uzm. Dr. Abdullah Maraş',
     description:
         'Anksiyete belirtileri nelerdir? Normal kaygı ile anksiyete bozukluğu arasındaki fark, günlük işlevsellik ve Eryaman psikiyatri değerlendirmesi uzman bilgilendirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete-belirtileri' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete-belirtileri' },
     openGraph: {
         title: 'Anksiyete Belirtileri Nelerdir? Kaygı Hangi Noktada Bozukluğa Dönüşür?',
         type: 'article', locale: 'tr_TR',

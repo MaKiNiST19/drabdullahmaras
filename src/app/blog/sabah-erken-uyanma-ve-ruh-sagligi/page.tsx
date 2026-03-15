@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sabah Erken Uyanma ve Ruh Sağlığı | Terminal İnsomnia',
     description:
         'Sabahın köründe aniden gözlerin açılması (03:00 - 04:00 uyanmaları), depresyon ve kaygı ilişkisi; yetişkin hastalar için psikiyatrik klinik uyarılar.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/sabah-erken-uyanma-ve-ruh-sagligi' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/sabah-erken-uyanma-ve-ruh-sagligi' },
     openGraph: {
         title: 'Depresyonun İşareti Olan "Terminal İnsomnia" (Sabah Erken Uyanma)',
         type: 'article', locale: 'tr_TR',

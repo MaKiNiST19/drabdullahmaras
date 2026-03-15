@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Temizlik Takıntısı (Kirlenme Obsesyonu) Nedir? | Uzm. Dr. Abdullah Maraş',
     description:
         'Temizlik takıntısı nedir? Saatlerce el yıkamak, kapıya dokunamamak ve mikroptan aşırı korkmak. Ankara Eryaman OKB temizlik tedavisi psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/temizlik-takintisi' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/temizlik-takintisi' },
     openGraph: {
         title: 'Temizlik Takıntısı (Mizofobi) ve Aşırı Titizlik Farkı',
         type: 'article', locale: 'tr_TR',

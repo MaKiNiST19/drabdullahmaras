@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Tükenmişlik Sendromu Bilgi Kütüphanesi | İş Hayatı ve Yorgunluk',
     description:
         'Yetişkinlerde iş yorgunluğu, hayata karşı motivasyon kaybı, duygusal tükenmişlik ve kronik stresle başa çıkma üzerine Eryaman (Ankara) klinik değerlendirme kütüphanesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/tukenmislik-sendromu' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/tukenmislik-sendromu' },
     openGraph: {
         title: 'Tükenmişlik ve Burnout: Neden Hiçbir Şeye Enerjimiz Yok?',
         type: 'website', locale: 'tr_TR',
@@ -126,13 +126,13 @@ export default function TukenmislikHub() {
                     "@type": "CollectionPage",
                     "name": "Tükenmişlik Sendromu Bilgi Kütüphanesi",
                     "description": "Yetişkinlerde mesleki duygusal tükenmişlik ve motivasyonsuzluk (Burnout) problemleri Ankara klinik bilgileri.",
-                    "url": "https://www.drabdullahmaras.com.tr/blog/tukenmislik-sendromu",
+                    "url": "https://drabdullahmaras.com/blog/tukenmislik-sendromu",
                     "mainEntity": {
                         "@type": "ItemList",
                         "itemListElement": burnoutArticles.map((article, index) => ({
                             "@type": "ListItem",
                             "position": index + 1,
-                            "url": "https://www.drabdullahmaras.com.tr" + article.path,
+                            "url": "https://drabdullahmaras.com" + article.path,
                             "name": article.title
                         }))
                     }

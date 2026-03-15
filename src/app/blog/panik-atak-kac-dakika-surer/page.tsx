@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak Kaç Dakika Sürer? Snippet Kısa Süreli mi? | Uzm. Dr. Abdullah Maraş',
     description:
         'Panik atak krizi kaç dakika sürer? Hiç bitmeyecek gibi gelen "dakikalar geçmek bilmiyor" hissinin fizyolojisi. Ankara Eryaman panik atak değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak-kac-dakika-surer' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak-kac-dakika-surer' },
     openGraph: {
         title: 'Panik Atak Kaç Dakika Sürer?',
         type: 'article', locale: 'tr_TR',

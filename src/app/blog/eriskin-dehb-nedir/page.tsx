@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Erişkin DEHB Nedir? (Yetişkinlerde Dikkat Eksikliği) | Ankara',
     description:
         'Erişkin DEHB (Dikkat Eksikliği ve Hiperaktivite Bozukluğu) nedir, nasıl teşhis edilir ve odak sorunları hakkında Ankara Eryaman değerlendirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/eriskin-dehb-nedir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/eriskin-dehb-nedir' },
     openGraph: {
         title: 'Erişkin DEHB Nedir? Belirtiler ve Yansımaları',
         type: 'article', locale: 'tr_TR',

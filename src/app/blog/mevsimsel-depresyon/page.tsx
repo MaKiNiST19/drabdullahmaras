@@ -1,42 +1,42 @@
-import type { Metadata } from 'next';
+ï»¿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Mevsimsel Depresyon Nedir? Kış Depresyonu Belirtileri | Uzm. Dr. Abdullah Maraş',
+    title: 'Mevsimsel Depresyon Nedir? KÄ±ÅŸ Depresyonu Belirtileri | Uzm. Dr. Abdullah MaraÅŸ',
     description:
-        'Mevsimsel depresyon (kış depresyonu) nedir? Kısa gün ışığı, enerji kaybı ve duygudurum değişiklikleri. Ankara Eryaman psikiyatri uzmanı bilgilendirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/mevsimsel-depresyon' },
+        'Mevsimsel depresyon (kÄ±ÅŸ depresyonu) nedir? KÄ±sa gÃ¼n Ä±ÅŸÄ±ÄŸÄ±, enerji kaybÄ± ve duygudurum deÄŸiÅŸiklikleri. Ankara Eryaman psikiyatri uzmanÄ± bilgilendirmesi.',
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/mevsimsel-depresyon' },
     openGraph: {
-        title: 'Mevsimsel Depresyon Nedir? Kış Depresyonu Belirtileri',
-        description: 'Mevsimsel duygudurum değişiklikleri hakkında kapsamlı bilgilendirme yazısı.',
+        title: 'Mevsimsel Depresyon Nedir? KÄ±ÅŸ Depresyonu Belirtileri',
+        description: 'Mevsimsel duygudurum deÄŸiÅŸiklikleri hakkÄ±nda kapsamlÄ± bilgilendirme yazÄ±sÄ±.',
         type: 'article', locale: 'tr_TR',
         publishedTime: '2026-03-26T09:00:00+03:00',
-        authors: ['Uzm. Dr. Abdullah Maraş'],
+        authors: ['Uzm. Dr. Abdullah MaraÅŸ'],
     },
 };
 
 const faqItems = [
     {
         question: 'Mevsimsel depresyon nedir?',
-        answer: 'Mevsimsel depresyon, belirli mevsimlerde — özellikle sonbahar ve kış aylarında — ortaya çıkan ve gün ışığı süresinin kısalmasıyla ilişkili olduğu düşünülen bir depresyon türüdür. Belirtiler genellikle ilkbahar ve yaz aylarında kendiliğinden hafifler.',
+        answer: 'Mevsimsel depresyon, belirli mevsimlerde â€” Ã¶zellikle sonbahar ve kÄ±ÅŸ aylarÄ±nda â€” ortaya Ã§Ä±kan ve gÃ¼n Ä±ÅŸÄ±ÄŸÄ± sÃ¼resinin kÄ±salmasÄ±yla iliÅŸkili olduÄŸu dÃ¼ÅŸÃ¼nÃ¼len bir depresyon tÃ¼rÃ¼dÃ¼r. Belirtiler genellikle ilkbahar ve yaz aylarÄ±nda kendiliÄŸinden hafifler.',
     },
     {
-        question: 'Kış depresyonunun belirtileri nelerdir?',
-        answer: 'Aşırı uyuma ihtiyacı, enerji düşüklüğü, karbonhidratlı gıdalara yönelme, kilo artışı, sosyal çekilme, karamsarlık ve motivasyon kaybı mevsimsel depresyonun yaygın belirtileri arasındadır.',
+        question: 'KÄ±ÅŸ depresyonunun belirtileri nelerdir?',
+        answer: 'AÅŸÄ±rÄ± uyuma ihtiyacÄ±, enerji dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼, karbonhidratlÄ± gÄ±dalara yÃ¶nelme, kilo artÄ±ÅŸÄ±, sosyal Ã§ekilme, karamsarlÄ±k ve motivasyon kaybÄ± mevsimsel depresyonun yaygÄ±n belirtileri arasÄ±ndadÄ±r.',
     },
     {
-        question: 'Mevsimsel depresyon sıradan bir kış hüznü müdür?',
-        answer: 'Hayır. Belirtiler haftalarca sürebilir, günlük işlevselliği olumsuz etkileyebilir ve her yıl benzer dönemlerde tekrar edebilir. Geçici bir hüzünden daha derin ve kalıcı olan bu durum, profesyonel değerlendirme gerektirebilir.',
+        question: 'Mevsimsel depresyon sÄ±radan bir kÄ±ÅŸ hÃ¼znÃ¼ mÃ¼dÃ¼r?',
+        answer: 'HayÄ±r. Belirtiler haftalarca sÃ¼rebilir, gÃ¼nlÃ¼k iÅŸlevselliÄŸi olumsuz etkileyebilir ve her yÄ±l benzer dÃ¶nemlerde tekrar edebilir. GeÃ§ici bir hÃ¼zÃ¼nden daha derin ve kalÄ±cÄ± olan bu durum, profesyonel deÄŸerlendirme gerektirebilir.',
     },
     {
-        question: 'Eryaman\'da mevsimsel depresyon değerlendirmesi yapılır mı?',
-        answer: 'Evet. Ankara Eryaman, Altay Mahallesi çevresinde Uzm. Dr. Abdullah Maraş\'ın kliniğinde mevsimsel depresyon dahil tüm depresif durumların kapsamlı psikiyatrik değerlendirmesi yapılmaktadır.',
+        question: 'Eryaman\'da mevsimsel depresyon deÄŸerlendirmesi yapÄ±lÄ±r mÄ±?',
+        answer: 'Evet. Ankara Eryaman, Altay Mahallesi Ã§evresinde Uzm. Dr. Abdullah MaraÅŸ\'Ä±n kliniÄŸinde mevsimsel depresyon dahil tÃ¼m depresif durumlarÄ±n kapsamlÄ± psikiyatrik deÄŸerlendirmesi yapÄ±lmaktadÄ±r.',
     },
     {
-        question: 'Işık terapisi mevsimsel depresyonda işe yarar mı?',
-        answer: 'Yapay gün ışığı uygulaması (ışık terapisi), mevsimsel depresyonda destekleyici bir yaklaşım olarak kullanılabilmektedir. Ancak bu yöntemin uygulanabilirliği bireysel değerlendirme sonucu uzman hekim tarafından belirlenmelidir.',
+        question: 'IÅŸÄ±k terapisi mevsimsel depresyonda iÅŸe yarar mÄ±?',
+        answer: 'Yapay gÃ¼n Ä±ÅŸÄ±ÄŸÄ± uygulamasÄ± (Ä±ÅŸÄ±k terapisi), mevsimsel depresyonda destekleyici bir yaklaÅŸÄ±m olarak kullanÄ±labilmektedir. Ancak bu yÃ¶ntemin uygulanabilirliÄŸi bireysel deÄŸerlendirme sonucu uzman hekim tarafÄ±ndan belirlenmelidir.',
     },
 ];
 
@@ -53,19 +53,19 @@ export default function MevsimselDepresyonBlog() {
                     <div className={styles.meta}>
                         <span className={styles.category}>Depresyon</span>
                         <time dateTime="2026-03-26">26 Mart 2026</time>
-                        <span>•</span><span>9 dk okuma</span>
+                        <span>â€¢</span><span>9 dk okuma</span>
                     </div>
-                    <h1>Mevsimsel Duygudurum Değişiklikleri ve Kış Depresyonu</h1>
+                    <h1>Mevsimsel Duygudurum DeÄŸiÅŸiklikleri ve KÄ±ÅŸ Depresyonu</h1>
                     <p className={styles.heroDesc}>
-                        Sonbahar ve kış aylarında belirginleşen enerji kaybı, karamsarlık ve motivasyon
-                        düşüklüğü — mevsimsel depresyonun doğasını, belirtilerini ve profesyonel
-                        değerlendirmenin önemini ele alıyoruz.
+                        Sonbahar ve kÄ±ÅŸ aylarÄ±nda belirginleÅŸen enerji kaybÄ±, karamsarlÄ±k ve motivasyon
+                        dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼ â€” mevsimsel depresyonun doÄŸasÄ±nÄ±, belirtilerini ve profesyonel
+                        deÄŸerlendirmenin Ã¶nemini ele alÄ±yoruz.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı ve Hastalıkları Uzmanı</span></div>
+                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± UzmanÄ±</span></div>
                     </div>
                 </div>
             </section>
@@ -76,185 +76,185 @@ export default function MevsimselDepresyonBlog() {
                         <article className={styles.article}>
 
                             <p className={styles.lead}>
-                                Her yıl sonbaharla birlikte gün ışığı kısalmaya başladığında, pek çok kişi
-                                enerjisinde düşüş, uyku düzeninde bozulma ve genel bir isteksizlik hisseder.
-                                Bazıları için bu yalnızca geçici bir &ldquo;kış hüznü&rdquo;dür. Ancak belirtiler
-                                haftalarca sürdüğünde, günlük yaşamı olumsuz etkilediğinde ve her yıl
-                                tekrarladığında, mevsimsel duygudurum bozukluğundan — halk arasında
-                                &ldquo;kış depresyonu&rdquo; olarak bilinen durumdan — söz edilebilir.
+                                Her yÄ±l sonbaharla birlikte gÃ¼n Ä±ÅŸÄ±ÄŸÄ± kÄ±salmaya baÅŸladÄ±ÄŸÄ±nda, pek Ã§ok kiÅŸi
+                                enerjisinde dÃ¼ÅŸÃ¼ÅŸ, uyku dÃ¼zeninde bozulma ve genel bir isteksizlik hisseder.
+                                BazÄ±larÄ± iÃ§in bu yalnÄ±zca geÃ§ici bir &ldquo;kÄ±ÅŸ hÃ¼znÃ¼&rdquo;dÃ¼r. Ancak belirtiler
+                                haftalarca sÃ¼rdÃ¼ÄŸÃ¼nde, gÃ¼nlÃ¼k yaÅŸamÄ± olumsuz etkilediÄŸinde ve her yÄ±l
+                                tekrarladÄ±ÄŸÄ±nda, mevsimsel duygudurum bozukluÄŸundan â€” halk arasÄ±nda
+                                &ldquo;kÄ±ÅŸ depresyonu&rdquo; olarak bilinen durumdan â€” sÃ¶z edilebilir.
                             </p>
                             <p>
-                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş, mevsimsel depresyon dahil olmak
-                                üzere depresif durumların kapsamlı değerlendirmesini bilimsel çerçevede
-                                gerçekleştirmektedir.{' '}
-                                <Link href="/hizmetler/depresyon">Depresyon değerlendirmesi</Link> hakkında
-                                detaylı bilgi için hizmet sayfamızı inceleyebilirsiniz.
+                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ, mevsimsel depresyon dahil olmak
+                                Ã¼zere depresif durumlarÄ±n kapsamlÄ± deÄŸerlendirmesini bilimsel Ã§erÃ§evede
+                                gerÃ§ekleÅŸtirmektedir.{' '}
+                                <Link href="/hizmetler/depresyon">Depresyon deÄŸerlendirmesi</Link> hakkÄ±nda
+                                detaylÄ± bilgi iÃ§in hizmet sayfamÄ±zÄ± inceleyebilirsiniz.
                             </p>
 
                             <h2>Mevsimsel Depresyon (SAD) Nedir?</h2>
                             <p>
-                                Mevsimsel depresyon, tıbbi terminolojide &ldquo;Mevsimsel Afektif Bozukluk&rdquo;
-                                (Seasonal Affective Disorder — SAD) olarak adlandırılan, yılın belirli
-                                dönemlerinde tekrarlayan depresif belirtilerle karakterize bir durumdur. En
-                                yaygın biçimi sonbahar-kış tipidir; gün ışığı süresinin kısalmasıyla belirtiler
-                                başlar ve ilkbaharla birlikte kendiliğinden hafifler.
+                                Mevsimsel depresyon, tÄ±bbi terminolojide &ldquo;Mevsimsel Afektif Bozukluk&rdquo;
+                                (Seasonal Affective Disorder â€” SAD) olarak adlandÄ±rÄ±lan, yÄ±lÄ±n belirli
+                                dÃ¶nemlerinde tekrarlayan depresif belirtilerle karakterize bir durumdur. En
+                                yaygÄ±n biÃ§imi sonbahar-kÄ±ÅŸ tipidir; gÃ¼n Ä±ÅŸÄ±ÄŸÄ± sÃ¼resinin kÄ±salmasÄ±yla belirtiler
+                                baÅŸlar ve ilkbaharla birlikte kendiliÄŸinden hafifler.
                             </p>
                             <p>
-                                Mevsimsel depresyon, &ldquo;geçici bir kötü ruh hâli&rdquo; veya &ldquo;kış
-                                tembelliği&rdquo;nden farklıdır. Belirtiler, bireyin günlük yaşam işlevselliğini,
-                                iş performansını ve sosyal ilişkilerini anlamlı biçimde etkileyebilecek düzeyde
-                                olabilir. Bu nedenle sıradan bir hüzün ile mevsimsel depresyon arasındaki ayrımın
-                                profesyonel bir değerlendirme ile yapılması önerilmektedir.
+                                Mevsimsel depresyon, &ldquo;geÃ§ici bir kÃ¶tÃ¼ ruh hÃ¢li&rdquo; veya &ldquo;kÄ±ÅŸ
+                                tembelliÄŸi&rdquo;nden farklÄ±dÄ±r. Belirtiler, bireyin gÃ¼nlÃ¼k yaÅŸam iÅŸlevselliÄŸini,
+                                iÅŸ performansÄ±nÄ± ve sosyal iliÅŸkilerini anlamlÄ± biÃ§imde etkileyebilecek dÃ¼zeyde
+                                olabilir. Bu nedenle sÄ±radan bir hÃ¼zÃ¼n ile mevsimsel depresyon arasÄ±ndaki ayrÄ±mÄ±n
+                                profesyonel bir deÄŸerlendirme ile yapÄ±lmasÄ± Ã¶nerilmektedir.
                             </p>
 
-                            <h2>Mevsimsel Depresyonun Olası Nedenleri</h2>
+                            <h2>Mevsimsel Depresyonun OlasÄ± Nedenleri</h2>
                             <p>
-                                Mevsimsel depresyonun kesin nedeni henüz tam olarak aydınlatılmamış olmakla
-                                birlikte, birkaç biyolojik mekanizmanın rol oynadığı düşünülmektedir:
+                                Mevsimsel depresyonun kesin nedeni henÃ¼z tam olarak aydÄ±nlatÄ±lmamÄ±ÅŸ olmakla
+                                birlikte, birkaÃ§ biyolojik mekanizmanÄ±n rol oynadÄ±ÄŸÄ± dÃ¼ÅŸÃ¼nÃ¼lmektedir:
                             </p>
                             <ul>
-                                <li><strong>Gün ışığı süresinin azalması:</strong> Daha kısa gündüzler ve sınırlı güneş ışığı, vücudun biyolojik saatini (sirkadiyen ritmi) etkileyebilir. Bu durum uyku-uyanıklık döngüsünde ve duygudurum düzenlemesinde bozulmalara yol açabilir.</li>
-                                <li><strong>Serotonin düzeylerindeki değişimler:</strong> Güneş ışığının azalması, beynin duygudurum düzenlenmesinde rol oynayan serotonin üretimini etkileyebilir.</li>
-                                <li><strong>Melatonin dengesindeki kayma:</strong> Karanlık süresinin uzaması, uyku hormonları üzerindeki dengeyi değiştirebilir ve aşırı uyuma eğilimini artırabilir.</li>
-                                <li><strong>D vitamini düzeylerindeki düşüş:</strong> Güneş ışığına maruz kalma süresinin azalması, D vitamini sentezini etkileyebilir. Düşük D vitamini düzeyleri, duygudurum değişiklikleriyle ilişkilendirilmektedir.</li>
+                                <li><strong>GÃ¼n Ä±ÅŸÄ±ÄŸÄ± sÃ¼resinin azalmasÄ±:</strong> Daha kÄ±sa gÃ¼ndÃ¼zler ve sÄ±nÄ±rlÄ± gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±, vÃ¼cudun biyolojik saatini (sirkadiyen ritmi) etkileyebilir. Bu durum uyku-uyanÄ±klÄ±k dÃ¶ngÃ¼sÃ¼nde ve duygudurum dÃ¼zenlemesinde bozulmalara yol aÃ§abilir.</li>
+                                <li><strong>Serotonin dÃ¼zeylerindeki deÄŸiÅŸimler:</strong> GÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±nÄ±n azalmasÄ±, beynin duygudurum dÃ¼zenlenmesinde rol oynayan serotonin Ã¼retimini etkileyebilir.</li>
+                                <li><strong>Melatonin dengesindeki kayma:</strong> KaranlÄ±k sÃ¼resinin uzamasÄ±, uyku hormonlarÄ± Ã¼zerindeki dengeyi deÄŸiÅŸtirebilir ve aÅŸÄ±rÄ± uyuma eÄŸilimini artÄ±rabilir.</li>
+                                <li><strong>D vitamini dÃ¼zeylerindeki dÃ¼ÅŸÃ¼ÅŸ:</strong> GÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±na maruz kalma sÃ¼resinin azalmasÄ±, D vitamini sentezini etkileyebilir. DÃ¼ÅŸÃ¼k D vitamini dÃ¼zeyleri, duygudurum deÄŸiÅŸiklikleriyle iliÅŸkilendirilmektedir.</li>
                             </ul>
                             <p>
-                                Genetik yatkınlık da önemli bir faktördür; ailesinde depresyon öyküsü bulunan
-                                bireylerde mevsimsel depresyon riski artabilmektedir. Özellikle kuzey enlemlerde
-                                yaşayan ve doğal gün ışığına sınırlı maruz kalan bireylerde daha yaygın
-                                gözlenebilmektedir.
+                                Genetik yatkÄ±nlÄ±k da Ã¶nemli bir faktÃ¶rdÃ¼r; ailesinde depresyon Ã¶ykÃ¼sÃ¼ bulunan
+                                bireylerde mevsimsel depresyon riski artabilmektedir. Ã–zellikle kuzey enlemlerde
+                                yaÅŸayan ve doÄŸal gÃ¼n Ä±ÅŸÄ±ÄŸÄ±na sÄ±nÄ±rlÄ± maruz kalan bireylerde daha yaygÄ±n
+                                gÃ¶zlenebilmektedir.
                             </p>
 
-                            <h2>Kış Depresyonunun Belirtileri</h2>
+                            <h2>KÄ±ÅŸ Depresyonunun Belirtileri</h2>
                             <p>
-                                Mevsimsel depresyonun belirtileri, klasik depresyon belirtileriyle büyük ölçüde
-                                örtüşmekle birlikte bazı kendine özgü özellikleri bulunmaktadır.{' '}
-                                <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri hakkında
-                                    kapsamlı blog yazımızı</Link> da inceleyebilirsiniz.
+                                Mevsimsel depresyonun belirtileri, klasik depresyon belirtileriyle bÃ¼yÃ¼k Ã¶lÃ§Ã¼de
+                                Ã¶rtÃ¼ÅŸmekle birlikte bazÄ± kendine Ã¶zgÃ¼ Ã¶zellikleri bulunmaktadÄ±r.{' '}
+                                <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri hakkÄ±nda
+                                    kapsamlÄ± blog yazÄ±mÄ±zÄ±</Link> da inceleyebilirsiniz.
                             </p>
                             <h3>Duygusal Belirtiler</h3>
                             <ul>
-                                <li>Süreğen karamsarlık, üzüntü ve boşluk hissi</li>
-                                <li>Daha önce keyif alınan etkinliklere karşı ilgi kaybı</li>
-                                <li>Umutsuzluk ve çaresizlik duyguları</li>
+                                <li>SÃ¼reÄŸen karamsarlÄ±k, Ã¼zÃ¼ntÃ¼ ve boÅŸluk hissi</li>
+                                <li>Daha Ã¶nce keyif alÄ±nan etkinliklere karÅŸÄ± ilgi kaybÄ±</li>
+                                <li>Umutsuzluk ve Ã§aresizlik duygularÄ±</li>
                                 <li>Kolay sinirlenme ve irritabilite</li>
-                                <li>Sosyal etkinliklerden kaçınma, yalnız kalma isteği</li>
+                                <li>Sosyal etkinliklerden kaÃ§Ä±nma, yalnÄ±z kalma isteÄŸi</li>
                             </ul>
-                            <h3>Bedensel ve Davranışsal Belirtiler</h3>
+                            <h3>Bedensel ve DavranÄ±ÅŸsal Belirtiler</h3>
                             <ul>
-                                <li>Aşırı uyuma ihtiyacı — sabah uyanmakta güçlük (hipersomnia)</li>
-                                <li>Belirgin enerji düşüklüğü, hareket etmekte isteksizlik</li>
-                                <li>Karbonhidrat ve şekerli gıdalara yönelme, iştah artışı</li>
-                                <li>Kilo artışı</li>
-                                <li>Kollar ve bacaklarda ağırlık hissi</li>
+                                <li>AÅŸÄ±rÄ± uyuma ihtiyacÄ± â€” sabah uyanmakta gÃ¼Ã§lÃ¼k (hipersomnia)</li>
+                                <li>Belirgin enerji dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼, hareket etmekte isteksizlik</li>
+                                <li>Karbonhidrat ve ÅŸekerli gÄ±dalara yÃ¶nelme, iÅŸtah artÄ±ÅŸÄ±</li>
+                                <li>Kilo artÄ±ÅŸÄ±</li>
+                                <li>Kollar ve bacaklarda aÄŸÄ±rlÄ±k hissi</li>
                             </ul>
                             <p>
-                                Bu belirtilerden özellikle hipersomnia (aşırı uyuma) ve karbonhidrat isteğindeki
-                                artış, mevsimsel depresyonu klasik depresyondan ayıran önemli özelliklerdir.{' '}
-                                <Link href="/hizmetler/uyku-bozukluklari">Uyku bozuklukları</Link> ile depresyon
-                                arasındaki ilişki, değerlendirme sürecinde birlikte ele alınmaktadır.
+                                Bu belirtilerden Ã¶zellikle hipersomnia (aÅŸÄ±rÄ± uyuma) ve karbonhidrat isteÄŸindeki
+                                artÄ±ÅŸ, mevsimsel depresyonu klasik depresyondan ayÄ±ran Ã¶nemli Ã¶zelliklerdir.{' '}
+                                <Link href="/hizmetler/uyku-bozukluklari">Uyku bozukluklarÄ±</Link> ile depresyon
+                                arasÄ±ndaki iliÅŸki, deÄŸerlendirme sÃ¼recinde birlikte ele alÄ±nmaktadÄ±r.
                             </p>
 
-                            <h2>Mevsimsel Depresyon ile Sıradan Kış Hüznü Arasındaki Fark</h2>
+                            <h2>Mevsimsel Depresyon ile SÄ±radan KÄ±ÅŸ HÃ¼znÃ¼ ArasÄ±ndaki Fark</h2>
                             <p>
-                                Kış aylarında enerjide bir miktar düşüş hissetmek, birçok insan için yaygın
-                                bir deneyimdir. Ancak aşağıdaki durumlar mevsimsel depresyona işaret edebilir:
+                                KÄ±ÅŸ aylarÄ±nda enerjide bir miktar dÃ¼ÅŸÃ¼ÅŸ hissetmek, birÃ§ok insan iÃ§in yaygÄ±n
+                                bir deneyimdir. Ancak aÅŸaÄŸÄ±daki durumlar mevsimsel depresyona iÅŸaret edebilir:
                             </p>
                             <ul>
-                                <li>Belirtiler en az <strong>iki hafta boyunca</strong> çoğu gün devam ediyorsa</li>
-                                <li>İş, ev veya sosyal yaşamı sürdürmekte <strong>zorluk yaşanıyorsa</strong></li>
-                                <li>Her yıl <strong>benzer dönemlerde</strong> aynı belirtiler tekrarlıyorsa</li>
-                                <li>İlkbahar ve yazla birlikte belirtiler <strong>belirgin şekilde hafifliyorsa</strong></li>
-                                <li>Günlük yaşamdan <strong>zevk alamama</strong> hâli belirginse</li>
+                                <li>Belirtiler en az <strong>iki hafta boyunca</strong> Ã§oÄŸu gÃ¼n devam ediyorsa</li>
+                                <li>Ä°ÅŸ, ev veya sosyal yaÅŸamÄ± sÃ¼rdÃ¼rmekte <strong>zorluk yaÅŸanÄ±yorsa</strong></li>
+                                <li>Her yÄ±l <strong>benzer dÃ¶nemlerde</strong> aynÄ± belirtiler tekrarlÄ±yorsa</li>
+                                <li>Ä°lkbahar ve yazla birlikte belirtiler <strong>belirgin ÅŸekilde hafifliyorsa</strong></li>
+                                <li>GÃ¼nlÃ¼k yaÅŸamdan <strong>zevk alamama</strong> hÃ¢li belirginse</li>
                             </ul>
                             <p>
-                                Bu durumların varlığında, bir psikiyatri uzmanından değerlendirme almanız
-                                önerilmektedir. Eryaman&apos;da psikiyatrist arayan kişiler, Altay Mahallesi
-                                çevresindeki kliniğimize başvurabilirler.
+                                Bu durumlarÄ±n varlÄ±ÄŸÄ±nda, bir psikiyatri uzmanÄ±ndan deÄŸerlendirme almanÄ±z
+                                Ã¶nerilmektedir. Eryaman&apos;da psikiyatrist arayan kiÅŸiler, Altay Mahallesi
+                                Ã§evresindeki kliniÄŸimize baÅŸvurabilirler.
                             </p>
 
-                            <h2>Mevsimsel Depresyon Kimlerde Daha Sık Görülür?</h2>
+                            <h2>Mevsimsel Depresyon Kimlerde Daha SÄ±k GÃ¶rÃ¼lÃ¼r?</h2>
                             <p>
-                                Mevsimsel depresyon genel olarak şu risk faktörleriyle ilişkilendirilmektedir:
+                                Mevsimsel depresyon genel olarak ÅŸu risk faktÃ¶rleriyle iliÅŸkilendirilmektedir:
                             </p>
                             <ul>
-                                <li>Kadınlarda erkeklere göre daha sık rapor edilmektedir</li>
-                                <li>Genç yetişkinlerde ve orta yaş grubunda daha yaygın görülebilmektedir</li>
-                                <li>Ailede depresyon veya mevsimsel duygudurum bozukluğu öyküsü bulunan bireylerde risk artabilmektedir</li>
-                                <li>Kuzey enlemlerde veya doğal gün ışığına sınırlı maruz kalan bölgelerde yaşayan bireyler daha fazla etkilenebilmektedir</li>
-                                <li>Mevcut depresyon veya bipolar bozukluk tanısı olan bireylerde mevsimsel alevlenmeler görülebilmektedir</li>
+                                <li>KadÄ±nlarda erkeklere gÃ¶re daha sÄ±k rapor edilmektedir</li>
+                                <li>GenÃ§ yetiÅŸkinlerde ve orta yaÅŸ grubunda daha yaygÄ±n gÃ¶rÃ¼lebilmektedir</li>
+                                <li>Ailede depresyon veya mevsimsel duygudurum bozukluÄŸu Ã¶ykÃ¼sÃ¼ bulunan bireylerde risk artabilmektedir</li>
+                                <li>Kuzey enlemlerde veya doÄŸal gÃ¼n Ä±ÅŸÄ±ÄŸÄ±na sÄ±nÄ±rlÄ± maruz kalan bÃ¶lgelerde yaÅŸayan bireyler daha fazla etkilenebilmektedir</li>
+                                <li>Mevcut depresyon veya bipolar bozukluk tanÄ±sÄ± olan bireylerde mevsimsel alevlenmeler gÃ¶rÃ¼lebilmektedir</li>
                             </ul>
 
-                            <h2>Mevsimsel Depresyonda Profesyonel Değerlendirme</h2>
+                            <h2>Mevsimsel Depresyonda Profesyonel DeÄŸerlendirme</h2>
                             <p>
-                                Mevsimsel depresyon şüphesinde profesyonel bir değerlendirme, belirtilerin
-                                doğasını, şiddetini ve altta yatan olası nedenleri anlamak açısından önem
-                                taşımaktadır. Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş tarafından
-                                yürütülen değerlendirme süreci şu aşamaları içermektedir:
+                                Mevsimsel depresyon ÅŸÃ¼phesinde profesyonel bir deÄŸerlendirme, belirtilerin
+                                doÄŸasÄ±nÄ±, ÅŸiddetini ve altta yatan olasÄ± nedenleri anlamak aÃ§Ä±sÄ±ndan Ã¶nem
+                                taÅŸÄ±maktadÄ±r. Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ tarafÄ±ndan
+                                yÃ¼rÃ¼tÃ¼len deÄŸerlendirme sÃ¼reci ÅŸu aÅŸamalarÄ± iÃ§ermektedir:
                             </p>
                             <p>
-                                <strong>Klinik görüşme:</strong> Belirtilerin başlangıcı, süresi, şiddeti ve
-                                mevsimsel örüntüsü detaylı olarak ele alınır.<br />
-                                <strong>Ayırıcı değerlendirme:</strong> Mevsimsel depresyonun, diğer depresyon
-                                türlerinden veya tiroid bozuklukları gibi bedensel durumlardan ayırt edilmesi
-                                sağlanır.<br />
-                                <strong>Bireysel planlama:</strong> Klinik değerlendirme sonucunda bireyin
-                                ihtiyaçlarına uygun bir yaklaşım planı oluşturulur. Bu plan ışık terapisi,
-                                farmakolojik destek, psikoterapi veya yaşam tarzı düzenlemelerini içerebilir.
+                                <strong>Klinik gÃ¶rÃ¼ÅŸme:</strong> Belirtilerin baÅŸlangÄ±cÄ±, sÃ¼resi, ÅŸiddeti ve
+                                mevsimsel Ã¶rÃ¼ntÃ¼sÃ¼ detaylÄ± olarak ele alÄ±nÄ±r.<br />
+                                <strong>AyÄ±rÄ±cÄ± deÄŸerlendirme:</strong> Mevsimsel depresyonun, diÄŸer depresyon
+                                tÃ¼rlerinden veya tiroid bozukluklarÄ± gibi bedensel durumlardan ayÄ±rt edilmesi
+                                saÄŸlanÄ±r.<br />
+                                <strong>Bireysel planlama:</strong> Klinik deÄŸerlendirme sonucunda bireyin
+                                ihtiyaÃ§larÄ±na uygun bir yaklaÅŸÄ±m planÄ± oluÅŸturulur. Bu plan Ä±ÅŸÄ±k terapisi,
+                                farmakolojik destek, psikoterapi veya yaÅŸam tarzÄ± dÃ¼zenlemelerini iÃ§erebilir.
                             </p>
                             <p>
-                                Etimesgut ve Batıkent bölgelerinden de kolay ulaşım sağlanabilen kliniğimizde,
-                                her bireye yeterli süre ve özen ayrılarak detaylı bir değerlendirme
-                                gerçekleştirilmektedir.{' '}
-                                <Link href="/randevu">Randevu almak için tıklayınız.</Link>
+                                Etimesgut ve BatÄ±kent bÃ¶lgelerinden de kolay ulaÅŸÄ±m saÄŸlanabilen kliniÄŸimizde,
+                                her bireye yeterli sÃ¼re ve Ã¶zen ayrÄ±larak detaylÄ± bir deÄŸerlendirme
+                                gerÃ§ekleÅŸtirilmektedir.{' '}
+                                <Link href="/randevu">Randevu almak iÃ§in tÄ±klayÄ±nÄ±z.</Link>
                             </p>
 
                             <div className="info-banner">
-                                <strong>?? Önemli Bilgilendirme</strong>
-                                Bu yazıdaki içerikler genel bilgilendirme amaçlı hazırlanmıştır ve tıbbi tanı
-                                ya da tedavi önerisi niteliği taşımamaktadır. Mevsimsel depresyon belirtileri
-                                yaşıyorsanız, bireysel değerlendirme için bir psikiyatri uzmanına başvurunuz.
+                                <strong>ğŸ“Œ Ã–nemli Bilgilendirme</strong>
+                                Bu yazÄ±daki iÃ§erikler genel bilgilendirme amaÃ§lÄ± hazÄ±rlanmÄ±ÅŸtÄ±r ve tÄ±bbi tanÄ±
+                                ya da tedavi Ã¶nerisi niteliÄŸi taÅŸÄ±mamaktadÄ±r. Mevsimsel depresyon belirtileri
+                                yaÅŸÄ±yorsanÄ±z, bireysel deÄŸerlendirme iÃ§in bir psikiyatri uzmanÄ±na baÅŸvurunuz.
                             </div>
 
                             <div className={styles.faqSection}>
-                                <h2>Mevsimsel Depresyon Hakkında Sık Sorulan Sorular</h2>
+                                <h2>Mevsimsel Depresyon HakkÄ±nda SÄ±k Sorulan Sorular</h2>
                                 <FAQSection items={faqItems} />
                             </div>
 
                             <div className={styles.relatedBox}>
-                                <h3>İlgili Sayfalar</h3>
+                                <h3>Ä°lgili Sayfalar</h3>
                                 <ul>
-                                    <li><Link href="/hizmetler/depresyon">Depresyon Değerlendirmesi ›</Link></li>
-                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? ›</Link></li>
-                                    <li><Link href="/hizmetler/uyku-bozukluklari">Uyku Bozuklukları ›</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü? ›</Link></li>
+                                    <li><Link href="/hizmetler/depresyon">Depresyon DeÄŸerlendirmesi â†’</Link></li>
+                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? â†’</Link></li>
+                                    <li><Link href="/hizmetler/uyku-bozukluklari">Uyku BozukluklarÄ± â†’</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? â†’</Link></li>
                                 </ul>
                             </div>
 
                             <div className={styles.articleCta}>
-                                <h3>Profesyonel Değerlendirme İçin</h3>
-                                <p>Mevsimsel depresyon belirtileri yaşıyorsanız, Ankara Eryaman&apos;da bilimsel çerçevede psikiyatrik değerlendirme için randevu alabilirsiniz.</p>
-                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al ›</Link>
+                                <h3>Profesyonel DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Mevsimsel depresyon belirtileri yaÅŸÄ±yorsanÄ±z, Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede psikiyatrik deÄŸerlendirme iÃ§in randevu alabilirsiniz.</p>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al â†’</Link>
                             </div>
                         </article>
 
                         <aside className={styles.sidebar}>
                             <div className={styles.sidebarCta}>
-                                <h3>Değerlendirme İçin</h3>
-                                <p>Mevsimsel depresyon değerlendirmesi</p>
+                                <h3>DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Mevsimsel depresyon deÄŸerlendirmesi</p>
                                 <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                             </div>
                             <div className={styles.sidebarCard}>
                                 <h4>Uzman Hekim</h4>
-                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah Maraş</strong><span>Psikiyatri Uzmanı</span><span>Eryaman, Ankara</span></div>
+                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Psikiyatri UzmanÄ±</span><span>Eryaman, Ankara</span></div>
                             </div>
                             <div className={styles.sidebarCard}>
-                                <h4>Depresyon Kümesi</h4>
+                                <h4>Depresyon KÃ¼mesi</h4>
                                 <ul className={styles.sidebarLinks}>
                                     <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü?</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci</Link></li>
-                                    <li><Link href="/blog/is-yasami-ve-depresyon">İş Yaşamı ve Depresyon</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼?</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci</Link></li>
+                                    <li><Link href="/blog/is-yasami-ve-depresyon">Ä°ÅŸ YaÅŸamÄ± ve Depresyon</Link></li>
                                 </ul>
                             </div>
                         </aside>
@@ -271,11 +271,11 @@ export default function MevsimselDepresyonBlog() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "Article",
-                    headline: "Mevsimsel Duygudurum Değişiklikleri ve Kış Depresyonu",
+                    headline: "Mevsimsel Duygudurum DeÄŸiÅŸiklikleri ve KÄ±ÅŸ Depresyonu",
                     datePublished: "2026-03-26T09:00:00+03:00",
-                    author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
-                    mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/mevsimsel-depresyon"
+                    author: { "@id": "https://drabdullahmaras.com/#physician" },
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    mainEntityOfPage: "https://drabdullahmaras.com/blog/mevsimsel-depresyon"
                 })
             }} />
         </>

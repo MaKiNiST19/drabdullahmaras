@@ -1,27 +1,27 @@
-import type { Metadata } from 'next';
+ï»¿import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'İş Yaşamı ve Depresyon: İşlevselliği Korumak | Uzm. Dr. Abdullah Maraş',
+    title: 'Ä°ÅŸ YaÅŸamÄ± ve Depresyon: Ä°ÅŸlevselliÄŸi Korumak | Uzm. Dr. Abdullah MaraÅŸ',
     description:
-        'Depresyonun iş yaşamı üzerindeki etkileri nelerdir? Performans düşüklüğü, devamsızlık ve tükenmişlik ile depresyon ilişkisi. Ankara Eryaman psikiyatri uzmanı.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/is-yasami-ve-depresyon' },
+        'Depresyonun iÅŸ yaÅŸamÄ± Ã¼zerindeki etkileri nelerdir? Performans dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼, devamsÄ±zlÄ±k ve tÃ¼kenmiÅŸlik ile depresyon iliÅŸkisi. Ankara Eryaman psikiyatri uzmanÄ±.',
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/is-yasami-ve-depresyon' },
     openGraph: {
-        title: 'İş Yaşamı ve Depresyon: İşlevselliği Korumak',
+        title: 'Ä°ÅŸ YaÅŸamÄ± ve Depresyon: Ä°ÅŸlevselliÄŸi Korumak',
         type: 'article', locale: 'tr_TR',
         publishedTime: '2026-05-04T09:00:00+03:00',
-        authors: ['Uzm. Dr. Abdullah Maraş'],
+        authors: ['Uzm. Dr. Abdullah MaraÅŸ'],
     },
 };
 
 const faqItems = [
-    { question: 'Depresyon iş performansını etkiler mi?', answer: 'Evet. Depresyon konsantrasyon güçlüğü, motivasyon düşüklüğü, karar verme zorluğu ve enerji kaybına yol açarak iş performansını olumsuz etkileyebilir. Bu durum "presenteeism" olarak da adlandırılmaktadır.' },
-    { question: 'Tükenmişlik sendromu depresyon mudur?', answer: 'Tükenmişlik ve depresyon farklı kavramlar olmakla birlikte örtüşen belirtileri olabilir. Tükenmişlik ağırlıklı olarak işle ilişkili iken, depresyon yaşamın tüm alanlarını etkileyebilir. Profesyonel değerlendirme ile ayrım yapılabilir.' },
-    { question: 'İş stresi depresyon nedeni olabilir mi?', answer: 'Kronik iş stresi, depresyon gelişimi için risk faktörlerinden biri olabilir. Ancak depresyon genellikle birden fazla etkenin bir araya gelmesiyle oluşur. Stresle başa çıkma becerilerinin güçlendirilmesi profesyonel bir destek sürecinin parçası olabilir.' },
-    { question: 'İş yerinde depresyon belirtileri nasıl fark edilir?', answer: 'İş yerinde sürekli konsantrasyon güçlüğü, hataların artması, görevleri tamamlayamama, devamsızlık, meslektaşlardan uzaklaşma ve motivasyon kaybı depresyon belirtileri olabilir.' },
-    { question: 'Eryaman\'da iş stresine bağlı depresyon değerlendirmesi yapılır mı?', answer: 'Evet. Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş kliniğinde, iş stresi kaynaklı belirtiler dahil olmak üzere kapsamlı depresyon değerlendirmesi yapılmaktadır.' },
+    { question: 'Depresyon iÅŸ performansÄ±nÄ± etkiler mi?', answer: 'Evet. Depresyon konsantrasyon gÃ¼Ã§lÃ¼ÄŸÃ¼, motivasyon dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼, karar verme zorluÄŸu ve enerji kaybÄ±na yol aÃ§arak iÅŸ performansÄ±nÄ± olumsuz etkileyebilir. Bu durum "presenteeism" olarak da adlandÄ±rÄ±lmaktadÄ±r.' },
+    { question: 'TÃ¼kenmiÅŸlik sendromu depresyon mudur?', answer: 'TÃ¼kenmiÅŸlik ve depresyon farklÄ± kavramlar olmakla birlikte Ã¶rtÃ¼ÅŸen belirtileri olabilir. TÃ¼kenmiÅŸlik aÄŸÄ±rlÄ±klÄ± olarak iÅŸle iliÅŸkili iken, depresyon yaÅŸamÄ±n tÃ¼m alanlarÄ±nÄ± etkileyebilir. Profesyonel deÄŸerlendirme ile ayrÄ±m yapÄ±labilir.' },
+    { question: 'Ä°ÅŸ stresi depresyon nedeni olabilir mi?', answer: 'Kronik iÅŸ stresi, depresyon geliÅŸimi iÃ§in risk faktÃ¶rlerinden biri olabilir. Ancak depresyon genellikle birden fazla etkenin bir araya gelmesiyle oluÅŸur. Stresle baÅŸa Ã§Ä±kma becerilerinin gÃ¼Ã§lendirilmesi profesyonel bir destek sÃ¼recinin parÃ§asÄ± olabilir.' },
+    { question: 'Ä°ÅŸ yerinde depresyon belirtileri nasÄ±l fark edilir?', answer: 'Ä°ÅŸ yerinde sÃ¼rekli konsantrasyon gÃ¼Ã§lÃ¼ÄŸÃ¼, hatalarÄ±n artmasÄ±, gÃ¶revleri tamamlayamama, devamsÄ±zlÄ±k, meslektaÅŸlardan uzaklaÅŸma ve motivasyon kaybÄ± depresyon belirtileri olabilir.' },
+    { question: 'Eryaman\'da iÅŸ stresine baÄŸlÄ± depresyon deÄŸerlendirmesi yapÄ±lÄ±r mÄ±?', answer: 'Evet. Ankara Eryaman\'da Uzm. Dr. Abdullah MaraÅŸ kliniÄŸinde, iÅŸ stresi kaynaklÄ± belirtiler dahil olmak Ã¼zere kapsamlÄ± depresyon deÄŸerlendirmesi yapÄ±lmaktadÄ±r.' },
 ];
 
 export default function IsYasamiVeDepresyonBlog() {
@@ -32,24 +32,24 @@ export default function IsYasamiVeDepresyonBlog() {
                     <div className={styles.breadcrumb}>
                         <Link href="/">Ana Sayfa</Link><span>/</span>
                         <Link href="/blog">Blog</Link><span>/</span>
-                        <span>İş Yaşamı ve Depresyon</span>
+                        <span>Ä°ÅŸ YaÅŸamÄ± ve Depresyon</span>
                     </div>
                     <div className={styles.meta}>
                         <span className={styles.category}>Depresyon</span>
-                        <time dateTime="2026-05-04">4 Mayıs 2026</time>
-                        <span>•</span><span>9 dk okuma</span>
+                        <time dateTime="2026-05-04">4 MayÄ±s 2026</time>
+                        <span>â€¢</span><span>9 dk okuma</span>
                     </div>
-                    <h1>İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak</h1>
+                    <h1>Ä°ÅŸ YaÅŸamÄ± ve Depresyon: Profesyonel Hayatta Ä°ÅŸlevselliÄŸi Korumak</h1>
                     <p className={styles.heroDesc}>
-                        Depresyon, iş yaşamını nasıl etkiler? Performans düşüklüğü, tükenmişlik ve
-                        işlevsellik kaybı — iş hayatında depresyonun yansımalarını ve
-                        profesyonel desteğin önemini ele alıyoruz.
+                        Depresyon, iÅŸ yaÅŸamÄ±nÄ± nasÄ±l etkiler? Performans dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼, tÃ¼kenmiÅŸlik ve
+                        iÅŸlevsellik kaybÄ± â€” iÅŸ hayatÄ±nda depresyonun yansÄ±malarÄ±nÄ± ve
+                        profesyonel desteÄŸin Ã¶nemini ele alÄ±yoruz.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı ve Hastalıkları Uzmanı</span></div>
+                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± UzmanÄ±</span></div>
                     </div>
                 </div>
             </section>
@@ -60,177 +60,177 @@ export default function IsYasamiVeDepresyonBlog() {
                         <article className={styles.article}>
 
                             <p className={styles.lead}>
-                                İş hayatı, yetişkin yaşamının merkezi unsurlarından biridir. Ancak depresyon,
-                                bireyin profesyonel yaşamını derinden etkileyebilecek bir ruh sağlığı durumudur.
-                                Dünya Sağlık Örgütü&apos;ne göre depresyon, iş gücü kaybının önde gelen
-                                nedenlerinden biridir ve küresel ölçekte milyarlarca dolarlık üretkenlik kaybına
-                                yol açmaktadır.
+                                Ä°ÅŸ hayatÄ±, yetiÅŸkin yaÅŸamÄ±nÄ±n merkezi unsurlarÄ±ndan biridir. Ancak depresyon,
+                                bireyin profesyonel yaÅŸamÄ±nÄ± derinden etkileyebilecek bir ruh saÄŸlÄ±ÄŸÄ± durumudur.
+                                DÃ¼nya SaÄŸlÄ±k Ã–rgÃ¼tÃ¼&apos;ne gÃ¶re depresyon, iÅŸ gÃ¼cÃ¼ kaybÄ±nÄ±n Ã¶nde gelen
+                                nedenlerinden biridir ve kÃ¼resel Ã¶lÃ§ekte milyarlarca dolarlÄ±k Ã¼retkenlik kaybÄ±na
+                                yol aÃ§maktadÄ±r.
                             </p>
                             <p>
-                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş, iş yaşamından kaynaklanan
-                                veya iş yaşamını etkileyen depresyon belirtilerinin kapsamlı değerlendirmesini
-                                gerçekleştirmektedir.{' '}
-                                <Link href="/hizmetler/depresyon">Depresyon değerlendirmesi</Link> hizmet
-                                sayfamızda detaylı bilgi bulabilirsiniz.
+                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ, iÅŸ yaÅŸamÄ±ndan kaynaklanan
+                                veya iÅŸ yaÅŸamÄ±nÄ± etkileyen depresyon belirtilerinin kapsamlÄ± deÄŸerlendirmesini
+                                gerÃ§ekleÅŸtirmektedir.{' '}
+                                <Link href="/hizmetler/depresyon">Depresyon deÄŸerlendirmesi</Link> hizmet
+                                sayfamÄ±zda detaylÄ± bilgi bulabilirsiniz.
                             </p>
 
-                            <h2>Depresyonun İş Performansına Etkileri</h2>
+                            <h2>Depresyonun Ä°ÅŸ PerformansÄ±na Etkileri</h2>
                             <p>
-                                Depresyon, iş performansını görünür ve görünmeyen birçok şekilde
-                                etkileyebilmektedir. Bu etkilerin iki temel boyutu bulunmaktadır:
+                                Depresyon, iÅŸ performansÄ±nÄ± gÃ¶rÃ¼nÃ¼r ve gÃ¶rÃ¼nmeyen birÃ§ok ÅŸekilde
+                                etkileyebilmektedir. Bu etkilerin iki temel boyutu bulunmaktadÄ±r:
                             </p>
-                            <h3>Devamsızlık (Absenteeism)</h3>
+                            <h3>DevamsÄ±zlÄ±k (Absenteeism)</h3>
                             <p>
-                                Depresyon yaşayan bireyler, işe gidemeyecek kadar yoğun belirtiler
-                                yaşayabilmektedir. Enerji kaybı, uyku düzensizlikleri ve motivasyon eksikliği,
-                                iş yerine düzenli devam etmeyi zorlaştırabilir. Araştırmalar, depresyonun
-                                iş yerinde devamsızlığın en yaygın nedenlerinden biri olduğunu göstermektedir.
+                                Depresyon yaÅŸayan bireyler, iÅŸe gidemeyecek kadar yoÄŸun belirtiler
+                                yaÅŸayabilmektedir. Enerji kaybÄ±, uyku dÃ¼zensizlikleri ve motivasyon eksikliÄŸi,
+                                iÅŸ yerine dÃ¼zenli devam etmeyi zorlaÅŸtÄ±rabilir. AraÅŸtÄ±rmalar, depresyonun
+                                iÅŸ yerinde devamsÄ±zlÄ±ÄŸÄ±n en yaygÄ±n nedenlerinden biri olduÄŸunu gÃ¶stermektedir.
                             </p>
-                            <h3>Masada Devamsızlık (Presenteeism)</h3>
+                            <h3>Masada DevamsÄ±zlÄ±k (Presenteeism)</h3>
                             <p>
-                                Presenteeism, bireyin fiziksel olarak iş yerinde bulunmasına rağmen
-                                verimli çalışamaması durumudur. Depresyon, bu durumun en sık karşılaşılan
-                                nedenlerinden biridir. Konsantrasyon güçlüğü, karar verme zorluğu, yavaşlamış
-                                düşünce süreçleri ve hata yapma eğiliminde artış, presenteeism&apos;in
+                                Presenteeism, bireyin fiziksel olarak iÅŸ yerinde bulunmasÄ±na raÄŸmen
+                                verimli Ã§alÄ±ÅŸamamasÄ± durumudur. Depresyon, bu durumun en sÄ±k karÅŸÄ±laÅŸÄ±lan
+                                nedenlerinden biridir. Konsantrasyon gÃ¼Ã§lÃ¼ÄŸÃ¼, karar verme zorluÄŸu, yavaÅŸlamÄ±ÅŸ
+                                dÃ¼ÅŸÃ¼nce sÃ¼reÃ§leri ve hata yapma eÄŸiliminde artÄ±ÅŸ, presenteeism&apos;in
                                 tipik belirtileridir.
                             </p>
 
-                            <h2>İş Yerinde Depresyon Belirtileri</h2>
+                            <h2>Ä°ÅŸ Yerinde Depresyon Belirtileri</h2>
                             <p>
-                                Depresyon belirtileri iş ortamında kendine özgü biçimlerde ortaya çıkabilir.
-                                Aşağıdaki belirtiler hem bireyin kendisi hem de yöneticiler ve iş arkadaşları
-                                tarafından fark edilebilir:
+                                Depresyon belirtileri iÅŸ ortamÄ±nda kendine Ã¶zgÃ¼ biÃ§imlerde ortaya Ã§Ä±kabilir.
+                                AÅŸaÄŸÄ±daki belirtiler hem bireyin kendisi hem de yÃ¶neticiler ve iÅŸ arkadaÅŸlarÄ±
+                                tarafÄ±ndan fark edilebilir:
                             </p>
                             <ul>
-                                <li>Sürekli konsantrasyon güçlüğü ve dikkat dağınıklığı</li>
-                                <li>Daha önce kolayca yapılan görevlerin ağır gelmesi</li>
-                                <li>Termin tarihlerini kaçırma ve işleri tamamlayamama</li>
-                                <li>Hataların artması</li>
-                                <li>Meslektaşlardan uzaklaşma ve ekip çalışmasından kaçınma</li>
-                                <li>İş yerinde irritabilite ve sabırsızlık</li>
-                                <li>Toplantılara katılmakta isteksizlik</li>
-                                <li>Sık hastalık izni alma eğilimi</li>
+                                <li>SÃ¼rekli konsantrasyon gÃ¼Ã§lÃ¼ÄŸÃ¼ ve dikkat daÄŸÄ±nÄ±klÄ±ÄŸÄ±</li>
+                                <li>Daha Ã¶nce kolayca yapÄ±lan gÃ¶revlerin aÄŸÄ±r gelmesi</li>
+                                <li>Termin tarihlerini kaÃ§Ä±rma ve iÅŸleri tamamlayamama</li>
+                                <li>HatalarÄ±n artmasÄ±</li>
+                                <li>MeslektaÅŸlardan uzaklaÅŸma ve ekip Ã§alÄ±ÅŸmasÄ±ndan kaÃ§Ä±nma</li>
+                                <li>Ä°ÅŸ yerinde irritabilite ve sabÄ±rsÄ±zlÄ±k</li>
+                                <li>ToplantÄ±lara katÄ±lmakta isteksizlik</li>
+                                <li>SÄ±k hastalÄ±k izni alma eÄŸilimi</li>
                             </ul>
                             <p>
-                                Bu belirtiler genellikle kademeli olarak gelişir ve birey tarafından
+                                Bu belirtiler genellikle kademeli olarak geliÅŸir ve birey tarafÄ±ndan
                                 &ldquo;stres&rdquo; veya &ldquo;yorgunluk&rdquo; olarak yorumlanabilir.{' '}
                                 <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri</Link>{' '}
-                                hakkında kapsamlı yazımızı da inceleyebilirsiniz.
+                                hakkÄ±nda kapsamlÄ± yazÄ±mÄ±zÄ± da inceleyebilirsiniz.
                             </p>
 
-                            <h2>İş Stresi ve Depresyon İlişkisi</h2>
+                            <h2>Ä°ÅŸ Stresi ve Depresyon Ä°liÅŸkisi</h2>
                             <p>
-                                Kronik iş stresi, depresyon gelişimi için önemli bir risk faktörüdür.
-                                Ancak iş stresi ile depresyon arasında doğrusal bir neden-sonuç ilişkisi
-                                kurmak doğru değildir; depresyon çok faktörlü bir durumdur. Bununla
-                                birlikte, aşağıdaki iş ortamı faktörleri depresyon riskini artırabilir:
+                                Kronik iÅŸ stresi, depresyon geliÅŸimi iÃ§in Ã¶nemli bir risk faktÃ¶rÃ¼dÃ¼r.
+                                Ancak iÅŸ stresi ile depresyon arasÄ±nda doÄŸrusal bir neden-sonuÃ§ iliÅŸkisi
+                                kurmak doÄŸru deÄŸildir; depresyon Ã§ok faktÃ¶rlÃ¼ bir durumdur. Bununla
+                                birlikte, aÅŸaÄŸÄ±daki iÅŸ ortamÄ± faktÃ¶rleri depresyon riskini artÄ±rabilir:
                             </p>
                             <ul>
-                                <li>Aşırı iş yükü ve uzun çalışma saatleri</li>
-                                <li>İş-yaşam dengesinin bozulması</li>
-                                <li>İş güvencesizliği ve ekonomik kaygılar</li>
-                                <li>İş yerinde mobbing (psikolojik baskı)</li>
-                                <li>Yönetim tarzı ve iş ortamı sorunları</li>
-                                <li>Yeterli ödüllendirme ve takdir eksikliği</li>
-                                <li>Monoton ve anlamsız hissedilen iş görevleri</li>
+                                <li>AÅŸÄ±rÄ± iÅŸ yÃ¼kÃ¼ ve uzun Ã§alÄ±ÅŸma saatleri</li>
+                                <li>Ä°ÅŸ-yaÅŸam dengesinin bozulmasÄ±</li>
+                                <li>Ä°ÅŸ gÃ¼vencesizliÄŸi ve ekonomik kaygÄ±lar</li>
+                                <li>Ä°ÅŸ yerinde mobbing (psikolojik baskÄ±)</li>
+                                <li>YÃ¶netim tarzÄ± ve iÅŸ ortamÄ± sorunlarÄ±</li>
+                                <li>Yeterli Ã¶dÃ¼llendirme ve takdir eksikliÄŸi</li>
+                                <li>Monoton ve anlamsÄ±z hissedilen iÅŸ gÃ¶revleri</li>
                             </ul>
 
-                            <h2>Tükenmişlik ile Depresyon: Fark ve Benzerlikler</h2>
+                            <h2>TÃ¼kenmiÅŸlik ile Depresyon: Fark ve Benzerlikler</h2>
                             <p>
-                                Tükenmişlik sendromu ve depresyon sıklıkla karıştırılan kavramlardır.
-                                Tükenmişlik, Dünya Sağlık Örgütü tarafından &ldquo;iş yerinde kronik
-                                stresin yeterince yönetilememesi sonucu ortaya çıkan bir sendrom&rdquo;
-                                olarak tanımlanmaktadır. Her iki durum bazı ortak belirtiler paylaşabilir:
+                                TÃ¼kenmiÅŸlik sendromu ve depresyon sÄ±klÄ±kla karÄ±ÅŸtÄ±rÄ±lan kavramlardÄ±r.
+                                TÃ¼kenmiÅŸlik, DÃ¼nya SaÄŸlÄ±k Ã–rgÃ¼tÃ¼ tarafÄ±ndan &ldquo;iÅŸ yerinde kronik
+                                stresin yeterince yÃ¶netilememesi sonucu ortaya Ã§Ä±kan bir sendrom&rdquo;
+                                olarak tanÄ±mlanmaktadÄ±r. Her iki durum bazÄ± ortak belirtiler paylaÅŸabilir:
                             </p>
                             <ul>
-                                <li>Kronik yorgunluk ve enerji kaybı</li>
-                                <li>İş yerinde motivasyon düşüklüğü</li>
-                                <li>Sinizm ve mesleğe karşı mesafe</li>
-                                <li>Konsantrasyon güçlüğü</li>
+                                <li>Kronik yorgunluk ve enerji kaybÄ±</li>
+                                <li>Ä°ÅŸ yerinde motivasyon dÃ¼ÅŸÃ¼klÃ¼ÄŸÃ¼</li>
+                                <li>Sinizm ve mesleÄŸe karÅŸÄ± mesafe</li>
+                                <li>Konsantrasyon gÃ¼Ã§lÃ¼ÄŸÃ¼</li>
                             </ul>
                             <p>
-                                Ancak önemli bir fark vardır: Tükenmişlik ağırlıklı olarak
-                                iş ile ilişkili iken, depresyon yaşamın tüm alanlarını kapsar. Tükenmişlik
-                                yaşayan bir birey iş dışında hâlâ keyif alabilirken, depresyonda bu keyif
-                                neredeyse tüm alanlarda kaybolabilir. Bu ayrım, profesyonel bir
-                                değerlendirme ile netleştirilebilir.{' '}
-                                <Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin psikiyatrisi</Link>{' '}
-                                değerlendirmesi kapsamında bu ayrım ele alınmaktadır.
+                                Ancak Ã¶nemli bir fark vardÄ±r: TÃ¼kenmiÅŸlik aÄŸÄ±rlÄ±klÄ± olarak
+                                iÅŸ ile iliÅŸkili iken, depresyon yaÅŸamÄ±n tÃ¼m alanlarÄ±nÄ± kapsar. TÃ¼kenmiÅŸlik
+                                yaÅŸayan bir birey iÅŸ dÄ±ÅŸÄ±nda hÃ¢lÃ¢ keyif alabilirken, depresyonda bu keyif
+                                neredeyse tÃ¼m alanlarda kaybolabilir. Bu ayrÄ±m, profesyonel bir
+                                deÄŸerlendirme ile netleÅŸtirilebilir.{' '}
+                                <Link href="/hizmetler/yetiskin-psikiyatrisi">YetiÅŸkin psikiyatrisi</Link>{' '}
+                                deÄŸerlendirmesi kapsamÄ±nda bu ayrÄ±m ele alÄ±nmaktadÄ±r.
                             </p>
 
-                            <h2>İş Yaşamında İşlevselliği Korumak İçin Ne Yapılabilir?</h2>
+                            <h2>Ä°ÅŸ YaÅŸamÄ±nda Ä°ÅŸlevselliÄŸi Korumak Ä°Ã§in Ne YapÄ±labilir?</h2>
                             <p>
-                                İş hayatında depresyon belirtileriyle mücadele ederken bazı adımlar
-                                işlevselliğin korunmasına katkı sağlayabilir:
+                                Ä°ÅŸ hayatÄ±nda depresyon belirtileriyle mÃ¼cadele ederken bazÄ± adÄ±mlar
+                                iÅŸlevselliÄŸin korunmasÄ±na katkÄ± saÄŸlayabilir:
                             </p>
                             <ul>
-                                <li><strong>Belirtileri erken tanıyın:</strong> Belirtileri normalleştirmek yerine, değişimleri fark edin ve ciddiye alın.</li>
-                                <li><strong>Profesyonel değerlendirme alın:</strong> Erken dönemde alınan uzman desteği, işlevselliğin korunmasına önemli katkı sağlayabilir.</li>
-                                <li><strong>İş-yaşam dengesine dikkat edin:</strong> Düzenli mola vermek, uyku hijyenine özen göstermek ve fiziksel aktiviteye yer vermek destekleyici olabilir.</li>
-                                <li><strong>Sosyal desteği sürdürün:</strong> İş arkadaşları ve yakın çevre ile iletişimi koparmamaya özen gösterin.</li>
-                                <li><strong>Gerçekçi beklentiler belirleyin:</strong> Kendinizden mükemmeliyetçi beklentiler yerine, gerçekçi hedefler koyun.</li>
+                                <li><strong>Belirtileri erken tanÄ±yÄ±n:</strong> Belirtileri normalleÅŸtirmek yerine, deÄŸiÅŸimleri fark edin ve ciddiye alÄ±n.</li>
+                                <li><strong>Profesyonel deÄŸerlendirme alÄ±n:</strong> Erken dÃ¶nemde alÄ±nan uzman desteÄŸi, iÅŸlevselliÄŸin korunmasÄ±na Ã¶nemli katkÄ± saÄŸlayabilir.</li>
+                                <li><strong>Ä°ÅŸ-yaÅŸam dengesine dikkat edin:</strong> DÃ¼zenli mola vermek, uyku hijyenine Ã¶zen gÃ¶stermek ve fiziksel aktiviteye yer vermek destekleyici olabilir.</li>
+                                <li><strong>Sosyal desteÄŸi sÃ¼rdÃ¼rÃ¼n:</strong> Ä°ÅŸ arkadaÅŸlarÄ± ve yakÄ±n Ã§evre ile iletiÅŸimi koparmamaya Ã¶zen gÃ¶sterin.</li>
+                                <li><strong>GerÃ§ekÃ§i beklentiler belirleyin:</strong> Kendinizden mÃ¼kemmeliyetÃ§i beklentiler yerine, gerÃ§ekÃ§i hedefler koyun.</li>
                             </ul>
 
-                            <h2>Eryaman&apos;da İş Stresi ve Depresyon Değerlendirmesi</h2>
+                            <h2>Eryaman&apos;da Ä°ÅŸ Stresi ve Depresyon DeÄŸerlendirmesi</h2>
                             <p>
-                                Uzm. Dr. Abdullah Maraş, Ankara Eryaman&apos;da iş stresi kaynaklı belirtiler
-                                ve depresyonun bireysel değerlendirmesini bilimsel çerçevede gerçekleştirmektedir.
-                                Altay Mahallesi çevresinde yer alan kliniğe Etimesgut ve Batıkent bölgelerinden
-                                kolay ulaşım sağlanabilmektedir. Klinikte, her bireye yeterli süre ayrılarak
-                                kapsamlı bir klinik görüşme gerçekleştirilmektedir.
+                                Uzm. Dr. Abdullah MaraÅŸ, Ankara Eryaman&apos;da iÅŸ stresi kaynaklÄ± belirtiler
+                                ve depresyonun bireysel deÄŸerlendirmesini bilimsel Ã§erÃ§evede gerÃ§ekleÅŸtirmektedir.
+                                Altay Mahallesi Ã§evresinde yer alan kliniÄŸe Etimesgut ve BatÄ±kent bÃ¶lgelerinden
+                                kolay ulaÅŸÄ±m saÄŸlanabilmektedir. Klinikte, her bireye yeterli sÃ¼re ayrÄ±larak
+                                kapsamlÄ± bir klinik gÃ¶rÃ¼ÅŸme gerÃ§ekleÅŸtirilmektedir.
                             </p>
                             <p>
-                                İş yaşamınızda depresyon belirtileri veya tükenmişlik hissi yaşıyorsanız,
-                                profesyonel bir değerlendirme almayı düşünebilirsiniz.{' '}
-                                <Link href="/randevu">Randevu almak için tıklayınız.</Link>
+                                Ä°ÅŸ yaÅŸamÄ±nÄ±zda depresyon belirtileri veya tÃ¼kenmiÅŸlik hissi yaÅŸÄ±yorsanÄ±z,
+                                profesyonel bir deÄŸerlendirme almayÄ± dÃ¼ÅŸÃ¼nebilirsiniz.{' '}
+                                <Link href="/randevu">Randevu almak iÃ§in tÄ±klayÄ±nÄ±z.</Link>
                             </p>
 
                             <div className="info-banner">
-                                <strong>?? Önemli Bilgilendirme</strong>
-                                Bu yazıdaki içerikler genel bilgilendirme amaçlıdır ve tıbbi tanı ya da tedavi
-                                önerisi niteliği taşımamaktadır. Depresyon belirtileri yaşıyorsanız, bireysel
-                                değerlendirme için bir psikiyatri uzmanına başvurunuz.
+                                <strong>ğŸ“Œ Ã–nemli Bilgilendirme</strong>
+                                Bu yazÄ±daki iÃ§erikler genel bilgilendirme amaÃ§lÄ±dÄ±r ve tÄ±bbi tanÄ± ya da tedavi
+                                Ã¶nerisi niteliÄŸi taÅŸÄ±mamaktadÄ±r. Depresyon belirtileri yaÅŸÄ±yorsanÄ±z, bireysel
+                                deÄŸerlendirme iÃ§in bir psikiyatri uzmanÄ±na baÅŸvurunuz.
                             </div>
 
                             <div className={styles.faqSection}>
-                                <h2>İş Yaşamı ve Depresyon Hakkında Sık Sorulan Sorular</h2>
+                                <h2>Ä°ÅŸ YaÅŸamÄ± ve Depresyon HakkÄ±nda SÄ±k Sorulan Sorular</h2>
                                 <FAQSection items={faqItems} />
                             </div>
 
                             <div className={styles.relatedBox}>
-                                <h3>İlgili Sayfalar</h3>
+                                <h3>Ä°lgili Sayfalar</h3>
                                 <ul>
-                                    <li><Link href="/hizmetler/depresyon">Depresyon Değerlendirmesi ›</Link></li>
-                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? ›</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci ›</Link></li>
-                                    <li><Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin Psikiyatrisi ›</Link></li>
+                                    <li><Link href="/hizmetler/depresyon">Depresyon DeÄŸerlendirmesi â†’</Link></li>
+                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? â†’</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci â†’</Link></li>
+                                    <li><Link href="/hizmetler/yetiskin-psikiyatrisi">YetiÅŸkin Psikiyatrisi â†’</Link></li>
                                 </ul>
                             </div>
 
                             <div className={styles.articleCta}>
-                                <h3>Profesyonel Değerlendirme İçin</h3>
-                                <p>Ankara Eryaman&apos;da bilimsel çerçevede psikiyatrik değerlendirme için randevu alabilirsiniz.</p>
-                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al ›</Link>
+                                <h3>Profesyonel DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede psikiyatrik deÄŸerlendirme iÃ§in randevu alabilirsiniz.</p>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al â†’</Link>
                             </div>
                         </article>
 
                         <aside className={styles.sidebar}>
                             <div className={styles.sidebarCta}>
-                                <h3>Değerlendirme İçin</h3>
-                                <p>İş stresi ve depresyon değerlendirmesi</p>
+                                <h3>DeÄŸerlendirme Ä°Ã§in</h3>
+                                <p>Ä°ÅŸ stresi ve depresyon deÄŸerlendirmesi</p>
                                 <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                             </div>
                             <div className={styles.sidebarCard}>
                                 <h4>Uzman Hekim</h4>
-                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah Maraş</strong><span>Psikiyatri Uzmanı</span><span>Eryaman, Ankara</span></div>
+                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Psikiyatri UzmanÄ±</span><span>Eryaman, Ankara</span></div>
                             </div>
                             <div className={styles.sidebarCard}>
-                                <h4>Depresyon Kümesi</h4>
+                                <h4>Depresyon KÃ¼mesi</h4>
                                 <ul className={styles.sidebarLinks}>
                                     <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri</Link></li>
                                     <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü?</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼?</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci</Link></li>
                                 </ul>
                             </div>
                         </aside>
@@ -239,7 +239,7 @@ export default function IsYasamiVeDepresyonBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "İş Yaşamı ve Depresyon: Profesyonel Hayatta İşlevselliği Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" }, publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }, mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/is-yasami-ve-depresyon" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Ä°ÅŸ YaÅŸamÄ± ve Depresyon: Profesyonel Hayatta Ä°ÅŸlevselliÄŸi Korumak", datePublished: "2026-05-04T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/is-yasami-ve-depresyon" }) }} />
         </>
     );
 }

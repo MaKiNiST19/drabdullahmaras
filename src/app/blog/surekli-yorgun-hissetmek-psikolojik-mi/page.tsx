@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sürekli Yorgun Hissetmek Psikolojik mi? | Kronik Yorgunluk',
     description:
         'Sürekli yorgunluk hissi, aylarca geçmeyen halsizlik ve bedeni yataktan kazıyamama durumlarının psikiyatrik, depresif ve tükenmişlik (burnout) eksenindeki hekim değerlendirmesi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/surekli-yorgun-hissetmek-psikolojik-mi' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/surekli-yorgun-hissetmek-psikolojik-mi' },
     openGraph: {
         title: 'Geçmeyen Ağır Halsizlik: Psikiyatrik Bir Yorgunluk Mu Yaşıyorsunuz?',
         type: 'article', locale: 'tr_TR',

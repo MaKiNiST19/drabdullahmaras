@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Hipomani Nedir? (Gizli Enerji Artışı) | Uzm. Dr. Abdullah Maraş',
     description:
         'Hipomani evresi mani kadar yıkıcı görünmese de aldatıcı bir bipolar belirtisidir. Yetişkinlerde enerji yüksekliği ve Ankara psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/hipomani-nedir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/hipomani-nedir' },
     openGraph: {
         title: 'Hipomani (Ilımlı Mani) Belirtileri | Psikiyatri Kliniği',
         type: 'article', locale: 'tr_TR',

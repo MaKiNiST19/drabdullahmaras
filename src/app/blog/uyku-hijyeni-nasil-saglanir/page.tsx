@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Uyku Hijyeni Nasıl Sağlanır? | Kaliteli Uyku Kuralları',
     description:
         'Yetişkinlerde yatak odasının düzenlenmesi, mavi ışık diyeti ve uykusuzluğu yenen davranışsal uyku hijyeni kuralları psikiyatri boyutunda inceleniyor.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/uyku-hijyeni-nasil-saglanir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/uyku-hijyeni-nasil-saglanir' },
     openGraph: {
         title: 'Bedeni ve Zihni Yatağa Hazırlamak: Uyku Hijyeni Kuralları',
         type: 'article', locale: 'tr_TR',

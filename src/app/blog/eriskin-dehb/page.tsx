@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     title: 'Erişkin DEHB Rehberi | Ankara Yetişkin Dikkat Dağınıklığı ve Odaklanma',
     description:
         'Yetişkinlerde Dikkat Eksikliği ve Hiperaktivite Bozukluğu, erteleme döngüleri ve iş hayatına etkileri hakkında Eryaman (Ankara) klinik bilgi platformu.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/eriskin-dehb' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/eriskin-dehb' },
     openGraph: {
         title: 'Erişkin DEHB Bilgi ve Çözüm Ağı',
         type: 'website', locale: 'tr_TR',
@@ -121,13 +121,13 @@ export default function EriskinDehbHub() {
                     "@type": "CollectionPage",
                     "name": "Erişkin DEHB Bilgi Kütüphanesi",
                     "description": "Yetişkinlerde dehb ve odaklanma zorlukları üzerine Ankara Eryaman klinik bilgileri.",
-                    "url": "https://www.drabdullahmaras.com.tr/blog/eriskin-dehb",
+                    "url": "https://drabdullahmaras.com/blog/eriskin-dehb",
                     "mainEntity": {
                         "@type": "ItemList",
                         "itemListElement": dehbArticles.map((article, index) => ({
                             "@type": "ListItem",
                             "position": index + 1,
-                            "url": "https://www.drabdullahmaras.com.tr" + article.path,
+                            "url": "https://drabdullahmaras.com" + article.path,
                             "name": article.title
                         }))
                     }

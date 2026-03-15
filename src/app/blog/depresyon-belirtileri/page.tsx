@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         'Depresyon belirtileri nelerdir? Sürekli mutsuzluk, enerji kaybı, uyku sorunları gibi depresyon işaretlerini öğrenin. Ankara Eryaman psikiyatri uzmanı bilgilendirmesi.',
     alternates: {
-        canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon-belirtileri',
+        canonical: 'https://drabdullahmaras.com/blog/depresyon-belirtileri',
     },
     openGraph: {
         title: 'Depresyon Belirtileri Nelerdir? Kendinizi Tanıyın',
@@ -337,12 +337,12 @@ export default function DepresyonBelirtileriBlog() {
                     datePublished: "2026-03-02T09:00:00+03:00",
                     dateModified: "2026-03-02T09:00:00+03:00",
                     author: {
-                        "@id": "https://www.drabdullahmaras.com.tr/#physician" 
+                        "@id": "https://drabdullahmaras.com/#physician" 
                     },
                     publisher: {
-                        "@id": "https://www.drabdullahmaras.com.tr/#organization" },
-                    mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyon-belirtileri",
-                    url: "https://www.drabdullahmaras.com.tr/blog/depresyon-belirtileri",
+                        "@id": "https://drabdullahmaras.com/#organization" },
+                    mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-belirtileri",
+                    url: "https://drabdullahmaras.com/blog/depresyon-belirtileri",
                     wordCount: 1200,
                     articleSection: "Depresyon"
                 })
@@ -352,8 +352,8 @@ export default function DepresyonBelirtileriBlog() {
                     "@context": "https://schema.org",
                     "@type": "BreadcrumbList",
                     itemListElement: [
-                        { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://www.drabdullahmaras.com.tr" },
-                        { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.drabdullahmaras.com.tr/blog" },
+                        { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://drabdullahmaras.com" },
+                        { "@type": "ListItem", position: 2, name: "Blog", item: "https://drabdullahmaras.com/blog" },
                         { "@type": "ListItem", position: 3, name: "Depresyon Belirtileri" }
                     ]
                 })

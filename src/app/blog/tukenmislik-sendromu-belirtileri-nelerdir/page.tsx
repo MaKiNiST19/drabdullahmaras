@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Tükenmişlik Sendromu Belirtileri Nelerdir? | İş ve Yaşam",',
     description:
         'Sürekli yorgunluk, aniden parlama, isteksizlik ve duygusal çöküş gibi (tükenmişlik sendromu - burnout) yetişkin ruh sağlığı belirtilerinin uzman analizi.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/tukenmislik-sendromu-belirtileri-nelerdir' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/tukenmislik-sendromu-belirtileri-nelerdir' },
     openGraph: {
         title: 'Bedenin Feryadı: Tükenmişlik (Burnout) Belirtileri Nelerdir?',
         type: 'article', locale: 'tr_TR',

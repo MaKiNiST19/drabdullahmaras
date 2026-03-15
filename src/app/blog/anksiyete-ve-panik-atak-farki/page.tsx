@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Anksiyete ve Panik Atak Farkı Nedir? Belirtiler | Uzm. Dr. Abdullah Maraş',
     description:
         'Anksiyete bozukluğu ile panik atak birbirine sıkça karıştırılır. Ancak süre, şiddet ve belirti açısından farklıdır. Ankara Eryaman anksiyete ve panik ayrımları.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete-ve-panik-atak-farki' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete-ve-panik-atak-farki' },
     openGraph: {
         title: 'Anksiyete ve Panik Atak Arasındaki Fark Nedir?',
         type: 'article', locale: 'tr_TR',

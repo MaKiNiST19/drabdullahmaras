@@ -1,15 +1,15 @@
-import type { Metadata } from 'next';
+ï»¿import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Panik Atak Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
+    title: 'Panik Atak HakkÄ±nda Bilgilendirici YazÄ±lar | Uzm. Dr. Abdullah MaraÅŸ',
     description:
-        'Panik atak belirtileri, süresi, gece uykudayken atak geçirmek ve panik atak kalp krizi farkı içerikleri. Ankara Eryaman.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak' },
+        'Panik atak belirtileri, sÃ¼resi, gece uykudayken atak geÃ§irmek ve panik atak kalp krizi farkÄ± iÃ§erikleri. Ankara Eryaman.',
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak' },
     openGraph: {
-        title: 'Panik Atak Hakkında Bilgilendirici Yazılar',
-        description: 'Ölüm korkusu, nefes alamama, çarpıntı... panik atak bozuklukları hakkında klinik bilgilendirme yazıları.',
+        title: 'Panik Atak HakkÄ±nda Bilgilendirici YazÄ±lar',
+        description: 'Ã–lÃ¼m korkusu, nefes alamama, Ã§arpÄ±ntÄ±... panik atak bozukluklarÄ± hakkÄ±nda klinik bilgilendirme yazÄ±larÄ±.',
         type: 'website', locale: 'tr_TR',
     },
 };
@@ -18,37 +18,37 @@ const blogPosts = [
     {
         slug: '/blog/panik-atak-belirtileri',
         title: 'Panik Atak Belirtileri Nelerdir?',
-        icon: '?',
-        date: '12 Şubat 2026',
-        desc: 'Bedenin verdiği sahte alarmlar... Çarpıntı, göğüs ağrısı, boğulma hissi ve titremeyle seyreden belirtiler bütünü.',
+        icon: 'âš¡',
+        date: '12 Åubat 2026',
+        desc: 'Bedenin verdiÄŸi sahte alarmlar... Ã‡arpÄ±ntÄ±, gÃ¶ÄŸÃ¼s aÄŸrÄ±sÄ±, boÄŸulma hissi ve titremeyle seyreden belirtiler bÃ¼tÃ¼nÃ¼.',
     },
     {
         slug: '/blog/panik-atak-kac-dakika-surer',
-        title: 'Panik Atak Krizi Kaç Dakika Sürer?',
-        icon: '?',
-        date: '27 Şubat 2026',
-        desc: 'Hiç bitmeyecek gibi gelen o krizin bedendeki adrenalin döngüsünün saniyeler / dakikalar bazında zaman çizelgesi.',
+        title: 'Panik Atak Krizi KaÃ§ Dakika SÃ¼rer?',
+        icon: 'â³',
+        date: '27 Åubat 2026',
+        desc: 'HiÃ§ bitmeyecek gibi gelen o krizin bedendeki adrenalin dÃ¶ngÃ¼sÃ¼nÃ¼n saniyeler / dakikalar bazÄ±nda zaman Ã§izelgesi.',
     },
     {
         slug: '/blog/gece-panik-atak',
         title: 'Gece Panik Atak Neden Olur?',
-        icon: '??',
+        icon: 'ğŸŒ™',
         date: '10 Mart 2026',
-        desc: 'Gece uykudan çarpıntıyla ve "nefes alamıyorum" hissiyle uyanmak. Bilinçaltı ve gün stresinin uyku anında patlak vermesi.',
+        desc: 'Gece uykudan Ã§arpÄ±ntÄ±yla ve "nefes alamÄ±yorum" hissiyle uyanmak. BilinÃ§altÄ± ve gÃ¼n stresinin uyku anÄ±nda patlak vermesi.',
     },
     {
         slug: '/blog/panik-atak-kalp-krizi-mi',
-        title: 'Panik Atak ile Kalp Krizi Nasıl Ayırt Edilir?',
-        icon: '??',
+        title: 'Panik Atak ile Kalp Krizi NasÄ±l AyÄ±rt Edilir?',
+        icon: 'â¤ï¸',
         date: '18 Mart 2026',
-        desc: 'Sol kola yayılan ağrılar, göğüs sıkışması ilk anlarda nasıl anlaşılamamaktadır? Acil hekimi ve psikiyatri ayırıcı tanıları.',
+        desc: 'Sol kola yayÄ±lan aÄŸrÄ±lar, gÃ¶ÄŸÃ¼s sÄ±kÄ±ÅŸmasÄ± ilk anlarda nasÄ±l anlaÅŸÄ±lamamaktadÄ±r? Acil hekimi ve psikiyatri ayÄ±rÄ±cÄ± tanÄ±larÄ±.',
     },
     {
         slug: '/blog/panik-atak-oldurur-mu',
-        title: 'Panik Atak Öldürür mü?',
-        icon: '??',
+        title: 'Panik Atak Ã–ldÃ¼rÃ¼r mÃ¼?',
+        icon: 'âš ï¸',
         date: '2 Nisan 2026',
-        desc: 'En yüksek korku anı olan "ölecekmişim hissinin" fizyolojik gerçekleri, beden dokusuna zarar verip vermeme analizleri.',
+        desc: 'En yÃ¼ksek korku anÄ± olan "Ã¶lecekmiÅŸim hissinin" fizyolojik gerÃ§ekleri, beden dokusuna zarar verip vermeme analizleri.',
     },
 ];
 
@@ -62,23 +62,23 @@ export default function PanikAtakHubPage() {
                         <Link href="/blog">Blog</Link><span>/</span>
                         <span>Panik Atak</span>
                     </div>
-                    <span className={styles.hubIcon}>???</span>
-                    <h1>Panik Atak Hakkında Bilgilendirici Yazılar</h1>
+                    <span className={styles.hubIcon}>ğŸŒ©ï¸</span>
+                    <h1>Panik Atak HakkÄ±nda Bilgilendirici YazÄ±lar</h1>
                     <p className={styles.heroDesc}>
-                        Ortada hiçbir neden yokken göğüste sıkışma, ölüm / çıldırma korkusu,
-                        veya kalbinizin yerindenfırlayacak gibi atması... Yaşadığınız o "Dakikalar
-                        geçmek bilmiyor" hissini uzman perspektifiyle ayrıntılı olarak aşağıda değerlendirdik.
+                        Ortada hiÃ§bir neden yokken gÃ¶ÄŸÃ¼ste sÄ±kÄ±ÅŸma, Ã¶lÃ¼m / Ã§Ä±ldÄ±rma korkusu,
+                        veya kalbinizin yerindenfÄ±rlayacak gibi atmasÄ±... YaÅŸadÄ±ÄŸÄ±nÄ±z o "Dakikalar
+                        geÃ§mek bilmiyor" hissini uzman perspektifiyle ayrÄ±ntÄ±lÄ± olarak aÅŸaÄŸÄ±da deÄŸerlendirdik.
                     </p>
                     <p className={styles.heroDesc}>
-                        Uzm. Dr. Abdullah Maraş, Ankara Eryaman'da anksiyete ve panik durumlarının bilimsel
-                        değerlendirmesini gerçekleştirmektedir. Metinler teşhis amacı değil,
-                        bilgilendirme bilinci gütmektedir.
+                        Uzm. Dr. Abdullah MaraÅŸ, Ankara Eryaman'da anksiyete ve panik durumlarÄ±nÄ±n bilimsel
+                        deÄŸerlendirmesini gerÃ§ekleÅŸtirmektedir. Metinler teÅŸhis amacÄ± deÄŸil,
+                        bilgilendirme bilinci gÃ¼tmektedir.
                     </p>
                     <Link href="/hizmetler/panik-atak" className={styles.pillarLink}>
-                        <span>??</span>
+                        <span>ğŸ“‘</span>
                         <div>
-                            <strong>Panik Atak Değerlendirmesi — Ana Hizmet Sayfası</strong>
-                            <span>Ankara Eryaman'daki klinik değerlendirme süreçlerine göz atın ›</span>
+                            <strong>Panik Atak DeÄŸerlendirmesi â€” Ana Hizmet SayfasÄ±</strong>
+                            <span>Ankara Eryaman'daki klinik deÄŸerlendirme sÃ¼reÃ§lerine gÃ¶z atÄ±n â†’</span>
                         </div>
                     </Link>
                 </div>
@@ -95,34 +95,34 @@ export default function PanikAtakHubPage() {
                                 </div>
                                 <h2>{post.title}</h2>
                                 <p>{post.desc}</p>
-                                <span className={styles.readMore}>Yazıyı Oku ›</span>
+                                <span className={styles.readMore}>YazÄ±yÄ± Oku â†’</span>
                             </Link>
                         ))}
                     </div>
 
                     <div className={styles.hubCta}>
                         <div className={styles.ctaContent}>
-                            <h2>Ankara Eryaman panik atak değerlendirme süreci</h2>
+                            <h2>Ankara Eryaman panik atak deÄŸerlendirme sÃ¼reci</h2>
                             <p>
-                                Asansöre binememeye, kalabalık caddelere çıkmamaya mahkum değilsiniz.
-                                Krizlerin sonlanamaması eylemsizliği, tıbbi danışmanlık görüşmesiyle Eryaman kliniğimizde çözülebilir.
+                                AsansÃ¶re binememeye, kalabalÄ±k caddelere Ã§Ä±kmamaya mahkum deÄŸilsiniz.
+                                Krizlerin sonlanamamasÄ± eylemsizliÄŸi, tÄ±bbi danÄ±ÅŸmanlÄ±k gÃ¶rÃ¼ÅŸmesiyle Eryaman kliniÄŸimizde Ã§Ã¶zÃ¼lebilir.
                             </p>
                             <div className={styles.ctaActions}>
                                 <Link href="/hizmetler/panik-atak" className="btn btn--outline btn--lg">
-                                    Panik Atak Sayfası
+                                    Panik Atak SayfasÄ±
                                 </Link>
                                 <Link href="/randevu" className="btn btn--primary btn--lg">
-                                    Doktor Görüşmesi Al ›
+                                    Doktor GÃ¶rÃ¼ÅŸmesi Al â†’
                                 </Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-8)' }}>
-                        <strong>?? Bilgilendirme Notu</strong>
-                        Bu metinler tedavi yöntemine ("kesin, %100" sonuçlu vaatlere) karşılık gelmemektedir.
-                        Organik (fiziksel) nedenler ekarte edildikten sonra (acil servis teşhisi vs) süreç adına
-                        psikiyatri dalından destek alınmalıdır.
+                        <strong>ğŸ“Œ Bilgilendirme Notu</strong>
+                        Bu metinler tedavi yÃ¶ntemine ("kesin, %100" sonuÃ§lu vaatlere) karÅŸÄ±lÄ±k gelmemektedir.
+                        Organik (fiziksel) nedenler ekarte edildikten sonra (acil servis teÅŸhisi vs) sÃ¼reÃ§ adÄ±na
+                        psikiyatri dalÄ±ndan destek alÄ±nmalÄ±dÄ±r.
                     </div>
                 </div>
             </section>
@@ -131,12 +131,12 @@ export default function PanikAtakHubPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "ItemList",
-                    name: "Panik Atak Hakkında Bilgilendirici Yazılar",
-                    description: "Panik atak ve kriz döngüleri hakkında tıbbi açıklamalar",
+                    name: "Panik Atak HakkÄ±nda Bilgilendirici YazÄ±lar",
+                    description: "Panik atak ve kriz dÃ¶ngÃ¼leri hakkÄ±nda tÄ±bbi aÃ§Ä±klamalar",
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
+                        url: `https://drabdullahmaras.com${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -145,8 +145,8 @@ export default function PanikAtakHubPage() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
                     name: "Panik Atak Bilgilendirme Makaleleri",
-                    url: "https://www.drabdullahmaras.com.tr/blog/panik-atak",
-                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
+                    url: "https://drabdullahmaras.com/blog/panik-atak",
+                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
                 })
             }} />
         </>

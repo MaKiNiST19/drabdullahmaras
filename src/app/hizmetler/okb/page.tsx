@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Ankara Eryaman OKB Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
     description:
         'Eryaman’da OKB (takıntı hastalığı) belirtileri, obsesyon ve kompulsiyon döngüsü hakkında bilgilendirme ve psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/okb' },
+    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/okb' },
     openGraph: {
         title: 'Ankara Eryaman’da OKB (Takıntı Hastalığı) Değerlendirmesi',
         description: 'Eryaman’da OKB (takıntı hastalığı) belirtileri, obsesyon ve kompulsiyon döngüsü hakkında yetişkin psikiyatrik değerlendirme.',
@@ -295,14 +295,14 @@ export default function OkbPillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Ankara Eryaman OKB Değerlendirmesi",
-                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/okb",
+                            "url": "https://drabdullahmaras.com/hizmetler/okb",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "ObsessiveCompulsiveDisorder",
                                 "alternateName": "OKB, Takıntı Hastalığı"
                             },
-                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
+                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
+"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -315,9 +315,9 @@ export default function OkbPillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "OKB", "item": "https://www.drabdullahmaras.com.tr/hizmetler/okb" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "OKB", "item": "https://drabdullahmaras.com/hizmetler/okb" }
                             ]
                         }
                     ]

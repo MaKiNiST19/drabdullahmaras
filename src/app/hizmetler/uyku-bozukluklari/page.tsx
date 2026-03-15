@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Ankara Eryaman Uyku Bozuklukları Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
     description:
         'Uykusuzluk, gece uyanma ve uyku kalitesi sorunları hakkında bilgilendirme ve Eryaman’da psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/uyku-bozukluklari' },
+    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/uyku-bozukluklari' },
     openGraph: {
         title: 'Ankara Eryaman’da Uyku Bozuklukları Değerlendirmesi',
         description: 'Uykusuzluk, gece uyanma ve uyku kalitesi sorunları hakkında bilgilendirme ve Eryaman’da psikiyatrik değerlendirme süreci.',
@@ -285,14 +285,14 @@ export default function UykuBozukluklariPillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Ankara Eryaman Uyku Bozuklukları Değerlendirmesi",
-                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/uyku-bozukluklari",
+                            "url": "https://drabdullahmaras.com/hizmetler/uyku-bozukluklari",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "Sleep Disorder",
                                 "alternateName": "Uyku Bozuklukları, İnsomnia, Uykusuzluk"
                             },
-                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
+                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
+"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -305,9 +305,9 @@ export default function UykuBozukluklariPillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "Uyku Bozuklukları", "item": "https://www.drabdullahmaras.com.tr/hizmetler/uyku-bozukluklari" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "Uyku Bozuklukları", "item": "https://drabdullahmaras.com/hizmetler/uyku-bozukluklari" }
                             ]
                         }
                     ]

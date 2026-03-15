@@ -6,7 +6,7 @@ import styles from '../depresyon/page.module.css';
 export const metadata: Metadata = {
     title: 'Anksiyete (Kaygı Bozukluğu) Değerlendirmesi | Ankara Eryaman Psikiyatri',
     description: 'Ankara Eryaman\'da anksiyete (kaygı bozukluğu) değerlendirmesi. Aşırı kaygı, çarpıntı, huzursuzluk belirtilerine yönelik uzman psikiyatri desteği.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/anksiyete' },
+    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/anksiyete' },
     openGraph: {
         title: 'Ankara Eryaman\'da Anksiyete (Kaygı Bozukluğu) Değerlendirmesi',
         description: 'Ankara Eryaman\'da anksiyete bozukluğu değerlendirmesi. Klinik görüşme ve bireysel planlama süreci.',
@@ -248,7 +248,7 @@ export default function AnksiyetePillarPage() {
                         </div>
 
                         <div className={styles.sidebarCard}>
-                            <h4>İlgili Çalışma Alanları</h4>
+                            <h4>İlgili Hizmetler</h4>
                             <ul className={styles.sidebarLinks}>
                                 <li><Link href="/hizmetler/depresyon">Depresyon</Link></li>
                                 <li><Link href="/hizmetler/panik-atak">Panik Atak</Link></li>
@@ -267,13 +267,13 @@ export default function AnksiyetePillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Anksiyete (Kaygı Bozukluğu) Değerlendirmesi",
-                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/anksiyete",
+                            "url": "https://drabdullahmaras.com/hizmetler/anksiyete",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "Anksiyete Bozukluğu"
                             },
-                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
-"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
+                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
+"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -289,9 +289,9 @@ export default function AnksiyetePillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "Anksiyete", "item": "https://www.drabdullahmaras.com.tr/hizmetler/anksiyete" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "Anksiyete", "item": "https://drabdullahmaras.com/hizmetler/anksiyete" }
                             ]
                         }
                     ]

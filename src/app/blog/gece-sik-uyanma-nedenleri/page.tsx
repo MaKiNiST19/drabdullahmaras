@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Gece Sık Uyanma Nedenleri | Uyku Bölünmesinin Psikiyatrisi',
     description:
         'Yetişkinlerde gece sürekli veya sık uyanma, uykunun bölünmesi ve sabaha karşı kalp çarpıntısıyla uyanmanın anksiyete ve stres kökenli nedenleri.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/gece-sik-uyanma-nedenleri' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/gece-sik-uyanma-nedenleri' },
     openGraph: {
         title: 'Gece Uyanışları ve Parçalanan Uyku Mimarisi',
         type: 'article', locale: 'tr_TR',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Dini Takıntılar OKB midir? Dini Vesvese Nedir? | Uzm. Dr. Abdullah Maraş',
     description:
         'İbadet ederken akla gelen küfür ve günah düşünceleri (dini takıntı / vesvese) bir OKB midir? Ankara Eryaman yetişkin takıntı (OKB) değerlendirme ve süreci.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/dini-takintilar-okb-mi' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/dini-takintilar-okb-mi' },
     openGraph: {
         title: 'Dini Takıntılar ve İbadette İstenmeyen Düşünceler OKB mi?',
         type: 'article', locale: 'tr_TR',

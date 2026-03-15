@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Panik Atak Belirtileri Nelerdir? Bedensel, Düşünsel Hisler | Uzm. Dr. Abdullah Maraş',
     description:
         'Panik atak belirtileri nelerdir? Ani kalp çarpıntısı, nefes alamama hissi ve terleme. Ankara Eryaman panik atak belirtisi değerlendirmesi ve ayırıcı tanı.',
-    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/panik-atak-belirtileri' },
+    alternates: { canonical: 'https://drabdullahmaras.com/blog/panik-atak-belirtileri' },
     openGraph: {
         title: 'Panik Atak Belirtileri Nelerdir? Vücutta Nasıl Hissedilir?',
         type: 'article', locale: 'tr_TR',
