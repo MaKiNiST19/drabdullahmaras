@@ -68,7 +68,7 @@ export default function Footer() {
                                 <ul className="link-list list-unstyled d-flex flex-column gap-2" style={{ padding: 0 }}>
                                     <li><Link href="/" className="text-white-50 text-decoration-none">Ana Sayfa</Link></li>
                                     <li><Link href="/hakkinda" className="text-white-50 text-decoration-none">Hakkında</Link></li>
-                                    <li><Link href="/hizmetler" className="text-white-50 text-decoration-none">Hizmetler</Link></li>
+                                    <li><Link href="/hizmetler" className="text-white-50 text-decoration-none">Çalışma Alanları</Link></li>
                                     <li><Link href="/randevu" className="text-white-50 text-decoration-none">Randevu</Link></li>
                                     <li><Link href="/iletisim" className="text-white-50 text-decoration-none">İletişim</Link></li>
                                 </ul>

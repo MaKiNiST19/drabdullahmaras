@@ -74,7 +74,7 @@ const ScrollReveal = ({
 
         const t1 = gsap.fromTo(
             el,
-            { transformOrigin: '0% 50%', rotate: baseRotation },
+            { transformOrigin: '0% 50%', rotate: baseRotation, willChange: 'transform' },
             {
                 ease: 'none',
                 rotate: 0,
@@ -92,7 +92,7 @@ const ScrollReveal = ({
 
         const t2 = gsap.fromTo(
             wordElements,
-            { opacity: baseOpacity, willChange: 'opacity' },
+            { opacity: baseOpacity, willChange: 'opacity, transform' },
             {
                 ease: 'none',
                 opacity: 1,
@@ -111,7 +111,7 @@ const ScrollReveal = ({
         if (enableBlur) {
             t3 = gsap.fromTo(
                 wordElements,
-                { filter: `blur(${blurStrength}px)` },
+                { filter: `blur(${blurStrength}px)`, willChange: 'filter' },
                 {
                     ease: 'none',
                     filter: 'blur(0px)',

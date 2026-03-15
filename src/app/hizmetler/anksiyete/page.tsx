@@ -248,7 +248,7 @@ export default function AnksiyetePillarPage() {
                         </div>
 
                         <div className={styles.sidebarCard}>
-                            <h4>İlgili Hizmetler</h4>
+                            <h4>İlgili Çalışma Alanları</h4>
                             <ul className={styles.sidebarLinks}>
                                 <li><Link href="/hizmetler/depresyon">Depresyon</Link></li>
                                 <li><Link href="/hizmetler/panik-atak">Panik Atak</Link></li>

@@ -61,7 +61,7 @@ function HomePageHero() {
                 Randevu Oluştur
               </Link>
               <Link href="/hizmetler" className={styles.btnTextLink}>
-                Hizmet Alanlarını Görün
+                Çalışma Alanlarını Görün
               </Link>
             </div>
           </div>
@@ -72,6 +72,7 @@ function HomePageHero() {
                 alt="Uzm. Dr. Abdullah Maraş - Ankara Eryaman Psikiyatrist"
                 width={420}
                 height={530}
+                sizes="(max-width: 991px) 100vw, 420px"
                 className={styles.heroImage}
                 priority
               />
@@ -92,8 +93,10 @@ function ClinicBannerSection() {
           alt="Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği İç Mekan"
           width={1920}
           height={600}
+          sizes="100vw"
           className={styles.clinicBannerImage}
-          quality={95}
+          priority
+          quality={85}
         />
         <div className={styles.clinicBannerOverlay}>
           <div className={styles.container}>
@@ -187,8 +190,9 @@ function LocalAuthoritySection() {
                 alt="Uzm. Dr. Abdullah Maraş - Ankara Eryaman Psikiyatrist"
                 width={540}
                 height={680}
+                sizes="(max-width: 991px) 100vw, 540px"
                 className={styles.localImage}
-                quality={90}
+                quality={80}
               />
             </ScrollReveal>
           </div>
@@ -285,7 +289,7 @@ function ServicesGridSection() {
   return (
     <section className={`${styles.conditionsSection} ${styles.sectionPadding}`}>
       <div className={styles.container}>
-        <span className={styles.sectionLabel} style={{ textAlign: 'center' }}>HİZMET ALANLARIMIZ</span>
+        <span className={styles.sectionLabel} style={{ textAlign: 'center' }}>ÇALIŞMA ALANLARIMIZ</span>
         <h2 className={`${styles.conditionsTitle} serifFont`}>Ruh Sağlığı Değerlendirme Alanları</h2>
         <div className={styles.conditionsGrid}>
           <ScrollReveal containerClassName={styles.conditionCard} as="div" baseRotation={0} blurStrength={2} baseOpacity={0}>
@@ -295,7 +299,9 @@ function ServicesGridSection() {
                 alt="Depresyon Değerlendirmesi"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -311,7 +317,9 @@ function ServicesGridSection() {
                 alt="Anksiyete Bozuklukları"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -327,7 +335,9 @@ function ServicesGridSection() {
                 alt="Panik Atak"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -343,7 +353,9 @@ function ServicesGridSection() {
                 alt="Obsesif Kompulsif Bozukluk"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -359,7 +371,9 @@ function ServicesGridSection() {
                 alt="Bipolar Bozukluk"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -375,7 +389,9 @@ function ServicesGridSection() {
                 alt="Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB)"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -391,7 +407,9 @@ function ServicesGridSection() {
                 alt="Uyku Bozuklukları"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>
@@ -407,7 +425,9 @@ function ServicesGridSection() {
                 alt="Tükenmişlik Sendromu"
                 width={400}
                 height={225}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1400px) 33vw, 25vw"
                 className={styles.conditionImage}
+                quality={75}
               />
             </div>
             <div className={styles.conditionContent}>

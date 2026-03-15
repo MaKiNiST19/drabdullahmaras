@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Plus_Jakarta_Sans, Oswald, Inter, Space_Grotesk } from 'next/font/google';
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -6,6 +7,34 @@ import "./prozen.css";
 import "./lenis.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-sans',
+  weight: ['300', '400', '500', '600', '700', '800'],
+});
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-serif',
+  weight: ['200', '300', '400', '500', '600', '700'],
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+  weight: ['300', '400', '500', '600', '700', '800'],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-space',
+  weight: ['300', '400', '500', '600', '700'],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://drabdullahmaras.com'),
@@ -53,9 +82,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" suppressHydrationWarning>
+    <html lang="tr" suppressHydrationWarning className={`${plusJakartaSans.variable} ${oswald.variable} ${inter.variable} ${spaceGrotesk.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <style dangerouslySetInnerHTML={{ __html: `
+          @font-face {
+            font-family: 'Font Awesome 6 Free';
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'Font Awesome 6 Brands';
+            font-display: swap;
+          }
+        `}} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

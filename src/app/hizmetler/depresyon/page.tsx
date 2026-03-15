@@ -58,7 +58,7 @@ export default function DepresyonPillarPage() {
             <section className={styles.hero}>
                 <div className={styles.heroBg}><div className={styles.heroOrb}></div></div>
                 <div className={`container ${styles.heroContent}`}>
-                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Değerlendirme Alanları</Link>
+                    <Link href="/hizmetler" className={styles.backLink}>← Tüm Çalışma Alanları</Link>
                     <span className={styles.heroIcon}>ğŸŒ§ï¸</span>
                     <h1>Eryaman&apos;da Depresyon Hakkında Psikiyatrik Değerlendirme</h1>
                     <p className={styles.heroDesc}>
