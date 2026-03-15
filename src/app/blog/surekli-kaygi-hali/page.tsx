@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sürekli Kaygı Hali Neden Olur? | Uzm. Dr. Abdullah Maraş Psikiyatri',
     description:
         'Sürekli endişe hali ve geçmeyen kaygının bedensel, zihinsel nedenleri nelerdir? Günlük stres ile anksiyete uykusuzluğu farkları, Eryaman psikiyatrik değerlendirme.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/surekli-kaygi-hali' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/surekli-kaygi-hali' },
     openGraph: {
         title: 'Sürekli Kaygı Hali Neden Olur? Anksiyetenin Sürekliliği',
         type: 'article', locale: 'tr_TR',

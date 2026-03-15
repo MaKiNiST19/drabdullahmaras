@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = 'https://drabdullahmaras.com';
+const BASE_URL = 'https://www.drabdullahmaras.com.tr';
 
 function getDirectories(srcPath: string) {
   try {

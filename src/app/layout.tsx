@@ -37,7 +37,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://drabdullahmaras.com'),
+  metadataBase: new URL('https://www.drabdullahmaras.com.tr'),
   title: {
     default: "Uzm. Dr. Abdullah Maraş | Eryaman Psikiyatrist - Ankara Psikiyatri Uzmanı",
     template: "%s | Uzm. Dr. Abdullah Maraş - Psikiyatri Uzmanı",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://drabdullahmaras.com",
+    canonical: "https://www.drabdullahmaras.com.tr",
   },
 };
 
@@ -103,22 +103,22 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://drabdullahmaras.com/#website",
-                  url: "https://drabdullahmaras.com/",
+                  "@id": "https://www.drabdullahmaras.com.tr/#website",
+                  url: "https://www.drabdullahmaras.com.tr/",
                   name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
                   description: "Ankara Eryaman'da ruh sağlığı ve hastalıkları alanında uzman psikiyatri değerlendirmesi.",
                   publisher: {
-                    "@id": "https://drabdullahmaras.com/#organization"
+                    "@id": "https://www.drabdullahmaras.com.tr/#organization"
                   },
                   inLanguage: "tr-TR"
                 },
                 {
                   "@type": ["MedicalClinic", "MedicalOrganization", "LocalBusiness"],
-                  "@id": "https://drabdullahmaras.com/#organization",
+                  "@id": "https://www.drabdullahmaras.com.tr/#organization",
                   name: "Uzm. Dr. Abdullah Maraş Psikiyatri Kliniği",
-                  url: "https://drabdullahmaras.com",
-                  logo: "https://drabdullahmaras.com/logo.png",
-                  image: "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
+                  url: "https://www.drabdullahmaras.com.tr",
+                  logo: "https://www.drabdullahmaras.com.tr/logo.png",
+                  image: "https://www.drabdullahmaras.com.tr/dr-abdullah-maras.jpeg",
                   description: "Ankara Eryaman'da ruh sağlığı ve hastalıkları (psikiyatri) alanında uzman medikal değerlendirme ve bireysel destek süreçleri.",
                   telephone: "+903125045399",
                   medicalSpecialty: ["Psychiatry", "Psychiatric"],
@@ -151,24 +151,24 @@ export default function RootLayout({
                     }
                   ],
                   employee: {
-                    "@id": "https://drabdullahmaras.com/#physician"
+                    "@id": "https://www.drabdullahmaras.com.tr/#physician"
                   }
                 },
                 {
                   "@type": "Physician",
-                  "@id": "https://drabdullahmaras.com/#physician",
+                  "@id": "https://www.drabdullahmaras.com.tr/#physician",
                   name: "Uzm. Dr. Abdullah Maraş",
                   jobTitle: "Psikiyatri Uzmanı (Psychiatrist)",
                   description: "Ruh Sağlığı ve Hastalıkları (Psikiyatri) Uzmanı. Anadolu Üniversitesi Tıp Fakültesi mezunu.",
-                  url: "https://drabdullahmaras.com/hakkinda",
-                  image: "https://drabdullahmaras.com/dr-abdullah-maras.jpeg",
+                  url: "https://www.drabdullahmaras.com.tr/hakkinda",
+                  image: "https://www.drabdullahmaras.com.tr/dr-abdullah-maras.jpeg",
                   medicalSpecialty: ["Psychiatry", "Psychiatric"],
                   alumniOf: {
                     "@type": "EducationalOrganization",
                     name: "Anadolu Üniversitesi Tıp Fakültesi"
                   },
                   worksFor: {
-                    "@id": "https://drabdullahmaras.com/#organization"
+                    "@id": "https://www.drabdullahmaras.com.tr/#organization"
                   }
                 }
               ]

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: service.metaTitle,
         description: service.metaDescription,
-        alternates: { canonical: `https://drabdullahmaras.com/hizmetler/${service.slug}` },
+        alternates: { canonical: `https://www.drabdullahmaras.com.tr/hizmetler/${service.slug}` },
     };
 }
 

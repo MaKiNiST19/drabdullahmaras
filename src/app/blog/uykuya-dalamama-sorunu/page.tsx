@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Uykuya Dalamama Sorunu | Erişkinlerde Yatağa Geçiş Krizleri',
     description:
         'Yatağa girildiğinde başlayan uykuya dalamama (insomnia), kafaya takılan düşünceler ve zihnin kapanmama direnci hakkında tıbbi değerlendirmeler.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/uykuya-dalamama-sorunu' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/uykuya-dalamama-sorunu' },
     openGraph: {
         title: 'Yatağa Giriyorum Ama Uyku Gelmiyor: Düşünce Susmuyor',
         type: 'article', locale: 'tr_TR',

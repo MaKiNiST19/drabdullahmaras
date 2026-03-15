@@ -1,15 +1,15 @@
-ï»¿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Depresyon HakkÄ±nda Bilgilendirici YazÄ±lar | Uzm. Dr. Abdullah MaraÅŸ',
+    title: 'Depresyon Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
-        'Depresyon belirtileri, mevsimsel depresyon, profesyonel destek sÃ¼reci ve iÅŸ yaÅŸamÄ±na etkileri hakkÄ±nda bilgilendirici yazÄ±lar. Ankara Eryaman psikiyatri uzmanÄ±.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyon' },
+        'Depresyon belirtileri, mevsimsel depresyon, profesyonel destek süreci ve iş yaşamına etkileri hakkında bilgilendirici yazılar. Ankara Eryaman psikiyatri uzmanı.',
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon' },
     openGraph: {
-        title: 'Depresyon HakkÄ±nda Bilgilendirici YazÄ±lar',
-        description: 'Depresyon hakkÄ±nda kapsamlÄ± bilgilendirme yazÄ±larÄ±. Ankara Eryaman psikiyatri uzmanÄ±.',
+        title: 'Depresyon Hakkında Bilgilendirici Yazılar',
+        description: 'Depresyon hakkında kapsamlı bilgilendirme yazıları. Ankara Eryaman psikiyatri uzmanı.',
         type: 'website', locale: 'tr_TR',
     },
 };
@@ -17,45 +17,45 @@ export const metadata: Metadata = {
 const blogPosts = [
     {
         slug: '/blog/depresyon-belirtileri',
-        title: 'Depresyon Belirtileri Nelerdir? Kendinizi TanÄ±yÄ±n',
-        icon: 'ğŸ“‹',
+        title: 'Depresyon Belirtileri Nelerdir? Kendinizi Tanıyın',
+        icon: '??',
         date: '2 Mart 2026',
-        desc: 'Depresyonun duygusal, bedensel, biliÅŸsel ve davranÄ±ÅŸsal belirtilerini kapsamlÄ± olarak ele alan yazÄ±mÄ±z. SÃ¼reÄŸen karamsarlÄ±k, enerji kaybÄ± ve uyku dÃ¼zensizlikleri gibi belirtileri tanÄ±manÄ±za yardÄ±mcÄ± olacak bilgilendirici iÃ§erik.',
+        desc: 'Depresyonun duygusal, bedensel, bilişsel ve davranışsal belirtilerini kapsamlı olarak ele alan yazımız. Süreğen karamsarlık, enerji kaybı ve uyku düzensizlikleri gibi belirtileri tanımanıza yardımcı olacak bilgilendirici içerik.',
     },
     {
         slug: '/blog/mevsimsel-depresyon',
-        title: 'Mevsimsel Duygudurum DeÄŸiÅŸiklikleri ve KÄ±ÅŸ Depresyonu',
-        icon: 'â„ï¸',
+        title: 'Mevsimsel Duygudurum Değişiklikleri ve Kış Depresyonu',
+        icon: '??',
         date: '26 Mart 2026',
-        desc: 'Sonbahar ve kÄ±ÅŸ aylarÄ±nda belirginleÅŸen mevsimsel depresyonun doÄŸasÄ±, nedenleri ve sÄ±radan bir kÄ±ÅŸ hÃ¼znÃ¼nden farkÄ±. GÃ¼n Ä±ÅŸÄ±ÄŸÄ±, serotonin ve sirkadiyen ritim iliÅŸkisini bilimsel Ã§erÃ§evede ele alÄ±yoruz.',
+        desc: 'Sonbahar ve kış aylarında belirginleşen mevsimsel depresyonun doğası, nedenleri ve sıradan bir kış hüznünden farkı. Gün ışığı, serotonin ve sirkadiyen ritim ilişkisini bilimsel çerçevede ele alıyoruz.',
     },
     {
         slug: '/blog/depresyon-mu-uzuntu-mu',
-        title: 'Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? FarkÄ± NasÄ±l AnlarsÄ±nÄ±z?',
-        icon: 'ğŸ”',
+        title: 'Depresyon mu Üzüntü mü? Farkı Nasıl Anlarsınız?',
+        icon: '??',
         date: '9 Mart 2026',
-        desc: 'Normal Ã¼zÃ¼ntÃ¼ ile klinik depresyon arasÄ±ndaki farkÄ± anlamak, doÄŸru adÄ±mlarÄ± atabilmek aÃ§Ä±sÄ±ndan Ã¶nemlidir. AyrÄ±mÄ± yapmanÄ±za yardÄ±mcÄ± olacak 5 kritik soru ve yas sÃ¼reciâ€“depresyon iliÅŸkisi.',
+        desc: 'Normal üzüntü ile klinik depresyon arasındaki farkı anlamak, doğru adımları atabilmek açısından önemlidir. Ayrımı yapmanıza yardımcı olacak 5 kritik soru ve yas süreci–depresyon ilişkisi.',
     },
     {
         slug: '/blog/depresyonda-profesyonel-destek',
-        title: 'Depresyonda Profesyonel Destek SÃ¼reci NasÄ±l Ä°ÅŸler?',
-        icon: 'ğŸ¤',
+        title: 'Depresyonda Profesyonel Destek Süreci Nasıl İşler?',
+        icon: '??',
         date: '7 Nisan 2026',
-        desc: 'Psikiyatriste baÅŸvurmak sizi endiÅŸelendiriyorsa, destek sÃ¼recini adÄ±m adÄ±m anlatÄ±yoruz. Randevudan ilk gÃ¶rÃ¼ÅŸmeye, bireysel planlamadan izleme kadar tÃ¼m aÅŸamalar.',
+        desc: 'Psikiyatriste başvurmak sizi endişelendiriyorsa, destek sürecini adım adım anlatıyoruz. Randevudan ilk görüşmeye, bireysel planlamadan izleme kadar tüm aşamalar.',
     },
     {
         slug: '/blog/is-yasami-ve-depresyon',
-        title: 'Ä°ÅŸ YaÅŸamÄ± ve Depresyon: Ä°ÅŸlevselliÄŸi Korumak',
-        icon: 'ğŸ’¼',
-        date: '4 MayÄ±s 2026',
-        desc: 'Depresyonun iÅŸ performansÄ± Ã¼zerindeki etkileri, presenteeism ve absenteeism kavramlarÄ±, tÃ¼kenmiÅŸlik ile depresyon farkÄ± ve iÅŸ hayatÄ±nda iÅŸlevselliÄŸin korunmasÄ±.',
+        title: 'İş Yaşamı ve Depresyon: İşlevselliği Korumak',
+        icon: '??',
+        date: '4 Mayıs 2026',
+        desc: 'Depresyonun iş performansı üzerindeki etkileri, presenteeism ve absenteeism kavramları, tükenmişlik ile depresyon farkı ve iş hayatında işlevselliğin korunması.',
     },
     {
         slug: '/blog/depresyon-kac-gunde-gecer',
-        title: 'Depresyon KaÃ§ GÃ¼nde GeÃ§er? SÃ¼re HakkÄ±nda Bilinmesi Gerekenler',
-        icon: 'â³',
+        title: 'Depresyon Kaç Günde Geçer? Süre Hakkında Bilinmesi Gerekenler',
+        icon: '?',
         date: '18 Mart 2026',
-        desc: 'Depresyonun sÃ¼resi kiÅŸiden kiÅŸiye gÃ¶re deÄŸiÅŸir. Belirtilerin ne kadar sÃ¼rebileceÄŸi, hangi faktÃ¶rlerin etkili olduÄŸu ve erken deÄŸerlendirmenin Ã¶nemi hakkÄ±nda bilgilendirme.',
+        desc: 'Depresyonun süresi kişiden kişiye göre değişir. Belirtilerin ne kadar sürebileceği, hangi faktörlerin etkili olduğu ve erken değerlendirmenin önemi hakkında bilgilendirme.',
     },
 ];
 
@@ -70,24 +70,24 @@ export default function DepresyonHubPage() {
                         <Link href="/blog">Blog</Link><span>/</span>
                         <span>Depresyon</span>
                     </div>
-                    <span className={styles.hubIcon}>ğŸŒ§ï¸</span>
-                    <h1>Depresyon HakkÄ±nda Bilgilendirici YazÄ±lar</h1>
+                    <span className={styles.hubIcon}>???</span>
+                    <h1>Depresyon Hakkında Bilgilendirici Yazılar</h1>
                     <p className={styles.heroDesc}>
-                        Depresyon, dÃ¼nya genelinde en yaygÄ±n gÃ¶rÃ¼len ruh saÄŸlÄ±ÄŸÄ± durumlarÄ±ndan biridir.
-                        SÃ¼reÄŸen karamsarlÄ±k, enerji kaybÄ± ve yaÅŸama karÅŸÄ± ilgi azalmasÄ±yla kendini
-                        gÃ¶steren bu durum hakkÄ±nda bilimsel Ã§erÃ§evede hazÄ±rlanmÄ±ÅŸ bilgilendirici
-                        yazÄ±larÄ±mÄ±za bu sayfadan ulaÅŸabilirsiniz.
+                        Depresyon, dünya genelinde en yaygın görülen ruh sağlığı durumlarından biridir.
+                        Süreğen karamsarlık, enerji kaybı ve yaşama karşı ilgi azalmasıyla kendini
+                        gösteren bu durum hakkında bilimsel çerçevede hazırlanmış bilgilendirici
+                        yazılarımıza bu sayfadan ulaşabilirsiniz.
                     </p>
                     <p className={styles.heroDesc}>
-                        Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ, depresyon belirtilerinin kapsamlÄ±
-                        deÄŸerlendirmesini gerÃ§ekleÅŸtirmektedir. TÃ¼m yazÄ±larÄ±mÄ±z bilgilendirme amaÃ§lÄ±dÄ±r
-                        ve tÄ±bbi tanÄ± ya da tedavi Ã¶nerisi niteliÄŸi taÅŸÄ±mamaktadÄ±r.
+                        Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş, depresyon belirtilerinin kapsamlı
+                        değerlendirmesini gerçekleştirmektedir. Tüm yazılarımız bilgilendirme amaçlıdır
+                        ve tıbbi tanı ya da tedavi önerisi niteliği taşımamaktadır.
                     </p>
                     <Link href="/hizmetler/depresyon" className={styles.pillarLink}>
-                        <span>ğŸ“–</span>
+                        <span>??</span>
                         <div>
-                            <strong>Depresyon DeÄŸerlendirmesi â€” KapsamlÄ± Hizmet SayfasÄ±</strong>
-                            <span>Depresyon hakkÄ±nda detaylÄ± bilgi, deÄŸerlendirme sÃ¼reci ve SSS â†’</span>
+                            <strong>Depresyon Değerlendirmesi — Kapsamlı Hizmet Sayfası</strong>
+                            <span>Depresyon hakkında detaylı bilgi, değerlendirme süreci ve SSS ›</span>
                         </div>
                     </Link>
                 </div>
@@ -105,7 +105,7 @@ export default function DepresyonHubPage() {
                                 </div>
                                 <h2>{post.title}</h2>
                                 <p>{post.desc}</p>
-                                <span className={styles.readMore}>YazÄ±yÄ± Oku â†’</span>
+                                <span className={styles.readMore}>Yazıyı Oku ›</span>
                             </Link>
                         ))}
                     </div>
@@ -113,18 +113,18 @@ export default function DepresyonHubPage() {
                     {/* CTA */}
                     <div className={styles.hubCta}>
                         <div className={styles.ctaContent}>
-                            <h2>Profesyonel Depresyon DeÄŸerlendirmesi</h2>
+                            <h2>Profesyonel Depresyon Değerlendirmesi</h2>
                             <p>
-                                Depresyon belirtileri yaÅŸÄ±yorsanÄ±z, Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede
-                                psikiyatrik deÄŸerlendirme iÃ§in randevu alabilirsiniz. Altay Mahallesi Ã§evresindeki
-                                kliniÄŸimize Etimesgut ve BatÄ±kent bÃ¶lgelerinden kolay ulaÅŸÄ±m saÄŸlanabilir.
+                                Depresyon belirtileri yaşıyorsanız, Ankara Eryaman&apos;da bilimsel çerçevede
+                                psikiyatrik değerlendirme için randevu alabilirsiniz. Altay Mahallesi çevresindeki
+                                kliniğimize Etimesgut ve Batıkent bölgelerinden kolay ulaşım sağlanabilir.
                             </p>
                             <div className={styles.ctaActions}>
                                 <Link href="/hizmetler/depresyon" className="btn btn--outline btn--lg">
-                                    Depresyon SayfasÄ±
+                                    Depresyon Sayfası
                                 </Link>
                                 <Link href="/randevu" className="btn btn--primary btn--lg">
-                                    Randevu Al â†’
+                                    Randevu Al ›
                                 </Link>
                             </div>
                         </div>
@@ -132,9 +132,9 @@ export default function DepresyonHubPage() {
 
                     {/* Disclaimer */}
                     <div className="info-banner" style={{ marginTop: 'var(--space-8)' }}>
-                        <strong>ğŸ“Œ Bilgilendirme</strong>
-                        Bu sayfadaki yazÄ±lar genel bilgilendirme amaÃ§lÄ± hazÄ±rlanmÄ±ÅŸtÄ±r. Bireysel tanÄ± ve
-                        tedavi sÃ¼reÃ§leri iÃ§in mutlaka bir psikiyatri uzmanÄ±na baÅŸvurunuz.
+                        <strong>?? Bilgilendirme</strong>
+                        Bu sayfadaki yazılar genel bilgilendirme amaçlı hazırlanmıştır. Bireysel tanı ve
+                        tedavi süreçleri için mutlaka bir psikiyatri uzmanına başvurunuz.
                     </div>
                 </div>
             </section>
@@ -143,12 +143,12 @@ export default function DepresyonHubPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "ItemList",
-                    name: "Depresyon HakkÄ±nda Bilgilendirici YazÄ±lar",
-                    description: "Depresyon konusunda bilimsel Ã§erÃ§evede hazÄ±rlanmÄ±ÅŸ bilgilendirici blog yazÄ±larÄ±.",
+                    name: "Depresyon Hakkında Bilgilendirici Yazılar",
+                    description: "Depresyon konusunda bilimsel çerçevede hazırlanmış bilgilendirici blog yazıları.",
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -156,15 +156,15 @@ export default function DepresyonHubPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
-                    name: "Depresyon HakkÄ±nda Bilgilendirici YazÄ±lar",
+                    name: "Depresyon Hakkında Bilgilendirici Yazılar",
                     description: metadata.description,
-                    url: "https://drabdullahmaras.com/blog/depresyon",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" },
+                    url: "https://www.drabdullahmaras.com.tr/blog/depresyon",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
                     mainEntity: {
                         "@type": "ItemList",
                         numberOfItems: blogPosts.length,
                         itemListElement: blogPosts.map((p, i) => ({
-                            "@type": "ListItem", position: i + 1, url: `https://drabdullahmaras.com${p.slug}`,
+                            "@type": "ListItem", position: i + 1, url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         })),
                     },
                 })

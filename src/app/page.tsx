@@ -9,13 +9,13 @@ import ScrollReveal from '@/components/ScrollReveal';
 export const metadata: Metadata = {
   title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
   description: 'Ankara Eryaman’da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
-  alternates: { canonical: 'https://drabdullahmaras.com/' },
+  alternates: { canonical: 'https://www.drabdullahmaras.com.tr/' },
   openGraph: {
     title: 'Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist',
     description: 'Ankara Eryaman’da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.',
     type: 'website',
     locale: 'tr_TR',
-    url: 'https://drabdullahmaras.com/'
+    url: 'https://www.drabdullahmaras.com.tr/'
   },
 };
 
@@ -532,18 +532,18 @@ export default function Home() {
             "@graph": [
               {
                 "@type": "WebPage",
-                "@id": "https://drabdullahmaras.com/#webpage",
-                "url": "https://drabdullahmaras.com/",
+                "@id": "https://www.drabdullahmaras.com.tr/#webpage",
+                "url": "https://www.drabdullahmaras.com.tr/",
                 "name": "Uzm. Dr. Abdullah Maraş | Ankara Eryaman Psikiyatrist",
                 "description": "Ankara Eryaman'da 16 yaş üzeri ergen ve yetişkin psikiyatrik değerlendirme. Depresyon, anksiyete, panik atak, OKB, bipolar bozukluk, DEHB ve uyku sorunlarında bireysel görüşme süreci.",
-                "isPartOf": { "@id": "https://drabdullahmaras.com/#website" },
-                "about": { "@id": "https://drabdullahmaras.com/#organization" },
+                "isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" },
+                "about": { "@id": "https://www.drabdullahmaras.com.tr/#organization" },
                 "inLanguage": "tr-TR"
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://drabdullahmaras.com/#faq",
-                "isPartOf": { "@id": "https://drabdullahmaras.com/#webpage" },
+                "@id": "https://www.drabdullahmaras.com.tr/#faq",
+                "isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#webpage" },
                 "mainEntity": homeFAQ.map((faq) => ({
                   "@type": "Question",
                   "name": faq.question,

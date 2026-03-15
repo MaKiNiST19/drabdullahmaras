@@ -6,7 +6,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
     title: 'Çalışma Alanları | Uzm. Dr. Abdullah Maraş',
     description: 'Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş psikiyatri kliniğinde sunulan değerlendirme alanları. Depresyon, anksiyete, panik atak, OKB, DEHB ve daha fazlası.',
-    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler' },
 };
 
 export default function HizmetlerPage() {

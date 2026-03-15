@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Ankara Eryaman Erişkin DEHB Değerlendirmesi | Uzm. Dr. Abdullah Maraş',
     description:
         'Erişkin DEHB belirtileri, dikkat dağınıklığı ve odak sorunları hakkında bilgilendirme ve Eryaman’da psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://drabdullahmaras.com/hizmetler/eriskin-dehb' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/hizmetler/eriskin-dehb' },
     openGraph: {
         title: 'Ankara Eryaman’da Erişkin DEHB Değerlendirmesi',
         description: 'Erişkin DEHB belirtileri, dikkat dağınıklığı ve erteleme döngüleri hakkında yetişkin psikiyatrik değerlendirme.',
@@ -309,14 +309,14 @@ export default function EriskinDehbPillarPage() {
                         {
                             "@type": "MedicalWebPage",
                             "name": "Ankara Eryaman Erişkin DEHB Değerlendirmesi",
-                            "url": "https://drabdullahmaras.com/hizmetler/eriskin-dehb",
+                            "url": "https://www.drabdullahmaras.com.tr/hizmetler/eriskin-dehb",
                             "about": {
                                 "@type": "MedicalCondition",
                                 "name": "AttentionDeficitHyperactivityDisorder",
                                 "alternateName": "Erişkin DEHB, Yetişkin DEHB"
                             },
-                            "author": { "@id": "https://drabdullahmaras.com/#physician" },
-"isPartOf": { "@id": "https://drabdullahmaras.com/#website" }
+                            "author": { "@id": "https://www.drabdullahmaras.com.tr/#physician" },
+"isPartOf": { "@id": "https://www.drabdullahmaras.com.tr/#website" }
                         },
                         {
                             "@type": "FAQPage",
@@ -329,9 +329,9 @@ export default function EriskinDehbPillarPage() {
                         {
                             "@type": "BreadcrumbList",
                             "itemListElement": [
-                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drabdullahmaras.com/" },
-                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://drabdullahmaras.com/hizmetler" },
-                                { "@type": "ListItem", "position": 3, "name": "Erişkin DEHB", "item": "https://drabdullahmaras.com/hizmetler/eriskin-dehb" }
+                                { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.drabdullahmaras.com.tr/" },
+                                { "@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://www.drabdullahmaras.com.tr/hizmetler" },
+                                { "@type": "ListItem", "position": 3, "name": "Erişkin DEHB", "item": "https://www.drabdullahmaras.com.tr/hizmetler/eriskin-dehb" }
                             ]
                         }
                     ]

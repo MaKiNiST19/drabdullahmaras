@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Uyku Bozukluğu Nedir? | Yetişkin Uykusuzluk Belirtileri',
     description:
         'Uyku bozukluğu tanımı, belirtileri ve psikiyatrik zeminde gece uyanma/uykuya dalamama sorunları üzerine uzman bilgilendirme sayfası.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/uyku-bozukluklari-nedir' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/uyku-bozukluklari-nedir' },
     openGraph: {
         title: 'Uyku Bozukluğu Nedir ve Psikiyatri Nasıl Ele Alır?',
         type: 'article', locale: 'tr_TR',

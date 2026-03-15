@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Tükenmişlik Sendromu Nedir? | Yetişkinlerde Tükenmişlik Halleri',
     description:
         'Tükenmişlik sendromunun (Burnout) psikiyatrik tanımı, duygusal iflas ve kronik motivasyon kaybının zihinsel etkileri hakkında uzman (Eryaman) yazısı.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/tukenmislik-sendromu-nedir' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/tukenmislik-sendromu-nedir' },
     openGraph: {
         title: 'Hiçbir Şeyin Tadı Yok: Tükenmişlik (Burnout) Nedir?',
         type: 'article', locale: 'tr_TR',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Bipolar ile Depresyon Arasındaki Fark Nedir? | Psikiyatrist Değerlendirmesi',
     description:
         'Sadece depresyonda mısınız yoksa bipolar spektrumunda mısınız? İki duygu durum bozukluğu arasındaki farklar ve Eryaman’da psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar-ile-depresyon-arasindaki-fark' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar-ile-depresyon-arasindaki-fark' },
     openGraph: {
         title: 'Bipolar vs Depresyon: Kritik Ayrım | Uzm. Dr. Abdullah Maraş',
         type: 'article', locale: 'tr_TR',

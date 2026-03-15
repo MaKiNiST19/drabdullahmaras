@@ -1,27 +1,27 @@
-ï»¿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? FarkÄ± NasÄ±l AnlarsÄ±nÄ±z? | Uzm. Dr. Abdullah MaraÅŸ',
+    title: 'Depresyon mu Üzüntü mü? Farkı Nasıl Anlarsınız? | Uzm. Dr. Abdullah Maraş',
     description:
-        'Depresyon ile normal Ã¼zÃ¼ntÃ¼ arasÄ±ndaki fark nedir? GeÃ§ici Ã¼zÃ¼ntÃ¼ ve klinik depresyonun ayrÄ±mÄ±nÄ± Ã¶ÄŸrenin. Ankara Eryaman psikiyatri uzmanÄ± bilgilendirmesi.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyon-mu-uzuntu-mu' },
+        'Depresyon ile normal üzüntü arasındaki fark nedir? Geçici üzüntü ve klinik depresyonun ayrımını öğrenin. Ankara Eryaman psikiyatri uzmanı bilgilendirmesi.',
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyon-mu-uzuntu-mu' },
     openGraph: {
-        title: 'Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? FarkÄ± NasÄ±l AnlarsÄ±nÄ±z?',
+        title: 'Depresyon mu Üzüntü mü? Farkı Nasıl Anlarsınız?',
         type: 'article', locale: 'tr_TR',
         publishedTime: '2026-03-09T09:00:00+03:00',
-        authors: ['Uzm. Dr. Abdullah MaraÅŸ'],
+        authors: ['Uzm. Dr. Abdullah Maraş'],
     },
 };
 
 const faqItems = [
-    { question: 'ÃœzÃ¼ntÃ¼ ne zaman depresyona dÃ¶nÃ¼ÅŸÃ¼r?', answer: 'ÃœzÃ¼ntÃ¼ en az iki hafta boyunca Ã§oÄŸu gÃ¼n devam ediyorsa, yoÄŸunluÄŸu artÄ±yorsa ve gÃ¼nlÃ¼k iÅŸlevselliÄŸi olumsuz etkiliyorsa, klinik depresyondan sÃ¶z edilebilir. Ancak kesin deÄŸerlendirme bir psikiyatri uzmanÄ± tarafÄ±ndan yapÄ±lmalÄ±dÄ±r.' },
-    { question: 'Normal Ã¼zÃ¼ntÃ¼ ile depresyonun temel farkÄ± nedir?', answer: 'Normal Ã¼zÃ¼ntÃ¼ genellikle belirli bir olay kaynaklÄ±dÄ±r ve zamanla azalÄ±r. Depresyonda ise belirtiler orantÄ±sÄ±z ÅŸekilde yoÄŸun, uzun sÃ¼reli ve gÃ¼nlÃ¼k yaÅŸamÄ± belirgin biÃ§imde etkileyen dÃ¼zeydedir.' },
-    { question: 'Depresyon tanÄ±sÄ± nasÄ±l konulur?', answer: 'Depresyon tanÄ±sÄ±, psikiyatri uzmanÄ± tarafÄ±ndan yapÄ±lan kapsamlÄ± bir klinik gÃ¶rÃ¼ÅŸmeye dayanÄ±r. Belirtilerin sÃ¼resi, ÅŸiddeti, Ã§eÅŸitliliÄŸi ve gÃ¼nlÃ¼k yaÅŸama etkisi deÄŸerlendirilerek bireysel bir planlama yapÄ±lÄ±r.' },
-    { question: 'Eryaman\'da depresyon deÄŸerlendirmesi nerede yapÄ±lÄ±r?', answer: 'Ankara Eryaman, Altay Mahallesi Ã§evresinde Uzm. Dr. Abdullah MaraÅŸ\'Ä±n kliniÄŸinde depresyon deÄŸerlendirmesi yapÄ±lmaktadÄ±r. Randevu sistemiyle Ã§alÄ±ÅŸÄ±lmaktadÄ±r.' },
-    { question: 'ÃœzÃ¼ntÃ¼mÃ¼ hafife almamalÄ± mÄ±yÄ±m?', answer: 'GeÃ§ici Ã¼zÃ¼ntÃ¼ doÄŸal bir duygudur, ancak sÃ¼reÄŸen Ã¼zÃ¼ntÃ¼ ciddiye alÄ±nmalÄ±dÄ±r. Belirtiler iki haftadan uzun sÃ¼rÃ¼yorsa ve yaÅŸam kalitenizi etkiliyorsa, profesyonel bir deÄŸerlendirme almanÄ±z Ã¶nerilmektedir.' },
+    { question: 'Üzüntü ne zaman depresyona dönüşür?', answer: 'Üzüntü en az iki hafta boyunca çoğu gün devam ediyorsa, yoğunluğu artıyorsa ve günlük işlevselliği olumsuz etkiliyorsa, klinik depresyondan söz edilebilir. Ancak kesin değerlendirme bir psikiyatri uzmanı tarafından yapılmalıdır.' },
+    { question: 'Normal üzüntü ile depresyonun temel farkı nedir?', answer: 'Normal üzüntü genellikle belirli bir olay kaynaklıdır ve zamanla azalır. Depresyonda ise belirtiler orantısız şekilde yoğun, uzun süreli ve günlük yaşamı belirgin biçimde etkileyen düzeydedir.' },
+    { question: 'Depresyon tanısı nasıl konulur?', answer: 'Depresyon tanısı, psikiyatri uzmanı tarafından yapılan kapsamlı bir klinik görüşmeye dayanır. Belirtilerin süresi, şiddeti, çeşitliliği ve günlük yaşama etkisi değerlendirilerek bireysel bir planlama yapılır.' },
+    { question: 'Eryaman\'da depresyon değerlendirmesi nerede yapılır?', answer: 'Ankara Eryaman, Altay Mahallesi çevresinde Uzm. Dr. Abdullah Maraş\'ın kliniğinde depresyon değerlendirmesi yapılmaktadır. Randevu sistemiyle çalışılmaktadır.' },
+    { question: 'Üzüntümü hafife almamalı mıyım?', answer: 'Geçici üzüntü doğal bir duygudur, ancak süreğen üzüntü ciddiye alınmalıdır. Belirtiler iki haftadan uzun sürüyorsa ve yaşam kalitenizi etkiliyorsa, profesyonel bir değerlendirme almanız önerilmektedir.' },
 ];
 
 export default function DepresyonMuUzuntuMuBlog() {
@@ -32,23 +32,23 @@ export default function DepresyonMuUzuntuMuBlog() {
                     <div className={styles.breadcrumb}>
                         <Link href="/">Ana Sayfa</Link><span>/</span>
                         <Link href="/blog">Blog</Link><span>/</span>
-                        <span>Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼?</span>
+                        <span>Depresyon mu Üzüntü mü?</span>
                     </div>
                     <div className={styles.meta}>
                         <span className={styles.category}>Depresyon</span>
                         <time dateTime="2026-03-09">9 Mart 2026</time>
-                        <span>â€¢</span><span>8 dk okuma</span>
+                        <span>•</span><span>8 dk okuma</span>
                     </div>
-                    <h1>Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? FarkÄ± NasÄ±l AnlarsÄ±nÄ±z?</h1>
+                    <h1>Depresyon mu Üzüntü mü? Farkı Nasıl Anlarsınız?</h1>
                     <p className={styles.heroDesc}>
-                        &ldquo;Normal bir Ã¼zÃ¼ntÃ¼ mÃ¼ yaÅŸÄ±yorum, yoksa depresyon mu?&rdquo; bu soruyu
-                        kendi kendinize sorduysanÄ±z, bu yazÄ± sizi bilgilendirmek iÃ§in hazÄ±rlandÄ±.
+                        &ldquo;Normal bir üzüntü mü yaşıyorum, yoksa depresyon mu?&rdquo; bu soruyu
+                        kendi kendinize sorduysanız, bu yazı sizi bilgilendirmek için hazırlandı.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± UzmanÄ±</span></div>
+                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı ve Hastalıkları Uzmanı</span></div>
                     </div>
                 </div>
             </section>
@@ -59,148 +59,148 @@ export default function DepresyonMuUzuntuMuBlog() {
                         <article className={styles.article}>
 
                             <p className={styles.lead}>
-                                ÃœzÃ¼ntÃ¼, insan deneyiminin doÄŸal ve kaÃ§Ä±nÄ±lmaz bir parÃ§asÄ±dÄ±r. Bir kayÄ±p, bir
-                                hayal kÄ±rÄ±klÄ±ÄŸÄ± veya zorlu bir yaÅŸam olayÄ± karÅŸÄ±sÄ±nda Ã¼zÃ¼ntÃ¼ hissetmek tamamen
-                                normaldir. Ancak bu Ã¼zÃ¼ntÃ¼ ne zaman &ldquo;normal&rdquo; sÄ±nÄ±rlarÄ± aÅŸar ve
-                                klinik bir depresyona dÃ¶nÃ¼ÅŸÃ¼r? Bu ayrÄ±mÄ± yapmak, doÄŸru adÄ±mlarÄ± atabilmek
-                                aÃ§Ä±sÄ±ndan bÃ¼yÃ¼k Ã¶nem taÅŸÄ±maktadÄ±r.
+                                Üzüntü, insan deneyiminin doğal ve kaçınılmaz bir parçasıdır. Bir kayıp, bir
+                                hayal kırıklığı veya zorlu bir yaşam olayı karşısında üzüntü hissetmek tamamen
+                                normaldir. Ancak bu üzüntü ne zaman &ldquo;normal&rdquo; sınırları aşar ve
+                                klinik bir depresyona dönüşür? Bu ayrımı yapmak, doğru adımları atabilmek
+                                açısından büyük önem taşımaktadır.
                             </p>
                             <p>
-                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ, depresyon ile normal yaÅŸam
-                                Ã¼zÃ¼ntÃ¼sÃ¼ arasÄ±ndaki ayrÄ±mÄ±n profesyonel deÄŸerlendirmesini gerÃ§ekleÅŸtirmektedir.{' '}
-                                <Link href="/hizmetler/depresyon">Depresyon deÄŸerlendirmesi</Link> hizmet
-                                sayfamÄ±zda detaylÄ± bilgi bulabilirsiniz.
+                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş, depresyon ile normal yaşam
+                                üzüntüsü arasındaki ayrımın profesyonel değerlendirmesini gerçekleştirmektedir.{' '}
+                                <Link href="/hizmetler/depresyon">Depresyon değerlendirmesi</Link> hizmet
+                                sayfamızda detaylı bilgi bulabilirsiniz.
                             </p>
 
-                            <h2>ÃœzÃ¼ntÃ¼: DoÄŸal Bir Duygusal Tepki</h2>
+                            <h2>Üzüntü: Doğal Bir Duygusal Tepki</h2>
                             <p>
-                                ÃœzÃ¼ntÃ¼, belirli bir olaya karÅŸÄ± verilen saÄŸlÄ±klÄ± ve uyumsal bir duygusal
-                                tepkidir. Bir yakÄ±nÄ±nÄ± kaybeden, bir iliÅŸkisi sona eren veya iÅŸ hayatÄ±nda
-                                zorluklarla karÅŸÄ±laÅŸan bir birey iÃ§in Ã¼zÃ¼ntÃ¼ doÄŸaldÄ±r. Normal Ã¼zÃ¼ntÃ¼nÃ¼n
-                                bazÄ± temel Ã¶zellikleri vardÄ±r:
+                                Üzüntü, belirli bir olaya karşı verilen sağlıklı ve uyumsal bir duygusal
+                                tepkidir. Bir yakınını kaybeden, bir ilişkisi sona eren veya iş hayatında
+                                zorluklarla karşılaşan bir birey için üzüntü doğaldır. Normal üzüntünün
+                                bazı temel özellikleri vardır:
                             </p>
                             <ul>
-                                <li>Genellikle <strong>belirli bir olay</strong> veya durumla iliÅŸkilidir</li>
-                                <li><strong>Zamanla azalÄ±r</strong> ve birey normale dÃ¶nebilir</li>
-                                <li>KiÅŸi hÃ¢lÃ¢ bazÄ± ÅŸeylerden <strong>keyif alabilir</strong></li>
-                                <li>Kendine olan <strong>deÄŸer algÄ±sÄ± bÃ¼yÃ¼k Ã¶lÃ§Ã¼de korunur</strong></li>
-                                <li>Uyku ve iÅŸtahta <strong>kÄ±sa sÃ¼reli</strong> deÄŸiÅŸiklikler olabilir</li>
-                                <li>Ä°ÅŸlevsellik <strong>geÃ§ici olarak</strong> etkilenebilir ancak tamamen bozulmaz</li>
+                                <li>Genellikle <strong>belirli bir olay</strong> veya durumla ilişkilidir</li>
+                                <li><strong>Zamanla azalır</strong> ve birey normale dönebilir</li>
+                                <li>Kişi hâlâ bazı şeylerden <strong>keyif alabilir</strong></li>
+                                <li>Kendine olan <strong>değer algısı büyük ölçüde korunur</strong></li>
+                                <li>Uyku ve iştahta <strong>kısa süreli</strong> değişiklikler olabilir</li>
+                                <li>İşlevsellik <strong>geçici olarak</strong> etkilenebilir ancak tamamen bozulmaz</li>
                             </ul>
 
-                            <h2>Depresyon: Klinik Bir Ruh SaÄŸlÄ±ÄŸÄ± Durumu</h2>
+                            <h2>Depresyon: Klinik Bir Ruh Sağlığı Durumu</h2>
                             <p>
-                                Depresyon ise Ã¼zÃ¼ntÃ¼den farklÄ± olarak tÄ±bbi bir durumdur. Belirli bir tetikleyici
-                                olmaksÄ±zÄ±n da ortaya Ã§Ä±kabilir, belirtiler haftalarca ve aylarca sÃ¼rebilir ve
-                                bireyin yaÅŸam kalitesini ciddi biÃ§imde etkileyebilir.{' '}
-                                <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri yazÄ±mÄ±zda</Link>{' '}
-                                kapsamlÄ± bir liste sunmaktayÄ±z. Depresyonun ayÄ±rt edici Ã¶zellikleri:
+                                Depresyon ise üzüntüden farklı olarak tıbbi bir durumdur. Belirli bir tetikleyici
+                                olmaksızın da ortaya çıkabilir, belirtiler haftalarca ve aylarca sürebilir ve
+                                bireyin yaşam kalitesini ciddi biçimde etkileyebilir.{' '}
+                                <Link href="/blog/depresyon-belirtileri">Depresyon belirtileri yazımızda</Link>{' '}
+                                kapsamlı bir liste sunmaktayız. Depresyonun ayırt edici özellikleri:
                             </p>
                             <ul>
-                                <li>Belirtiler <strong>en az iki hafta</strong> boyunca Ã§oÄŸu gÃ¼n sÃ¼rer</li>
+                                <li>Belirtiler <strong>en az iki hafta</strong> boyunca çoğu gün sürer</li>
                                 <li>Belirli bir tetikleyici <strong>olmayabilir</strong></li>
-                                <li>Hemen hemen <strong>hiÃ§bir ÅŸeyden</strong> zevk alÄ±namaz</li>
-                                <li>YoÄŸun <strong>deÄŸersizlik ve suÃ§luluk</strong> duygularÄ± belirgindir</li>
-                                <li>Uyku, iÅŸtah ve enerjide <strong>belirgin ve kalÄ±cÄ±</strong> deÄŸiÅŸiklikler vardÄ±r</li>
-                                <li>GÃ¼nlÃ¼k iÅŸlevsellik <strong>Ã¶nemli Ã¶lÃ§Ã¼de bozulur</strong></li>
-                                <li>DÃ¼ÅŸÃ¼nce biÃ§iminde <strong>olumsuz kalÄ±plar</strong> baskÄ±n hale gelir</li>
+                                <li>Hemen hemen <strong>hiçbir şeyden</strong> zevk alınamaz</li>
+                                <li>Yoğun <strong>değersizlik ve suçluluk</strong> duyguları belirgindir</li>
+                                <li>Uyku, iştah ve enerjide <strong>belirgin ve kalıcı</strong> değişiklikler vardır</li>
+                                <li>Günlük işlevsellik <strong>önemli ölçüde bozulur</strong></li>
+                                <li>Düşünce biçiminde <strong>olumsuz kalıplar</strong> baskın hale gelir</li>
                             </ul>
 
-                            <h2>AyrÄ±mÄ± YapmanÄ±n 5 Kritik Sorusu</h2>
+                            <h2>Ayrımı Yapmanın 5 Kritik Sorusu</h2>
                             <p>
-                                Kendinize ÅŸu sorularÄ± sorarak, yaÅŸadÄ±ÄŸÄ±nÄ±z durumun doÄŸasÄ±nÄ± daha iyi
+                                Kendinize şu soruları sorarak, yaşadığınız durumun doğasını daha iyi
                                 anlayabilirsiniz:
                             </p>
                             <ul>
-                                <li><strong>SÃ¼re:</strong> Belirtilerim iki haftadan uzun sÃ¼redir devam ediyor mu?</li>
-                                <li><strong>YoÄŸunluk:</strong> Daha Ã¶nce keyif aldÄ±ÄŸÄ±m hiÃ§bir ÅŸeyden zevk alamÄ±yor muyum?</li>
-                                <li><strong>Ä°ÅŸlevsellik:</strong> Ä°ÅŸ, ev veya sosyal hayatÄ±mÄ± sÃ¼rdÃ¼rmekte zorlanÄ±yor muyum?</li>
-                                <li><strong>Bedensel etki:</strong> Uyku dÃ¼zenim, iÅŸtahÄ±m veya enerjim belirgin biÃ§imde deÄŸiÅŸti mi?</li>
-                                <li><strong>DÃ¼ÅŸÃ¼nce kalÄ±plarÄ±:</strong> Kendimi sÃ¼rekli deÄŸersiz veya umutsuz hissediyor muyum?</li>
+                                <li><strong>Süre:</strong> Belirtilerim iki haftadan uzun süredir devam ediyor mu?</li>
+                                <li><strong>Yoğunluk:</strong> Daha önce keyif aldığım hiçbir şeyden zevk alamıyor muyum?</li>
+                                <li><strong>İşlevsellik:</strong> İş, ev veya sosyal hayatımı sürdürmekte zorlanıyor muyum?</li>
+                                <li><strong>Bedensel etki:</strong> Uyku düzenim, iştahım veya enerjim belirgin biçimde değişti mi?</li>
+                                <li><strong>Düşünce kalıpları:</strong> Kendimi sürekli değersiz veya umutsuz hissediyor muyum?</li>
                             </ul>
                             <p>
-                                Bu sorulara &ldquo;evet&rdquo; yanÄ±tlarÄ± biriken bir birey iÃ§in profesyonel
-                                bir psikiyatrik deÄŸerlendirme Ã¶nerilmektedir. UnutulmalÄ±dÄ±r ki bu sorular
-                                tanÄ± amaÃ§lÄ± deÄŸildir; kesin deÄŸerlendirme uzman bir psikiyatrist tarafÄ±ndan
-                                yapÄ±lmalÄ±dÄ±r.
+                                Bu sorulara &ldquo;evet&rdquo; yanıtları biriken bir birey için profesyonel
+                                bir psikiyatrik değerlendirme önerilmektedir. Unutulmalıdır ki bu sorular
+                                tanı amaçlı değildir; kesin değerlendirme uzman bir psikiyatrist tarafından
+                                yapılmalıdır.
                             </p>
 
-                            <h2>Yas SÃ¼reci ve Depresyon</h2>
+                            <h2>Yas Süreci ve Depresyon</h2>
                             <p>
-                                Ã–zellikle kayÄ±p yaÅŸayan bireylerde yas sÃ¼reci ile depresyon karÄ±ÅŸtÄ±rÄ±labilir.
-                                Yas, sevilen birinin kaybÄ±na karÅŸÄ± doÄŸal bir tepkidir ve zamanla ÅŸiddeti
-                                azalÄ±r. Ancak bazÄ± durumlarda yas sÃ¼reci komplike hale gelebilir ve depresyona
-                                dÃ¶nÃ¼ÅŸebilir. Yas sÃ¼recinde uzun sÃ¼reli aÄŸÄ±r iÅŸlevsellik kaybÄ±, yoÄŸun
-                                deÄŸersizlik duygularÄ± ve sosyal izolasyon gÃ¶zleniyorsa, profesyonel deÄŸerlendirme
-                                dÃ¼ÅŸÃ¼nÃ¼lmelidir.
+                                Özellikle kayıp yaşayan bireylerde yas süreci ile depresyon karıştırılabilir.
+                                Yas, sevilen birinin kaybına karşı doğal bir tepkidir ve zamanla şiddeti
+                                azalır. Ancak bazı durumlarda yas süreci komplike hale gelebilir ve depresyona
+                                dönüşebilir. Yas sürecinde uzun süreli ağır işlevsellik kaybı, yoğun
+                                değersizlik duyguları ve sosyal izolasyon gözleniyorsa, profesyonel değerlendirme
+                                düşünülmelidir.
                             </p>
 
-                            <h2>Neden Profesyonel DeÄŸerlendirme Ã–nemlidir?</h2>
+                            <h2>Neden Profesyonel Değerlendirme Önemlidir?</h2>
                             <p>
-                                ÃœzÃ¼ntÃ¼ ile depresyon arasÄ±ndaki ayrÄ±m her zaman net deÄŸildir ve bireyin
-                                kendi kendine deÄŸerlendirmesi yanÄ±ltÄ±cÄ± olabilir. Pek Ã§ok insan depresyon
-                                belirtilerini &ldquo;geÃ§ici bir kÃ¶tÃ¼ dÃ¶nem&rdquo; olarak
-                                normalleÅŸtirebilmektedir. Bu nedenle profesyonel bir deÄŸerlendirme:
+                                Üzüntü ile depresyon arasındaki ayrım her zaman net değildir ve bireyin
+                                kendi kendine değerlendirmesi yanıltıcı olabilir. Pek çok insan depresyon
+                                belirtilerini &ldquo;geçici bir kötü dönem&rdquo; olarak
+                                normalleştirebilmektedir. Bu nedenle profesyonel bir değerlendirme:
                             </p>
                             <ul>
-                                <li>Belirtilerin doÄŸasÄ±nÄ± ve ÅŸiddetini doÄŸru biÃ§imde anlamayÄ± saÄŸlar</li>
-                                <li>OlasÄ± bedensel nedenlerin dÄ±ÅŸlanmasÄ±na katkÄ± sunar</li>
-                                <li>Bireysel ihtiyaÃ§lara uygun bir yÃ¶nlendirme planÄ± oluÅŸturulmasÄ±nÄ± mÃ¼mkÃ¼n kÄ±lar</li>
-                                <li>Erken dÃ¶nem desteÄŸi ile yaÅŸam kalitesinin korunmasÄ±nÄ± destekler</li>
+                                <li>Belirtilerin doğasını ve şiddetini doğru biçimde anlamayı sağlar</li>
+                                <li>Olası bedensel nedenlerin dışlanmasına katkı sunar</li>
+                                <li>Bireysel ihtiyaçlara uygun bir yönlendirme planı oluşturulmasını mümkün kılar</li>
+                                <li>Erken dönem desteği ile yaşam kalitesinin korunmasını destekler</li>
                             </ul>
                             <p>
-                                Eryaman&apos;da psikiyatrist arayan kiÅŸiler, Altay Mahallesi Ã§evresindeki
-                                kliniÄŸimize baÅŸvurabilirler. Etimesgut ve BatÄ±kent bÃ¶lgelerinden kolay
-                                ulaÅŸÄ±m saÄŸlanabilir.{' '}
-                                <Link href="/hizmetler/yetiskin-psikiyatrisi">YetiÅŸkin psikiyatrisi</Link>{' '}
-                                deÄŸerlendirmesi kapsamÄ±nda kapsamlÄ± bir gÃ¶rÃ¼ÅŸme gerÃ§ekleÅŸtirilmektedir.
+                                Eryaman&apos;da psikiyatrist arayan kişiler, Altay Mahallesi çevresindeki
+                                kliniğimize başvurabilirler. Etimesgut ve Batıkent bölgelerinden kolay
+                                ulaşım sağlanabilir.{' '}
+                                <Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin psikiyatrisi</Link>{' '}
+                                değerlendirmesi kapsamında kapsamlı bir görüşme gerçekleştirilmektedir.
                             </p>
 
                             <div className="info-banner">
-                                <strong>ğŸ“Œ Ã–nemli Bilgilendirme</strong>
-                                Bu yazÄ±daki iÃ§erikler genel bilgilendirme amaÃ§lÄ±dÄ±r. TanÄ± ve tedavi sÃ¼reÃ§leri
-                                iÃ§in mutlaka bir psikiyatri uzmanÄ±na baÅŸvurunuz.
+                                <strong>?? Önemli Bilgilendirme</strong>
+                                Bu yazıdaki içerikler genel bilgilendirme amaçlıdır. Tanı ve tedavi süreçleri
+                                için mutlaka bir psikiyatri uzmanına başvurunuz.
                             </div>
 
                             <div className={styles.faqSection}>
-                                <h2>Depresyon ve ÃœzÃ¼ntÃ¼ HakkÄ±nda SÄ±k Sorulan Sorular</h2>
+                                <h2>Depresyon ve Üzüntü Hakkında Sık Sorulan Sorular</h2>
                                 <FAQSection items={faqItems} />
                             </div>
 
                             <div className={styles.relatedBox}>
-                                <h3>Ä°lgili Sayfalar</h3>
+                                <h3>İlgili Sayfalar</h3>
                                 <ul>
-                                    <li><Link href="/hizmetler/depresyon">Depresyon DeÄŸerlendirmesi â†’</Link></li>
-                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? â†’</Link></li>
-                                    <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon â†’</Link></li>
-                                    <li><Link href="/hizmetler/yetiskin-psikiyatrisi">YetiÅŸkin Psikiyatrisi â†’</Link></li>
+                                    <li><Link href="/hizmetler/depresyon">Depresyon Değerlendirmesi ›</Link></li>
+                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? ›</Link></li>
+                                    <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon ›</Link></li>
+                                    <li><Link href="/hizmetler/yetiskin-psikiyatrisi">Yetişkin Psikiyatrisi ›</Link></li>
                                 </ul>
                             </div>
 
                             <div className={styles.articleCta}>
-                                <h3>Profesyonel DeÄŸerlendirme Ä°Ã§in</h3>
-                                <p>Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede psikiyatrik deÄŸerlendirme iÃ§in randevu alabilirsiniz.</p>
-                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al â†’</Link>
+                                <h3>Profesyonel Değerlendirme İçin</h3>
+                                <p>Ankara Eryaman&apos;da bilimsel çerçevede psikiyatrik değerlendirme için randevu alabilirsiniz.</p>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al ›</Link>
                             </div>
                         </article>
 
                         <aside className={styles.sidebar}>
                             <div className={styles.sidebarCta}>
-                                <h3>DeÄŸerlendirme Ä°Ã§in</h3>
-                                <p>Profesyonel psikiyatrik deÄŸerlendirme</p>
+                                <h3>Değerlendirme İçin</h3>
+                                <p>Profesyonel psikiyatrik değerlendirme</p>
                                 <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                             </div>
                             <div className={styles.sidebarCard}>
                                 <h4>Uzman Hekim</h4>
-                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Psikiyatri UzmanÄ±</span><span>Eryaman, Ankara</span></div>
+                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah Maraş</strong><span>Psikiyatri Uzmanı</span><span>Eryaman, Ankara</span></div>
                             </div>
                             <div className={styles.sidebarCard}>
-                                <h4>Depresyon KÃ¼mesi</h4>
+                                <h4>Depresyon Kümesi</h4>
                                 <ul className={styles.sidebarLinks}>
                                     <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri</Link></li>
                                     <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon</Link></li>
-                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek SÃ¼reci</Link></li>
-                                    <li><Link href="/blog/is-yasami-ve-depresyon">Ä°ÅŸ YaÅŸamÄ± ve Depresyon</Link></li>
+                                    <li><Link href="/blog/depresyonda-profesyonel-destek">Profesyonel Destek Süreci</Link></li>
+                                    <li><Link href="/blog/is-yasami-ve-depresyon">İş Yaşamı ve Depresyon</Link></li>
                                 </ul>
                             </div>
                         </aside>
@@ -209,7 +209,7 @@ export default function DepresyonMuUzuntuMuBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? FarkÄ± NasÄ±l AnlarsÄ±nÄ±z?", datePublished: "2026-03-09T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyon-mu-uzuntu-mu" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyon mu Üzüntü mü? Farkı Nasıl Anlarsınız?", datePublished: "2026-03-09T09:00:00+03:00", author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" }, publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }, mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyon-mu-uzuntu-mu" }) }} />
         </>
     );
 }

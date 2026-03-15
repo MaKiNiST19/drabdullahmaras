@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Uykusuzluk Neden Olur? | Yetişkinlerde Uykusuzluk ve Psikiyatri',
     description:
         'Yetişkinlerde uykusuzluğun (insomnia) temel nörobiyolojik ve stres kaynaklı nedenleri; psikiyatrik değerlendirme ile uykunun geri kazanım adımları.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/uykusuzluk-neden-olur' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/uykusuzluk-neden-olur' },
     openGraph: {
         title: 'Gece Kararan Zihinler: Uykusuzluk Neden Olur ve Nasıl Çözülür?',
         type: 'article', locale: 'tr_TR',

@@ -5,7 +5,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
     title: 'İletişim | Eryaman Psikiyatrist - Uzm. Dr. Abdullah Maraş',
     description: 'Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş psikiyatri kliniği iletişim bilgileri. Altay Mahallesi, Eryaman adres ve ulaşım bilgileri.',
-    alternates: { canonical: 'https://drabdullahmaras.com/iletisim' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/iletisim' },
 };
 
 export default function IletisimPage() {

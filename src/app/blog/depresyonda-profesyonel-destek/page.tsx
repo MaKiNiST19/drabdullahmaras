@@ -1,27 +1,27 @@
-ï»¿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import FAQSection from '@/components/FAQSection';
 import styles from '../depresyon-belirtileri/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Depresyonda Profesyonel Destek SÃ¼reci NasÄ±l Ä°ÅŸler? | Uzm. Dr. Abdullah MaraÅŸ',
+    title: 'Depresyonda Profesyonel Destek Süreci Nasıl İşler? | Uzm. Dr. Abdullah Maraş',
     description:
-        'Depresyonda profesyonel destek sÃ¼reci nasÄ±l ilerler? Ä°lk gÃ¶rÃ¼ÅŸmeden izleme kadar psikiyatrik deÄŸerlendirme aÅŸamalarÄ±. Ankara Eryaman psikiyatri uzmanÄ±.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/depresyonda-profesyonel-destek' },
+        'Depresyonda profesyonel destek süreci nasıl ilerler? İlk görüşmeden izleme kadar psikiyatrik değerlendirme aşamaları. Ankara Eryaman psikiyatri uzmanı.',
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/depresyonda-profesyonel-destek' },
     openGraph: {
-        title: 'Depresyonda Profesyonel Destek SÃ¼reci NasÄ±l Ä°ÅŸler?',
+        title: 'Depresyonda Profesyonel Destek Süreci Nasıl İşler?',
         type: 'article', locale: 'tr_TR',
         publishedTime: '2026-04-07T09:00:00+03:00',
-        authors: ['Uzm. Dr. Abdullah MaraÅŸ'],
+        authors: ['Uzm. Dr. Abdullah Maraş'],
     },
 };
 
 const faqItems = [
-    { question: 'Psikiyatrik deÄŸerlendirmede ilk gÃ¶rÃ¼ÅŸme ne kadar sÃ¼rer?', answer: 'Ä°lk gÃ¶rÃ¼ÅŸme genellikle 40-60 dakika sÃ¼rmektedir. Bu sÃ¼reÃ§te belirtileriniz, geÃ§miÅŸ saÄŸlÄ±k Ã¶ykÃ¼nÃ¼z ve psikososyal durumunuz kapsamlÄ± olarak deÄŸerlendirilir.' },
-    { question: 'Psikiyatriste gitmek yalnÄ±zca ilaÃ§ almak anlamÄ±na mÄ± gelir?', answer: 'HayÄ±r. Psikiyatrik deÄŸerlendirme sonucunda farmakolojik yaklaÅŸÄ±mlar, psikoterapi veya her ikisinin kombinasyonu planlanabilir. YaklaÅŸÄ±m, bireyin ihtiyaÃ§larÄ±na gÃ¶re belirlenir.' },
-    { question: 'Depresyon deÄŸerlendirmesi iÃ§in hazÄ±rlÄ±k yapmalÄ± mÄ±yÄ±m?', answer: 'Ã–zel bir hazÄ±rlÄ±k gerekmez. Ancak mevcut ÅŸikÃ¢yetlerinizi, ne zamandÄ±r sÃ¼rdÃ¼ÄŸÃ¼nÃ¼, varsa kullandÄ±ÄŸÄ±nÄ±z ilaÃ§larÄ± ve aile saÄŸlÄ±k Ã¶ykÃ¼nÃ¼zÃ¼ not etmeniz gÃ¶rÃ¼ÅŸmeyi kolaylaÅŸtÄ±rabilir.' },
-    { question: 'Eryaman\'da psikiyatrik deÄŸerlendirme randevusu nasÄ±l alÄ±nÄ±r?', answer: 'Web sitemizdeki online randevu formu veya iletiÅŸim bilgilerimiz aracÄ±lÄ±ÄŸÄ±yla randevu talebi oluÅŸturabilirsiniz. Altay Mahallesi Ã§evresindeki kliniÄŸimizde randevu sistemiyle Ã§alÄ±ÅŸÄ±lmaktadÄ±r.' },
-    { question: 'Takip gÃ¶rÃ¼ÅŸmeleri ne sÄ±klÄ±kta yapÄ±lÄ±r?', answer: 'Takip sÄ±klÄ±ÄŸÄ± bireyin durumuna gÃ¶re belirlenir. BaÅŸlangÄ±Ã§ta daha sÄ±k olan gÃ¶rÃ¼ÅŸmeler, sÃ¼reÃ§ ilerledikÃ§e aralÄ±klarÄ± aÃ§Ä±larak devam edebilir. Her takip gÃ¶rÃ¼ÅŸmesinde durum yeniden deÄŸerlendirilir.' },
+    { question: 'Psikiyatrik değerlendirmede ilk görüşme ne kadar sürer?', answer: 'İlk görüşme genellikle 40-60 dakika sürmektedir. Bu süreçte belirtileriniz, geçmiş sağlık öykünüz ve psikososyal durumunuz kapsamlı olarak değerlendirilir.' },
+    { question: 'Psikiyatriste gitmek yalnızca ilaç almak anlamına mı gelir?', answer: 'Hayır. Psikiyatrik değerlendirme sonucunda farmakolojik yaklaşımlar, psikoterapi veya her ikisinin kombinasyonu planlanabilir. Yaklaşım, bireyin ihtiyaçlarına göre belirlenir.' },
+    { question: 'Depresyon değerlendirmesi için hazırlık yapmalı mıyım?', answer: 'Özel bir hazırlık gerekmez. Ancak mevcut şikâyetlerinizi, ne zamandır sürdüğünü, varsa kullandığınız ilaçları ve aile sağlık öykünüzü not etmeniz görüşmeyi kolaylaştırabilir.' },
+    { question: 'Eryaman\'da psikiyatrik değerlendirme randevusu nasıl alınır?', answer: 'Web sitemizdeki online randevu formu veya iletişim bilgilerimiz aracılığıyla randevu talebi oluşturabilirsiniz. Altay Mahallesi çevresindeki kliniğimizde randevu sistemiyle çalışılmaktadır.' },
+    { question: 'Takip görüşmeleri ne sıklıkta yapılır?', answer: 'Takip sıklığı bireyin durumuna göre belirlenir. Başlangıçta daha sık olan görüşmeler, süreç ilerledikçe aralıkları açılarak devam edebilir. Her takip görüşmesinde durum yeniden değerlendirilir.' },
 ];
 
 export default function DepresyondaProfesyonelDestekBlog() {
@@ -32,23 +32,23 @@ export default function DepresyondaProfesyonelDestekBlog() {
                     <div className={styles.breadcrumb}>
                         <Link href="/">Ana Sayfa</Link><span>/</span>
                         <Link href="/blog">Blog</Link><span>/</span>
-                        <span>Profesyonel Destek SÃ¼reci</span>
+                        <span>Profesyonel Destek Süreci</span>
                     </div>
                     <div className={styles.meta}>
                         <span className={styles.category}>Depresyon</span>
                         <time dateTime="2026-04-07">7 Nisan 2026</time>
-                        <span>â€¢</span><span>9 dk okuma</span>
+                        <span>•</span><span>9 dk okuma</span>
                     </div>
-                    <h1>Depresyonda Profesyonel Destek SÃ¼reci NasÄ±l Ä°ÅŸler?</h1>
+                    <h1>Depresyonda Profesyonel Destek Süreci Nasıl İşler?</h1>
                     <p className={styles.heroDesc}>
-                        Psikiyatriste baÅŸvurmak sizi endiÅŸelendiriyorsa, bu yazÄ± sÃ¼reci adÄ±m adÄ±m
-                        anlatmak ve bilinmezliÄŸin yarattÄ±ÄŸÄ± kaygÄ±yÄ± azaltmak iÃ§in hazÄ±rlandÄ±.
+                        Psikiyatriste başvurmak sizi endişelendiriyorsa, bu yazı süreci adım adım
+                        anlatmak ve bilinmezliğin yarattığı kaygıyı azaltmak için hazırlandı.
                     </p>
                     <div className={styles.author}>
                         <div className={styles.authorIcon}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                         </div>
-                        <div><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Ruh SaÄŸlÄ±ÄŸÄ± ve HastalÄ±klarÄ± UzmanÄ±</span></div>
+                        <div><strong>Uzm. Dr. Abdullah Maraş</strong><span>Ruh Sağlığı ve Hastalıkları Uzmanı</span></div>
                     </div>
                 </div>
             </section>
@@ -60,180 +60,180 @@ export default function DepresyondaProfesyonelDestekBlog() {
 
                             <p className={styles.lead}>
                                 &ldquo;Psikiyatriste gitmek mi gerekiyor? Peki o zaman ne olacak?&rdquo;
-                                Depresyon belirtileri yaÅŸayan birÃ§ok birey, profesyonel destek almaktan
-                                Ã§ekinebilmektedir. Bu duraksamanÄ±n baÅŸlÄ±ca nedenlerinden biri, sÃ¼recin nasÄ±l
-                                iÅŸlediÄŸini bilmemektir. Bu yazÄ±da, psikiyatrik deÄŸerlendirme ve destek
-                                sÃ¼recinin her aÅŸamasÄ±nÄ± aÃ§Ä±klÄ±yoruz.
+                                Depresyon belirtileri yaşayan birçok birey, profesyonel destek almaktan
+                                çekinebilmektedir. Bu duraksamanın başlıca nedenlerinden biri, sürecin nasıl
+                                işlediğini bilmemektir. Bu yazıda, psikiyatrik değerlendirme ve destek
+                                sürecinin her aşamasını açıklıyoruz.
                             </p>
                             <p>
-                                <Link href="/hizmetler/depresyon">Depresyon deÄŸerlendirmesi</Link> hakkÄ±nda
-                                detaylÄ± bilgi iÃ§in hizmet sayfamÄ±zÄ± da inceleyebilirsiniz.
-                            </p>
-
-                            <h2>AdÄ±m 1: Randevu Almak</h2>
-                            <p>
-                                Profesyonel destek sÃ¼recinin ilk adÄ±mÄ±, randevu almaktÄ±r. Bu adÄ±m, birÃ§ok kiÅŸi
-                                iÃ§in en zor olanÄ±dÄ±r â€” ancak aynÄ± zamanda en Ã¶nemlisidir. Psikiyatri uzmanÄ±na
-                                baÅŸvurmak, zayÄ±flÄ±k ya da &ldquo;Ã§ok kÃ¶tÃ¼ durumda olma&rdquo; anlamÄ±na
-                                gelmez; kendi saÄŸlÄ±ÄŸÄ±nÄ± ciddiye almanÄ±n bir gÃ¶stergesidir.
-                            </p>
-                            <p>
-                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah MaraÅŸ&apos;Ä±n kliniÄŸinde randevu
-                                sistemiyle Ã§alÄ±ÅŸÄ±lmaktadÄ±r.{' '}
-                                <Link href="/randevu">Online randevu formu</Link> Ã¼zerinden veya iletiÅŸim
-                                bilgilerimizi kullanarak randevu talebi oluÅŸturabilirsiniz. Randevu sistemi
-                                sayesinde her bireye yeterli sÃ¼re ayrÄ±lmaktadÄ±r.
+                                <Link href="/hizmetler/depresyon">Depresyon değerlendirmesi</Link> hakkında
+                                detaylı bilgi için hizmet sayfamızı da inceleyebilirsiniz.
                             </p>
 
-                            <h2>AdÄ±m 2: Ä°lk GÃ¶rÃ¼ÅŸme â€” Klinik DeÄŸerlendirme</h2>
+                            <h2>Adım 1: Randevu Almak</h2>
                             <p>
-                                Ä°lk gÃ¶rÃ¼ÅŸme genellikle 40-60 dakika sÃ¼rmektedir ve deÄŸerlendirme sÃ¼recinin
-                                en kapsamlÄ± aÅŸamasÄ±dÄ±r. GÃ¼venli, gizli ve yargÄ±sÄ±z bir ortamda gerÃ§ekleÅŸtirilen
-                                bu gÃ¶rÃ¼ÅŸmede aÅŸaÄŸÄ±daki konular ele alÄ±nmaktadÄ±r:
+                                Profesyonel destek sürecinin ilk adımı, randevu almaktır. Bu adım, birçok kişi
+                                için en zor olanıdır — ancak aynı zamanda en önemlisidir. Psikiyatri uzmanına
+                                başvurmak, zayıflık ya da &ldquo;çok kötü durumda olma&rdquo; anlamına
+                                gelmez; kendi sağlığını ciddiye almanın bir göstergesidir.
+                            </p>
+                            <p>
+                                Ankara Eryaman&apos;da Uzm. Dr. Abdullah Maraş&apos;ın kliniğinde randevu
+                                sistemiyle çalışılmaktadır.{' '}
+                                <Link href="/randevu">Online randevu formu</Link> üzerinden veya iletişim
+                                bilgilerimizi kullanarak randevu talebi oluşturabilirsiniz. Randevu sistemi
+                                sayesinde her bireye yeterli süre ayrılmaktadır.
+                            </p>
+
+                            <h2>Adım 2: İlk Görüşme — Klinik Değerlendirme</h2>
+                            <p>
+                                İlk görüşme genellikle 40-60 dakika sürmektedir ve değerlendirme sürecinin
+                                en kapsamlı aşamasıdır. Güvenli, gizli ve yargısız bir ortamda gerçekleştirilen
+                                bu görüşmede aşağıdaki konular ele alınmaktadır:
                             </p>
                             <ul>
-                                <li><strong>Mevcut yakÄ±nmalar:</strong> Hangi belirtileri yaÅŸÄ±yorsunuz? Ne zamandÄ±r devam ediyor? Åiddeti nedir?</li>
-                                <li><strong>Tetikleyici faktÃ¶rler:</strong> Belirtiler belirli bir olay veya durumla mÄ± baÅŸladÄ±?</li>
-                                <li><strong>GeÃ§miÅŸ saÄŸlÄ±k Ã¶ykÃ¼sÃ¼:</strong> Daha Ã¶nce benzer belirtiler yaÅŸadÄ±nÄ±z mÄ±? BaÅŸka saÄŸlÄ±k durumlarÄ±nÄ±z var mÄ±?</li>
-                                <li><strong>Aile geÃ§miÅŸi:</strong> Ailede ruh saÄŸlÄ±ÄŸÄ± sorunlarÄ± var mÄ±?</li>
-                                <li><strong>Psikososyal deÄŸerlendirme:</strong> Ä°ÅŸ, iliÅŸkiler, yaÅŸam koÅŸullarÄ± ve stres kaynaklarÄ±</li>
-                                <li><strong>GÃ¼nlÃ¼k iÅŸlevsellik:</strong> Belirtiler gÃ¼nlÃ¼k yaÅŸamÄ±nÄ±zÄ± nasÄ±l etkiliyor?</li>
+                                <li><strong>Mevcut yakınmalar:</strong> Hangi belirtileri yaşıyorsunuz? Ne zamandır devam ediyor? Şiddeti nedir?</li>
+                                <li><strong>Tetikleyici faktörler:</strong> Belirtiler belirli bir olay veya durumla mı başladı?</li>
+                                <li><strong>Geçmiş sağlık öyküsü:</strong> Daha önce benzer belirtiler yaşadınız mı? Başka sağlık durumlarınız var mı?</li>
+                                <li><strong>Aile geçmişi:</strong> Ailede ruh sağlığı sorunları var mı?</li>
+                                <li><strong>Psikososyal değerlendirme:</strong> İş, ilişkiler, yaşam koşulları ve stres kaynakları</li>
+                                <li><strong>Günlük işlevsellik:</strong> Belirtiler günlük yaşamınızı nasıl etkiliyor?</li>
                             </ul>
                             <p>
-                                Birey bu gÃ¶rÃ¼ÅŸmede kendini rahatÃ§a ifade edebilir. Acele edilmez; her detay
-                                Ã¶nemsenir ve gizlilik ilkeleri sÄ±kÄ± biÃ§imde korunur.
+                                Birey bu görüşmede kendini rahatça ifade edebilir. Acele edilmez; her detay
+                                önemsenir ve gizlilik ilkeleri sıkı biçimde korunur.
                             </p>
 
-                            <h2>AdÄ±m 3: Klinik FormÃ¼lasyon â€” Durumun AnlaÅŸÄ±lmasÄ±</h2>
+                            <h2>Adım 3: Klinik Formülasyon — Durumun Anlaşılması</h2>
                             <p>
-                                Ä°lk gÃ¶rÃ¼ÅŸmeden elde edilen bilgiler Ä±ÅŸÄ±ÄŸÄ±nda, uzman hekim bireyin durumuna
-                                iliÅŸkin bir klinik formÃ¼lasyon oluÅŸturur. Bu formÃ¼lasyon:
+                                İlk görüşmeden elde edilen bilgiler ışığında, uzman hekim bireyin durumuna
+                                ilişkin bir klinik formülasyon oluşturur. Bu formülasyon:
                             </p>
                             <ul>
-                                <li>Belirtilerin klinik tablosunu deÄŸerlendirir</li>
-                                <li>OlasÄ± ayÄ±rÄ±cÄ± tanÄ±larÄ± ele alÄ±r (Ã¶rneÄŸin{' '}
-                                    <Link href="/hizmetler/anksiyete">anksiyete bozukluklarÄ±</Link>,{' '}
+                                <li>Belirtilerin klinik tablosunu değerlendirir</li>
+                                <li>Olası ayırıcı tanıları ele alır (örneğin{' '}
+                                    <Link href="/hizmetler/anksiyete">anksiyete bozuklukları</Link>,{' '}
                                     <Link href="/hizmetler/bipolar-bozukluk">bipolar bozukluk</Link> gibi
-                                    durumlarla ayrÄ±m)</li>
-                                <li>Biyolojik, psikolojik ve sosyal faktÃ¶rleri bÃ¼tÃ¼ncÃ¼l olarak deÄŸerlendirir</li>
-                                <li>Bireyin gÃ¼Ã§lÃ¼ yanlarÄ±nÄ± ve baÅŸa Ã§Ä±kma kaynaklarÄ±nÄ± dikkate alÄ±r</li>
+                                    durumlarla ayrım)</li>
+                                <li>Biyolojik, psikolojik ve sosyal faktörleri bütüncül olarak değerlendirir</li>
+                                <li>Bireyin güçlü yanlarını ve başa çıkma kaynaklarını dikkate alır</li>
                             </ul>
                             <p>
-                                Bu aÅŸama, bireysel planlamanÄ±n temelini oluÅŸturmaktadÄ±r ve her bireye Ã¶zgÃ¼
-                                bir yaklaÅŸÄ±mÄ±n geliÅŸtirilmesini saÄŸlar.
+                                Bu aşama, bireysel planlamanın temelini oluşturmaktadır ve her bireye özgü
+                                bir yaklaşımın geliştirilmesini sağlar.
                             </p>
 
-                            <h2>AdÄ±m 4: Bireysel Planlama</h2>
+                            <h2>Adım 4: Bireysel Planlama</h2>
                             <p>
-                                Klinik formÃ¼lasyon sonucunda, bireyin ihtiyaÃ§larÄ±na uygun bir destek planÄ±
-                                oluÅŸturulur. Bu plan, bireyin tercihleri ve yaÅŸam koÅŸullarÄ± gÃ¶z Ã¶nÃ¼nde
-                                bulundurularak ÅŸekillendirilir. PlanÄ±n iÃ§erebileceÄŸi yaklaÅŸÄ±mlar:
+                                Klinik formülasyon sonucunda, bireyin ihtiyaçlarına uygun bir destek planı
+                                oluşturulur. Bu plan, bireyin tercihleri ve yaşam koşulları göz önünde
+                                bulundurularak şekillendirilir. Planın içerebileceği yaklaşımlar:
                             </p>
-                            <h3>Farmakolojik YaklaÅŸÄ±mlar</h3>
+                            <h3>Farmakolojik Yaklaşımlar</h3>
                             <p>
-                                Gerekli gÃ¶rÃ¼ldÃ¼ÄŸÃ¼nde, bilimsel kanÄ±ta dayalÄ± farmakolojik destek planlanabilir.
-                                Ä°laÃ§larÄ±n olasÄ± etkileri, yan etkileri ve kullanÄ±m sÃ¼resi hakkÄ±nda birey
-                                detaylÄ± olarak bilgilendirilir. Farmakolojik yaklaÅŸÄ±m her zaman gerekli deÄŸildir;
-                                karar, bireysel deÄŸerlendirmeye dayanÄ±r.
+                                Gerekli görüldüğünde, bilimsel kanıta dayalı farmakolojik destek planlanabilir.
+                                İlaçların olası etkileri, yan etkileri ve kullanım süresi hakkında birey
+                                detaylı olarak bilgilendirilir. Farmakolojik yaklaşım her zaman gerekli değildir;
+                                karar, bireysel değerlendirmeye dayanır.
                             </p>
                             <h3>Psikoterapi</h3>
                             <p>
-                                BiliÅŸsel davranÄ±ÅŸÃ§Ä± terapi (BDT), kiÅŸilerarasÄ± terapi gibi kanÄ±ta dayalÄ±
-                                psikoterapi yÃ¶ntemleri depresyonda sÄ±klÄ±kla kullanÄ±lan yaklaÅŸÄ±mlardandÄ±r.
-                                Bu yÃ¶ntemler, bireyin dÃ¼ÅŸÃ¼nce kalÄ±plarÄ±nÄ± fark etmesine ve daha uyumlu baÅŸa
-                                Ã§Ä±kma stratejileri geliÅŸtirmesine destek saÄŸlayabilir.
+                                Bilişsel davranışçı terapi (BDT), kişilerarası terapi gibi kanıta dayalı
+                                psikoterapi yöntemleri depresyonda sıklıkla kullanılan yaklaşımlardandır.
+                                Bu yöntemler, bireyin düşünce kalıplarını fark etmesine ve daha uyumlu başa
+                                çıkma stratejileri geliştirmesine destek sağlayabilir.
                             </p>
-                            <h3>Kombine YaklaÅŸÄ±mlar</h3>
+                            <h3>Kombine Yaklaşımlar</h3>
                             <p>
-                                BirÃ§ok durumda farmakolojik destek ve psikoterapi birlikte uygulanabilir.
-                                Kombine yaklaÅŸÄ±m, Ã¶zellikle orta-aÄŸÄ±r dÃ¼zey depresyonda bireysel planlama
-                                aÃ§Ä±sÄ±ndan deÄŸerlendirilebilir.
+                                Birçok durumda farmakolojik destek ve psikoterapi birlikte uygulanabilir.
+                                Kombine yaklaşım, özellikle orta-ağır düzey depresyonda bireysel planlama
+                                açısından değerlendirilebilir.
                             </p>
 
-                            <h2>AdÄ±m 5: Ä°zlem ve Takip</h2>
+                            <h2>Adım 5: İzlem ve Takip</h2>
                             <p>
-                                Destek sÃ¼reci, ilk gÃ¶rÃ¼ÅŸmeyle sona ermez. DÃ¼zenli takip gÃ¶rÃ¼ÅŸmeleri,
-                                sÃ¼recin kritik bir bileÅŸenidir:
+                                Destek süreci, ilk görüşmeyle sona ermez. Düzenli takip görüşmeleri,
+                                sürecin kritik bir bileşenidir:
                             </p>
                             <ul>
-                                <li>Bireyin durumundaki deÄŸiÅŸimler izlenir</li>
-                                <li>YaklaÅŸÄ±m planÄ±nÄ±n etkinliÄŸi deÄŸerlendirilir</li>
-                                <li>GerektiÄŸinde planda dÃ¼zenlemeler yapÄ±lÄ±r</li>
-                                <li>Bireyin geri bildirimleri dikkate alÄ±nÄ±r</li>
-                                <li>Bireyin kendini ifade edebileceÄŸi dÃ¼zenli bir alan saÄŸlanÄ±r</li>
+                                <li>Bireyin durumundaki değişimler izlenir</li>
+                                <li>Yaklaşım planının etkinliği değerlendirilir</li>
+                                <li>Gerektiğinde planda düzenlemeler yapılır</li>
+                                <li>Bireyin geri bildirimleri dikkate alınır</li>
+                                <li>Bireyin kendini ifade edebileceği düzenli bir alan sağlanır</li>
                             </ul>
                             <p>
-                                Takip sÄ±klÄ±ÄŸÄ± bireyin durumuna gÃ¶re belirlenir. BaÅŸlangÄ±Ã§ta daha sÄ±k olan
-                                gÃ¶rÃ¼ÅŸmeler, sÃ¼reÃ§ ilerledikÃ§e aralÄ±klarÄ± aÃ§Ä±larak devam edebilir.
+                                Takip sıklığı bireyin durumuna göre belirlenir. Başlangıçta daha sık olan
+                                görüşmeler, süreç ilerledikçe aralıkları açılarak devam edebilir.
                             </p>
 
-                            <h2>Psikiyatriste Gitmek HakkÄ±nda YaygÄ±n EndiÅŸeler</h2>
+                            <h2>Psikiyatriste Gitmek Hakkında Yaygın Endişeler</h2>
                             <p>
-                                BirÃ§ok birey psikiyatri uzmanÄ±na baÅŸvurmadan Ã¶nce bazÄ± endiÅŸeler
-                                yaÅŸamaktadÄ±r. Bu endiÅŸelerin Ã§oÄŸu bilgi eksikliÄŸinden kaynaklanmaktadÄ±r:
+                                Birçok birey psikiyatri uzmanına başvurmadan önce bazı endişeler
+                                yaşamaktadır. Bu endişelerin çoğu bilgi eksikliğinden kaynaklanmaktadır:
                             </p>
                             <ul>
-                                <li><strong>&ldquo;YargÄ±lanÄ±r mÄ±yÄ±m?&rdquo;</strong> â€” Psikiyatrik gÃ¶rÃ¼ÅŸmeler yargÄ±sÄ±z, gÃ¼venli ve gizli bir ortamda gerÃ§ekleÅŸtirilir. Uzman hekim, bireyin durumunu anlamak iÃ§in dinler, yargÄ±lamaz.</li>
-                                <li><strong>&ldquo;Hemen ilaÃ§ yazÄ±lÄ±r mÄ±?&rdquo;</strong> â€” Her bireye farmakolojik destek gerekmez. Karar, kapsamlÄ± bir deÄŸerlendirme sonucunda bireysel olarak verilir.</li>
-                                <li><strong>&ldquo;Bir kez gidersem sÃ¼rekli gitmem mi gerekir?&rdquo;</strong> â€” Takip sÃ¼reci bireyin durumuna ve ihtiyaÃ§larÄ±na gÃ¶re planlanÄ±r. Birey, sÃ¼recin her aÅŸamasÄ±nda bilgilendirilir.</li>
-                                <li><strong>&ldquo;SorunlarÄ±m yeterince ciddi mi?&rdquo;</strong> â€” Ruh saÄŸlÄ±ÄŸÄ± sorunlarÄ±nÄ±n &ldquo;yeterince ciddi&rdquo; olmasÄ± gerekmez. Belirtiler yaÅŸam kalitenizi etkiliyorsa, profesyonel deÄŸerlendirme bir haktÄ±r.</li>
+                                <li><strong>&ldquo;Yargılanır mıyım?&rdquo;</strong> — Psikiyatrik görüşmeler yargısız, güvenli ve gizli bir ortamda gerçekleştirilir. Uzman hekim, bireyin durumunu anlamak için dinler, yargılamaz.</li>
+                                <li><strong>&ldquo;Hemen ilaç yazılır mı?&rdquo;</strong> — Her bireye farmakolojik destek gerekmez. Karar, kapsamlı bir değerlendirme sonucunda bireysel olarak verilir.</li>
+                                <li><strong>&ldquo;Bir kez gidersem sürekli gitmem mi gerekir?&rdquo;</strong> — Takip süreci bireyin durumuna ve ihtiyaçlarına göre planlanır. Birey, sürecin her aşamasında bilgilendirilir.</li>
+                                <li><strong>&ldquo;Sorunlarım yeterince ciddi mi?&rdquo;</strong> — Ruh sağlığı sorunlarının &ldquo;yeterince ciddi&rdquo; olması gerekmez. Belirtiler yaşam kalitenizi etkiliyorsa, profesyonel değerlendirme bir haktır.</li>
                             </ul>
 
                             <h2>Eryaman&apos;da Profesyonel Destek</h2>
                             <p>
-                                Uzm. Dr. Abdullah MaraÅŸ, Ankara Eryaman&apos;da Altay Mahallesi Ã§evresinde
-                                bilimsel ve etik Ã§erÃ§evede psikiyatrik deÄŸerlendirme sunmaktadÄ±r. Anadolu
-                                Ãœniversitesi TÄ±p FakÃ¼ltesi mezunu olan Dr. MaraÅŸ, her bireye yeterli sÃ¼re
-                                ayÄ±rarak kapsamlÄ± bir deÄŸerlendirme gerÃ§ekleÅŸtirmektedir. KliniÄŸe Etimesgut
-                                ve BatÄ±kent bÃ¶lgelerinden kolay ulaÅŸÄ±m saÄŸlanabilir.
+                                Uzm. Dr. Abdullah Maraş, Ankara Eryaman&apos;da Altay Mahallesi çevresinde
+                                bilimsel ve etik çerçevede psikiyatrik değerlendirme sunmaktadır. Anadolu
+                                Üniversitesi Tıp Fakültesi mezunu olan Dr. Maraş, her bireye yeterli süre
+                                ayırarak kapsamlı bir değerlendirme gerçekleştirmektedir. Kliniğe Etimesgut
+                                ve Batıkent bölgelerinden kolay ulaşım sağlanabilir.
                             </p>
 
                             <div className="info-banner">
-                                <strong>ğŸ“Œ Ã–nemli Bilgilendirme</strong>
-                                Bu yazÄ±daki iÃ§erikler genel bilgilendirme amaÃ§lÄ±dÄ±r ve tÄ±bbi tanÄ± ya da tedavi
-                                Ã¶nerisi niteliÄŸi taÅŸÄ±mamaktadÄ±r. Depresyon belirtileri yaÅŸÄ±yorsanÄ±z, bireysel
-                                deÄŸerlendirme iÃ§in bir psikiyatri uzmanÄ±na baÅŸvurunuz.
+                                <strong>?? Önemli Bilgilendirme</strong>
+                                Bu yazıdaki içerikler genel bilgilendirme amaçlıdır ve tıbbi tanı ya da tedavi
+                                önerisi niteliği taşımamaktadır. Depresyon belirtileri yaşıyorsanız, bireysel
+                                değerlendirme için bir psikiyatri uzmanına başvurunuz.
                             </div>
 
                             <div className={styles.faqSection}>
-                                <h2>Profesyonel Destek SÃ¼reci HakkÄ±nda SÄ±k Sorulan Sorular</h2>
+                                <h2>Profesyonel Destek Süreci Hakkında Sık Sorulan Sorular</h2>
                                 <FAQSection items={faqItems} />
                             </div>
 
                             <div className={styles.relatedBox}>
-                                <h3>Ä°lgili Sayfalar</h3>
+                                <h3>İlgili Sayfalar</h3>
                                 <ul>
-                                    <li><Link href="/hizmetler/depresyon">Depresyon DeÄŸerlendirmesi â†’</Link></li>
-                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? â†’</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼? â†’</Link></li>
-                                    <li><Link href="/hizmetler/anksiyete">Anksiyete BozukluklarÄ± â†’</Link></li>
+                                    <li><Link href="/hizmetler/depresyon">Depresyon Değerlendirmesi ›</Link></li>
+                                    <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri Nelerdir? ›</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü? ›</Link></li>
+                                    <li><Link href="/hizmetler/anksiyete">Anksiyete Bozuklukları ›</Link></li>
                                 </ul>
                             </div>
 
                             <div className={styles.articleCta}>
-                                <h3>Ä°lk AdÄ±mÄ± AtÄ±n</h3>
-                                <p>Ankara Eryaman&apos;da bilimsel Ã§erÃ§evede psikiyatrik deÄŸerlendirme iÃ§in randevu alabilirsiniz.</p>
-                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al â†’</Link>
+                                <h3>İlk Adımı Atın</h3>
+                                <p>Ankara Eryaman&apos;da bilimsel çerçevede psikiyatrik değerlendirme için randevu alabilirsiniz.</p>
+                                <Link href="/randevu" className="btn btn--primary btn--lg">Randevu Al ›</Link>
                             </div>
                         </article>
 
                         <aside className={styles.sidebar}>
                             <div className={styles.sidebarCta}>
-                                <h3>DeÄŸerlendirme Ä°Ã§in</h3>
-                                <p>Profesyonel psikiyatrik deÄŸerlendirme</p>
+                                <h3>Değerlendirme İçin</h3>
+                                <p>Profesyonel psikiyatrik değerlendirme</p>
                                 <Link href="/randevu" className="btn btn--primary" style={{ width: '100%' }}>Randevu Al</Link>
                             </div>
                             <div className={styles.sidebarCard}>
                                 <h4>Uzman Hekim</h4>
-                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah MaraÅŸ</strong><span>Psikiyatri UzmanÄ±</span><span>Eryaman, Ankara</span></div>
+                                <div className={styles.doctorInfo}><strong>Uzm. Dr. Abdullah Maraş</strong><span>Psikiyatri Uzmanı</span><span>Eryaman, Ankara</span></div>
                             </div>
                             <div className={styles.sidebarCard}>
-                                <h4>Depresyon KÃ¼mesi</h4>
+                                <h4>Depresyon Kümesi</h4>
                                 <ul className={styles.sidebarLinks}>
                                     <li><Link href="/blog/depresyon-belirtileri">Depresyon Belirtileri</Link></li>
                                     <li><Link href="/blog/mevsimsel-depresyon">Mevsimsel Depresyon</Link></li>
-                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu ÃœzÃ¼ntÃ¼ mÃ¼?</Link></li>
-                                    <li><Link href="/blog/is-yasami-ve-depresyon">Ä°ÅŸ YaÅŸamÄ± ve Depresyon</Link></li>
+                                    <li><Link href="/blog/depresyon-mu-uzuntu-mu">Depresyon mu Üzüntü mü?</Link></li>
+                                    <li><Link href="/blog/is-yasami-ve-depresyon">İş Yaşamı ve Depresyon</Link></li>
                                 </ul>
                             </div>
                         </aside>
@@ -242,7 +242,7 @@ export default function DepresyondaProfesyonelDestekBlog() {
             </section>
 
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(f => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })) }) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyonda Profesyonel Destek SÃ¼reci NasÄ±l Ä°ÅŸler?", datePublished: "2026-04-07T09:00:00+03:00", author: { "@id": "https://drabdullahmaras.com/#physician" }, publisher: { "@id": "https://drabdullahmaras.com/#organization" }, mainEntityOfPage: "https://drabdullahmaras.com/blog/depresyonda-profesyonel-destek" }) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "Depresyonda Profesyonel Destek Süreci Nasıl İşler?", datePublished: "2026-04-07T09:00:00+03:00", author: { "@id": "https://www.drabdullahmaras.com.tr/#physician" }, publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }, mainEntityOfPage: "https://www.drabdullahmaras.com.tr/blog/depresyonda-profesyonel-destek" }) }} />
         </>
     );
 }

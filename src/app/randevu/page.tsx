@@ -5,7 +5,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
     title: 'Randevu Al | Eryaman Psikiyatrist - Uzm. Dr. Abdullah Maraş',
     description: 'Ankara Eryaman\'da Uzm. Dr. Abdullah Maraş psikiyatri kliniğinden randevu alın. Ruh sağlığı değerlendirmesi için online randevu formu.',
-    alternates: { canonical: 'https://drabdullahmaras.com/randevu' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/randevu' },
 };
 
 export default function RandevuPage() {

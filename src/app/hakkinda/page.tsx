@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         'Uzm. Dr. Abdullah Maraş hakkında. Anadolu Üniversitesi Tıp Fakültesi mezunu, Ruh Sağlığı ve Hastalıkları uzmanı. Ankara Eryaman\'da psikiyatri değerlendirmesi.',
     alternates: {
-        canonical: 'https://drabdullahmaras.com/hakkinda',
+        canonical: 'https://www.drabdullahmaras.com.tr/hakkinda',
     },
 };
 

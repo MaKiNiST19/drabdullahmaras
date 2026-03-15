@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Bipolar Günlük Hayatı Nasıl Etkiler? (İş, İlişkiler ve Evlilik) | Ankara',
     description:
         'Bipolar bozukluğa sahip bireylerin evlilik, iş ve sosyal yaşamlarında karşılaştığı zorluklar ile Eryaman’da psikiyatrik değerlendirme kılavuzu.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/bipolar-gunluk-hayati-nasil-etkiler' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/bipolar-gunluk-hayati-nasil-etkiler' },
     openGraph: {
         title: 'Bipolar Bozukluk ve Yaşam Etkileri | Psikiyatrist Değerlendirmesi',
         type: 'article', locale: 'tr_TR',

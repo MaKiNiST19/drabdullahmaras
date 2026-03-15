@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sosyal Anksiyete (Sosyal Fobi) Nedir? Belirtiler | Uzm. Dr. Abdullah Maraş',
     description:
         'Sosyal anksiyete (sosyal fobi) nedir? İnsanlar içinde yargılanma ve eleştirilme korkusunun belirtileri ile Eryaman psikiyatrik değerlendirme süreci.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/sosyal-anksiyete-fobi' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/sosyal-anksiyete-fobi' },
     openGraph: {
         title: 'Sosyal Anksiyete (Sosyal Fobi) Nedir? Yaşamı Nasıl Etkiler?',
         type: 'article', locale: 'tr_TR',

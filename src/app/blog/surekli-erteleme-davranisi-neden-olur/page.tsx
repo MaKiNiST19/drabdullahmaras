@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Sürekli Erteleme Davranışı Neden Olur? | Procrastination ve DEHB',
     description:
         'Görevleri daimi olarak son dakikaya bırakma (procrastination) döngüsünün beynin dopamin sistemindeki ve yürütücü işlevlerindeki biyolojik teşhis ve yansıması.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/surekli-erteleme-davranisi-neden-olur' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/surekli-erteleme-davranisi-neden-olur' },
     openGraph: {
         title: 'Hiçbir İşe Başlayamama Korkusu, Erteleme ve DEHB Bağlantısı',
         type: 'article', locale: 'tr_TR',

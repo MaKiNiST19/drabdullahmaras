@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Dikkat Dağınıklığı mı DEHB mi? | Ankara Dikkat Eksikliği',
     description:
         'Her anlık unutkanlık veya odaklanma sorunu, klinik düzeyde Erişkin DEHB midir? İki tablo arasındaki yaşamsal farklar ve psikiyatrik ayrım ölçütleri.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/dikkat-daginikligi-mi-dehb-mi' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/dikkat-daginikligi-mi-dehb-mi' },
     openGraph: {
         title: 'Geçici Unutkanlık ve Dikkat Dağınıklığı mı, Yoksa Yetişkin DEHB mi?',
         type: 'article', locale: 'tr_TR',

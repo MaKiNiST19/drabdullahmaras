@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'İşe Gitmek İstememe Hali | İşten Soğuma ve Tükenmişlik',
     description:
         'Sabahları mide bulantısı ve çarpıntı ile uyanıp işe gitmekten nefret etme, iş yerinde mobbing ve kronik stresin yarattığı psikiyatrik direnç halleri.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/ise-gitmek-istememe-hali' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/ise-gitmek-istememe-hali' },
     openGraph: {
         title: 'Bedeni Ele Geçiren İşe Gitme Fobisi: Sadece Tembellik Mi?',
         type: 'article', locale: 'tr_TR',

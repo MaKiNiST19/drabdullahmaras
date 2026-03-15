@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Tükenmişlik ve Depresyon Arasındaki Fark | İç İçe Geçen Tablo',
     description:
         'Sürekli yorgunluk, isteksizlik ve burnout sendromunun, majör depresyon hastalığından ne şekilde ayrıldığını ve nasıl birbirini tetiklediğini öğrenin.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/tukenmislik-ve-depresyon-arasindaki-fark' },
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/tukenmislik-ve-depresyon-arasindaki-fark' },
     openGraph: {
         title: 'Bunalım mı, Yoksa Tükenmişlik mi? İç İçe Geçen Ruhsal Krizler',
         type: 'article', locale: 'tr_TR',

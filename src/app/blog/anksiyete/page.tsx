@@ -1,15 +1,15 @@
-ï»¿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import styles from '../depresyon/page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Anksiyete HakkÄ±nda Bilgilendirici YazÄ±lar | Uzm. Dr. Abdullah MaraÅŸ',
+    title: 'Anksiyete Hakkında Bilgilendirici Yazılar | Uzm. Dr. Abdullah Maraş',
     description:
-        'Anksiyete belirtileri, sÃ¼rekli endiÅŸe hali, panik atak farkÄ± ve sosyal anksiyete Ã¼zerine uzman bilgilendirme yazÄ±larÄ±. Ankara Eryaman.',
-    alternates: { canonical: 'https://drabdullahmaras.com/blog/anksiyete' },
+        'Anksiyete belirtileri, sürekli endişe hali, panik atak farkı ve sosyal anksiyete üzerine uzman bilgilendirme yazıları. Ankara Eryaman.',
+    alternates: { canonical: 'https://www.drabdullahmaras.com.tr/blog/anksiyete' },
     openGraph: {
-        title: 'Anksiyete HakkÄ±nda Bilgilendirici YazÄ±lar',
-        description: 'Anksiyete bozukluÄŸu (kaygÄ± bozukluÄŸu) ve iliÅŸkili sorunlar hakkÄ±nda tÄ±bbi bilgilendirme yazÄ±larÄ±.',
+        title: 'Anksiyete Hakkında Bilgilendirici Yazılar',
+        description: 'Anksiyete bozukluğu (kaygı bozukluğu) ve ilişkili sorunlar hakkında tıbbi bilgilendirme yazıları.',
         type: 'website', locale: 'tr_TR',
     },
 };
@@ -17,45 +17,45 @@ export const metadata: Metadata = {
 const blogPosts = [
     {
         slug: '/blog/anksiyete-belirtileri',
-        title: 'Anksiyete Belirtileri Nelerdir? KaygÄ± Hangi Noktada BozukluÄŸa DÃ¶nÃ¼ÅŸÃ¼r?',
-        icon: 'âš¡',
+        title: 'Anksiyete Belirtileri Nelerdir? Kaygı Hangi Noktada Bozukluğa Dönüşür?',
+        icon: '?',
         date: '10 Mart 2026',
-        desc: 'Normal kaygÄ± ile anksiyete bozukluÄŸu arasÄ±ndaki ince Ã§izgiyi deÄŸerlendiriyoruz. Huzursuzluk, Ã§arpÄ±ntÄ±, kaÃ§Ä±nma davranÄ±ÅŸlarÄ± ve gÃ¼nlÃ¼k yaÅŸam Ã¼zerindeki etkiler.',
+        desc: 'Normal kaygı ile anksiyete bozukluğu arasındaki ince çizgiyi değerlendiriyoruz. Huzursuzluk, çarpıntı, kaçınma davranışları ve günlük yaşam üzerindeki etkiler.',
     },
     {
         slug: '/blog/anksiyete-krizi',
-        title: 'Anksiyete Krizi SÄ±rasÄ±nda Ne Olur?',
-        icon: 'âš ï¸',
+        title: 'Anksiyete Krizi Sırasında Ne Olur?',
+        icon: '??',
         date: '24 Mart 2026',
-        desc: 'KaygÄ±nÄ±n zirveye ulaÅŸtÄ±ÄŸÄ± anksiyete krizinin bedensel ve zihinsel mekanizmalarÄ±. Korku hissi, odaklanma sorunlarÄ± ve destek sÃ¼reci hakkÄ±nda aÃ§Ä±klamalar.',
+        desc: 'Kaygının zirveye ulaştığı anksiyete krizinin bedensel ve zihinsel mekanizmaları. Korku hissi, odaklanma sorunları ve destek süreci hakkında açıklamalar.',
     },
     {
         slug: '/blog/anksiyete-ve-panik-atak-farki',
-        title: 'Anksiyete ile Panik Atak ArasÄ±ndaki Fark Nedir?',
-        icon: 'ğŸ”',
+        title: 'Anksiyete ile Panik Atak Arasındaki Fark Nedir?',
+        icon: '??',
         date: '8 Nisan 2026',
-        desc: 'SÃ¼rekli hissedilen yaygÄ±n kaygÄ± hali ile aniden gelen, dakikalar iÃ§inde zirveye ulaÅŸan panik ataÄŸÄ±n sÃ¼re, belirti ve yoÄŸunluk temelinde karÅŸÄ±laÅŸtÄ±rmasÄ±.',
+        desc: 'Sürekli hissedilen yaygın kaygı hali ile aniden gelen, dakikalar içinde zirveye ulaşan panik atağın süre, belirti ve yoğunluk temelinde karşılaştırması.',
     },
     {
         slug: '/blog/sosyal-anksiyete-fobi',
         title: 'Sosyal Anksiyete (Sosyal Fobi) Nedir?',
-        icon: 'ğŸ‘¥',
+        icon: '??',
         date: '15 Nisan 2026',
-        desc: 'Ä°nsanlarÄ±n iÃ§inde kaygÄ± yaÅŸama hissi, eleÅŸtirilme korkusu ve kaÃ§Ä±nma. Sosyal fobinin iÅŸ okul yaÅŸamÄ±na yansÄ±malarÄ± ve bu durumla baÅŸa Ã§Ä±kma gerekliliÄŸi.',
+        desc: 'İnsanların içinde kaygı yaşama hissi, eleştirilme korkusu ve kaçınma. Sosyal fobinin iş okul yaşamına yansımaları ve bu durumla başa çıkma gerekliliği.',
     },
     {
         slug: '/blog/surekli-kaygi-hali',
-        title: 'SÃ¼rekli KaygÄ± Hali Neden Olur?',
-        icon: 'ğŸ§ ',
-        date: '5 MayÄ±s 2026',
-        desc: 'Belirli bir tehdit yokken bile sÃ¼rÃ¼p giden, "sÃ¼rekli endiÅŸe hali ve yorgunluk" yaratan anksiyete sarmalÄ±nÄ±n altÄ±nda yatan faktÃ¶rler.',
+        title: 'Sürekli Kaygı Hali Neden Olur?',
+        icon: '??',
+        date: '5 Mayıs 2026',
+        desc: 'Belirli bir tehdit yokken bile sürüp giden, "sürekli endişe hali ve yorgunluk" yaratan anksiyete sarmalının altında yatan faktörler.',
     },
     {
         slug: '/blog/anksiyete-ne-kadar-surer',
-        title: 'Anksiyete Ne Kadar SÃ¼rer?',
-        icon: 'â³',
-        date: '12 MayÄ±s 2026',
-        desc: 'Anksiyete belirtilerinin sÃ¼resi kiÅŸiden kiÅŸiye farklÄ±lÄ±k gÃ¶sterir. GÃ¼ndelik yaÅŸamÄ± zorlayan kaygÄ±nÄ±n ne kadar devam edebileceÄŸi ve uzman deÄŸerlendirmesinin rolÃ¼.',
+        title: 'Anksiyete Ne Kadar Sürer?',
+        icon: '?',
+        date: '12 Mayıs 2026',
+        desc: 'Anksiyete belirtilerinin süresi kişiden kişiye farklılık gösterir. Gündelik yaşamı zorlayan kaygının ne kadar devam edebileceği ve uzman değerlendirmesinin rolü.',
     },
 ];
 
@@ -69,22 +69,22 @@ export default function AnksiyeteHubPage() {
                         <Link href="/blog">Blog</Link><span>/</span>
                         <span>Anksiyete</span>
                     </div>
-                    <span className={styles.hubIcon}>ğŸŒ©ï¸</span>
-                    <h1>Anksiyete HakkÄ±nda Bilgilendirici YazÄ±lar</h1>
+                    <span className={styles.hubIcon}>???</span>
+                    <h1>Anksiyete Hakkında Bilgilendirici Yazılar</h1>
                     <p className={styles.heroDesc}>
-                        Anksiyete (kaygÄ± bozukluÄŸu), zihni sÃ¼rekli meÅŸgul eden ve bedensel belirtilerle gÃ¼nlÃ¼k hayatÄ±
-                        yÄ±pratabilen bir sÃ¼reÃ§tir. "KÃ¶tÃ¼ bir ÅŸey olacak" beklentisi, panik atak ve sosyal fobiyi anlatan
-                        yazÄ±larÄ±mÄ±zÄ± inceleyebilirsiniz.
+                        Anksiyete (kaygı bozukluğu), zihni sürekli meşgul eden ve bedensel belirtilerle günlük hayatı
+                        yıpratabilen bir süreçtir. "Kötü bir şey olacak" beklentisi, panik atak ve sosyal fobiyi anlatan
+                        yazılarımızı inceleyebilirsiniz.
                     </p>
                     <p className={styles.heroDesc}>
-                        Uzm. Dr. Abdullah MaraÅŸ, Ankara Eryaman'da anksiyete bozukluklarÄ±nÄ±n profesyonel olarak
-                        deÄŸerlendirmesini gerÃ§ekleÅŸtirmektedir. YazÄ±larÄ±n tamamÄ± bilgilendirme amaÃ§lÄ±dÄ±r.
+                        Uzm. Dr. Abdullah Maraş, Ankara Eryaman'da anksiyete bozukluklarının profesyonel olarak
+                        değerlendirmesini gerçekleştirmektedir. Yazıların tamamı bilgilendirme amaçlıdır.
                     </p>
                     <Link href="/hizmetler/anksiyete" className={styles.pillarLink}>
-                        <span>ğŸ“‘</span>
+                        <span>??</span>
                         <div>
-                            <strong>Anksiyete DeÄŸerlendirmesi â€” Ana Hizmet SayfasÄ±</strong>
-                            <span>Ankara Eryaman'daki klinik deÄŸerlendirme sÃ¼reÃ§lerine ve detaylara gÃ¶z atÄ±n â†’</span>
+                            <strong>Anksiyete Değerlendirmesi — Ana Hizmet Sayfası</strong>
+                            <span>Ankara Eryaman'daki klinik değerlendirme süreçlerine ve detaylara göz atın ›</span>
                         </div>
                     </Link>
                 </div>
@@ -101,33 +101,33 @@ export default function AnksiyeteHubPage() {
                                 </div>
                                 <h2>{post.title}</h2>
                                 <p>{post.desc}</p>
-                                <span className={styles.readMore}>YazÄ±yÄ± Oku â†’</span>
+                                <span className={styles.readMore}>Yazıyı Oku ›</span>
                             </Link>
                         ))}
                     </div>
 
                     <div className={styles.hubCta}>
                         <div className={styles.ctaContent}>
-                            <h2>Ankara Eryaman'da Anksiyete DeÄŸerlendirmesi Ä°Ã§in Randevu</h2>
+                            <h2>Ankara Eryaman'da Anksiyete Değerlendirmesi İçin Randevu</h2>
                             <p>
-                                KaygÄ± hayatÄ±nÄ±zÄ± yÃ¶netmesin. Ankara Eryaman (Altay Mh.) kliniÄŸimizde,
-                                huzursuzluk ve endiÅŸelerinizi uzman eÅŸliÄŸinde deÄŸerlendirebilirsiniz.
+                                Kaygı hayatınızı yönetmesin. Ankara Eryaman (Altay Mh.) kliniğimizde,
+                                huzursuzluk ve endişelerinizi uzman eşliğinde değerlendirebilirsiniz.
                             </p>
                             <div className={styles.ctaActions}>
                                 <Link href="/hizmetler/anksiyete" className="btn btn--outline btn--lg">
-                                    Anksiyete SayfasÄ±
+                                    Anksiyete Sayfası
                                 </Link>
                                 <Link href="/randevu" className="btn btn--primary btn--lg">
-                                    Randevu Al â†’
+                                    Randevu Al ›
                                 </Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="info-banner" style={{ marginTop: 'var(--space-8)' }}>
-                        <strong>ğŸ“Œ Bilgilendirme</strong>
-                        Bu sayfadaki yazÄ±lar tÄ±bbi tanÄ± veya kendi kendine tedavi Ã¶nerisi deÄŸildir.
-                        KorkularÄ±nÄ±z veya belirtilerinizin klinik tanÄ±sÄ± iÃ§in psikiyatri uzmanÄ±na baÅŸvurunuz.
+                        <strong>?? Bilgilendirme</strong>
+                        Bu sayfadaki yazılar tıbbi tanı veya kendi kendine tedavi önerisi değildir.
+                        Korkularınız veya belirtilerinizin klinik tanısı için psikiyatri uzmanına başvurunuz.
                     </div>
                 </div>
             </section>
@@ -136,12 +136,12 @@ export default function AnksiyeteHubPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "ItemList",
-                    name: "Anksiyete HakkÄ±nda Bilgilendirici YazÄ±lar",
-                    description: "Anksiyete bozukluklarÄ± konusunda hazÄ±rlanmÄ±ÅŸ bilimsel bilgilendirici yazÄ±lar.",
+                    name: "Anksiyete Hakkında Bilgilendirici Yazılar",
+                    description: "Anksiyete bozuklukları konusunda hazırlanmış bilimsel bilgilendirici yazılar.",
                     numberOfItems: blogPosts.length,
                     itemListElement: blogPosts.map((p, i) => ({
                         "@type": "ListItem", position: i + 1,
-                        url: `https://drabdullahmaras.com${p.slug}`,
+                        url: `https://www.drabdullahmaras.com.tr${p.slug}`,
                         name: p.title,
                     })),
                 })
@@ -149,9 +149,9 @@ export default function AnksiyeteHubPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org", "@type": "CollectionPage",
-                    name: "Anksiyete HakkÄ±nda Bilgilendirici YazÄ±lar",
-                    url: "https://drabdullahmaras.com/blog/anksiyete",
-                    publisher: { "@id": "https://drabdullahmaras.com/#organization" }
+                    name: "Anksiyete Hakkında Bilgilendirici Yazılar",
+                    url: "https://www.drabdullahmaras.com.tr/blog/anksiyete",
+                    publisher: { "@id": "https://www.drabdullahmaras.com.tr/#organization" }
                 })
             }} />
         </>
